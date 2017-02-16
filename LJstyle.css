@@ -1,0 +1,228 @@
+body {
+  color          : #000000;
+  background     : #FFFFAA;
+  font-family    : arial, sans-serif;
+  letter-spacing : 0.5pt;
+  margin         : 40pt 80pt 0 80pt;
+}
+
+h1 {
+  color          : #0000C6;
+  background     : #FFFFAA;
+  font-size      : 32pt;
+  font-family    : Times, sans-serif;
+  font-weight    : normal;
+  font-variant   : small-caps;
+  letter-spacing : 1pt;
+  line-height    : 32pt;
+  text-align     : left;
+}
+
+h2 {
+  color          : #0000C6;
+  background     : #53FF53;
+  font-size      : 22pt;
+  font-family    : arial, sans-serif;
+  font-weight    : bold;
+  line-height    : 24pt;
+  text-align     : center;
+}
+
+.myh3 {
+  font-size      : 14pt;
+  font-weight    : bold;
+  font-family    : arial, sans-serif;
+  text-align     : left;
+  line-height    : 30pt;
+}
+
+#heading {
+  color          : #0000C6;
+  background     : #FFFFAA;
+  margin         : 50pt 168pt 0 168pt;
+  text-align     : center;
+  font-size      : 24pt;
+  font-family    : arial, sans-serif;
+  font-weight    : normal;
+  font-variant   : small-caps;
+  letter-spacing : 0.7pt;
+  line-height    : 48pt;
+  border-top     : 1pt solid #435fff;
+  border-right   : 1pt solid #435fff;
+  border-bottom  : 1pt solid #435fff;
+  border-left    : 1pt solid #435fff;
+}
+
+#content {
+  color          : #000000;
+  background     : #FFFFAA;
+  font-family    : arial, sans-serif;
+  line-height    : 1.3em;
+  padding        : 18pt 108pt 6pt 108pt;
+  margin         : 50pt 60pt 0 60pt;
+  min-width      : 500pt;
+  max-width      : 700pt;
+  border-top     : 1pt solid #435fff;
+  border-right   : 1pt solid #435fff;
+  border-bottom  : 1pt solid #435fff;
+  border-left    : 1pt solid #435fff;
+}
+
+/*
+#menu {
+  width          : 130pt;
+  color          : #000000;
+  float          : center; 
+  background     : #00DB00;
+  padding        : 7pt 11pt 7pt 6pt;
+  margin         : 60pt 0  0 0;
+  border-top     : 1pt solid #435fff;
+  border-right   : 1pt solid #435fff;
+  border-bottom  : 1pt solid #435fff;
+  border-left    : 1pt solid #435fff;
+}
+
+#menu a {
+  color          : #0000aa;
+  background     : #00DB00;
+  width          : 124pt;
+  height         : 24pt;
+  margin         : 4pt 0 4pt 0;
+  padding        : 3pt 2pt 0 6pt;
+  line-height    : 19pt;
+  font-family    : arial, sans-serif;
+  font-size      : 13.5pt;
+  font-variant   : small-caps;
+  letter-spacing : 0.4pt;
+  text-decoration: none;
+  display        : list-item;
+  border-top     : 1pt solid #d7e9ff;;
+  border-right   : 1pt solid #435fff;
+  border-bottom  : 1pt solid #435fff;
+  border-left    : 1pt solid #d7e9ff;
+}
+
+#menu a:hover {
+  color          : #d7e9ff;
+  background     : #00DB00;
+  border-top     : 1pt solid #435fff;
+  border-right   : 1pt solid #d7e9ff;
+  border-bottom  : 1pt solid #d7e9ff;
+  border-left    : 1pt solid #435fff;
+}
+*/
+
+#menu { 
+  font           :24px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */
+  list-style     :none; /* 将默认的列表符号去掉 */
+  padding        :0; /* 将默认的内边距去掉 */
+  margin         :0/* 将默认的外边距去掉 */
+}
+#menu li {
+  list-style     :none; /* 将默认的列表符号去掉 */
+  padding        :0; /* 将默认的内边距去掉 */
+  margin         :0; /* 将默认的内边距去掉 */
+  float          :left; /* 往左浮动 */
+}
+#menu li a {
+  display        :block; /* 将链接设为块级元素 */
+  width          :150px; /* 设置宽度 */
+  height         :30px; /* 设置高度 */
+  line-height    :30px; /* 设置行高，将行高和高度设置同一个值，可以让单行文本垂直居中 */
+  text-align     :center; /* 居中对齐文字 */
+  background     :#006000; /* 设置背景色 */
+  color          :#00FFFF; /* 设置文字颜色 */
+  text-decoration:none; /* 去掉下划线 */
+  border-right   :1px solid #000; /* 在左侧加上分隔线 */
+  font-variant   : small-caps;
+}
+#menu li a:hover {
+  background     :#FFFFAA; /* 变换背景色 */
+  color          :#000000; /* 变换文字颜色 */
+}
+
+
+.tab0 {
+  border-spacing : 0;
+}
+
+.tab0 td {
+  padding        : 0;
+  vertical-align : top;
+}
+
+.tab0 th {
+  text-align     : left;
+}
+
+.tab1 {
+  border-spacing : 0;
+}
+
+.tab1 td {
+  padding-top    : 0;
+  padding-bottom : 10pt;
+  padding-right  : 0;
+  padding-left   : 0;
+}
+
+/* For photo gallery */
+.tab2 {
+  width          : 100%;
+}
+
+.tab2 td {
+  width          : 25%;
+  text-align     : center;
+  vertical-align : top;
+  padding-top    : 10pt;
+  padding-bottom : 10pt;
+  padding-right  : 10pt;
+  padding-left   : 10pt;
+}
+
+.tab2 img {
+  border         : 0;
+}
+
+/* Data table with borders */
+.tab3 {
+  border-spacing : 0;
+  border         : 1pt;
+  border-style   : inset;
+}
+
+.tab3 td {
+  border         : 1pt;
+  border-style   : outset;
+  padding        : 3pt;
+}
+
+/* Useful for browsers which cannot css */
+.menulist {
+  color          : #000000;
+  background     : #FFFFAA;
+  list-style-type: none;
+  margin         : 0;
+  padding        : 0;
+}
+
+.menutable {
+  color          : #000000;
+  background     : #FFFFAA;
+}
+
+.li {
+  margin         : 0 0 4pt 0;
+}
+
+/* Only for compatibility with old homepage */
+img.langgif {
+  margin: 0 0 0 0;
+  border: 0;
+}
+
+.bigli {
+  font-size: 1.1em;
+  margin   : 0 0 8px 0;
+}
