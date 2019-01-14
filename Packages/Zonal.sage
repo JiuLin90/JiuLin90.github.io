@@ -1,12 +1,9 @@
 #First of all, we define some useful functions that help in the computation#
 
-def Calmi(partition):                 #For a paritition with m_1 1's, m_2 2's and etc, return (m_1)!(m_2)!...(m_l)!. This is the reciprocal of the leading coefficient of M-polynomial.#
-    temp=uniq(partition);             #Delete the repeted parts and re-order the distinct parts in ascending order.#
-    count=1;                          #set count=1, i.e., empty product.$
-    for i in temp:                    #let i run all distinct parts.#
-        a=partition.count(i);         #a counts the number of i appearing in the partition.#
-        count=count*factorial(a);     #a contributes a! in the product of "count".#
-    return count;                     #return the product.#
+def Calmi(p):                         #For a paritition with m_1 1's, m_2 2's and etc, return (m_1)!(m_2)!...(m_l)!. This is the reciprocal of the leading coefficient of M-polynomial.#
+    t=Partition(p).to_exp()           #exponential form of the partition {m_1,m_2,...}#
+    re=prod(factorial(i) for i in t)  #re=(m_1)!(m_2)!...(m_l)!#
+    return re;                        #return the product.#
 
 def listexp(list1,list2):                       #Given two lists of same length, say {a_1,a_2,...,a_n} and {b_1,b_2,...,b_n} return (a_1)^(b_1)(a_2)^(b_2)...(a_n)^(b_n)#
     n=len(list1);       
@@ -115,6 +112,16 @@ def COE(k):                            #Given partition k, return c_{k,k}#
                     re[i,j]=sum(table[t][0]*re[y,temp[t]] for t in range(x))/rho;             #(3.4)#
     return re[-1,-1];
 
+def Coef(k):                                                             #Given partition k, return c_{k,k}#
+    p=len(k);                                                            #length of the partition#
+    n=sum(k);                                                            #k is a partition of n#
+    chi=product(2*k[i]-2*k[j]-i+j for i in range(p-1) for j in range(i+1,p))/product(factorial(2*k[i]+p-(i+1)) for i in range(p));  #(3.7)#
+    temp=k+[0];                                                          #Add a zero in the end, in order to make the following formula valid#
+    re=2^(2*n)*factorial(n)*chi*product(product(rising_factorial((l+1)/2-i/2+temp[i]-temp[l],temp[l]-temp[l+1]) for i in range(l+1)) for l in range(p));
+    return re;
+
+
+
 def Lcoeffi(k,l):                      #Given partitions l<k, return all nonzero c_{mu,l} with k>=mu>=l#
     n=sum(k);                          #k is a partition of n# 
     whole=Partitions(n).list();        #Whole list of partitions of n#
@@ -128,7 +135,7 @@ def Lcoeffi(k,l):                      #Given partitions l<k, return all nonzero
     partiallist=partiallist+[list(whole[p1+count])];
     m=len(partiallist);                #length of this partial list#
     re=[1/2 for x in range(m)];        #list of c_{k,\mu} for all \mu between k and l, which will be returned#
-    re[0]=COE(k);                      #c_{k,k}#
+    re[0]=Coef(k);                     #c_{k,k}#
     for x in range(1,m):               #Same idea as the COE function above#
         mu=partiallist[x];
         rho=RHO(k)-RHO(mu);
@@ -156,7 +163,7 @@ def FLcoeffi(k):                       #Full List of coefficients c_{k,l} for al
     partiallist=whole[p:]              #list of partitions from k to l#
     m=len(partiallist);                #length of this partial list#
     re=[1/2 for x in range(m)];        #list of c_{k,\mu} for all \mu between k and l, which will be returned#
-    re[0]=COE(k);                      #c_{k,k}#
+    re[0]=Coef(k);                     #c_{k,k}#
     for x in range(1,m):               #Same idea as the COE function above#
         mu=partiallist[x];
         rho=RHO(k)-RHO(mu);
@@ -182,3 +189,12 @@ def CZonal(k,v):                                                          #Given
     Mtable=[MZonal(list(t),v) for t in partiallist];                      #list of all corresponding M_{l}(v)#
     re=sum(coefftable[t]*Mtable[t] for t in range(len(partiallist)));     #(3.3)#
     return re;
+
+
+def CZonaltoM(k):
+    A=Partitions(k).list();
+    n=len(A);
+    M=Matrix(QQ,n);
+    for i in range(n):
+        M[i,i:]=Matrix(Lcoeffi(A[i],A[-1]));
+    return M;
