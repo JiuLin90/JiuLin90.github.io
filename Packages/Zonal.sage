@@ -2,18 +2,18 @@
 #  Part I:                          Calculation zonal C polynomials                        #
 #  By                               Lin JIU                                                #
 #  Project Initiate:                March 1st, 2017                                        #
-#  Last Update:                     January 30th, 2020                                     #
+#  Last Update:                     January 31st, 2020                                     #
 ############################################################################################
 
-#################################################################################
-## Section I: Some general functions that can be used later for other packages ##
-#################################################################################
+############################################################################################
+##    Section I: Some general functions that can be used later for other packages         ##
+############################################################################################
 
 def twolistsfunction(l1, l2, fun):
     '''
     Given two lists l1 and l2 of the same length and a function fun with two variables, return the list of result by applying fun component-wise on l1 and l2.
     
-    For example, if l1 = [1, 2, 3], l2 = [4, 5, 6] and fun = operator.add, then the function returns [1+4, 2+5, 3+6] = [5, 7, 9].
+    For example, if l1 = [1, 2, 3], l2 = [4, 5, 6] and fun = operator.add, then the function returns [1 + 4, 2 + 5, 3 + 6] = [5, 7, 9].
 
     Remark: 1) The map_threaded function only apply function with one variable to a list. 
             2) Use help(operator) to find more operators. 
@@ -44,9 +44,9 @@ def APPENDZERO(l1, l2):
         return [l1 + [0 for i in range(n2-n1)], l2]
 
 
-#################################################
-## Section II: M(ominal) symmetric polynomials ##
-#################################################
+############################################################################################
+##    Section II: M(ominal) symmetric polynomials                                         ##
+############################################################################################
 
 
 
@@ -55,11 +55,11 @@ def Calmi(p):
     Give a paritition p of n, with m_1 1's, m_2 2's and etc, return (m_1)!(m_2)!...(m_n)!. 
     This is the reciprocal of the leading coefficient of M-polynomial.
     
-    For example, if  p = [5, 4, 4, 3, 1] = (1^1, 2^0, 3^1, 4^2, 5^1), Calmi(p) = 1!0!1!2!1! = 2. 
+    For example, if  p = [5, 4, 4, 3, 1] = (1^1, 2^0, 3^1, 4^2, 5^1), Calmi(p) = 1! * 0! * 1! * 2! * 1! = 2. 
     '''
     
-    t = Partition(p).to_exp()               #exponential form of the partition (1^{m_1},2^{m_2},...,n^{m_n})#
-    return prod(factorial(i) for i in t)    #return the product (m_1)!(m_2)!...(m_l)!#
+    t = Partition(p).to_exp()               # exponential form of the partition (1^{m_1}, 2^{m_2},..., n^{m_n}) #
+    return prod(factorial(i) for i in t)    # return the product (m_1)!(m_2)!...(m_l)! #
 
 
 def MZonal(partition, variables):              
@@ -79,16 +79,16 @@ def MZonal(partition, variables):
     if n < m:                                                             #If n<m, index is 1, there are more parts in the partition than variables, hence return 0#
         ind = 1;
     if ind == 0:                                                          #If index is 0, not 1, continue to compute.#
-        perm = Permutations(n,m).list();                                  #By (3.2), for the summation part, we choose all posible combination of the variables for the summand#
+        perm = Permutations(n,m).list();                                  #For the summation part, we choose all posible combination of the variables for the summand#
         for i in perm:                                                    #For each summmand,#
             temp = [variables[j-1] for j in i];                           #pick the right combination of the variables#
             re += prod(twolistsfunction(temp, partition, operator.pow))   #Get the term (y_1)^(\lambda_1)(y_2)^(\lambda_2)...(y_m)^(\lambda_m)#
         re = re / Calmi(partition)                                        #Divide the sum by the leading coefficient.#                      
     return re;
 
-#####################################################
-## Section III: Calculation of C-Zonal polynomials ##
-#####################################################
+############################################################################################
+##    Section III: Calculation of C-Zonal polynomials                                     ##
+############################################################################################
 
 ## Since all the C-polynomials are linear combinations of M-polynomials, as long as the coefficients are computed, the polynomial is easy to obtain. ##
 
@@ -101,7 +101,7 @@ def RHO(p):
     For example, p = [4, 2, 2], then rho_p = 4 * (4-1) + 2 * (2-2) + 2 * (2-3) = 10.
     '''
 
-    return sum(p[i] * (p[i]-i-1) for i in range(len(p)));
+    return sum(p[i] * (p[i] - i - 1) for i in range(len(p)));
 
 
 def CHI(p, n):
@@ -247,10 +247,10 @@ def CZonal(k,v):
 
 #Given a partition p=[a_1,a_2,a_3,...,a_l] of n, first convert it into the form of [m_1,m_2,...,m_n], where m_k stands for the number of k's appearing in p, which can be 0. #
 #Then, return the product (m_1)!(m_2)!...(m_n)!. This is the reciprocal of the leading coefficient of M-polynomial.#
-def Calmi(p):                         
-    t=Partition(p).to_exp();           #exponential form of the partition p, i.e., [a_1,a_2,a_3,...,a_l]->[m_1,m_2,...,m_n]#
-    re=prod(factorial(i) for i in t);  #re=(m_1)!(m_2)!...(m_l)!#
-    return re;                         #return the product#
+#def Calmi(p):                         
+#    t=Partition(p).to_exp();           #exponential form of the partition p, i.e., [a_1,a_2,a_3,...,a_l]->[m_1,m_2,...,m_n]#
+#    re=prod(factorial(i) for i in t);  #re=(m_1)!(m_2)!...(m_l)!#
+#    return re;                         #return the product#
 
 def listexp(list1,list2):                       #Given two lists of same length, say {a_1,a_2,...,a_n} and {b_1,b_2,...,b_n} return (a_1)^(b_1)(a_2)^(b_2)...(a_n)^(b_n)#
     n=len(list1);       
