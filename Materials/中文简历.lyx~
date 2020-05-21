@@ -10,7 +10,7 @@
 \usepackage{enumitem}
 
 \titlespacing{\section}{0pt}{-8pt}{-2pt}
-\titleformat{\section}{\vbox{\rule{\linewidth}{0.5pt}}\vspace{-0.4cm}\LARGE\bfseries}{\thesection}{}{}
+\titleformat{\section}{\vbox{\rule{\linewidth}{0.5pt}}\vspace{-0.3cm}\LARGE\bfseries}{\thesection}{}{}
 
 \setlist{noitemsep}
 \end_preamble
@@ -109,14 +109,6 @@ customHeadersFooters
 \end_inset
 
 霖
-\series default
-\shape smallcaps
-\size large
-
-\begin_inset VSpace -5bp
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3085,7 +3077,7 @@ status open
 \shape smallcaps
 \size large
 
-\begin_inset VSpace -8bp
+\begin_inset VSpace -10bp
 \end_inset
 
 
