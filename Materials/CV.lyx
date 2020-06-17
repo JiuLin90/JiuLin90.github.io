@@ -709,7 +709,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-30.
+31.
 \end_layout
 
 \end_inset
@@ -746,7 +746,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-29.
+30.
 \end_layout
 
 \end_inset
@@ -793,7 +793,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-28.
+29.
 \end_layout
 
 \end_inset
@@ -865,7 +865,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-27.
+28.
 \end_layout
 
 \end_inset
@@ -937,7 +937,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-26.
+27.
 \end_layout
 
 \end_inset
@@ -955,11 +955,11 @@ status open
 \uwave off
 \noun off
 \color none
-N.
+I.
 \begin_inset space ~
 \end_inset
 
-Takayama, 
+Gonzales, 
 \family default
 \series bold
 \shape default
@@ -989,16 +989,16 @@ Jiu
 \uwave off
 \noun off
 \color none
-, S.
+, and V.
 \begin_inset space ~
 \end_inset
 
-Kuriki, and Y.
+H.
 \begin_inset space ~
 \end_inset
 
-Zhang, Computations of the Expected Euler Characteristic for the Largest
- Eigenvalue of a Real Wishart Matrix, To Appear in 
+Moll, An extension of the method of brackets.
+ Part 2, To Appear in 
 \family default
 \series default
 \shape default
@@ -1011,11 +1011,88 @@ Zhang, Computations of the Expected Euler Characteristic for the Largest
 \uwave default
 \noun default
 \color inherit
-J.
+Open Math
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+26.
+\end_layout
+
+\end_inset
+
+L.
 \begin_inset space ~
 \end_inset
 
-Multivariate Anal.
+Jiu
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ and D.
+\begin_inset space ~
+\end_inset
+
+Y.
+\begin_inset space ~
+\end_inset
+
+H.
+\begin_inset space ~
+\end_inset
+
+Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
+ To Appear in 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Math.
+\begin_inset space ~
+\end_inset
+
+Rep.
+\begin_inset space ~
+\end_inset
+
+(Bucur.)
 \end_layout
 
 \begin_layout Itemize
@@ -1105,6 +1182,36 @@ status open
 
 \end_inset
 
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+N.
+\begin_inset space ~
+\end_inset
+
+Takayama, 
+\family default
+\series bold
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
 L.
 \begin_inset space ~
 \end_inset
@@ -1122,20 +1229,16 @@ Jiu
 \uwave off
 \noun off
 \color none
- and D.
+, S.
 \begin_inset space ~
 \end_inset
 
-Y.
+Kuriki, and Y.
 \begin_inset space ~
 \end_inset
 
-H.
-\begin_inset space ~
-\end_inset
-
-Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
- To Appear in 
+Zhang, Computations of the Expected Euler Characteristic for the Largest
+ Eigenvalue of a Real Wishart Matrix, 
 \family default
 \series default
 \shape default
@@ -1148,15 +1251,21 @@ Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
 \uwave default
 \noun default
 \color inherit
-Math.
+J.
 \begin_inset space ~
 \end_inset
 
-Rep.
+Multivariate Anal.
 \begin_inset space ~
 \end_inset
 
-(Bucur.)
+
+\series bold
+\emph default
+179
+\series default
+ (2020), Article 104642.
+ 
 \end_layout
 
 \begin_layout Itemize

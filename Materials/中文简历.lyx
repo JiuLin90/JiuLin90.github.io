@@ -1244,36 +1244,36 @@ status open
 
 \end_inset
 
-
-\series default
-N.
-\begin_inset space ~
-\end_inset
-
-Takayama, 
-\series bold
 L.
 \begin_inset space ~
 \end_inset
 
 Jiu
 \series default
-, S.
+ and D.
 \begin_inset space ~
 \end_inset
 
-Kuriki, and Y.
+Y.
 \begin_inset space ~
 \end_inset
 
-Zhang, Computations of the Expected Euler Characteristic for the Largest
- Eigenvalue of a Real Wishart Matrix, 已接收 
+H.
+\begin_inset space ~
+\end_inset
+
+Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
+ 已接收 
 \emph on
-J.
+Math.
 \begin_inset space ~
 \end_inset
 
-Multivariate Anal.
+Rep.
+\begin_inset space ~
+\end_inset
+
+(Bucur.)
 \end_layout
 
 \begin_layout Itemize
@@ -1325,36 +1325,46 @@ status open
 
 \end_inset
 
+
+\series default
+N.
+\begin_inset space ~
+\end_inset
+
+Takayama, 
+\series bold
 L.
 \begin_inset space ~
 \end_inset
 
 Jiu
 \series default
- and D.
+, S.
 \begin_inset space ~
 \end_inset
 
-Y.
+Kuriki, and Y.
 \begin_inset space ~
 \end_inset
 
-H.
-\begin_inset space ~
-\end_inset
-
-Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
- 已接收 
+Zhang, Computations of the Expected Euler Characteristic for the Largest
+ Eigenvalue of a Real Wishart Matrix, 
 \emph on
-Math.
+J.
 \begin_inset space ~
 \end_inset
 
-Rep.
+Multivariate Anal.
 \begin_inset space ~
 \end_inset
 
-(Bucur.)
+
+\series bold
+\emph default
+179
+\series default
+ (2020), Article 104642.
+ 
 \end_layout
 
 \begin_layout Itemize
