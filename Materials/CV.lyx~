@@ -3002,7 +3002,10 @@ J.
 \end_inset
 
 Aust.
- Math.
+\begin_inset space ~
+\end_inset
+
+Math.
 \begin_inset space ~
 \end_inset
 
@@ -3384,7 +3387,10 @@ Vignat, Identities for generalized Euler polynomials, Integral Transforms
 \noun default
 \color inherit
 Spec.
- Funct
+\begin_inset space ~
+\end_inset
+
+Funct
 \family roman
 \series medium
 \shape up
