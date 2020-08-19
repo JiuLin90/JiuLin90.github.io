@@ -130,36 +130,8 @@ Contact
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="2">
 <features booktabs="true" tabularvalignment="middle">
-<column alignment="left" valignment="top" width="64col%">
+<column alignment="left" valignment="top" width="62col%">
 <column alignment="left" valignment="top" width="0pt">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-Address
-\emph default
-: 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\emph on
-E-mail:
-\emph default
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
 <row>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
@@ -176,9 +148,9 @@ Duke Kunshan University
 \begin_layout Plain Layout
 
 \emph on
-Tel: 
+E-mail:
 \emph default
-+86-
+ lin.jiu@dukekunshan.edu.cn
 \end_layout
 
 \end_inset
@@ -189,7 +161,31 @@ Tel:
 \begin_inset Text
 
 \begin_layout Plain Layout
-8 Duke Ave, Kunshan, Suzhou, Jiangsu, China, 215316
+8 Duke Ave, Kunshan, Suzhou
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Tel: 
+\emph default
++86-0512-36657333
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jiangsu Province, China, 215316
 \end_layout
 
 \end_inset
@@ -228,8 +224,8 @@ Employment
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="2">
 <features booktabs="true" tabularvalignment="middle">
-<column alignment="left" valignment="top" width="17col%">
-<column alignment="left" valignment="top" width="78col%">
+<column alignment="left" valignment="top" width="15col%">
+<column alignment="left" valignment="top" width="80col%">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
@@ -244,14 +240,18 @@ Employment
 \begin_inset Text
 
 \begin_layout Plain Layout
-Lecturer
+Assistant Professor of the Practice
+\begin_inset space \hfill{}
+\end_inset
+
+Duke University
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -260,10 +260,14 @@ Lecturer
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+Lecturer in Mathematics
+\begin_inset space \hfill{}
+\end_inset
+
 Duke Kunshan University
 \end_layout
 
@@ -271,7 +275,7 @@ Duke Kunshan University
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -280,7 +284,7 @@ Duke Kunshan University
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -299,7 +303,7 @@ Karl Dilcher
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -308,18 +312,18 @@ Karl Dilcher
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Department of Mathematics and Statistics, Dalhousie University
+Department of Mathematics and Statistics, 
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -328,7 +332,7 @@ Department of Mathematics and Statistics, Dalhousie University
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -347,7 +351,7 @@ Karl Dilcher
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -356,7 +360,7 @@ Karl Dilcher
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -395,7 +399,7 @@ Christoph Koutschan
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -404,22 +408,21 @@ Christoph Koutschan
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Johann Radon Institute for Computational and Applied Mathematics, 
-\end_layout
 
-\begin_layout Plain Layout
-Austrian Academy of Sciences
+\size small
+Johann Radon Institute for Computational and Applied Mathematics, Austrian
+ Academy of Sciences
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -428,7 +431,7 @@ Austrian Academy of Sciences
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -451,7 +454,7 @@ Carsten Schneider
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -460,7 +463,7 @@ Carsten Schneider
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3002,10 +3005,7 @@ J.
 \end_inset
 
 Aust.
-\begin_inset space ~
-\end_inset
-
-Math.
+ Math.
 \begin_inset space ~
 \end_inset
 
@@ -3387,10 +3387,7 @@ Vignat, Identities for generalized Euler polynomials, Integral Transforms
 \noun default
 \color inherit
 Spec.
-\begin_inset space ~
-\end_inset
-
-Funct
+ Funct
 \family roman
 \series medium
 \shape up

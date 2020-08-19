@@ -132,11 +132,15 @@ customHeadersFooters
 \begin_inset Text
 
 \begin_layout Plain Layout
-昆山杜克大学
+加拿大戴尔豪斯大学
 \begin_inset Formula $\bullet$
 \end_inset
 
-讲师
+数学与统计系
+\begin_inset Formula $\bullet$
+\end_inset
+
+博士后
 \end_layout
 
 \end_inset
@@ -145,27 +149,7 @@ customHeadersFooters
 \begin_inset Text
 
 \begin_layout Plain Layout
-电子邮箱: Lin.Jiu@dukekunshan.edu.cn
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-江苏省苏州市昆山市杜克大道8号
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-工作电话: (+86)051236657333
+电子邮箱: Lin.Jiu@dal.ca
 \end_layout
 
 \end_inset
@@ -176,7 +160,33 @@ customHeadersFooters
 \begin_inset Text
 
 \begin_layout Plain Layout
-邮编 215316
+
+\size footnotesize
+\emph on
+Killam Postdoctoral Fellow, Department of Mathematics and Statistics,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+工作电话: (+1)9024942354
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\emph on
+Dalhousie University, Canada
 \end_layout
 
 \end_inset
@@ -186,6 +196,442 @@ customHeadersFooters
 
 \begin_layout Plain Layout
 个人网页: https://JiuLin90.github.io
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\shape smallcaps
+\size large
+
+\begin_inset VSpace -8bp
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\size large
+\noun on
+基本信息
+\shape smallcaps
+\noun default
+
+\begin_inset VSpace -5bp
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="21">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+性别
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+出生年月
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+籍贯
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+微信号
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+电子邮箱:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+男
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1985.11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+天津
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lin32491708
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lin.Jiu@dal.ca
 \end_layout
 
 \end_inset
@@ -216,7 +662,7 @@ customHeadersFooters
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
+<lyxtabular version="3" rows="6" columns="2">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="15col%">
 <column alignment="left" valignment="top" width="82col%">
@@ -225,52 +671,12 @@ customHeadersFooters
 \begin_inset Text
 
 \begin_layout Plain Layout
-2020.08–
+2017.09–2020.08
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-昆山杜克大学讲师
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-杜克大学实践助理教授(Assistant Professor of the Practics, Duke University)
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2017.09–2020.07
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -300,7 +706,62 @@ customHeadersFooters
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
 
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+(预期)
 \end_layout
 
 \end_inset
@@ -637,67 +1098,7 @@ Austrian Academy of Sciences)
 status open
 
 \begin_layout Plain Layout
-33.
-\end_layout
-
-\end_inset
-
-
-\series default
-K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
- 审稿中.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-32.
-\end_layout
-
-\end_inset
-
-
-\series default
-K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, Orthogonal polynomials and Hankel determinants for certain Bernoulli and
- Euler polynomials, 审稿中.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-31.
+30.
 \end_layout
 
 \end_inset
@@ -731,7 +1132,7 @@ Vignat, Compatibility of the method of brackets with classical integration
 status open
 
 \begin_layout Plain Layout
-30.
+29.
 \end_layout
 
 \end_inset
@@ -755,43 +1156,6 @@ H.
 \end_inset
 
 Shi, On b-ary binomial coefficients with negative entries, 审稿中.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-29.
-\end_layout
-
-\end_inset
-
-
-\series default
-Y.
-\begin_inset space ~
-\end_inset
-
-Li, B.
-\begin_inset space ~
-\end_inset
-
-Li, H.
-\begin_inset space ~
-\end_inset
-
-Sun, and 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, Application of entropy in Riemannian manifolds, 审稿中.
 \end_layout
 
 \begin_layout Itemize
@@ -828,7 +1192,7 @@ L.
 
 Jiu
 \series default
-, Matrix geometric means and uncertainty relation, 审稿中.
+, Application of entropy in Riemannian manifolds, 审稿中.
 \end_layout
 
 \begin_layout Itemize
@@ -845,11 +1209,19 @@ status open
 
 
 \series default
-I.
+Y.
 \begin_inset space ~
 \end_inset
 
-Gonzales, 
+Li, B.
+\begin_inset space ~
+\end_inset
+
+Li, H.
+\begin_inset space ~
+\end_inset
+
+Sun, and 
 \series bold
 L.
 \begin_inset space ~
@@ -857,20 +1229,7 @@ L.
 
 Jiu
 \series default
-, and V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll, An extension of the method of brackets.
- Part 2, 已接收
-\emph on
- Open Math
-\emph default
-.
+, Matrix geometric means and uncertainty relation, 审稿中.
 \end_layout
 
 \begin_layout Itemize
@@ -939,7 +1298,7 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Koutschan, Calculation and properties of zonal polynomials, 
+Koutschan, Calculation and properties of zonal polynomials, 已接收 
 \emph on
 Math.
 \begin_inset space ~
@@ -952,14 +1311,6 @@ Comput.
 Sci
 \emph default
 .
-\begin_inset space ~
-\end_inset
-
-
-\series bold
-14
-\series default
- (2020), 623–640.
 \end_layout
 
 \begin_layout Itemize
