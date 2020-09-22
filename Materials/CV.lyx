@@ -996,6 +996,74 @@ status open
 
 \end_inset
 
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ and D.
+\begin_inset space ~
+\end_inset
+
+Y.
+\begin_inset space ~
+\end_inset
+
+H.
+\begin_inset space ~
+\end_inset
+
+Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
+ To Appear in 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Math.
+\begin_inset space ~
+\end_inset
+
+Rep.
+\begin_inset space ~
+\end_inset
+
+(Bucur.)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+26.
+\end_layout
+
+\end_inset
+
 
 \family roman
 \series medium
@@ -1052,7 +1120,7 @@ H.
 \end_inset
 
 Moll, An extension of the method of brackets.
- Part 2, To Appear in 
+ Part 2, 
 \family default
 \series default
 \shape default
@@ -1079,58 +1147,11 @@ Open Math
 \noun off
 \color none
 .
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-26.
-\end_layout
-
-\end_inset
-
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- and D.
-\begin_inset space ~
-\end_inset
-
-Y.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
- To Appear in 
 \family default
 \series default
 \shape default
 \size default
-\emph on
+\emph default
 \bar default
 \strikeout default
 \xout default
@@ -1138,15 +1159,16 @@ Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
 \uwave default
 \noun default
 \color inherit
-Math.
+
 \begin_inset space ~
 \end_inset
 
-Rep.
-\begin_inset space ~
-\end_inset
 
-(Bucur.)
+\series bold
+18
+\series default
+ (2020), 983–955.
+ 
 \end_layout
 
 \begin_layout Itemize

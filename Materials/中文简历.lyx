@@ -843,48 +843,6 @@ status open
 
 \end_inset
 
-
-\series default
-I.
-\begin_inset space ~
-\end_inset
-
-Gonzales, 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, and V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll, An extension of the method of brackets.
- Part 2, 已接收
-\emph on
- Open Math
-\emph default
-.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-26.
-\end_layout
-
-\end_inset
-
 L.
 \begin_inset space ~
 \end_inset
@@ -915,6 +873,56 @@ Rep.
 \end_inset
 
 (Bucur.)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+26.
+\end_layout
+
+\end_inset
+
+
+\series default
+I.
+\begin_inset space ~
+\end_inset
+
+Gonzales, 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, and V.
+\begin_inset space ~
+\end_inset
+
+H.
+\begin_inset space ~
+\end_inset
+
+Moll, An extension of the method of brackets.
+ Part 2, 
+\emph on
+Open Math
+\emph default
+.
+\begin_inset space ~
+\end_inset
+
+
+\series bold
+18
+\series default
+ (2020), 983–955.
 \end_layout
 
 \begin_layout Itemize

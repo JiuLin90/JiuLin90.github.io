@@ -1184,8 +1184,7 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Koutschan, Calculation and properties of zonal polynomials, To Appear in
- 
+Koutschan, Calculation and properties of zonal polynomials,
 \family default
 \series default
 \shape default
@@ -1198,7 +1197,7 @@ Koutschan, Calculation and properties of zonal polynomials, To Appear in
 \uwave default
 \noun default
 \color inherit
-Math.
+ Math.
 \begin_inset space ~
 \end_inset
 
@@ -1220,6 +1219,36 @@ Sci
 \noun off
 \color none
 .
+\begin_inset space ~
+\end_inset
+
+
+\family default
+\series bold
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+14
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ (2020), 623–640.
 \end_layout
 
 \begin_layout Itemize
