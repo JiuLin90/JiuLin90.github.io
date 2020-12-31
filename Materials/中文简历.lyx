@@ -274,16 +274,7 @@ customHeadersFooters
 \begin_inset Text
 
 \begin_layout Plain Layout
-加拿大戴尔豪斯大学
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-[1]
-\end_layout
-
-\end_inset
-
-数学与统计系
+加拿大戴尔豪斯大学数学与统计系
 \emph on
 
 \begin_inset space \hfill{}
@@ -337,7 +328,7 @@ customHeadersFooters
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-[2]
+
 \end_layout
 
 \end_inset
@@ -396,7 +387,7 @@ Austrian Academy of Sciences)
 \begin_inset script superscript
 
 \begin_layout Plain Layout
-[3]
+
 \end_layout
 
 \end_inset
@@ -473,16 +464,7 @@ Austrian Academy of Sciences)
 \begin_inset Text
 
 \begin_layout Plain Layout
-美国杜兰大学
-\begin_inset script superscript
-
-\begin_layout Plain Layout
-[4]
-\end_layout
-
-\end_inset
-
-(Tulane University)数学博士
+美国杜兰大学(Tulane University)数学博士
 \begin_inset space \hfill{}
 \end_inset
 
@@ -508,7 +490,7 @@ Austrian Academy of Sciences)
 \begin_inset Text
 
 \begin_layout Plain Layout
-奥地利约翰开普勒大学符号运算研究所 ( 同上[3] )
+奥地利约翰开普勒大学符号运算研究所 
 \end_layout
 
 \end_inset
@@ -672,36 +654,6 @@ status open
 
 \end_inset
 
-
-\series default
-K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, Orthogonal polynomials and Hankel determinants for certain Bernoulli and
- Euler polynomials, 审稿中.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-31.
-\end_layout
-
-\end_inset
-
 L.
 \begin_inset space ~
 \end_inset
@@ -731,7 +683,7 @@ Vignat, Compatibility of the method of brackets with classical integration
 status open
 
 \begin_layout Plain Layout
-30.
+31.
 \end_layout
 
 \end_inset
@@ -764,7 +716,7 @@ Shi, On b-ary binomial coefficients with negative entries, 审稿中.
 status open
 
 \begin_layout Plain Layout
-29.
+30.
 \end_layout
 
 \end_inset
@@ -801,7 +753,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-28.
+29.
 \end_layout
 
 \end_inset
@@ -838,7 +790,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-27.
+28.
 \end_layout
 
 \end_inset
@@ -873,6 +825,60 @@ Rep.
 \end_inset
 
 (Bucur.)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+27.
+\end_layout
+
+\end_inset
+
+
+\series default
+K.
+\begin_inset space ~
+\end_inset
+
+Dilcher and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Orthogonal polynomials and Hankel determinants for certain Bernoulli and
+ Euler polynomials, 
+\emph on
+J.
+\begin_inset space ~
+\end_inset
+
+Math.
+\begin_inset space ~
+\end_inset
+
+Anal.
+\begin_inset space ~
+\end_inset
+
+Appl
+\emph default
+.
+\begin_inset space ~
+\end_inset
+
+
+\series bold
+497
+\series default
+ (2021), Article 124855.
 \end_layout
 
 \begin_layout Itemize
@@ -2173,6 +2179,56 @@ Jiu
 status open
 
 \begin_layout Plain Layout
+20.
+\end_layout
+
+\end_inset
+
+Hankel Determinant on Sequences Related to Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+2020年苏州地区数学青年会议
+\begin_inset Newline newline
+\end_inset
+
+2020年11月14日至15日, 江苏省苏州市昆山市, 昆山杜克大学
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+19.
+\end_layout
+
+\end_inset
+
+Three Examples on Computer Proofs
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+昆山杜克大学祖冲之数学与计算科学中心
+\begin_inset Newline newline
+\end_inset
+
+2020年11月6日, 江苏省苏州市昆山市, 昆山杜克大学.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
 18.
 \end_layout
 
@@ -2889,13 +2945,165 @@ status open
 \noindent
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="4">
+<lyxtabular version="3" rows="10" columns="4">
 <features booktabs="true" tabularvalignment="middle">
-<column alignment="left" valignment="top" width="2.5col%">
-<column alignment="left" valignment="top" width="7.5col%">
-<column alignment="left" valignment="top" width="35col%">
 <column alignment="left" valignment="top" width="0pt">
-<row topspace="-0.3cm">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2021
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+春季
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Advanced Introduction to Probability
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@昆山杜克大学
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Probability and Statistics
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@昆山杜克大学
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2020
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+秋季
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Calculus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@昆山杜克大学
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Multivariable Calculus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@昆山杜克大学
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -2927,14 +3135,14 @@ Matrix Theory and Linear Algebra I
 \begin_inset Text
 
 \begin_layout Plain Layout
-@加拿大戴尔豪斯大学([1])
+@加拿大戴尔豪斯大学
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2961,18 +3169,18 @@ Introduction to Complex Variables
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-@加拿大戴尔豪斯大学([1])
+@加拿大戴尔豪斯大学
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2999,11 +3207,11 @@ Long Calculus II
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-@美国杜兰大学([4])
+@美国杜兰大学
 \end_layout
 
 \end_inset
