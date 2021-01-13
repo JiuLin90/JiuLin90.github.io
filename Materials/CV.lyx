@@ -697,7 +697,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-33.
+32.
 \end_layout
 
 \end_inset
@@ -718,39 +718,6 @@ Jiu
 \series default
 , Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
  Submitted for Publication.
- 
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-32.
-\end_layout
-
-\end_inset
-
-
-\series default
-K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, Orthogonal polynomials and Hankel determinants for certain Bernoulli and
- Euler polynomials, Submitted for Publication.
  
 \end_layout
 
@@ -800,7 +767,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-30.
+31.
 \end_layout
 
 \end_inset
@@ -847,7 +814,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-29.
+30.
 \end_layout
 
 \end_inset
@@ -919,7 +886,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-28.
+29.
 \end_layout
 
 \end_inset
@@ -991,7 +958,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-27.
+28.
 \end_layout
 
 \end_inset
@@ -1048,6 +1015,95 @@ Rep.
 \end_inset
 
 (Bucur.)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+27.
+\end_layout
+
+\end_inset
+
+
+\series default
+K.
+\begin_inset space ~
+\end_inset
+
+Dilcher and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Orthogonal polynomials and Hankel determinants for certain Bernoulli and
+ Euler polynomials, 
+\emph on
+J.
+\begin_inset space ~
+\end_inset
+
+Math.
+\begin_inset space ~
+\end_inset
+
+Anal.
+\begin_inset space ~
+\end_inset
+
+Appl
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+.
+\begin_inset space ~
+\end_inset
+
+
+\family default
+\series bold
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+497
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ (2021), Article 124855.
 \end_layout
 
 \begin_layout Itemize
@@ -4058,6 +4114,82 @@ status open
 \begin_layout Plain Layout
 
 \series bold
+20.
+\end_layout
+
+\end_inset
+
+Hankel Determinant on Sequences Related to Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Suzhou Area Youth Mathematicians 1st Annual Workshop,
+\emph default
+ Duke Kunshan University, Kunshan, Suzhou, P.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+China, Nov.
+\begin_inset space ~
+\end_inset
+
+14–15, 2020.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+19.
+\end_layout
+
+\end_inset
+
+Three Examples on Computer Proofs
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Zu Chongzhi Colloquium Series,
+\emph default
+ Duke Kunshan University, Kunshan, Suzhou, P.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+China, Nov.
+\begin_inset space ~
+\end_inset
+
+6, 2020.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
 18.
 \end_layout
 
@@ -4929,14 +5061,166 @@ Teaching Experience
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="4">
+<lyxtabular version="3" rows="10" columns="4">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="2.5col%">
 <column alignment="left" valignment="top" width="12col%">
-<column alignment="left" valignment="top" width="52col%">
+<column alignment="left" valignment="top" width="45col%">
 <column alignment="left" valignment="top" width="0pt">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2021
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spring
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Advanced Introduction to Probability
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Probability and Statistics
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2020
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fall
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Calculus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Multivariable Calculus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4945,7 +5229,7 @@ Teaching Experience
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -4963,7 +5247,7 @@ Matrix Theory and Linear Algebra I
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
