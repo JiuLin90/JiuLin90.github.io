@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass extarticle
+\textclass ctex-article
 \begin_preamble
 \usepackage{graphicx,titlesec,amsmath}
 \usepackage{enumitem}
@@ -619,7 +619,7 @@ Austrian Academy of Sciences)
 status open
 
 \begin_layout Plain Layout
-33.
+34.
 \end_layout
 
 \end_inset
@@ -638,7 +638,7 @@ L.
 
 Jiu
 \series default
-, Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
+, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
  审稿中.
 \end_layout
 
@@ -649,7 +649,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-32.
+33.
 \end_layout
 
 \end_inset
@@ -683,7 +683,7 @@ Vignat, Compatibility of the method of brackets with classical integration
 status open
 
 \begin_layout Plain Layout
-31.
+32.
 \end_layout
 
 \end_inset
@@ -716,7 +716,7 @@ Shi, On b-ary binomial coefficients with negative entries, 审稿中.
 status open
 
 \begin_layout Plain Layout
-30.
+31.
 \end_layout
 
 \end_inset
@@ -753,7 +753,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-29.
+30.
 \end_layout
 
 \end_inset
@@ -790,7 +790,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-28.
+29.
 \end_layout
 
 \end_inset
@@ -825,6 +825,46 @@ Rep.
 \end_inset
 
 (Bucur.)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+28.
+\end_layout
+
+\end_inset
+
+
+\series default
+K.
+\begin_inset space ~
+\end_inset
+
+Dilcher and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
+ 已接收 
+\emph on
+Int.
+\begin_inset space ~
+\end_inset
+
+J.
+\begin_inset space ~
+\end_inset
+
+Number Theory.
 \end_layout
 
 \begin_layout Itemize
@@ -876,7 +916,7 @@ Appl
 
 
 \series bold
-459
+497
 \series default
  (2021), Article 124855.
 \end_layout
@@ -2170,6 +2210,56 @@ Jiu
 \size large
 \noun on
 学术报告
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+21.
+\end_layout
+
+\end_inset
+
+Examples on Computer Proofs 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+邀请报告
+\begin_inset Newline newline
+\end_inset
+
+2021年5月28日, 湖北省武汉市, 武汉大学.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+22.
+\end_layout
+
+\end_inset
+
+Hankel Determinant of Sequences Related to Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+昆山杜克大学—武汉大学数学与统计学院 学术交流会
+\begin_inset Newline newline
+\end_inset
+
+2021年5月28日, 湖北省武汉市, 武汉大学.
 \end_layout
 
 \begin_layout Itemize

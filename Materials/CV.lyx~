@@ -697,7 +697,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-32.
+33.
 \end_layout
 
 \end_inset
@@ -716,7 +716,7 @@ L.
 
 Jiu
 \series default
-, Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
+, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
  Submitted for Publication.
  
 \end_layout
@@ -730,7 +730,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-31.
+33.
 \end_layout
 
 \end_inset
@@ -767,7 +767,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-31.
+32.
 \end_layout
 
 \end_inset
@@ -814,7 +814,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-30.
+31.
 \end_layout
 
 \end_inset
@@ -886,7 +886,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-29.
+30.
 \end_layout
 
 \end_inset
@@ -958,7 +958,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-28.
+29.
 \end_layout
 
 \end_inset
@@ -1015,6 +1015,48 @@ Rep.
 \end_inset
 
 (Bucur.)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+28.
+\end_layout
+
+\end_inset
+
+
+\series default
+K.
+\begin_inset space ~
+\end_inset
+
+Dilcher and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
+ To Appear in 
+\emph on
+Int.
+\begin_inset space ~
+\end_inset
+
+J.
+\begin_inset space ~
+\end_inset
+
+Number Theory.
 \end_layout
 
 \begin_layout Itemize
@@ -1090,7 +1132,7 @@ Appl
 \uwave default
 \noun default
 \color inherit
-459
+497
 \family roman
 \series medium
 \shape up
@@ -4114,6 +4156,62 @@ status open
 \begin_layout Plain Layout
 
 \series bold
+21.
+\end_layout
+
+\end_inset
+
+Examples on Computer Proofs 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Invited Seminar Talk
+\emph default
+, Wuhan University, Wuhan, Hubei Province, P.
+ R.
+ China, May 28, 2021.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+22.
+\end_layout
+
+\end_inset
+
+Hankel Determinant of Sequences Related to Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+DKU-WHU Math and Stat Academic Conference
+\emph default
+, Wuhan University, Wuhan, Hubei Province, P.
+ R.
+ China, May 28, 2021.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
 20.
 \end_layout
 
@@ -4128,7 +4226,7 @@ Hankel Determinant on Sequences Related to Bernoulli and Euler Polynomials
 \emph on
 Suzhou Area Youth Mathematicians 1st Annual Workshop,
 \emph default
- Duke Kunshan University, Kunshan, Suzhou, P.
+ Duke Kunshan University, Kunshan, Suzhou, Jiangsu Province, P.
 \begin_inset space ~
 \end_inset
 
@@ -5061,11 +5159,12 @@ Teaching Experience
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="10" columns="4">
+<lyxtabular version="3" rows="10" columns="5">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="2.5col%">
+<column alignment="left" valignment="top" width="8col%">
 <column alignment="left" valignment="top" width="12col%">
-<column alignment="left" valignment="top" width="45col%">
+<column alignment="left" valignment="top" width="40col%">
 <column alignment="left" valignment="top" width="0pt">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
@@ -5090,7 +5189,16 @@ Spring
 \begin_inset Text
 
 \begin_layout Plain Layout
-Advanced Introduction to Probability
+MATH205
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Probability and Statistics
 \end_layout
 
 \end_inset
@@ -5115,7 +5223,7 @@ Advanced Introduction to Probability
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5128,7 +5236,16 @@ Advanced Introduction to Probability
 \begin_inset Text
 
 \begin_layout Plain Layout
-Probability and Statistics
+MATH301
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Advanced Introduction to Probability
 \end_layout
 
 \end_inset
@@ -5153,11 +5270,20 @@ Probability and Statistics
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Fall
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH105
 \end_layout
 
 \end_inset
@@ -5191,11 +5317,20 @@ Calculus
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH201
 \end_layout
 
 \end_inset
@@ -5229,11 +5364,20 @@ Multivariable Calculus
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Summer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH1030
 \end_layout
 
 \end_inset
@@ -5267,11 +5411,20 @@ Matrix Theory and Linear Algebra I
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Winter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH 3080
 \end_layout
 
 \end_inset
@@ -5318,6 +5471,15 @@ Spring
 \begin_inset Text
 
 \begin_layout Plain Layout
+MATH 1160
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Long Calculus II
 \end_layout
 
@@ -5348,6 +5510,15 @@ Long Calculus II
 
 \begin_layout Plain Layout
 Fall
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH 1310
 \end_layout
 
 \end_inset
@@ -5394,6 +5565,15 @@ Spring
 \begin_inset Text
 
 \begin_layout Plain Layout
+MATH 1210
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Long Calculus I
 \end_layout
 
@@ -5424,6 +5604,15 @@ Long Calculus I
 
 \begin_layout Plain Layout
 Summer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH 1160
 \end_layout
 
 \end_inset

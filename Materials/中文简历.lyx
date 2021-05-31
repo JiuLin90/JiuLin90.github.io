@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass extarticle
+\textclass ctex-article
 \begin_preamble
 \usepackage{graphicx,titlesec,amsmath}
 \usepackage{enumitem}
@@ -619,7 +619,7 @@ Austrian Academy of Sciences)
 status open
 
 \begin_layout Plain Layout
-33.
+34.
 \end_layout
 
 \end_inset
@@ -638,7 +638,7 @@ L.
 
 Jiu
 \series default
-, Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
+, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
  审稿中.
 \end_layout
 
@@ -649,7 +649,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-32.
+33.
 \end_layout
 
 \end_inset
@@ -683,7 +683,7 @@ Vignat, Compatibility of the method of brackets with classical integration
 status open
 
 \begin_layout Plain Layout
-31.
+32.
 \end_layout
 
 \end_inset
@@ -716,7 +716,7 @@ Shi, On b-ary binomial coefficients with negative entries, 审稿中.
 status open
 
 \begin_layout Plain Layout
-30.
+31.
 \end_layout
 
 \end_inset
@@ -753,7 +753,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-29.
+30.
 \end_layout
 
 \end_inset
@@ -790,7 +790,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-28.
+29.
 \end_layout
 
 \end_inset
@@ -825,6 +825,46 @@ Rep.
 \end_inset
 
 (Bucur.)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+28.
+\end_layout
+
+\end_inset
+
+
+\series default
+K.
+\begin_inset space ~
+\end_inset
+
+Dilcher and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
+ 已接收 
+\emph on
+Int.
+\begin_inset space ~
+\end_inset
+
+J.
+\begin_inset space ~
+\end_inset
+
+Number Theory.
 \end_layout
 
 \begin_layout Itemize
@@ -2179,6 +2219,56 @@ Jiu
 status open
 
 \begin_layout Plain Layout
+21.
+\end_layout
+
+\end_inset
+
+Examples on Computer Proofs 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+邀请报告
+\begin_inset Newline newline
+\end_inset
+
+2021年5月28日, 湖北省武汉市, 武汉大学.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+22.
+\end_layout
+
+\end_inset
+
+Hankel Determinant of Sequences Related to Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+昆山杜克大学—武汉大学数学与统计学院 学术交流会
+\begin_inset Newline newline
+\end_inset
+
+2021年5月28日, 湖北省武汉市, 武汉大学.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
 20.
 \end_layout
 
@@ -2945,8 +3035,9 @@ status open
 \noindent
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="10" columns="4">
+<lyxtabular version="3" rows="10" columns="5">
 <features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -2970,11 +3061,20 @@ status open
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH205
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Advanced Introduction to Probability
+Probability and Statistics
 \end_layout
 
 \end_inset
@@ -3008,11 +3108,33 @@ Advanced Introduction to Probability
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+MATH301
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Probability and Statistics
+Advanced Introduction to Probability
 \end_layout
 
 \end_inset
@@ -3042,6 +3164,28 @@ Probability and Statistics
 
 \begin_layout Plain Layout
 秋季
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+MATH105
 \end_layout
 
 \end_inset
@@ -3084,6 +3228,28 @@ Calculus
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+MATH201
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -3118,6 +3284,28 @@ Multivariable Calculus
 
 \begin_layout Plain Layout
 暑期
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+MATH1030
 \end_layout
 
 \end_inset
@@ -3160,6 +3348,28 @@ Matrix Theory and Linear Algebra I
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+MATH 3080
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -3194,6 +3404,28 @@ Introduction to Complex Variables
 
 \begin_layout Plain Layout
 春季
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+MATH 1160
 \end_layout
 
 \end_inset
@@ -3236,6 +3468,28 @@ Long Calculus II
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+MATH 1310
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -3274,6 +3528,28 @@ Consolidated Calculus
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+MATH 1210
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -3308,6 +3584,28 @@ Long Calculus I
 
 \begin_layout Plain Layout
 暑期
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+MATH 1160
 \end_layout
 
 \end_inset
