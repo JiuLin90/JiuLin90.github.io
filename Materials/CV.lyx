@@ -949,6 +949,19 @@ Jiu
 , Matrix geometric means and uncertainty relation, Submitted for Publication.
 \end_layout
 
+\begin_layout Standard
+\align center
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0ex"
+width "80col%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 
 \series bold

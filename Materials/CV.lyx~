@@ -949,6 +949,18 @@ Jiu
 , Matrix geometric means and uncertainty relation, Submitted for Publication.
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0ex"
+width "100col%"
+height "0.5pt"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 
 \series bold
@@ -5189,7 +5201,7 @@ Spring
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH205
+MATH 205
 \end_layout
 
 \end_inset
@@ -5207,7 +5219,7 @@ Probability and Statistics
 \begin_inset Text
 
 \begin_layout Plain Layout
-@Duke Kunshan University
+@ Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -5236,7 +5248,7 @@ Probability and Statistics
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH301
+MATH 301
 \end_layout
 
 \end_inset
@@ -5254,7 +5266,7 @@ Advanced Introduction to Probability
 \begin_inset Text
 
 \begin_layout Plain Layout
-@Duke Kunshan University
+@ Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -5283,7 +5295,7 @@ Fall
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH105
+MATH 105
 \end_layout
 
 \end_inset
@@ -5301,7 +5313,7 @@ Calculus
 \begin_inset Text
 
 \begin_layout Plain Layout
-@Duke Kunshan University
+@ Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -5330,7 +5342,7 @@ Calculus
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH201
+MATH 201
 \end_layout
 
 \end_inset
@@ -5348,7 +5360,7 @@ Multivariable Calculus
 \begin_inset Text
 
 \begin_layout Plain Layout
-@Duke Kunshan University
+@ Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -5377,7 +5389,7 @@ Summer
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH1030
+MATH 1030
 \end_layout
 
 \end_inset
@@ -5424,7 +5436,7 @@ Winter
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH3080
+MATH 3080
 \end_layout
 
 \end_inset
@@ -5471,7 +5483,7 @@ Spring
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH1160
+MATH 1160
 \end_layout
 
 \end_inset
@@ -5518,7 +5530,7 @@ Fall
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH1310
+MATH 1310
 \end_layout
 
 \end_inset
@@ -5565,7 +5577,7 @@ Spring
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH1210
+MATH 1210
 \end_layout
 
 \end_inset
@@ -5612,7 +5624,7 @@ Summer
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH1160
+MATH 1160
 \end_layout
 
 \end_inset
