@@ -950,10 +950,11 @@ Jiu
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset CommandInset line
 LatexCommand rule
 offset "0ex"
-width "100col%"
+width "80col%"
 height "0.5pt"
 
 \end_inset
@@ -4157,6 +4158,36 @@ Jiu
 \size large
 \noun on
 Invited Talks
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+22.
+\end_layout
+
+\end_inset
+
+Random Walks and Identities Involving Bernoulli and Euler Polynomials of
+ Higher-order 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Invited Seminar Talk
+\emph default
+, Institute of Statistics and Big Data, Renmin Univeristy of China, Beijing,
+ P.
+ R.
+ China, June 18, 2021.
 \end_layout
 
 \begin_layout Itemize
