@@ -697,6 +697,68 @@ status open
 \begin_layout Plain Layout
 
 \series bold
+36.
+\end_layout
+
+\end_inset
+
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+ I.
+\begin_inset space ~
+\end_inset
+
+Simonelli, and H.
+\begin_inset space ~
+\end_inset
+
+Yue, Random walk models for nontrivial identities of Bernoulli and Euler
+ polynomials, Submitted for Publication.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+35.
+\end_layout
+
+\end_inset
+
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+ and Y.
+\begin_inset space ~
+\end_inset
+
+Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
+ direct proof of an inverse matrix entry from Statistics, Submitted for
+ Publication.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
 34.
 \end_layout
 
@@ -5319,7 +5381,7 @@ Calculus
 \begin_inset Text
 
 \begin_layout Plain Layout
-INDSTU 391: 
+INDSTU 391
 \end_layout
 
 \end_inset
@@ -5366,7 +5428,7 @@ Riemann Zeta-Function
 \begin_inset Text
 
 \begin_layout Plain Layout
-INDSTU 391: 
+INDSTU 391
 \end_layout
 
 \end_inset
@@ -5413,7 +5475,7 @@ Quantum Algorithm
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH 301
+MATH 306
 \end_layout
 
 \end_inset
@@ -5460,7 +5522,7 @@ Number Theory
 \begin_inset Text
 
 \begin_layout Plain Layout
-INDSTU 391: 
+INDSTU 391 
 \end_layout
 
 \end_inset
