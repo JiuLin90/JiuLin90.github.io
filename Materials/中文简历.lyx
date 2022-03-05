@@ -605,6 +605,182 @@ Austrian Academy of Sciences)
 \end_layout
 
 \begin_layout Section*
+
+\shape smallcaps
+\size large
+科研经费
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="17col%">
+<column alignment="left" valignment="top" width="78col%">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2022.01–2022.12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gradescope research project grant
+\begin_inset space \hfill{}
+\end_inset
+
+Gradescope
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+与昆山杜克大学教学中心协作
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2021.07–2022.06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Interdisciplinary Seed Grant
+\begin_inset space \hfill{}
+\end_inset
+
+昆山杜克大学
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+与昆山杜克大学Myung-Joong Huang博士共同承担
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quantum algorithms for computational number theory, linear algebra, and
+ combinatorics
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2017.09–2019.08
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Killam Research Fund
+\begin_inset space \hfill{}
+\end_inset
+
+戴尔豪斯大学
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Research Support for Killam Postdocs
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
 \noindent
 
 \size large
@@ -619,27 +795,27 @@ Austrian Academy of Sciences)
 status open
 
 \begin_layout Plain Layout
-34.
+36.
 \end_layout
 
 \end_inset
 
-
-\series default
-K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
-\series bold
 L.
 \begin_inset space ~
 \end_inset
 
 Jiu
 \series default
-, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
- 审稿中.
+ I.
+\begin_inset space ~
+\end_inset
+
+Simonelli, and H.
+\begin_inset space ~
+\end_inset
+
+Yue, Random walk models for nontrivial identities of Bernoulli and Euler
+ polynomials, 审稿中.
 \end_layout
 
 \begin_layout Itemize
@@ -649,7 +825,33 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-33.
+35.
+\end_layout
+
+\end_inset
+
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+ and Y.
+\begin_inset space ~
+\end_inset
+
+Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
+ direct proof of an inverse matrix entry from Statistics, 审稿中.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+34.
 \end_layout
 
 \end_inset
@@ -683,7 +885,7 @@ Vignat, Compatibility of the method of brackets with classical integration
 status open
 
 \begin_layout Plain Layout
-32.
+33.
 \end_layout
 
 \end_inset
@@ -716,7 +918,7 @@ Shi, On b-ary binomial coefficients with negative entries, 审稿中.
 status open
 
 \begin_layout Plain Layout
-31.
+32.
 \end_layout
 
 \end_inset
@@ -753,7 +955,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-30.
+31.
 \end_layout
 
 \end_inset
@@ -781,6 +983,41 @@ L.
 Jiu
 \series default
 , Matrix geometric means and uncertainty relation, 审稿中.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+30.
+\end_layout
+
+\end_inset
+
+
+\series default
+K.
+\begin_inset space ~
+\end_inset
+
+Dilcher and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
+ 已接收 
+\emph on
+Contrib.
+ Discrete Math
+\emph default
+.
 \end_layout
 
 \begin_layout Itemize
@@ -2210,6 +2447,33 @@ Jiu
 \size large
 \noun on
 学术报告
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+24.
+ 
+\end_layout
+
+\end_inset
+
+Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
+ Zeta Values
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+昆山杜克大学—上海交通大学数学与数据科学联合研讨会
+\begin_inset Newline newline
+\end_inset
+
+2022年01月05日，上海
 \end_layout
 
 \begin_layout Itemize

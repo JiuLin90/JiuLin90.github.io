@@ -680,6 +680,189 @@ SCIENTIA Series A: Mathematical Sciences.
 \end_layout
 
 \begin_layout Section*
+
+\series bold
+\shape smallcaps
+\size large
+Grant Awarded
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="17col%">
+<column alignment="left" valignment="top" width="78col%">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2022.01–2022.12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gradescope research project grant
+\begin_inset space \hfill{}
+\end_inset
+
+Gradescope
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Facilitated by Center for Teaching and Learning at Duke Kunshan University
+\end_layout
+
+\begin_layout Plain Layout
+Gradescope for math courses.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2021.07–2022.06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Interdisciplinary Seed Grant
+\begin_inset space \hfill{}
+\end_inset
+
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Joint with Dr.
+\begin_inset space ~
+\end_inset
+
+Myung-Joong Huang, Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quantum algorithms for computational number theory, linear algebra, and
+ combinatorics
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2017.09–2019.08
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Killam Research Fund
+\begin_inset space \hfill{}
+\end_inset
+
+Killam Trust @ Dalhousie University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Research Support for Killam Postdocs
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
 \noindent
 
 \shape smallcaps
@@ -764,39 +947,6 @@ status open
 
 \end_inset
 
-
-\series default
-K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
- Submitted for Publication.
- 
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-33.
-\end_layout
-
-\end_inset
-
 L.
 \begin_inset space ~
 \end_inset
@@ -829,7 +979,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-32.
+33.
 \end_layout
 
 \end_inset
@@ -876,7 +1026,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-31.
+32.
 \end_layout
 
 \end_inset
@@ -948,7 +1098,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-30.
+31.
 \end_layout
 
 \end_inset
@@ -1022,6 +1172,43 @@ height "0.5pt"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+30.
+\end_layout
+
+\end_inset
+
+
+\series default
+K.
+\begin_inset space ~
+\end_inset
+
+Dilcher and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
+ To Appear in 
+\emph on
+Contrib.
+ Discrete Math
+\emph default
+.
 \end_layout
 
 \begin_layout Itemize
@@ -4231,6 +4418,43 @@ status open
 \begin_layout Plain Layout
 
 \series bold
+24.
+\end_layout
+
+\end_inset
+
+Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
+ Zeta Values
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Duke Kunshan University-Shanghai Jiao Tong University Joint Workshop for
+ Mathematics and Data Science, Shanghai, P.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+China, Jan.
+\begin_inset space ~
+\end_inset
+
+5–6, 2022.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
 23.
 \end_layout
 
@@ -5304,7 +5528,7 @@ Teaching Experience
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="15" columns="5">
+<lyxtabular version="3" rows="18" columns="5">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="2.5col%">
 <column alignment="left" valignment="top" width="8col%">
@@ -5316,12 +5540,153 @@ Teaching Experience
 \begin_inset Text
 
 \begin_layout Plain Layout
-2021
+2022
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spring
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH 201
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Multivariable Calculus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@ Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH 301
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Advanced Introduction to Probability
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@ Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH 201
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Multivariable Calculus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@ Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2021
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5330,7 +5695,7 @@ Fall
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5339,7 +5704,7 @@ MATH 105
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5348,7 +5713,7 @@ Calculus
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
