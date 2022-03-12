@@ -1091,7 +1091,7 @@ L.
 Jiu
 \series default
 , Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
- 已接收 
+ 
 \emph on
 Int.
 \begin_inset space ~
@@ -1101,7 +1101,12 @@ J.
 \begin_inset space ~
 \end_inset
 
-Number Theory.
+Number Theory 
+\series bold
+\emph default
+18
+\series default
+ (2022) 331–359.
 \end_layout
 
 \begin_layout Itemize
@@ -2456,11 +2461,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-24.
-<<<<<<< HEAD
- 
-=======
->>>>>>> 9d5fdaf20d8795eef55b2a8dcf46c0886e83ea02
+24.<<<<<<< HEAD =======>>>>>>> 9d5fdaf20d8795eef55b2a8dcf46c0886e83ea02
 \end_layout
 
 \end_inset
@@ -2472,19 +2473,15 @@ Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
 
 
 \series default
-<<<<<<< HEAD
-昆山杜克大学—上海交通大学数学与数据科学联合研讨会
+<<<<<<< HEAD昆山杜克大学—上海交通大学数学与数据科学联合研讨会
 \begin_inset Newline newline
 \end_inset
 
-2022年01月05日，上海
-=======
-昆山杜克大学-上海交通大学数学与数据科学联合研讨会
+2022年01月05日，上海=======昆山杜克大学-上海交通大学数学与数据科学联合研讨会
 \begin_inset Newline newline
 \end_inset
 
-2022年01月05日, 上海市, 上海交通大学.
->>>>>>> 9d5fdaf20d8795eef55b2a8dcf46c0886e83ea02
+2022年01月05日, 上海市, 上海交通大学.>>>>>>> 9d5fdaf20d8795eef55b2a8dcf46c0886e83ea02
 \end_layout
 
 \begin_layout Itemize
