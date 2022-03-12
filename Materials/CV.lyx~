@@ -4419,6 +4419,7 @@ status open
 
 \series bold
 24.
+<<<<<<< HEAD
 \end_layout
 
 \end_inset
@@ -4430,8 +4431,12 @@ Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
 \begin_inset Newline newline
 \end_inset
 
+
+\emph on
 Duke Kunshan University-Shanghai Jiao Tong University Joint Workshop for
- Mathematics and Data Science, Shanghai, P.
+ Mathematics and Data Science
+\emph default
+, Shanghai, P.
 \begin_inset space ~
 \end_inset
 
@@ -4443,7 +4448,7 @@ China, Jan.
 \begin_inset space ~
 \end_inset
 
-5–6, 2022.
+5, 2022.
 \end_layout
 
 \begin_layout Itemize
@@ -4456,10 +4461,29 @@ status open
 
 \series bold
 23.
+=======
+>>>>>>> 9d5fdaf20d8795eef55b2a8dcf46c0886e83ea02
 \end_layout
 
 \end_inset
 
+Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
+ Zeta Values
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+DKU-SJTU Joint Workshop on Math and Data Science, Shanghai Jiao Tong University,
+ Shanghai, P.
+ R.
+ China, Jan.
+ 5, 2022.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
 Random Walk Models for Non-trivial Identities Involving Bernoulli and Euler
  Polynomials of Higher-orders
 \series default
