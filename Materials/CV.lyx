@@ -4423,7 +4423,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-24.
+25.
 \end_layout
 
 \end_inset
@@ -4464,7 +4464,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-23.
+24.
 \end_layout
 
 \end_inset
@@ -4486,6 +4486,17 @@ DKU-SJTU Joint Workshop on Math and Data Science, Shanghai Jiao Tong University,
 \begin_layout Itemize
 
 \series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+23.
+\end_layout
+
+\end_inset
+
 Random Walk Models for Non-trivial Identities Involving Bernoulli and Euler
  Polynomials of Higher-orders
 \series default
