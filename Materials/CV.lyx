@@ -4423,7 +4423,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-24.<<<<<<< HEAD
+24.
 \end_layout
 
 \end_inset
@@ -4464,7 +4464,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-23.=======>>>>>>> 9d5fdaf20d8795eef55b2a8dcf46c0886e83ea02
+23.
 \end_layout
 
 \end_inset
@@ -5554,7 +5554,7 @@ Teaching Experience
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="18" columns="5">
+<lyxtabular version="3" rows="19" columns="5">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="2.5col%">
 <column alignment="left" valignment="top" width="8col%">
@@ -5584,7 +5584,7 @@ Spring
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH 201
+INDSTU 391
 \end_layout
 
 \end_inset
@@ -5593,12 +5593,59 @@ MATH 201
 \begin_inset Text
 
 \begin_layout Plain Layout
-Multivariable Calculus
+Variational Quantum Algorithms
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@ Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH 201
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Multivariable Calculus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout

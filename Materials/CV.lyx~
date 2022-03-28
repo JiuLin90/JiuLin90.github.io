@@ -1308,7 +1308,7 @@ L.
 Jiu
 \series default
 , Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
- To Appear in 
+ 
 \emph on
 Int.
 \begin_inset space ~
@@ -1318,7 +1318,12 @@ J.
 \begin_inset space ~
 \end_inset
 
-Number Theory.
+Number Theory 
+\series bold
+\emph default
+18
+\series default
+ (2022) 331–359.
 \end_layout
 
 \begin_layout Itemize
@@ -4419,7 +4424,6 @@ status open
 
 \series bold
 24.
-<<<<<<< HEAD
 \end_layout
 
 \end_inset
@@ -4461,8 +4465,6 @@ status open
 
 \series bold
 23.
-=======
->>>>>>> 9d5fdaf20d8795eef55b2a8dcf46c0886e83ea02
 \end_layout
 
 \end_inset
