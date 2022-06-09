@@ -806,36 +806,6 @@ L.
 
 Jiu
 \series default
- I.
-\begin_inset space ~
-\end_inset
-
-Simonelli, and H.
-\begin_inset space ~
-\end_inset
-
-Yue, Random walk models for nontrivial identities of Bernoulli and Euler
- polynomials, 审稿中.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-35.
-\end_layout
-
-\end_inset
-
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
  and Y.
 \begin_inset space ~
 \end_inset
@@ -851,7 +821,7 @@ Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
 status open
 
 \begin_layout Plain Layout
-34.
+35.
 \end_layout
 
 \end_inset
@@ -885,7 +855,7 @@ Vignat, Compatibility of the method of brackets with classical integration
 status open
 
 \begin_layout Plain Layout
-33.
+34.
 \end_layout
 
 \end_inset
@@ -918,7 +888,7 @@ Shi, On b-ary binomial coefficients with negative entries, 审稿中.
 status open
 
 \begin_layout Plain Layout
-32.
+33.
 \end_layout
 
 \end_inset
@@ -955,7 +925,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-31.
+32.
 \end_layout
 
 \end_inset
@@ -983,6 +953,40 @@ L.
 Jiu
 \series default
 , Matrix geometric means and uncertainty relation, 审稿中.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+31.
+\end_layout
+
+\end_inset
+
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+ I.
+\begin_inset space ~
+\end_inset
+
+Simonelli, and H.
+\begin_inset space ~
+\end_inset
+
+Yue, Random walk models for nontrivial identities of Bernoulli and Euler
+ polynomials, 已接收 
+\emph on
+Integers
+\emph default
+.
 \end_layout
 
 \begin_layout Itemize
@@ -2461,7 +2465,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-24.
+25.
 \end_layout
 
 \end_inset
@@ -2491,7 +2495,7 @@ Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
 status open
 
 \begin_layout Plain Layout
-23.
+24.
 \end_layout
 
 \end_inset
@@ -2517,7 +2521,7 @@ Random Walk Models for Non-trivial Identities Involving Bernoulli and Euler
 status open
 
 \begin_layout Plain Layout
-22.
+23.
 \end_layout
 
 \end_inset
@@ -2543,7 +2547,7 @@ Random Walks and Identities Involving Bernoulli and Euler Polynomials of
 status open
 
 \begin_layout Plain Layout
-21.
+22.
 \end_layout
 
 \end_inset
@@ -2568,7 +2572,7 @@ Examples on Computer Proofs
 status open
 
 \begin_layout Plain Layout
-22.
+21.
 \end_layout
 
 \end_inset
