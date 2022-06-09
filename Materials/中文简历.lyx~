@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass ctex-article
+\textclass amsart
 \begin_preamble
 \usepackage{graphicx,titlesec,amsmath}
 \usepackage{enumitem}
@@ -16,12 +16,15 @@
 \end_preamble
 \use_default_options true
 \begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
 customHeadersFooters
 \end_modules
 \maintain_unincluded_children false
 \language chinese-simplified
-\language_package auto
-\inputencoding utf8-cjk
+\language_package default
+\inputencoding euc-cn
 \fontencoding global
 \font_roman "default" "default"
 \font_sans "default" "default"
@@ -109,14 +112,6 @@ customHeadersFooters
 \end_inset
 
 霖
-\series default
-\shape smallcaps
-\size large
-
-\begin_inset VSpace -5bp
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -193,13 +188,6 @@ customHeadersFooters
 </row>
 </lyxtabular>
 
-\end_inset
-
-
-\shape smallcaps
-\size large
-
-\begin_inset VSpace -8bp
 \end_inset
 
 
@@ -586,22 +574,11 @@ Austrian Academy of Sciences)
 \shape smallcaps
 \size large
 研究方向
-\begin_inset VSpace -15bp
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 \align center
 伯努利与欧拉多项式，符号积分，特殊函数，解析数论，组合数学
-\shape smallcaps
-\size large
-
-\begin_inset VSpace -5bp
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section*
@@ -613,8 +590,6 @@ Austrian Academy of Sciences)
 
 \begin_layout Standard
 \noindent
-
-\lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="2">
 <features booktabs="true" tabularvalignment="middle">
@@ -2444,10 +2419,6 @@ Jiu
 02
 \series default
  (2006), 117–119.
-\begin_inset VSpace -10bp
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section*
@@ -3223,13 +3194,6 @@ status open
 
 \emph default
 2014年1月8日, 法国奥尔赛, 巴黎十一大学.
-\shape smallcaps
-\size large
-
-\begin_inset VSpace -8bp
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section*
