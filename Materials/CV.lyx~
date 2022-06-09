@@ -891,38 +891,6 @@ L.
 
 Jiu
 \series default
- I.
-\begin_inset space ~
-\end_inset
-
-Simonelli, and H.
-\begin_inset space ~
-\end_inset
-
-Yue, Random walk models for nontrivial identities of Bernoulli and Euler
- polynomials, Submitted for Publication.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-35.
-\end_layout
-
-\end_inset
-
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
  and Y.
 \begin_inset space ~
 \end_inset
@@ -942,7 +910,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-34.
+35.
 \end_layout
 
 \end_inset
@@ -979,7 +947,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-33.
+34.
 \end_layout
 
 \end_inset
@@ -1026,7 +994,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-32.
+33.
 \end_layout
 
 \end_inset
@@ -1098,7 +1066,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-31.
+32.
 \end_layout
 
 \end_inset
@@ -1172,6 +1140,38 @@ height "0.5pt"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+31.
+\end_layout
+
+\end_inset
+
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+ I.
+\begin_inset space ~
+\end_inset
+
+Simonelli, and H.
+\begin_inset space ~
+\end_inset
+
+Yue, Random walk models for nontrivial identities of Bernoulli and Euler
+ polynomials, To Appear in Integers.
 \end_layout
 
 \begin_layout Itemize
