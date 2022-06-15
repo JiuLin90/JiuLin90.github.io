@@ -9,8 +9,8 @@
 \usepackage{graphicx,titlesec,amsmath}
 \usepackage{enumitem}
 
-\titlespacing{\section}{0pt}{-8pt}{-2pt}
-\titleformat{\section}{\vbox{\rule{\linewidth}{0.5pt}}\vspace{-0.4cm}\LARGE\bfseries}{\thesection}{}{}
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\titleformat{\section}{\vbox{\rule{\linewidth}{0.5pt}}\vspace{-0.1cm}\LARGE\bfseries}{\thesection}{}{}
 
 \setlist{noitemsep}
 \end_preamble
