@@ -801,6 +801,14 @@ status open
 
 \end_inset
 
+
+\series default
+Z.
+\begin_inset space ~
+\end_inset
+
+Bradshaw, 
+\series bold
 L.
 \begin_inset space ~
 \end_inset
@@ -819,8 +827,8 @@ Moll, and C.
 \begin_inset space ~
 \end_inset
 
-Vignat, Compatibility of the method of brackets with classical integration
- methods, 审稿中.
+Vignat, On The Consistency of the method of brackets, Submitted for Publication.
+ , 审稿中.
 \end_layout
 
 \begin_layout Itemize

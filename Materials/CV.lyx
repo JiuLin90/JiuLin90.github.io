@@ -915,6 +915,14 @@ status open
 
 \end_inset
 
+
+\series default
+Z.
+\begin_inset space ~
+\end_inset
+
+ Bradshaw, 
+\series bold
 L.
 \begin_inset space ~
 \end_inset
@@ -933,8 +941,7 @@ Moll, and C.
 \begin_inset space ~
 \end_inset
 
-Vignat, Compatibility of the method of brackets with classical integration
- methods,  Submitted for Publication.
+Vignat, On The Consistency of the method of brackets, Submitted for Publication.
  
 \end_layout
 
@@ -4414,7 +4421,7 @@ Jiu
 Invited Talks
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 
 \series bold
 \begin_inset Argument item:1
