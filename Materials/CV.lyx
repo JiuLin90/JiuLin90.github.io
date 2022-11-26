@@ -690,7 +690,7 @@ Grant Awarded
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="2">
+<lyxtabular version="3" rows="9" columns="2">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="17col%">
 <column alignment="left" valignment="top" width="78col%">
@@ -699,12 +699,60 @@ Grant Awarded
 \begin_inset Text
 
 \begin_layout Plain Layout
-2022.01–2022.12
+2022.07–2024.07
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WHU-DKU Joint Grant Seed
+\begin_inset space \hfill{}
+\end_inset
+
+Wuhan University and Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Research team member of Dr.
+\begin_inset space ~
+\end_inset
+
+Dongmian Zou, Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2022.01–2022.12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -988,8 +1036,11 @@ H.
 \begin_inset space ~
 \end_inset
 
-Shi, On b-ary binomial coefficients with negative entries, Submitted for
- Publication.
+Shi, On 
+\begin_inset Formula $b$
+\end_inset
+
+-ary binomial coefficients with negative entries, Submitted for Publication.
 \end_layout
 
 \begin_layout Itemize
@@ -1168,17 +1219,53 @@ L.
 \end_inset
 
 Jiu
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ and D.
+\begin_inset space ~
+\end_inset
+
+Y.
+\begin_inset space ~
+\end_inset
+
+H.
+\begin_inset space ~
+\end_inset
+
+Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
+ To Appear in 
+\family default
 \series default
- I.
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Math.
 \begin_inset space ~
 \end_inset
 
-Simonelli, and H.
+Rep.
 \begin_inset space ~
 \end_inset
 
-Yue, Random walk models for nontrivial identities of Bernoulli and Euler
- polynomials, To Appear in Integers.
+(Bucur.)
 \end_layout
 
 \begin_layout Itemize
@@ -1237,53 +1324,25 @@ L.
 \end_inset
 
 Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- and D.
-\begin_inset space ~
-\end_inset
-
-Y.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
- To Appear in 
-\family default
 \series default
-\shape default
-\size default
+ I.
+\begin_inset space ~
+\end_inset
+
+Simonelli, and H.
+\begin_inset space ~
+\end_inset
+
+Yue, Random walk models for nontrivial identities of Bernoulli and Euler
+ polynomials, 
 \emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-Math.
-\begin_inset space ~
-\end_inset
-
-Rep.
-\begin_inset space ~
-\end_inset
-
-(Bucur.)
+Integers
+\emph default
+, 
+\series bold
+22
+\series default
+ (2022) A91.
 \end_layout
 
 \begin_layout Itemize
@@ -4419,6 +4478,32 @@ Jiu
 \size large
 \noun on
 Invited Talks
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+28.
+\end_layout
+
+\end_inset
+
+Random Walk Model on Finite Number of Sites
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Invited Seminar Talk
+\emph default
+, School of Mathematics, Anhui University, Online, October 19, 2022.
 \end_layout
 
 \begin_layout Itemize

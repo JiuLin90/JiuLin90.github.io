@@ -988,8 +988,11 @@ H.
 \begin_inset space ~
 \end_inset
 
-Shi, On b-ary binomial coefficients with negative entries, Submitted for
- Publication.
+Shi, On 
+\begin_inset Formula $b$
+\end_inset
+
+-ary binomial coefficients with negative entries, Submitted for Publication.
 \end_layout
 
 \begin_layout Itemize
@@ -1168,17 +1171,53 @@ L.
 \end_inset
 
 Jiu
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ and D.
+\begin_inset space ~
+\end_inset
+
+Y.
+\begin_inset space ~
+\end_inset
+
+H.
+\begin_inset space ~
+\end_inset
+
+Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
+ To Appear in 
+\family default
 \series default
- I.
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Math.
 \begin_inset space ~
 \end_inset
 
-Simonelli, and H.
+Rep.
 \begin_inset space ~
 \end_inset
 
-Yue, Random walk models for nontrivial identities of Bernoulli and Euler
- polynomials, To Appear in Integers.
+(Bucur.)
 \end_layout
 
 \begin_layout Itemize
@@ -1237,53 +1276,25 @@ L.
 \end_inset
 
 Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- and D.
-\begin_inset space ~
-\end_inset
-
-Y.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
- To Appear in 
-\family default
 \series default
-\shape default
-\size default
+ I.
+\begin_inset space ~
+\end_inset
+
+Simonelli, and H.
+\begin_inset space ~
+\end_inset
+
+Yue, Random walk models for nontrivial identities of Bernoulli and Euler
+ polynomials, 
 \emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-Math.
-\begin_inset space ~
-\end_inset
-
-Rep.
-\begin_inset space ~
-\end_inset
-
-(Bucur.)
+Integers
+\emph default
+, 
+\series bold
+22
+\series default
+ (2022) A91.
 \end_layout
 
 \begin_layout Itemize
@@ -4421,7 +4432,60 @@ Jiu
 Invited Talks
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+28.
+\end_layout
+
+\end_inset
+
+Random Walk Model on Finite Number of Sites
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Invited Seminar Talk
+\emph default
+, School of Mathematics, Anhui University, Online, October 19, 2022.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+27.
+\end_layout
+
+\end_inset
+
+Bernoulli Symbol and Multiple Zeta Function at Non-negative Integers
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+The First Internatinal Conference on Multiple Zeta Values and Related Topics
+\emph default
+, Online, August 08-09, 2022
+\end_layout
+
+\begin_layout Itemize
 
 \series bold
 \begin_inset Argument item:1
@@ -4441,8 +4505,12 @@ Hankel Determinants of Certain Sequences of Bernoulli and Euler Polynomials
 \begin_inset Newline newline
 \end_inset
 
-Invited Seminar Talk, Department of Mathematics, Zhejiang Sci-Tech University,
- Online, June 12, 2022.
+
+\emph on
+Invited Seminar Talk
+\emph default
+, Department of Mathematics, Zhejiang Sci-Tech University, Online, June
+ 12, 2022.
 \end_layout
 
 \begin_layout Itemize
