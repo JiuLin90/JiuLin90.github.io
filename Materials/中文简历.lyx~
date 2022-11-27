@@ -956,20 +956,30 @@ L.
 
 Jiu
 \series default
- I.
+ and D.
 \begin_inset space ~
 \end_inset
 
-Simonelli, and H.
+Y.
 \begin_inset space ~
 \end_inset
 
-Yue, Random walk models for nontrivial identities of Bernoulli and Euler
- polynomials, 已接收 
+H.
+\begin_inset space ~
+\end_inset
+
+Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
+ 已接收 
 \emph on
-Integers
-\emph default
-.
+Math.
+\begin_inset space ~
+\end_inset
+
+Rep.
+\begin_inset space ~
+\end_inset
+
+(Bucur.)
 \end_layout
 
 \begin_layout Itemize
@@ -1025,30 +1035,25 @@ L.
 
 Jiu
 \series default
- and D.
+ I.
 \begin_inset space ~
 \end_inset
 
-Y.
+Simonelli, and H.
 \begin_inset space ~
 \end_inset
 
-H.
-\begin_inset space ~
-\end_inset
-
-Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
- 已接收 
+Yue, Random walk models for nontrivial identities of Bernoulli and Euler
+ polynomials, 
 \emph on
-Math.
-\begin_inset space ~
-\end_inset
-
-Rep.
-\begin_inset space ~
-\end_inset
-
-(Bucur.)
+\lang english
+Integers
+\emph default
+, 
+\series bold
+22
+\series default
+ (2022) A91.
 \end_layout
 
 \begin_layout Itemize
@@ -2435,6 +2440,31 @@ Jiu
 \size large
 \noun on
 学术报告
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+27.
+\end_layout
+
+\end_inset
+
+Bernoulli Symbol and Multiple Zeta Function at Non-negative Integers
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+第一届多重 zeta 值及相关领域国际研讨会
+\begin_inset Newline newline
+\end_inset
+
+2022年8月8日至9日, 在线, 主办单位：安徽师范大学，同济大学，浙江理工大学，中南大学.
 \end_layout
 
 \begin_layout Itemize

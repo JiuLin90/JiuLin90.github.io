@@ -956,20 +956,30 @@ L.
 
 Jiu
 \series default
- I.
+ and D.
 \begin_inset space ~
 \end_inset
 
-Simonelli, and H.
+Y.
 \begin_inset space ~
 \end_inset
 
-Yue, Random walk models for nontrivial identities of Bernoulli and Euler
- polynomials, 已接收 
+H.
+\begin_inset space ~
+\end_inset
+
+Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
+ 已接收 
 \emph on
-Integers
-\emph default
-.
+Math.
+\begin_inset space ~
+\end_inset
+
+Rep.
+\begin_inset space ~
+\end_inset
+
+(Bucur.)
 \end_layout
 
 \begin_layout Itemize
@@ -1025,30 +1035,24 @@ L.
 
 Jiu
 \series default
- and D.
+ I.
 \begin_inset space ~
 \end_inset
 
-Y.
+Simonelli, and H.
 \begin_inset space ~
 \end_inset
 
-H.
-\begin_inset space ~
-\end_inset
-
-Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
- 已接收 
+Yue, Random walk models for nontrivial identities of Bernoulli and Euler
+ polynomials, 
 \emph on
-Math.
-\begin_inset space ~
-\end_inset
-
-Rep.
-\begin_inset space ~
-\end_inset
-
-(Bucur.)
+Integers
+\emph default
+, 
+\series bold
+22
+\series default
+ (2022) A91.
 \end_layout
 
 \begin_layout Itemize
@@ -2435,6 +2439,31 @@ Jiu
 \size large
 \noun on
 学术报告
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+28.
+\end_layout
+
+\end_inset
+
+Random Walk Model on Finite Number of Sites
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+邀请报告
+\begin_inset Newline newline
+\end_inset
+
+2022年10月19日, 在线, 安徽大学，数学学院.
 \end_layout
 
 \begin_layout Itemize
