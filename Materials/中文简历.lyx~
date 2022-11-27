@@ -1046,7 +1046,6 @@ Simonelli, and H.
 Yue, Random walk models for nontrivial identities of Bernoulli and Euler
  polynomials, 
 \emph on
-\lang english
 Integers
 \emph default
 , 
@@ -2440,6 +2439,31 @@ Jiu
 \size large
 \noun on
 学术报告
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+28.
+\end_layout
+
+\end_inset
+
+Random Walk Model on Finite Number of Sites
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+邀请报告
+\begin_inset Newline newline
+\end_inset
+
+2022年10月19日, 在线, 安徽大学，数学学院.
 \end_layout
 
 \begin_layout Itemize
