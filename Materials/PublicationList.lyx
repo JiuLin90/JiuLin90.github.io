@@ -131,7 +131,7 @@ Submitted
 \begin_layout Plain Layout
 
 \series bold
-34.
+36.
 \end_layout
 
 \end_inset
@@ -140,11 +140,7 @@ Submitted
 \begin_inset Text
 
 \begin_layout Plain Layout
-K.
-\begin_inset space ~
-\end_inset
 
-Dilcher and 
 \series bold
 L.
 \begin_inset space ~
@@ -152,8 +148,13 @@ L.
 
 Jiu
 \series default
-, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
- Submitted for Publication.
+ and Y.
+\begin_inset space ~
+\end_inset
+
+Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
+ direct proof of an inverse matrix entry from Statistics, Submitted for
+ Publication.
 \end_layout
 
 \end_inset
@@ -166,7 +167,7 @@ Jiu
 \begin_layout Plain Layout
 
 \series bold
-33.
+35.
 \end_layout
 
 \end_inset
@@ -209,7 +210,7 @@ Vignat, Compatibility of the method of brackets with classical integration
 \begin_layout Plain Layout
 
 \series bold
-32.
+34.
 \end_layout
 
 \end_inset
@@ -302,7 +303,7 @@ Jiu
 \begin_layout Plain Layout
 
 \series bold
-30.
+32.
 \end_layout
 
 \end_inset
@@ -387,7 +388,7 @@ Accepted
 \begin_layout Plain Layout
 
 \series bold
-29.
+31.
 \end_layout
 
 \end_inset
@@ -440,7 +441,7 @@ Rep.
 \begin_layout Plain Layout
 
 \series bold
-28.
+30.
 \end_layout
 
 \end_inset
@@ -461,18 +462,13 @@ L.
 
 Jiu
 \series default
-, Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
+, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
  To Appear in 
 \emph on
-Int.
-\begin_inset space ~
-\end_inset
-
-J.
-\begin_inset space ~
-\end_inset
-
-Number Theory.
+Contrib.
+ Discrete Math
+\emph default
+.
 \end_layout
 
 \end_inset
@@ -512,7 +508,7 @@ Published
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="27" columns="2">
+<lyxtabular version="3" rows="29" columns="2">
 <features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="2col%">
 <column alignment="left" valignment="top" width="93col%">
@@ -523,12 +519,109 @@ Published
 \begin_layout Plain Layout
 
 \series bold
-27.
+29.
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+ I.
+\begin_inset space ~
+\end_inset
+
+Simonelli, and H.
+\begin_inset space ~
+\end_inset
+
+Yue, Random walk models for nontrivial identities of Bernoulli and Euler
+ polynomials, 
+\emph on
+Integers
+\emph default
+, 
+\series bold
+22
+\series default
+ (2022) A91.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+28.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+K.
+\begin_inset space ~
+\end_inset
+
+Dilcher and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
+ 
+\emph on
+Int.
+\begin_inset space ~
+\end_inset
+
+J.
+\begin_inset space ~
+\end_inset
+
+Number Theory 
+\series bold
+\emph default
+18
+\series default
+ (2022) 331–359.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+27.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout

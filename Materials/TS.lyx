@@ -106,28 +106,103 @@ Lin Jiu
 \end_layout
 
 \begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
 ``Teaching and learning promote and enhance each other.''
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \align right
 —The Book of Rite, Warring States period.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-Teaching and learning is a dynamic process, so adjustment is required almost
- every single time.
- I am always willing to modify part of my teaching and adopt new already
- tested techniques into my course.
- This continuous adjustment encourages me to constantly reconsider the purpose
- and aims of the course and my teaching.
- Meanwhile, there are several key concepts that never change, such as engaging
- the students in the classroom, by group discussion, asking and answering
- questions; leading the students into undergraduate and even graduate level
- research projects (, as my published my first paper as a junior student).
- My ultimate goal is to cultivate the students necessary skills in problem
- solving, such as critical thinking and communication, and finally to guide
- the students into becoming self/independent math learners outside the classroom.
+\begin_inset VSpace smallskip
+\end_inset
+
+This Chinese quote on teaching and learning reveals the mutual benefit between
+ them.
+ Although I read it as a teenager, not until 2014, when I first taught as
+ an instructor, did I finally begin to better understand the nature and
+ connections between teaching and learning.
+ There are several key concepts, such as 
+\end_layout
+
+\begin_layout Itemize
+motivation and inspiration, as William Arthur Ward said 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+The mediocre teacher tells.
+ The good teacher explains.
+ The superior teacher demonstrates.
+ The great teacher inspires.
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Itemize
+engagement, by, e.g., group discussion, asking and answering questions; 
+\end_layout
+
+\begin_layout Itemize
+systematical training plans and course designs, by organizing materials,
+ setting appropriate homework assignments, quizzes, and tests; 
+\end_layout
+
+\begin_layout Itemize
+involvement of undergraduate or even graduate level research projects (,
+ as my published my first paper as a junior student); 
+\end_layout
+
+\begin_layout Itemize
+and finally the cultivation in active pursuing.
+ 
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+My ultimate goal is to 
+\emph on
+cultivate the students necessary skills in problem solving
+\emph default
+, such as critical thinking and communication, and 
+\emph on
+finally to guide the students into becoming self/independent math learners
+ outside the classroom
+\emph default
+.
  
 \begin_inset Note Note
 status collapsed
@@ -234,15 +309,18 @@ sdfsdfds
 \end_inset
 
  This is important as many job and graduate programs require the candidates
- to study some topics, including mathematics, independently.
-\end_layout
+ to study some topics independently, which also applies to other majors,
+ not only restricted to mathematics.
+ 
+\begin_inset Note Note
+status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 After several years of experience in teaching, both as an assistant to lead
  the recitation sessions and an instructor, 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Every teacher was a student and some students will become teachers.
  Not until I became a teaching assistant and later an instructor of a course
  did I truly realize that teaching and learning are just counterparts of
@@ -254,21 +332,6 @@ Every teacher was a student and some students will become teachers.
 
 \begin_layout Enumerate
 A motivator that inspires students.
- William Arthur Ward said 
-\begin_inset Quotes eld
-\end_inset
-
-
-\emph on
-The mediocre teacher tells.
- The good teacher explains.
- The superior teacher demonstrates.
- The great teacher inspires.
-\emph default
-
-\begin_inset Quotes erd
-\end_inset
-
  A great teacher could turn the process of learning from passive receiving
  into active pursuing.
 \end_layout
@@ -288,14 +351,7 @@ A consultant for students after class.
  problems, both concrete in exercises and general in study plans.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 As my teaching experience increases, I also notice that a lot of details
  in teaching also contain counterparts.
  They behave as the two sides of the balance, though some pairs seem to
@@ -303,13 +359,18 @@ As my teaching experience increases, I also notice that a lot of details
  Compatibility of those pairs are the key to teaching.
 \end_layout
 
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
 \begin_layout Part*
-I.
- Group and Individuals.
+Group and Individuals.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Lectures are given for all the students.
  A suitable pace should allow the majority to follow.
  Group discussions on exercises are always recommended, provided that each
@@ -327,7 +388,7 @@ II.
  Limited Time and Scheduled Materials.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Each lecture has limited time, which actually prevents students from getting
  tired and lost in the classroom.
  Thus, I arrange lecture notes carefully according to the time in order
@@ -350,7 +411,7 @@ copiers
 
 .
  On the other hand, in stead of all the details, only key structures are
- provided in these notes, for maintaining the attandence and inciting thinking.
+ provided in these notes, for maintaining the attendance and inciting thinking.
 \end_layout
 
 \begin_layout Part*
@@ -358,7 +419,7 @@ III.
  Abstract Theories and Concrete Examples.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 To students, formulas and theorems in math are abstract, especially in higher
  level courses.
  Suitable examples can explain almost everything by visualizing the abstract
@@ -377,7 +438,7 @@ To students, formulas and theorems in math are abstract, especially in higher
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 It is very fortunate that I have touched many different courses during my
  TA and teaching at Tulane University, where I graduated with my PhD diploma.
  For TA assignments, not only was I assigned for all Calculus I, II and
@@ -394,14 +455,14 @@ ted Calculus which covers both Calculus I and II) and different time periods
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset VSpace 10bp
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Admittedly, I am far away from being a great teacher, but thank to all the
  great teachers I have met, for the clear path they have shown.
  As an old Chinese saying, both teacher and student could learn and benefit
@@ -415,13 +476,635 @@ Admittedly, I am far away from being a great teacher, but thank to all the
  I hope to learn everyday from my students during my teaching.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diversity and Abundance
+\end_layout
+
+\begin_layout Standard
+As shown in Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Teaching-Experience"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, up to now, I have lectured 
+\end_layout
+
+\begin_layout Itemize
+18 sections, of 10 different regular math courses, including various levels
+ of calculus, linear algebra, probability, complex analysis, and number
+ theory, at three different institutes;
+\end_layout
+
+\begin_layout Itemize
+and 5 independent study, i.e., reading courses, for completely different topics,
+ e.g., combinatorics, analytic number theory, quantum computing, and algebraic
+ geometry.
+ 
+\end_layout
+
+\begin_layout Standard
+In general, for basic math courses, e.g.
+ calculus, linear algebra, I have no preference, as all such courses are
+ essential and important to students majoring in STEM.
+ Meanwhile, as my research topics include several branches, such as combinatoric
+s, (analytic and algebraic) number theory, etc., many advanced courses, e.g.,
+ complex analysis, abstract algebra, also fit my area perfectly.
+ 
+\end_layout
+
+\begin_layout Standard
+Take MATH301–Advanced Introduction to Probability at Duke Kunshan University
+ (DKU) as an example.
+ This course was designed by me upon my arrival at DKU.
+ Many ingredients were taken into consideration, including but not restricted
+ to the seven-week session structure at DKU, undergraduate curriculum, related
+ major requirements, and other courses.
+ The course serves as an elective in math major, and also consists of important
+ materials for further courses, such as MATH405—Financial Mathematics.
+ Some research topics, e.g., probabilistic methods, Shor's algorithms in quantum
+ computing are also introduced as the very end of the class.
+ 
+\end_layout
+
+\begin_layout Section
+Adjustment and Improvement
+\end_layout
+
+\begin_layout Standard
+Teaching and learning is a dynamic process, so adjustment is required almost
+ every single time.
+ I am always willing to modify part of my teaching and adopt new already
+ tested techniques into my course.
+ This continuous adjustment encourages me to constantly reconsider the purpose
+ and aims of the course and my teaching strategies.
+ Moreover, comments on each course's evaluation are also helpful for improvement.
+ The current average of the overall score and some comments show that I
+ am a ``good teacher''; still, there is room and space be become a better
+ instructor.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+When COVID pandemic in 2020, online and hybrid teaching model become prevalent,
+ hence necessary moves should be taken, in order to facilitate remote students.
+ For instance, besides Zoom recordings, electronic lecture notes are uploaded
+ after each lecture; office hours are offered both in person and online;
+ tests are also altered from closed-book to open-book ones, etc.
+ It is undoubtfully that teaching will not be the same as before 2019; since
+ some 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In order to constantly improve my teaching, I am also engaged in many activities.
+ For instance, I led two sessions by the Center for Teaching and Learning
+ (CTL) of DKU, on the usage of MaxHub
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.maxhub.com/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, a digital whiteboard in hybrid teaching; and WeBWorK
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://openwebwork.org/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ Also facilitated by the CTL, I was selected as one of the two instructors
+ at DKU to conduct the Gradescope
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.gradescope.com/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Research Project, awarded a grant of $2,000.
+ Gradescope is a digital grading system that allows instructors to scan
+ and upload exams, and to grade them online.
+ It reduces the grading time for classes of large size and digitizes the
+ tests.
+ Right now, I am selected as a member of Faculty Learning Community (FLC)
+ 2022-2023, across all disciplines, to discuss and learn from each other
+ in teaching.
+ 
+\end_layout
+
+\begin_layout Section
+Technology and Innovation
+\end_layout
+
+\begin_layout Standard
+Doubtfully, the mostly common used software during pandemic online and hybrid
+ teaching would be Zoom; however, the use of Zoom does not stop after switching
+ back to in-person teaching: some functions are still beneficial.
+ For instance, sharing via Zoom with allowing annotation for the whole class,
+ largely engages students in questioning and discussions.
+ As an instructor, any new technology and innovative methods attract me,
+ though I am cautious in applying them.
+ Once considered matured, such innovation will be carried out in my class.
+ 
+\end_layout
+
+\begin_layout Standard
+As mentioned above, I have successfully introduced MaxHub, WeBWorK, and
+ Gradescope to my class.
+ Besides, during Spring 2022, I completely used Mathematica
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.wolfram.com/mathematica/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ as the platform for the course MATH201–Multivariable Calculus.
+ More precisely, all the lecture notes, slides, and some graphic animation
+ are given in Mathematica.
+ The power of graphics plotting perfectly matches the contents of the multivaria
+ble calculus course, where many 3-dimensional graphs need to be visualized.
+ Students manipulated the 3D plotting and animated some processes, such
+ as the movement of a particle along a space curve.
+ Assessment also includes a team based project in Mathematica.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 10bp
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Admittedly, there is always a distance from being a great teacher,
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+but I have a clear path from all the great teachers I have met; Some talks
+ I attended show that a good research project can be inspired by students.
+ Teaching is not alone, as learning being its counterpart, so is the pair
+ of teachers and students.
+ Every time when I enter the classroom for teaching, I knew we will end
+ up with new ideas.
+ I hope to learn everyday from my students during my teaching.
+\end_layout
+
+\end_inset
+
+ and I am willing to constantly improve in teaching.
+ As my experience growth, my teaching will be more effective, diverse, and
+ innovative.
+ My enthusiasm and commitment will never decrease.
+ 
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:TeachingGrant"
+
+\end_inset
+
+Teaching Grant & Award
+\end_layout
+
 \begin_layout Standard
 \noindent
-\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="9">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="12.5col%">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="right" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
-\size largest
-\noun on
-Appendix
+\begin_layout Plain Layout
+2022–2023
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Faculty Learning Community Grant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+2022
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Gradescope research project grant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Gradescope
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+2012–2013
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Excellent Graduate Student Teacher
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Math Department, Tulane University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Section
+All Courses Documents
+\end_layout
+
+\begin_layout Plain Layout
+This parts contains all the syllabi, evaluations, quizzes/tests, and notes/slide
+s for all the courses in Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Teaching-Experience"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Courses are listed chronologically, i.e., in the reverse order of Appendix
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Teaching-Experience"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -437,7 +1120,7 @@ Teaching Experience
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="23" columns="5">
+<lyxtabular version="3" rows="24" columns="5">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="2.5col%">
 <column alignment="left" valignment="top" width="8col%">
@@ -449,12 +1132,59 @@ Teaching Experience
 \begin_inset Text
 
 \begin_layout Plain Layout
-2022
+2023
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Spring
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH205
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Probability and Statistics
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@ Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2022
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -463,7 +1193,7 @@ Fall
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -472,16 +1202,16 @@ INDSTU 391
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Algebraic Geometry
+Introduction to Algebraic Geometry
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1526,338 +2256,6 @@ Long Calculus II
 </cell>
 </row>
 </lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Teaching Grant & Award
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="9">
-<features booktabs="true" tabularvalignment="middle">
-<column alignment="left" valignment="top" width="12.5col%">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
-<column alignment="right" valignment="top" width="0pt">
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-2022
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Gradescope research project grant
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
- 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Gradescope
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-2012–2013
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Excellent Graduate Student Teacher
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
- 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Math Dept., Tulane Univ.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Section
-All Courses Documents
-\end_layout
-
-\begin_layout Plain Layout
-This parts contains all the syllabi, evaluations, quizzes/tests, and notes/slide
-s for all the courses in Appendix 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Teaching-Experience"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- Courses are listed chronologically, i.e., in the reverse order of Appendix
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sec:Teaching-Experience"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
-\end_layout
 
 \end_inset
 
