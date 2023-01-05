@@ -1214,6 +1214,43 @@ status open
 
 \end_inset
 
+
+\series default
+K.
+\begin_inset space ~
+\end_inset
+
+Dilcher and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Hankel determinants of shifted sequences of Bernoulli and Euler numbers,
+ To Appear in 
+\emph on
+Contrib.
+ Discrete Math
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+30.
+\end_layout
+
+\end_inset
+
 L.
 \begin_inset space ~
 \end_inset
@@ -1244,7 +1281,7 @@ H.
 \end_inset
 
 Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
- To Appear in 
+ 
 \family default
 \series default
 \shape default
@@ -1258,51 +1295,12 @@ Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
 \noun default
 \color inherit
 Math.
-\begin_inset space ~
-\end_inset
-
-Rep.
-\begin_inset space ~
-\end_inset
-
-(Bucur.)
-\end_layout
-
-\begin_layout Itemize
-
+ Reports 
 \series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-30.
-\end_layout
-
-\end_inset
-
-
-\series default
-K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
- To Appear in 
-\emph on
-Contrib.
- Discrete Math
 \emph default
-.
+24
+\series default
+ (2022), 643–650.
 \end_layout
 
 \begin_layout Itemize
