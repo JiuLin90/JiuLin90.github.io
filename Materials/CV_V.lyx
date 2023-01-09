@@ -928,7 +928,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-36.
+33.
 \end_layout
 
 \end_inset
@@ -958,51 +958,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-35.
-\end_layout
-
-\end_inset
-
-
-\series default
-Z.
-\begin_inset space ~
-\end_inset
-
- Bradshaw, 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll, and C.
-\begin_inset space ~
-\end_inset
-
-Vignat, On The Consistency of the method of brackets, Submitted for Publication.
- 
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-34.
+32.
 \end_layout
 
 \end_inset
@@ -1041,150 +997,6 @@ Shi, On
 \end_inset
 
 -ary binomial coefficients with negative entries, Submitted for Publication.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-33.
-\end_layout
-
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Y.
-\begin_inset space ~
-\end_inset
-
-Li, B.
-\begin_inset space ~
-\end_inset
-
-Li, H.
-\begin_inset space ~
-\end_inset
-
-Sun, and 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, Application of entropy in Riemannian manifolds, Submitted for Publication.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-32.
-\end_layout
-
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Y.
-\begin_inset space ~
-\end_inset
-
-Li, B.
-\begin_inset space ~
-\end_inset
-
-Li, H.
-\begin_inset space ~
-\end_inset
-
-Sun, and 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, Matrix geometric means and uncertainty relation, Submitted for Publication.
 \end_layout
 
 \begin_layout Standard
