@@ -933,36 +933,6 @@ status open
 
 \end_inset
 
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
- and Y.
-\begin_inset space ~
-\end_inset
-
-Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
- direct proof of an inverse matrix entry from Statistics, Submitted for
- Publication.
- 
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\series bold
-35.
-\end_layout
-
-\end_inset
-
 
 \series default
 Z.
@@ -1002,7 +972,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-34.
+35.
 \end_layout
 
 \end_inset
@@ -1052,7 +1022,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-33.
+34.
 \end_layout
 
 \end_inset
@@ -1124,7 +1094,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-32.
+33.
 \end_layout
 
 \end_inset
@@ -1198,6 +1168,39 @@ height "0.5pt"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+32.
+\end_layout
+
+\end_inset
+
+ L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+ and Y.
+\begin_inset space ~
+\end_inset
+
+Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
+ direct proof of an inverse matrix entry from Statistics, To Appear in 
+\emph on
+Contrib.
+ Discrete Math
+\emph default
+.
 \end_layout
 
 \begin_layout Itemize
@@ -5682,7 +5685,7 @@ Teaching Experience
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="24" columns="5">
+<lyxtabular version="3" rows="25" columns="5">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="2.5col%">
 <column alignment="left" valignment="top" width="8col%">
@@ -5727,6 +5730,53 @@ Probability and Statistics
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@ Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MINITERM102
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Experimental Mathematics and Symbolic Computation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout

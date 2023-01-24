@@ -853,33 +853,7 @@ Research Support for Killam Postdocs
 status open
 
 \begin_layout Plain Layout
-36.
-\end_layout
-
-\end_inset
-
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
- and Y.
-\begin_inset space ~
-\end_inset
-
-Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
- direct proof of an inverse matrix entry from Statistics, 审稿中.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-35.
+34.
 \end_layout
 
 \end_inset
@@ -921,7 +895,7 @@ Vignat, On The Consistency of the method of brackets, Submitted for Publication.
 status open
 
 \begin_layout Plain Layout
-34.
+33.
 \end_layout
 
 \end_inset
@@ -945,7 +919,10 @@ H.
 \end_inset
 
 Shi, On b-ary binomial coefficients with negative entries, 审稿中.
-\end_layout
+\series bold
+
+\begin_inset Note Note
+status collapsed
 
 \begin_layout Itemize
 
@@ -954,7 +931,7 @@ Shi, On b-ary binomial coefficients with negative entries, 审稿中.
 status open
 
 \begin_layout Plain Layout
-33.
+34.
 \end_layout
 
 \end_inset
@@ -991,7 +968,7 @@ Jiu
 status open
 
 \begin_layout Plain Layout
-32.
+33.
 \end_layout
 
 \end_inset
@@ -1019,6 +996,42 @@ L.
 Jiu
 \series default
 , Matrix geometric means and uncertainty relation, 审稿中.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+32.
+\end_layout
+
+\end_inset
+
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+ and Y.
+\begin_inset space ~
+\end_inset
+
+Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
+ direct proof of an inverse matrix entry from Statistics, 已接收 
+\emph on
+Contrib.
+ Discrete Math
+\emph default
+.
 \end_layout
 
 \begin_layout Itemize
@@ -3495,7 +3508,7 @@ status open
 \noindent
 \align left
 \begin_inset Tabular
-<lyxtabular version="3" rows="24" columns="5">
+<lyxtabular version="3" rows="25" columns="5">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -3535,6 +3548,53 @@ MATH205
 
 \begin_layout Plain Layout
 Probability and Statistics
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@昆山杜克大学
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MINITERM102
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Experimental Mathematics and Symbolic Computation
 \end_layout
 
 \end_inset
