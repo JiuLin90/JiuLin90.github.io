@@ -928,7 +928,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-36.
+34.
 \end_layout
 
 \end_inset
@@ -972,7 +972,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-35.
+33.
 \end_layout
 
 \end_inset
@@ -1011,7 +1011,21 @@ Shi, On
 \end_inset
 
 -ary binomial coefficients with negative entries, Submitted for Publication.
-\end_layout
+\family default
+\series bold
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Note Note
+status collapsed
 
 \begin_layout Itemize
 
@@ -1155,6 +1169,11 @@ Jiu
 \noun off
 \color none
 , Matrix geometric means and uncertainty relation, Submitted for Publication.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
