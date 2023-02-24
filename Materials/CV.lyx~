@@ -222,7 +222,7 @@ Employment
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="10" columns="2">
+<lyxtabular version="3" rows="11" columns="2">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="15col%">
 <column alignment="left" valignment="top" width="80col%">
@@ -231,7 +231,7 @@ Employment
 \begin_inset Text
 
 \begin_layout Plain Layout
-2020.08–
+2023.08–
 \end_layout
 
 \end_inset
@@ -240,11 +240,35 @@ Employment
 \begin_inset Text
 
 \begin_layout Plain Layout
-Assistant Professor of the Practice
+Assistant Professor in Mathematics
 \begin_inset space \hfill{}
 \end_inset
 
-Duke University
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2020.08–2023.07
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lecturer in Mathematics
+\begin_inset space \hfill{}
+\end_inset
+
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -264,11 +288,11 @@ Duke University
 \begin_inset Text
 
 \begin_layout Plain Layout
-Lecturer in Mathematics
+Assistant Professor of the Practice
 \begin_inset space \hfill{}
 \end_inset
 
-Duke Kunshan University
+Duke University
 \end_layout
 
 \end_inset
