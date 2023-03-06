@@ -2446,13 +2446,13 @@ Peng, H.
 \end_inset
 
 Sun, and 
-\emph on
+\series bold
 L.
 \begin_inset space ~
 \end_inset
 
 Jiu
-\emph default
+\series default
 , The geometric structure of the Pareto distribution, 
 \emph on
 Bol.
@@ -2566,6 +2566,31 @@ Jiu
 status open
 
 \begin_layout Plain Layout
+29.
+\end_layout
+
+\end_inset
+
+Random Walk Models for Identities Involving Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+邀请报告
+\begin_inset Newline newline
+\end_inset
+
+2023年3月6日, 加拿大, 哈利法克斯, 戴尔豪斯大学, 数学与统计系.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
 28.
 \end_layout
 
@@ -2654,10 +2679,6 @@ Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
 
 \series default
 昆山杜克大学—上海交通大学数学与数据科学联合研讨会
-\begin_inset Newline newline
-\end_inset
-
-2022年01月05日，上海—昆山杜克大学-上海交通大学数学与数据科学联合研讨会
 \begin_inset Newline newline
 \end_inset
 

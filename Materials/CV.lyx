@@ -4249,10 +4249,10 @@ Peng, H.
 
 Sun, and 
 \family default
-\series default
+\series bold
 \shape default
 \size default
-\emph on
+\emph default
 \bar default
 \strikeout default
 \xout default
@@ -4533,6 +4533,38 @@ status open
 \begin_layout Plain Layout
 
 \series bold
+29.
+\end_layout
+
+\end_inset
+
+Random Walk Models for Identities Involving Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Invited Seminar Talk, 
+\emph default
+Department of Mathematics and Statistics, Dalhouise University, Halifax,
+ NS, Canada, Mar.
+\begin_inset space ~
+\end_inset
+
+6, 2023.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
 28.
 \end_layout
 
@@ -4547,7 +4579,11 @@ Random Walk Model on Finite Number of Sites
 \emph on
 Invited Seminar Talk
 \emph default
-, School of Mathematics, Anhui University, Online, October 19, 2022.
+, School of Mathematics, Anhui University, Online, Oct.
+\begin_inset space ~
+\end_inset
+
+19, 2022.
 \end_layout
 
 \begin_layout Itemize
@@ -4574,7 +4610,11 @@ Bernoulli Symbol and Multiple Zeta Function at Non-negative Integers
 \emph on
 The First International Conference on Multiple Zeta Values and Related Topics
 \emph default
-, Online, August 08-09, 2022
+, Online, Aug.
+\begin_inset space ~
+\end_inset
+
+08–09, 2022
 \end_layout
 
 \begin_layout Itemize
