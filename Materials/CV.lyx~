@@ -714,7 +714,7 @@ Grant Awarded
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="9" columns="2">
+<lyxtabular version="3" rows="11" columns="2">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="17col%">
 <column alignment="left" valignment="top" width="78col%">
@@ -723,12 +723,57 @@ Grant Awarded
 \begin_inset Text
 
 \begin_layout Plain Layout
-2022.07–2024.07
+2023.07–2025.06
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WHU-DKU Joint Grant Seed
+\begin_inset space \hfill{}
+\end_inset
+
+Wuhan University and Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DKU PI of ``Wuhan University-Duke Kunshan University-Dalhousie University
+ Research Platform on Combinatorics and Number Theory''
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2022.07–2024.06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -780,7 +825,7 @@ Dongmian Zou, Duke Kunshan University
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gradescope research project grant
+Gradescope Research Project Grant
 \begin_inset space \hfill{}
 \end_inset
 
@@ -4548,7 +4593,11 @@ Random Walk Models for Identities Involving Bernoulli and Euler Polynomials
 Invited Seminar Talk, 
 \emph default
 Department of Mathematics and Statistics, Dalhouise University, Halifax,
- NS, Canada, March 6, 2023.
+ NS, Canada, Mar.
+\begin_inset space ~
+\end_inset
+
+6, 2023.
  
 \end_layout
 
@@ -4575,7 +4624,11 @@ Random Walk Model on Finite Number of Sites
 \emph on
 Invited Seminar Talk
 \emph default
-, School of Mathematics, Anhui University, Online, October 19, 2022.
+, School of Mathematics, Anhui University, Online, Oct.
+\begin_inset space ~
+\end_inset
+
+19, 2022.
 \end_layout
 
 \begin_layout Itemize
@@ -4602,7 +4655,11 @@ Bernoulli Symbol and Multiple Zeta Function at Non-negative Integers
 \emph on
 The First International Conference on Multiple Zeta Values and Related Topics
 \emph default
-, Online, August 08-09, 2022
+, Online, Aug.
+\begin_inset space ~
+\end_inset
+
+08–09, 2022
 \end_layout
 
 \begin_layout Itemize

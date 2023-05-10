@@ -611,7 +611,7 @@ Austrian Academy of Sciences)
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="9" columns="2">
+<lyxtabular version="3" rows="11" columns="2">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="17col%">
 <column alignment="left" valignment="top" width="78col%">
@@ -633,12 +633,95 @@ Austrian Academy of Sciences)
 \uwave off
 \noun off
 \color none
-2022.07–2024.07
+2023.07–2025.06
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+WHU-DKU Joint Grant Seed
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset space \hfill{}
+\end_inset
+
+武汉大学—昆山杜克大学
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DKU主要负责人 项目名称``武汉大学-昆山杜克大学-戴尔豪斯大学组合与数论平台''
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+2022.07–2024.06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2446,13 +2529,13 @@ Peng, H.
 \end_inset
 
 Sun, and 
-\emph on
+\series bold
 L.
 \begin_inset space ~
 \end_inset
 
 Jiu
-\emph default
+\series default
 , The geometric structure of the Pareto distribution, 
 \emph on
 Bol.
@@ -2566,6 +2649,31 @@ Jiu
 status open
 
 \begin_layout Plain Layout
+29.
+\end_layout
+
+\end_inset
+
+Random Walk Models for Identities Involving Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+邀请报告
+\begin_inset Newline newline
+\end_inset
+
+2023年3月6日, 加拿大, 哈利法克斯, 戴尔豪斯大学, 数学与统计系.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
 28.
 \end_layout
 
@@ -2654,10 +2762,6 @@ Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
 
 \series default
 昆山杜克大学—上海交通大学数学与数据科学联合研讨会
-\begin_inset Newline newline
-\end_inset
-
-2022年01月05日，上海—昆山杜克大学-上海交通大学数学与数据科学联合研讨会
 \begin_inset Newline newline
 \end_inset
 
