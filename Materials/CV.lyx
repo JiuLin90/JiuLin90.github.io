@@ -997,39 +997,37 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-34.
+35.
 \end_layout
 
 \end_inset
 
-
-\series default
-Z.
-\begin_inset space ~
-\end_inset
-
- Bradshaw, 
-\series bold
 L.
 \begin_inset space ~
 \end_inset
 
 Jiu
-\series default
-, V.
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ and S.
 \begin_inset space ~
 \end_inset
 
-H.
-\begin_inset space ~
+Chern, Hankel determinants and Jacobi continued fractions for 
+\begin_inset Formula $q$
 \end_inset
 
-Moll, and C.
-\begin_inset space ~
-\end_inset
-
-Vignat, On The Consistency of the method of brackets, Submitted for Publication.
- 
+-Euler numbers, Submitted for Publication.
 \end_layout
 
 \begin_layout Itemize
@@ -1041,7 +1039,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-33.
+34.
 \end_layout
 
 \end_inset
@@ -1267,7 +1265,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-32.
+33.
 \end_layout
 
 \end_inset
@@ -1300,7 +1298,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-31.
+32.
 \end_layout
 
 \end_inset
@@ -1326,6 +1324,90 @@ Contrib.
  Discrete Math
 \emph default
 .
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+31.
+\end_layout
+
+\end_inset
+
+
+\series default
+Z.
+\begin_inset space ~
+\end_inset
+
+ Bradshaw, I.
+\begin_inset space ~
+\end_inset
+
+Gonzalez, 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, V.
+\begin_inset space ~
+\end_inset
+
+H.
+\begin_inset space ~
+\end_inset
+
+Moll, and C.
+\begin_inset space ~
+\end_inset
+
+Vignat, On the consistency of the method of brackets, 
+\emph on
+Open Math
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+.
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset space ~
+\end_inset
+
+
+\series bold
+21
+\series default
+ (2023), Article number: 20220581.
+ 
 \end_layout
 
 \begin_layout Itemize
