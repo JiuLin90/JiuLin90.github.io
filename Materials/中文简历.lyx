@@ -1155,7 +1155,7 @@ L.
 
 Jiu
 \series default
-, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
+, Hankel determinants of shifted sequences of Bernoulli and Euler numbers,
  已接收 
 \emph on
 Contrib.
@@ -1202,7 +1202,8 @@ Moll, and C.
 \begin_inset space ~
 \end_inset
 
-Vignat, On The Consistency of the method of brackets, 
+Vignat, Compatibility of the method of brackets with classical integration
+ rules, 
 \emph on
 Open Math
 \emph default

@@ -971,8 +971,11 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Chern, Hankel determinants and Jacobi continued fractions for $q$-Euler
- numbers, Submitted for Publication.
+Chern, Hankel determinants and Jacobi continued fractions for 
+\begin_inset Formula $q$
+\end_inset
+
+-Euler numbers, Submitted for Publication.
  审稿中.
 \end_layout
 
@@ -1199,7 +1202,8 @@ Moll, and C.
 \begin_inset space ~
 \end_inset
 
-Vignat, On The Consistency of the method of brackets, 
+Vignat, Compatibility of the method of brackets with classical integration
+ rules, 
 \emph on
 Open Math
 \emph default
