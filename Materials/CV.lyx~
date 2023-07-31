@@ -227,7 +227,7 @@ Employment
 <column alignment="left" valignment="top" width="15col%">
 <column alignment="left" valignment="top" width="80col%">
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -236,7 +236,7 @@ Employment
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -275,7 +275,7 @@ Duke Kunshan University
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -284,7 +284,7 @@ Duke Kunshan University
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5973,7 +5973,7 @@ Calculus
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH 306
+MATH 202
 \end_layout
 
 \end_inset
@@ -5982,7 +5982,7 @@ MATH 306
 \begin_inset Text
 
 \begin_layout Plain Layout
-Number Theory
+Linear Algebra
 \end_layout
 
 \end_inset
