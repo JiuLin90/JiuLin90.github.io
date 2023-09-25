@@ -1531,7 +1531,33 @@ Jiu
 \noun off
 \color none
 , Characterizing hypersurfaces of generalized rotation through its normal
- lines, Journal of Ningde Normal University (Natural Science) 
+ lines, 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Journal of Ningde Normal University (Natural Science)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
 \family default
 \series bold
 \shape default
@@ -2829,7 +2855,32 @@ Moll, and C.
 \end_inset
 
 Vignat, The integrals in Gradshteyn and Ryzhik.
- Part 30: trigonometric functions, Scientia Series A: Mathematical Sciences
+ Part 30: trigonometric functions, 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Scientia Series A: Mathematical Sciences
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
  
 \family default
 \series bold
@@ -4451,7 +4502,10 @@ Jiu
  To Appear in 
 \emph on
 Contrib.
- Discrete Math
+\begin_inset space ~
+\end_inset
+
+Discrete Math
 \emph default
 .
 \end_layout
@@ -4473,9 +4527,100 @@ Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
  direct proof of an inverse matrix entry from Statistics, To Appear in 
 \emph on
 Contrib.
- Discrete Math
+\begin_inset space ~
+\end_inset
+
+Discrete Math
 \emph default
 .
+\end_layout
+
+\begin_layout Reverse Enumerate
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+S.
+\begin_inset space ~
+\end_inset
+
+Chern and 
+\family default
+\series bold
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, Hankel determinants and Jacobi continued fractions for 
+\begin_inset Formula $q$
+\end_inset
+
+-Euler numbers, To Appear in 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+C.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+Math.
+\begin_inset space ~
+\end_inset
+
+Acad.
+\begin_inset space ~
+\end_inset
+
+Sci.
+\begin_inset space ~
+\end_inset
+
+Paris
 \end_layout
 
 \begin_layout Reverse Enumerate
@@ -4681,34 +4826,20 @@ Jiu
 \end_layout
 
 \begin_layout Reverse Enumerate
-
-\series bold
-L.
+S.
 \begin_inset space ~
 \end_inset
 
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- and S.
+Chern, L.
 \begin_inset space ~
 \end_inset
 
-Chern, Hankel determinants and Jacobi continued fractions for 
-\begin_inset Formula $q$
+Jiu, and I.
+\begin_inset space ~
 \end_inset
 
--Euler numbers, Submitted for Publication.
+Simonelli, A central limit theorem for a card shuffling problem, Submitted
+ for Publication.
 \end_layout
 
 \begin_layout Section*
@@ -5372,7 +5503,7 @@ Random Walk Models for Identities Involving Bernoulli and Euler Polynomials
 \emph on
 Invited Seminar Talk, 
 \emph default
-Department of Mathematics and Statistics, Dalhouise University, Halifax,
+Department of Mathematics and Statistics, Dalhousie University, Halifax,
  NS, Canada, Mar.
 \begin_inset space ~
 \end_inset
@@ -5870,6 +6001,7 @@ Teaching Experience
 \noindent
 
 \shape smallcaps
+\bar under
 Duke Kunshan University
 \end_layout
 
@@ -7601,6 +7733,7 @@ Multivariable Calculus
 \noindent
 
 \shape smallcaps
+\bar under
 Dalhousie University
 \end_layout
 
@@ -7846,6 +7979,7 @@ Introduction to Complex Variables
 \noindent
 
 \shape smallcaps
+\bar under
 Tulane University
 \end_layout
 
