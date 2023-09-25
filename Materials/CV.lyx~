@@ -4830,11 +4830,15 @@ S.
 \begin_inset space ~
 \end_inset
 
-Chern, L.
+Chern, 
+\series bold
+L.
 \begin_inset space ~
 \end_inset
 
-Jiu, and I.
+Jiu
+\series default
+, and I.
 \begin_inset space ~
 \end_inset
 
