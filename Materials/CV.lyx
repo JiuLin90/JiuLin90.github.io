@@ -1482,6 +1482,10 @@ Research Support for Killam Postdocs
 Publications 
 \end_layout
 
+\begin_layout Standard
+(While working on the papers, undergraduate students are marked with a *)
+\end_layout
+
 \begin_layout Reverse Enumerate
 
 \family roman
@@ -2108,7 +2112,7 @@ A.
 \begin_inset space ~
 \end_inset
 
-Byrnes, 
+Byrnes*, 
 \family default
 \series bold
 \shape default
@@ -4348,7 +4352,7 @@ Simonelli, and H.
 \begin_inset space ~
 \end_inset
 
-Yue, Random walk models for nontrivial identities of Bernoulli and Euler
+Yue*, Random walk models for nontrivial identities of Bernoulli and Euler
  polynomials, 
 \emph on
 Integers
@@ -4523,8 +4527,9 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
- direct proof of an inverse matrix entry from Statistics, To Appear in 
+Li*, Hankel determinants of certain sequences of Bernoulli polynomials:
+ A direct proof of an inverse matrix entry from Statistics, To Appear in
+ 
 \emph on
 Contrib.
 \begin_inset space ~
