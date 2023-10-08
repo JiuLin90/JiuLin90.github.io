@@ -1,0 +1,249 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass amsart
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 2cm
+\rightmargin 1in
+\bottommargin 2cm
+\headheight 1cm
+\headsep 1cm
+\footskip 1cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Diversity Statement
+\end_layout
+
+\begin_layout Author
+Lin Jiu
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Mathematics is usually considered as the language of the universe, as its
+ inclusive contents and objects.
+ As a mathematician, it is natural and intrinsic to accept all possibilities.
+ Although the content of mathematics leaves no room for, e.g., inequity and
+ discrimination, it does not indicate that problems do not exist beyond
+ it, such as racist, sexist, LGBTQ-phobic, ablest, etc.
+ And both intentional and unintentional behaviors can be seen.
+ Being aware of the differences, such as race, gender, nationality, disability,
+ I am delightedly to contribute to the community on building a diverse society.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Communication
+\end_layout
+
+\begin_layout Standard
+As a Chinese student studying in the US, my PhD experiences gave me the
+ lessons not only on culture shocks, but isolating and marginalized feelings,
+ ice-breaking strategies, and developing communication skills.
+ Therefore, in my teaching and research, and even daily life, I encourage
+ all types of communications.
+ 
+\end_layout
+
+\begin_layout Standard
+Traditional group work, group discussions can be a small but reliable step
+ to break the ice among students in the classroom.
+ Peer-reviewed presentations and Q&A sessions usually lead to a deeper and
+ better mutual communication.
+ I always work hard to guarantee an inclusive space, for students with various
+ background and identities to freely express themselves.
+ 
+\end_layout
+
+\begin_layout Standard
+While in research projects, besides my collaboration with diverse groups
+ of mathematicians, statisticians, and physicists, undergraduate students
+ particularly are involved.
+ Regardless the majors, identities, personalities of those students, the
+ only factors to foster those collaborations are their enthusiasm, our common
+ interests, and our contributions.
+ While organizing seminars both at Dalhousie University and here at Duke
+ Kunshan University (DKU), both undergraduate and graduate students are
+ encouraged to present the latest progress, and valuable suggestions sometimes
+ come from peers instead of instructors.
+ 
+\end_layout
+
+\begin_layout Standard
+I would assume, as the Tea Time organizer during my PhD study at Tulane
+ University, I already began to contribute to the community, on a harmonic
+ environment for communication.
+ Welcoming new students, bridging the gap between the faculty and students,
+ as well as among students with different background, etc.
+ are all achieved, by communication.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Accommodation
+\end_layout
+
+\begin_layout Standard
+My several institutes, from PhD program to postdoc positions and now as
+ a faculty, are all special and unique.
+ Such special characters are not limited to the types: private university,
+ public university, joint-venture liberal arts college, or a pure research
+ institute; and regional disparities: US, Europe, Canada, and China.
+ Such experiences require continuous adjustments and accommodation.
+ 
+\end_layout
+
+\begin_layout Standard
+I am making every possible effort to accommodate students need, such as
+ religious observances, disabilities, and both physical and mental health
+ issues.
+ Take my experiences at DKU, besides COVID-pandemic policies, I volunteered
+ the training of the ``Adviser Program for Student Care''.
+ Now as a peer adviser, we guide other faculty members, to take the first
+ action on any unusual behavior of the students, and to refer them to the
+ professional exports, such as counselors from Counseling and Psychological
+ Services (CAPS).
+ 
+\end_layout
+
+\begin_layout Standard
+In teaching, adjusting materials based on, e.g., majors, purposes, becomes
+ part of my routine.
+ Again, here at DKU, due to the special 7-week schedule, for calculus, we
+ only have one week of lectures on applications of integration.
+ Since last year, setting a survey becomes part of the teaching and different
+ sections have completely different results and I enjoy satisfying the most
+ of them.
+ 
+\end_layout
+
+\begin_layout Subsection*
+More Diverse Activities
+\end_layout
+
+\begin_layout Standard
+Diversity can mean a lot more.
+ The abundant activities in teaching, academic events, campus life, can
+ broaden students' understanding of the diverse paths to professional success,
+ irrespective of identity or background.
+ For instance, the public event: film screening of ``The Man Who Knew Infinity''
+ successfully presents to all students the life of the legendary Indian
+ mathematician Srinivasa Ramanujan.
+ Guest speakers with different races, cultures, research interests and topics
+ can offer the interactions served as eye-opening and empowering experiences
+ for students.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I will remain committed to cultivating a collaborative academic community
+ in which diversity is always appreciated, multiculturalism is recognized,
+ and faith in social justice is sustained.
+\end_layout
+
+\end_body
+\end_document
