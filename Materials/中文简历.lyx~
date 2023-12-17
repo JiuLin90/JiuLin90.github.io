@@ -837,7 +837,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 2008.09–2010.07
@@ -866,7 +866,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 北京理工大学 理学硕士 数学专业
@@ -936,7 +936,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 北京理工大学 理学学士 数学专业
@@ -1282,7 +1282,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 2021.07–2023.06
@@ -1311,7 +1311,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 昆山杜克交叉学科种子基金
@@ -1352,7 +1352,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 2017.09–2019.08
@@ -1381,7 +1381,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Killam Research Fund
@@ -2631,6 +2631,50 @@ L.
 
 Jiu
 \series default
+ and S.
+\begin_inset space ~
+\end_inset
+
+Chern, Hankel determinants and Jacobi continued fractions for 
+\begin_inset Formula $q$
+\end_inset
+
+-Euler numbers, 已接收 
+\emph on
+C.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+Math.
+\begin_inset space ~
+\end_inset
+
+Acad.
+\begin_inset space ~
+\end_inset
+
+Sci.
+\begin_inset space ~
+\end_inset
+
+Paris
+\emph default
+.
+\end_layout
+
+\begin_layout Reverse Enumerate
+
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
  and D.
 \begin_inset space ~
 \end_inset
@@ -2807,7 +2851,11 @@ Jiu
 \end_layout
 
 \begin_layout Reverse Enumerate
+S.
+\begin_inset space ~
+\end_inset
 
+Chern, 
 \series bold
 L.
 \begin_inset space ~
@@ -2815,15 +2863,11 @@ L.
 
 Jiu
 \series default
- and S.
+, and I.
 \begin_inset space ~
 \end_inset
 
-Chern, Hankel determinants and Jacobi continued fractions for 
-\begin_inset Formula $q$
-\end_inset
-
--Euler numbers, 审稿中.
+Simonelli, A central limit theorem for a card shuffling problem, 审稿中.
 \end_layout
 
 \begin_layout Section*
