@@ -2586,7 +2586,7 @@ L.
 Jiu
 \series default
 , Hankel determinants of shifted sequences of Bernoulli and Euler numbers,
- 已接收 
+ 
 \emph on
 Contrib.
 \begin_inset space ~
@@ -2594,7 +2594,11 @@ Contrib.
 
 Discrete Math
 \emph default
-.
+., 
+\series bold
+18
+\series default
+ (2023), 146–175.
 \end_layout
 
 \begin_layout Reverse Enumerate
