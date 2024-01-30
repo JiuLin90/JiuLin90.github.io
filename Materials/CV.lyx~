@@ -1201,6 +1201,72 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
+2023.01–2024.12
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Faculty Learning Community grant
+\begin_inset space \hfill{}
+\end_inset
+
+Center for Teaching and Learning
+\begin_inset VSpace 1bp
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "15col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
 2022.07–2024.06
 \end_layout
 
@@ -4503,7 +4569,7 @@ L.
 Jiu
 \series default
 , Hankel determinants of shifted sequences of Bernoulli and Euler numbers,
- To Appear in 
+ 
 \emph on
 Contrib.
 \begin_inset space ~
@@ -4511,7 +4577,11 @@ Contrib.
 
 Discrete Math
 \emph default
-.
+., 
+\series bold
+18
+\series default
+ (2023), 146–175.
 \end_layout
 
 \begin_layout Reverse Enumerate
@@ -4869,6 +4939,36 @@ Peng, Information geometry and
 \end_inset
 
 -parallel prior of the beta-logistic distribution, Submitted for Publication.
+\end_layout
+
+\begin_layout Reverse Enumerate
+S.
+\begin_inset space ~
+\end_inset
+
+Chen, 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, S.
+\begin_inset space ~
+\end_inset
+
+Li*, and L.
+\begin_inset space ~
+\end_inset
+
+Wang, Leading coefficient in the Hankel determinants related to binomial
+ and 
+\begin_inset Formula $q$
+\end_inset
+
+-binomial transforms, submitted for publication.
+ 
 \end_layout
 
 \begin_layout Section*

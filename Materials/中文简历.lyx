@@ -1116,6 +1116,72 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+2023.01–2024.12
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Faculty Learning Community grant
+\begin_inset space \hfill{}
+\end_inset
+
+Center for Teaching and Learning
+\begin_inset VSpace 1bp
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "15col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
@@ -2894,6 +2960,35 @@ Peng, Information geometry and
 -parallel prior of the beta-logistic distribution, 审稿中.
 \end_layout
 
+\begin_layout Reverse Enumerate
+S.
+\begin_inset space ~
+\end_inset
+
+Chen, 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, S.
+\begin_inset space ~
+\end_inset
+
+Li, and L.
+\begin_inset space ~
+\end_inset
+
+Wang, Leading coefficient in the Hankel determinants related to binomial
+ and 
+\begin_inset Formula $q$
+\end_inset
+
+-binomial transforms, 审稿中.
+\end_layout
+
 \begin_layout Section*
 \noindent
 
@@ -3492,6 +3587,22 @@ Random Walk Model on Finite Number of Sites
 
 \series bold
 Random Walk Models for Identities Involving Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+邀请报告
+\begin_inset Newline newline
+\end_inset
+
+2023年3月6日, 加拿大, 哈利法克斯, 戴尔豪斯大学, 数学与统计系.
+\end_layout
+
+\begin_layout Reverse Enumerate
+
+\series bold
+Shuffle to One, Shuffle to Normal
 \begin_inset Newline newline
 \end_inset
 
