@@ -2981,12 +2981,12 @@ Li, and L.
 \begin_inset space ~
 \end_inset
 
-Wang, Leading coefficients of Hankel determinants related to binomial and
- 
+Wang, Leading coefficient in the Hankel determinants related to binomial
+ and 
 \begin_inset Formula $q$
 \end_inset
 
--binomial transform, 审稿中.
+-binomial transforms, 审稿中.
 \end_layout
 
 \begin_layout Section*
@@ -3587,6 +3587,22 @@ Random Walk Model on Finite Number of Sites
 
 \series bold
 Random Walk Models for Identities Involving Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+邀请报告
+\begin_inset Newline newline
+\end_inset
+
+2023年3月6日, 加拿大, 哈利法克斯, 戴尔豪斯大学, 数学与统计系.
+\end_layout
+
+\begin_layout Reverse Enumerate
+
+\series bold
+Shuffle to One, Shuffle to Normal
 \begin_inset Newline newline
 \end_inset
 
