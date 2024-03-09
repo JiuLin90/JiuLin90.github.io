@@ -1116,7 +1116,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 2023.01–2024.12
@@ -1145,7 +1145,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Faculty Learning Community grant
@@ -1244,7 +1244,7 @@ status collapsed
 \begin_inset space \hfill{}
 \end_inset
 
-W武汉大学—昆山杜克大学
+武汉大学—昆山杜克大学
 \end_layout
 
 \begin_layout Plain Layout
@@ -2668,6 +2668,51 @@ Discrete Math
 \end_layout
 
 \begin_layout Reverse Enumerate
+S.
+\begin_inset space ~
+\end_inset
+
+Chern and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Hankel determinants and Jacobi continued fractions for 
+\begin_inset Formula $q$
+\end_inset
+
+-Euler numbers, 
+\emph on
+C.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+Math.
+ Acad.
+\begin_inset space ~
+\end_inset
+
+Sci.
+\begin_inset space ~
+\end_inset
+
+Paris 
+\series bold
+\emph default
+362
+\series default
+ (2024), 203–216.
+ 
+\end_layout
+
+\begin_layout Reverse Enumerate
 
 \series bold
 L.
@@ -2688,50 +2733,6 @@ Contrib.
 \end_inset
 
 Discrete Math
-\emph default
-.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
- and S.
-\begin_inset space ~
-\end_inset
-
-Chern, Hankel determinants and Jacobi continued fractions for 
-\begin_inset Formula $q$
-\end_inset
-
--Euler numbers, 已接收 
-\emph on
-C.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-Math.
-\begin_inset space ~
-\end_inset
-
-Acad.
-\begin_inset space ~
-\end_inset
-
-Sci.
-\begin_inset space ~
-\end_inset
-
-Paris
 \emph default
 .
 \end_layout
@@ -3612,7 +3613,7 @@ Shuffle to One, Shuffle to Normal
 \begin_inset Newline newline
 \end_inset
 
-2023年3月6日, 加拿大, 哈利法克斯, 戴尔豪斯大学, 数学与统计系.
+2024年1月31日, 加拿大, 哈利法克斯, 戴尔豪斯大学, 数学与统计系.
 \end_layout
 
 \begin_layout Section*

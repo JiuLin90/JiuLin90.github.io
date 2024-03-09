@@ -162,6 +162,10 @@ End
 Publication List
 \end_layout
 
+\begin_layout Standard
+While working on the papers, undergraduate students are marked with a *
+\end_layout
+
 \begin_layout Subsection*
 
 \series bold
@@ -392,6 +396,36 @@ Simonelli, A central limit theorem for a card shuffling problem, Submitted
  for Publication.
 \end_layout
 
+\begin_layout Reverse Enumerate
+S.
+\begin_inset space ~
+\end_inset
+
+Chen, 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, S.
+\begin_inset space ~
+\end_inset
+
+Li*, and L.
+\begin_inset space ~
+\end_inset
+
+Wang, Leading coefficient in the Hankel determinants related to binomial
+ and 
+\begin_inset Formula $q$
+\end_inset
+
+-binomial transforms, Submitted for publication.
+ 
+\end_layout
+
 \begin_layout Standard
 \noindent
 \begin_inset CommandInset line
@@ -414,31 +448,6 @@ height "1pt"
 \series bold
 \shape italic
 Accepted
-\end_layout
-
-\begin_layout Reverse Enumerate
-K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, Hankel determinants of shifted sequences of Bernoulli and Euler numbers,
- To Appear in 
-\emph on
-Contrib.
-\begin_inset space ~
-\end_inset
-
-Discrete Math
-\emph default
-.
 \end_layout
 
 \begin_layout Reverse Enumerate
@@ -467,91 +476,6 @@ Discrete Math
 .
 \end_layout
 
-\begin_layout Reverse Enumerate
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-S.
-\begin_inset space ~
-\end_inset
-
-Chern and 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, Hankel determinants and Jacobi continued fractions for 
-\begin_inset Formula $q$
-\end_inset
-
--Euler numbers, To Appear in 
-\family default
-\series default
-\shape default
-\size default
-\emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-C.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-Math.
- Acad.
-\begin_inset space ~
-\end_inset
-
-Sci.
-\begin_inset space ~
-\end_inset
-
-Paris.
-\end_layout
-
 \begin_layout Standard
 \noindent
 \begin_inset CommandInset line
@@ -574,10 +498,6 @@ height "1pt"
 \series bold
 \shape italic
 Published
-\end_layout
-
-\begin_layout Standard
-(While working on the papers, undergraduate students are marked with a *)
 \end_layout
 
 \begin_layout Reverse Enumerate
@@ -3580,6 +3500,127 @@ Open Math
 21
 \series default
  (2023), Article number: 20220581.
+ 
+\end_layout
+
+\begin_layout Reverse Enumerate
+K.
+\begin_inset space ~
+\end_inset
+
+Dilcher and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Hankel determinants of shifted sequences of Bernoulli and Euler numbers,
+ 
+\emph on
+Contrib.
+\begin_inset space ~
+\end_inset
+
+Discrete Math
+\emph default
+.
+\begin_inset space ~
+\end_inset
+
+
+\series bold
+18
+\series default
+ (2023), 146–175.
+\end_layout
+
+\begin_layout Reverse Enumerate
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+S.
+\begin_inset space ~
+\end_inset
+
+Chern and 
+\family default
+\series bold
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, Hankel determinants and Jacobi continued fractions for 
+\begin_inset Formula $q$
+\end_inset
+
+-Euler numbers, To Appear in 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+C.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+Math.
+ Acad.
+\begin_inset space ~
+\end_inset
+
+Sci.
+\begin_inset space ~
+\end_inset
+
+Paris 
+\emph default
+362 (2024), 203–216.
  
 \end_layout
 

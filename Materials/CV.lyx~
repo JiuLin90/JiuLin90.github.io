@@ -3874,32 +3874,13 @@ Vignat, Connection coefficients for higher-order Bernoulli and Euler polynomials
 \uwave default
 \noun default
 \color inherit
-Fibonacci Quart
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-. 
-\family default
+Fibonacci Quart.
+\begin_inset space ~
+\end_inset
+
+
 \series bold
-\shape default
-\size default
 \emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
 57
 \family roman
 \series medium
@@ -4423,7 +4404,7 @@ Yue*, Loop Decompositions of Random Walks and Nontrivial Identities of Bernoulli
 \emph on
 Integers
 \emph default
-, 
+ 
 \series bold
 22
 \series default
@@ -4577,37 +4558,15 @@ Contrib.
 
 Discrete Math
 \emph default
-., 
+.
+\begin_inset space ~
+\end_inset
+
+
 \series bold
 18
 \series default
  (2023), 146–175.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
- and Y.
-\begin_inset space ~
-\end_inset
-
-Li*, Hankel determinants of certain sequences of Bernoulli polynomials:
- A direct proof of an inverse matrix entry from Statistics, To Appear in
- 
-\emph on
-Contrib.
-\begin_inset space ~
-\end_inset
-
-Discrete Math
-\emph default
-.
 \end_layout
 
 \begin_layout Reverse Enumerate
@@ -4662,7 +4621,7 @@ Jiu
 \begin_inset Formula $q$
 \end_inset
 
--Euler numbers, To Appear in 
+-Euler numbers, 
 \family default
 \series default
 \shape default
@@ -4684,10 +4643,7 @@ R.
 \end_inset
 
 Math.
-\begin_inset space ~
-\end_inset
-
-Acad.
+ Acad.
 \begin_inset space ~
 \end_inset
 
@@ -4695,7 +4651,39 @@ Sci.
 \begin_inset space ~
 \end_inset
 
-Paris.
+Paris 
+\series bold
+\emph default
+362
+\series default
+ (2024), 203–216.
+ 
+\end_layout
+
+\begin_layout Reverse Enumerate
+
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+ and Y.
+\begin_inset space ~
+\end_inset
+
+Li*, Hankel determinants of certain sequences of Bernoulli polynomials:
+ A direct proof of an inverse matrix entry from Statistics, To Appear in
+ 
+\emph on
+Contrib.
+\begin_inset space ~
+\end_inset
+
+Discrete Math
+\emph default
+.
 \end_layout
 
 \begin_layout Reverse Enumerate
@@ -5638,6 +5626,27 @@ Department of Mathematics and Statistics, Dalhousie University, Halifax,
 \end_inset
 
 6, 2023.
+ 
+\end_layout
+
+\begin_layout Reverse Enumerate
+
+\series bold
+Shuffle to One, Shuffle to Normal
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Invited Seminar Talk, 
+\emph default
+Department of Mathematics and Statistics, Dalhousie University, Halifax,
+ NS, Canada, Jan.
+\begin_inset space ~
+\end_inset
+
+31, 2024.
  
 \end_layout
 
