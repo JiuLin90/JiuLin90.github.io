@@ -128,20 +128,36 @@ Research Statement
 \end_layout
 
 \begin_layout Standard
-As an experimental mathematician, I apply computer software and algorithms,
- where computation is used to investigate mathematical objects and identify
- properties and patterns.
- My broaden research interests include Number Theory, Combinatorics, Probability
- and Differential Geometry.
- Primarily, I study certain numbers, sequences, polynomials, special functions,
- combinatorial identities, geometric structures, and algorithms; I also
- focus on their properties that computer algorithms can (in-)directly guide
- or help to prove.
- Unlike numerical analysts, who simulate and approximate with models, I
- pursue analytic and accurate expression and solutions, instead of approximation
-s.
- More precisely, I mainly work on the following topics.
+As an experimental mathematician, computer software, especially certain
+ algorithms, plays an essential role in my research.
+ Computation and visulization are used to investigate patterns, make conjectures
+, and simulate mathematical structures and patterns.
+ My broaden research interests include 
+\series bold
+number theory
+\series default
+, 
+\series bold
+combinatorics
+\series default
+, 
+\series bold
+probability
+\series default
+ and 
+\series bold
+information geometry
+\series default
+.
+ Primarily applying probabilistic and symbolic methods, I mainly study certain
+ numbers, sequences, polynomials, special functions, combinatorial identities,
+ geometric structures, and algorithms; I also focus on their properties
+ that computer algorithms can (in-)directly guide or help to prove.
  
+\end_layout
+
+\begin_layout Standard
+More precisely, I am interested and working 
 \end_layout
 
 \begin_layout Section
@@ -3677,10 +3693,9 @@ Paris, Ser.
 \end_inset
 
 1
-\emph default
-, 
 \series bold
-12
+\emph default
+ 12
 \series default
  (2014), 977-984.
 \end_layout

@@ -128,20 +128,36 @@ Research Statement
 \end_layout
 
 \begin_layout Standard
-As an experimental mathematician, my research topics involve computer software
- and algorithms, where computation is used to investigate mathematical objects
- and identify properties and patterns.
- My broaden research interests include Number Theory, Combinatorics, Differentia
-l Geometry, and Quantum Computing.
- Primarily, I study certain numbers, sequences, polynomials, special functions,
- combinatorial identities, geometric structures, and quantum algorithms,
- and I focus on their properties that computer algorithms can (in-)directly
- guide or help to prove.
- Unlike numerical analysts, who simulate and approximate with models, I
- pursue analytic and accurate expression and solutions, instead of approximation
-s.
- More precisely, I mainly work on the following topics.
+As an experimental mathematician, computer software, especially certain
+ algorithms, plays an essential role in my research.
+ Computation and visulization are used to investigate patterns, make conjectures
+, and simulate mathematical structures and patterns.
+ My broaden research interests include 
+\series bold
+number theory
+\series default
+, 
+\series bold
+combinatorics
+\series default
+, 
+\series bold
+probability
+\series default
+ and 
+\series bold
+information geometry
+\series default
+.
+ Primarily applying probabilistic and symbolic methods, I mainly study certain
+ numbers, sequences, polynomials, special functions, combinatorial identities,
+ geometric structures, and algorithms; I also focus on their properties
+ that computer algorithms can (in-)directly guide or help to prove.
  
+\end_layout
+
+\begin_layout Standard
+More precisely, I am interested and working 
 \end_layout
 
 \begin_layout Section
@@ -163,7 +179,11 @@ literal "true"
 
 ) are my favorite objects, and my main tool is the 
 \emph on
-Bernoulli and Euler symbols
+Bernoulli 
+\emph default
+and
+\emph on
+ Euler symbols
 \emph default
 , denoted by 
 \begin_inset Formula $\mathcal{B}$
@@ -214,7 +234,11 @@ where
 \uwave default
 \noun default
 \color inherit
-Bernoulli and Euler numbers.
+Bernoulli 
+\emph default
+and
+\emph on
+ Euler numbers.
  
 \family roman
 \series medium
@@ -293,7 +317,7 @@ p_{B}(t):=\pi\mathrm{sech}^{2}(\pi t)/2\ \ \ \text{and}\ \ \ p_{E}(t):=\mathrm{s
 
 \end_inset
 
-we define two random variables 
+we can define two random variables: 
 \begin_inset Formula $L_{B}$
 \end_inset
 
@@ -329,9 +353,9 @@ reference "eq:ProbS"
 
 \end_inset
 
- implies the evaluation rules are exactly taking the expectation.
- This probabilistic interpretation widely not only provides a rigorous backgroun
-d, also largely extends the application of symbolic computations.
+ implies the evaluation rules are exactly calculating the expectation.
+ This probabilistic interpretation not only provides a rigorous background,
+ also largely extends the application of symbolic computations.
  
 \end_layout
 
@@ -361,11 +385,7 @@ i.
 \begin_inset space ~
 \end_inset
 
-d.
-\begin_inset space ~
-\end_inset
-
-) random variables with each 
+d.) random variables with each 
 \begin_inset Formula $\mathcal{B}_{i}$
 \end_inset
 
@@ -450,7 +470,7 @@ B_{n}(\mathbf{a};x)=\mathbb{E}\left[\frac{\left(x+a_{1}\mathcal{B}_{1}+\cdots+a_
 \end_inset
 
 where 
-\begin_inset Formula $\boldsymbol{\mathcal{B}}=\left(\mathcal{B}_{1},\ldots,\mathcal{B}_{k}\right)$
+\begin_inset Formula $\boldsymbol{\mathcal{B}}=(\mathcal{B}_{1},\ldots,\mathcal{B}_{k})$
 \end_inset
 
  and 
@@ -462,11 +482,7 @@ where
 
 \begin_layout Standard
 Results based on symbolic expressions extends traditional ones.
- For the Bernoulli-Barnes polynomials 
-\begin_inset Formula $B_{n}(\mathbf{a};x)$
-\end_inset
-
-, Bayad and Beck 
+ For instance, Bayad and Beck 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "AB_MB_BB-1"
@@ -474,16 +490,20 @@ literal "true"
 
 \end_inset
 
- obtained several properties such as the difference formula
+ obtained several properties on the Bernoulli-Barnes polynomials 
+\begin_inset Formula $B_{n}(\mathbf{a};x)$
+\end_inset
+
+, such as the difference formula
 \begin_inset Formula 
 \begin{equation}
-(-1)^{m}B_{m}(\mathbf{a};-x)-B_{m}\left(\mathbf{a};x\right)=m!\sum_{j=0}^{n-1}\sum_{\left|J\right|=j}\frac{B_{m-n+j}(\mathbf{a}_{J};x)}{(m-n+j)!};\label{eq:difference}
+(-1)^{m}B_{m}(\mathbf{a};-x)-B_{m}(\mathbf{a};x)=m!\sum_{j=0}^{n-1}\sum_{\left|J\right|=j}\frac{B_{m-n+j}(\mathbf{a}_{J};x)}{(m-n+j)!};\label{eq:difference}
 \end{equation}
 
 \end_inset
 
 and the self-duality of sequence 
-\begin_inset Formula $\left(\left(-1/A\right)^{n}B_{n}(\mathbf{a};0)\right)_{n=0}^{\infty}$
+\begin_inset Formula $((-1/A)^{n}B_{n}(\mathbf{a};0))_{n=0}^{\infty}$
 \end_inset
 
 , where 
@@ -499,7 +519,7 @@ literal "true"
 
 \end_inset
 
-, based on the symbolic expression, we show that, for polynomial 
+, based on the symbolic expression, we show that, for any polynomial 
 \begin_inset Formula $P$
 \end_inset
 
@@ -561,7 +581,7 @@ reference "eq:difference"
 
  gives a more general result.
  Also, for the self-duality of 
-\begin_inset Formula $\left(\left(-1/A\right)^{n}B_{n}(\mathbf{a};0)\right)_{n=0}^{\infty}$
+\begin_inset Formula $((-1/A)^{n}B_{n}(\mathbf{a};0))_{n=0}^{\infty}$
 \end_inset
 
 , we gave a direct proof that Bayad and Beck asked for.
@@ -764,7 +784,7 @@ literal "true"
 \end_inset
 
 but also recognize that 
-\begin_inset Formula $\Omega_{n}^{(p)}(y)=i^{n}n!P_{n}^{\left(\frac{p}{2}\right)}\left(-i\left(y-x+\frac{p}{2}\right);\frac{\pi}{2}\right)/2^{n}$
+\begin_inset Formula $\Omega_{n}^{(p)}(y)=i^{n}n!P_{n}^{(p/2)}\left(-i\left(y-x+\frac{p}{2}\right);\frac{\pi}{2}\right)/2^{n}$
 \end_inset
 
  for Meixner-Pollaczek polynomial 
@@ -940,6 +960,10 @@ literal "true"
 \end_layout
 
 \begin_layout Subsection
+Probabilistic Models 
+\end_layout
+
+\begin_layout Subsubsection
 Random walk, Brownian motion, and Bessel process
 \end_layout
 
@@ -1008,7 +1032,13 @@ literal "true"
 \end_inset
 
 .
- Inspired by this idea, we further explored another probabilistic method
+ This was the trigger to explore more probabilistic models involving objects
+ in combinatorics and number theory.
+ 
+\end_layout
+
+\begin_layout Standard
+Inspired by this idea, we further explored another probabilistic method
  in 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1026,7 +1056,7 @@ literal "true"
 \begin_inset Formula $3$
 \end_inset
 
--dim Bessel process and especially studying the hitting times for consecutive
+-dim Bessel process and especially decomposing the hitting times for consecutive
  level sites, we obtained several identities involving 
 \begin_inset Formula $B_{n}^{(p)}(x)$
 \end_inset
@@ -1036,11 +1066,7 @@ literal "true"
 \end_inset
 
 .
- 
-\end_layout
-
-\begin_layout Standard
-Recently, we 
+ Recently, we 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Edward"
@@ -1079,6 +1105,115 @@ B_{n+1}\left(\frac{x+2}{5}\right)-B_{n+1}\left(\frac{x}{5}\right)=\frac{n+1}{5^{
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Shuffling model
+\end_layout
+
+\begin_layout Standard
+The very recent work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "CJS"
+literal "false"
+
+\end_inset
+
+ studies the uniform shuffling on 
+\begin_inset Formula $n$
+\end_inset
+
+ cards, i.e., each result has probability 
+\begin_inset Formula $1/n!$
+\end_inset
+
+.
+ Then, merge the maximal consecutive integer subsequences and reduce the
+ number of cards into the current remaining one.
+ The model was introduced by Rao et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "RZHC"
+literal "false"
+
+\end_inset
+
+ to model the number of times that catalysts must be added to 
+\begin_inset Formula $n$
+\end_inset
+
+ molecules to bond into a single lump.
+ The molecules have a given hierarchical order which led to the above mathematic
+al formulation of the process.
+ They studied the number of permutations needed for the process to end,
+ 
+\begin_inset Formula $X_{n}$
+\end_inset
+
+; and obtained the asymptotic behavior of the mean as 
+\begin_inset Formula 
+\[
+n\leq\mathbb{E}[X_{n}]\leq n+\sqrt{n}\Rightarrow\mathbb{E}[X_{n}]\sim n.
+\]
+
+\end_inset
+
+Our work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "CJS"
+literal "false"
+
+\end_inset
+
+ not only improved it by
+\begin_inset Formula 
+\begin{equation}
+\mathbb{E}[X_{n}]=n+\left(1+\frac{1}{2}+\cdots\frac{1}{n-1}\right)+\varepsilon_{n},\quad\text{with}\quad0\leq\varepsilon_{n}-\varepsilon_{n+1}\leq\frac{1}{n^{2}},\label{eq:epsilon}
+\end{equation}
+
+\end_inset
+
+which also indicates that 
+\begin_inset Formula $\varepsilon_{n}$
+\end_inset
+
+ has a limit.
+ More importantly, the simulation in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "RZHC"
+literal "false"
+
+\end_inset
+
+, for 
+\begin_inset Formula $X_{2},\ldots,X_{100}$
+\end_inset
+
+ hinted that the asymptotic distribution of 
+\begin_inset Formula $X_{n}$
+\end_inset
+
+ would tend to be normal.
+ While, we completely solve it in the affirmative, i.e., we proved that 
+\begin_inset Formula 
+\[
+\frac{X_{n}-n}{\sqrt{n}}\overset{w}{\rightarrow}\mathcal{N}(0,1),
+\]
+
+\end_inset
+
+by estimating all the central moments of 
+\begin_inset Formula $X_{n}$
+\end_inset
+
+.
+ As a by product, certain limits related to the sequence involve the Bell
+ numbers.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -1155,6 +1290,40 @@ literal "false"
  
 \end_layout
 
+\begin_layout Standard
+The very recent work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "CJ"
+literal "false"
+
+\end_inset
+
+ extends the sequences to the 
+\begin_inset Formula $q$
+\end_inset
+
+-analogues, of the Euler polynomials.
+ Current in-progress project, also involving an undergraduate student, also
+ aims at 
+\begin_inset Formula $q$
+\end_inset
+
+-analogues, and making fully use of the Bernoulli and Euler symbols, mentioned
+ in 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:ProbS"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
 \begin_layout Subsection
 Some Future Plans
 \end_layout
@@ -1165,7 +1334,7 @@ A long project right now is based on mutual connections among orthogonal
  see, e.g., 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "DJ3,DJ2,DJ1,Diane"
+key "CJ,DJ3,DJ2,DJ1,Diane"
 literal "false"
 
 \end_inset
@@ -1215,6 +1384,27 @@ Those lattice and corresponding tree structures are also related to certain
 \end_inset
 
 Jun Ma from Shanghai Jiao Tong University.
+\end_layout
+
+\begin_layout Itemize
+Also, to continue the project on the shuffling model, we are now working
+ on finding and proving the limit of 
+\begin_inset Formula $\varepsilon_{n}$
+\end_inset
+
+ in 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:epsilon"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ And more general but similar shuffling models are also of our interests.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1484,9 +1674,9 @@ literal "false"
 \end_layout
 
 \begin_layout Itemize
-I contributed to a joint grant application for a ``Wuhan University—Duke
- Kunshan University—University of Minnesota, Twin Cities Joint Research
- Platform'', together with Dr.
+I contributed to an awarded joint grant ``Wuhan University—Duke Kunshan
+ University—University of Minnesota, Twin Cities Joint Research Platform'',
+ together with Dr.
 \begin_inset space ~
 \end_inset
 
@@ -1637,6 +1827,129 @@ Theory Ser.
 A
 \emph default
 , 172(2020) Article 105191.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "CJ"
+literal "false"
+
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+S.
+\begin_inset space ~
+\end_inset
+
+Chern and 
+\family default
+\series bold
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, Hankel determinants and Jacobi continued fractions for 
+\begin_inset Formula $q$
+\end_inset
+
+-Euler numbers, To Appear in 
+\family default
+\series default
+\shape default
+\size default
+\emph on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+C.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+Math.
+\begin_inset space ~
+\end_inset
+
+Acad.
+\begin_inset space ~
+\end_inset
+
+Sci.
+\begin_inset space ~
+\end_inset
+
+Paris.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "CJS"
+literal "false"
+
+\end_inset
+
+S.
+\begin_inset space ~
+\end_inset
+
+Chern, 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, and I.
+\begin_inset space ~
+\end_inset
+
+Simonelli, A central limit theorem for a card shuffling problem, Submitted
+ for Publication.
 \end_layout
 
 \begin_layout Bibliography
@@ -2286,9 +2599,15 @@ Jiu
 \end_inset
 
 Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
- direct proof of an inverse matrix entry from Statistics, Submitted for
- Publication.
- 
+ direct proof of an inverse matrix entry from Statistics, To Appear in 
+\emph on
+Contrib.
+\begin_inset space ~
+\end_inset
+
+Discrete Math
+\emph default
+.
 \end_layout
 
 \begin_layout Bibliography
@@ -3135,6 +3454,49 @@ NIST Handbook of Mathematical Functions
 \end_inset
 
 Press, 2010.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "RZHC"
+literal "false"
+
+\end_inset
+
+M.
+\begin_inset space ~
+\end_inset
+
+Rao, H.
+\begin_inset space ~
+\end_inset
+
+Zhang, C.
+\begin_inset space ~
+\end_inset
+
+Huang, and F.-C.
+\begin_inset space ~
+\end_inset
+
+Cheng, A discrete probability problem in card shuffling, 
+\emph on
+Comm.
+\begin_inset space ~
+\end_inset
+
+Statist.
+\begin_inset space ~
+\end_inset
+
+Theory Methods 
+\series bold
+\emph default
+45
+\series default
+ (2016), , 612–620.
+ 
 \end_layout
 
 \begin_layout Bibliography

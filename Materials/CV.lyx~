@@ -3807,7 +3807,7 @@ Math
 \uwave off
 \noun off
 \color none
-. 
+.
 \family default
 \series bold
 \shape default
@@ -3820,6 +3820,10 @@ Math
 \uwave default
 \noun default
 \color inherit
+
+\begin_inset space ~
+\end_inset
+
 158
 \family roman
 \series medium
