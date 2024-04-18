@@ -62,7 +62,8 @@ enumitem
 \use_package undertilde 1
 \cite_engine natbib
 \cite_engine_type numerical
-\biblio_style plain
+\biblio_style plainnat
+\multibib part
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -128,15 +129,25 @@ Research Statement
 \end_layout
 
 \begin_layout Standard
-As an experimental mathematician, computer software, especially certain
- algorithms, plays an essential role in my research.
- Computation and visulization are used to investigate patterns, make conjectures
-, and simulate mathematical structures and patterns.
- My broaden research interests include 
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -1.3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I am an experimental mathematician working mainly in 
 \series bold
 number theory
 \series default
-, 
+, also intersecting with 
 \series bold
 combinatorics
 \series default
@@ -144,31 +155,51 @@ combinatorics
 \series bold
 probability
 \series default
- and 
+, and 
 \series bold
-information geometry
+differential geometry
 \series default
 .
- Primarily applying probabilistic and symbolic methods, I mainly study certain
- numbers, sequences, polynomials, special functions, combinatorial identities,
- geometric structures, and algorithms; I also focus on their properties
- that computer algorithms can (in-)directly guide or help to prove.
+ Computer software, programming languages, especially certain algorithms
+ play an essential role in my research, by providing calculations, simulations,
+ visualizations, and etc., for empirical evidence of conjectures.
+ Primarily applying probabilistic and symbolic methods, I focus on certain
+ 
+\emph on
+numbers, sequences, polynomials, special functions, combinatorial identities,
+ geometric structures, algorithms
+\emph default
+, and their properties that computer algorithms can (in-)directly guide
+ or help to prove.
  
 \end_layout
 
 \begin_layout Standard
-More precisely, I am interested and working 
+In the next sections, I will briefly describe current and future projects.
+ 
 \end_layout
 
 \begin_layout Section
-Special Functions and Polynomials in Number Theory and Combinatorics.
+Probabilistic Approach
 \end_layout
 
 \begin_layout Standard
-This is my main research area, and I focus on special functions and polynomials
- that are either important, or have deep connections with other fields of
- mathematics.
- For instance, Bernoulli and Euler polynomials (e.g., 
+Large portion of my research topics, methods, and background involve probability
+: either by probabilistic approach, or some direct results in probability.
+ 
+\end_layout
+
+\begin_layout Subsection
+The Bernoulli and Euler Symbol
+\end_layout
+
+\begin_layout Standard
+For all the special functions and polynomials that are either important,
+ or have deep connections with other fields of mathematics, 
+\series bold
+Bernoulli and Euler polynomials
+\series default
+ (e.g., 
 \begin_inset CommandInset citation
 LatexCommand citep
 after "Chpt.~24"
@@ -177,7 +208,21 @@ literal "true"
 
 \end_inset
 
-) are my favorite objects, and my main tool is the 
+) are among my favorite ones.
+ Some early results are summarized in the second part of my Ph.
+\begin_inset space ~
+\end_inset
+
+D thesis 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "PHD"
+literal "false"
+
+\end_inset
+
+.
+ The main tools here are the 
 \emph on
 Bernoulli 
 \emph default
@@ -292,8 +337,7 @@ literal "true"
 \end_inset
 
 ).
- Meanwhile, recent results interpret them as certain random variables.
- More specifically, 
+ Meanwhile, 
 \family default
 \series default
 \shape default
@@ -305,19 +349,37 @@ literal "true"
 \uwave default
 \noun default
 \color inherit
-by letting, for 
-\begin_inset Formula $t\in\mathbb{R}$
+the probabilistic interpretations (See, e.g., 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "Thm.~2.3"
+key "ZagierI"
+literal "false"
+
 \end_inset
 
-, 
+ and 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "Prop.~2.1"
+key "06"
+literal "false"
+
+\end_inset
+
+) view both symbols as random variables:
 \begin_inset Formula 
-\[
-p_{B}(t):=\pi\mathrm{sech}^{2}(\pi t)/2\ \ \ \text{and}\ \ \ p_{E}(t):=\mathrm{sech}(\pi t),
-\]
+\begin{equation}
+\mathcal{B}=iL_{B}-1/2\ \ \ \text{and}\ \ \ \mathcal{E}=iL_{E}-1/2,\label{eq:ProbS}
+\end{equation}
 
 \end_inset
 
-we can define two random variables: 
+where 
+\begin_inset Formula $i^{2}=-1$
+\end_inset
+
+, and two random variables 
 \begin_inset Formula $L_{B}$
 \end_inset
 
@@ -325,7 +387,7 @@ we can define two random variables:
 \begin_inset Formula $L_{E}$
 \end_inset
 
- with density functions 
+ have density functions 
 \begin_inset Formula $p_{B}$
 \end_inset
 
@@ -333,15 +395,11 @@ we can define two random variables:
 \begin_inset Formula $p_{E}$
 \end_inset
 
-, respectively.
- Then, with 
-\begin_inset Formula $i^{2}=-1$
-\end_inset
-
-, we have 
+, respectively, as follows.
+ 
 \begin_inset Formula 
 \begin{equation}
-\mathcal{B}=iL_{B}-1/2\ \ \ \text{and}\ \ \ \mathcal{E}=iL_{E}-1/2.\label{eq:ProbS}
+p_{B}(t):=\pi\mathrm{sech}^{2}(\pi t)/2\ \ \ \text{and}\ \ \ p_{E}(t):=\mathrm{sech}(\pi t).\label{eq:DensitiesBE}
 \end{equation}
 
 \end_inset
@@ -354,73 +412,37 @@ reference "eq:ProbS"
 \end_inset
 
  implies the evaluation rules are exactly calculating the expectation.
- This probabilistic interpretation not only provides a rigorous background,
- also largely extends the application of symbolic computations.
+ This probabilistic setup not only provides a rigorous background, also
+ largely extends the application of symbolic computations.
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Extensions
 \end_layout
 
 \begin_layout Standard
-Beyond traditional umbral symbol that only expresses Bernoulli and Euler
- polynomials, by viewing them as random variables, we could define 
+As random variables, we can consider the sum of independent and identically
+ distributed (i.i.d.) sequence
 \begin_inset Formula 
 \[
-\mathcal{B}^{(p)}:=\mathcal{B}_{1}+\cdots+\mathcal{B}_{p}\ \ \ \text{and}\ \ \ \mathcal{E}^{(p)}:=\mathcal{E}_{1}+\cdots+\mathcal{E}_{p}.
+\mathcal{B}^{(p)}:=\mathcal{B}_{1}+\cdots+\mathcal{B}_{p}\ \ \ \text{and}\ \ \ \mathcal{E}^{(p)}:=\mathcal{E}_{1}+\cdots+\mathcal{E}_{p},
 \]
 
 \end_inset
 
-Here, 
-\begin_inset Formula $(\mathcal{B}_{i})_{i=1}^{p}$
-\end_inset
-
- is a sequence of independent and identically distributed (i.
-\begin_inset space ~
-\end_inset
-
-i.
-\begin_inset space ~
-\end_inset
-
-d.) random variables with each 
-\begin_inset Formula $\mathcal{B}_{i}$
-\end_inset
-
- having the same distribution as 
-\begin_inset Formula $\mathcal{B}$
-\end_inset
-
-, denoted as 
+where 
 \begin_inset Formula $\mathcal{B}_{i}\sim\mathcal{B}$
 \end_inset
 
-.
- Similarly define a sequence of i.
-\begin_inset space ~
-\end_inset
-
-i.
-\begin_inset space ~
-\end_inset
-
-d.
-\begin_inset space ~
-\end_inset
-
-random variables 
-\begin_inset Formula $(\mathcal{E}_{i})_{i=1}^{p}$
-\end_inset
-
- with 
+ and similarly, 
 \begin_inset Formula $\mathcal{E}_{i}\sim\mathcal{E}$
 \end_inset
 
 .
- Then, extensions on higher-order polynomials and Bernoulli-Barnes ones
- are expressed, symbolically as follows.
+ Then, extensions on higher-order polynomials and Bernoulli-Barnes polynomials
+ also admit symbolic expressions, which do not appear in traditional umbral
+ calculus.
  
 \end_layout
 
@@ -437,11 +459,11 @@ Bernoulli and Euler polynomials of order
 \begin_inset Formula $E_{n}^{(p)}(x)$
 \end_inset
 
-:
+, are given by
 \begin_inset Formula 
-\[
-B_{n}^{(p)}(x)=\mathbb{E}\left[\left(x+\mathcal{B}^{(p)}\right)^{n}\right]\ \ \ \text{and}\ \ \ E_{n}^{(p)}(x)=\mathbb{E}\left[\left(x+\mathcal{E}^{(p)}\right)^{n}\right];
-\]
+\begin{equation}
+B_{n}^{(p)}(x)=\mathbb{E}\left[\left(x+\mathcal{B}^{(p)}\right)^{n}\right]\ \ \ \text{and}\ \ \ E_{n}^{(p)}(x)=\mathbb{E}\left[\left(x+\mathcal{E}^{(p)}\right)^{n}\right];\label{eq:HigherOrder}
+\end{equation}
 
 \end_inset
 
@@ -449,7 +471,7 @@ B_{n}^{(p)}(x)=\mathbb{E}\left[\left(x+\mathcal{B}^{(p)}\right)^{n}\right]\ \ \ 
 \end_layout
 
 \begin_layout Itemize
-Bernoulli-Barnes polynomials 
+and Bernoulli-Barnes polynomials 
 \begin_inset Formula $B_{n}(\mathbf{a};x)$
 \end_inset
 
@@ -461,11 +483,11 @@ Bernoulli-Barnes polynomials
 \begin_inset Formula $a_{l}\neq0$
 \end_inset
 
-:
+ can be expressed as 
 \begin_inset Formula 
-\[
-B_{n}(\mathbf{a};x)=\mathbb{E}\left[\frac{\left(x+a_{1}\mathcal{B}_{1}+\cdots+a_{k}\mathcal{B}_{k}\right)^{n}}{a_{1}a_{2}\cdots a_{k}}\right],
-\]
+\begin{equation}
+B_{n}(\mathbf{a};x)=\mathbb{E}\left[\frac{\left(x+a_{1}\mathcal{B}_{1}+\cdots+a_{k}\mathcal{B}_{k}\right)^{n}}{a_{1}a_{2}\cdots a_{k}}\right],\label{eq:BernoulliBarnes}
+\end{equation}
 
 \end_inset
 
@@ -482,44 +504,25 @@ where
 
 \begin_layout Standard
 Results based on symbolic expressions extends traditional ones.
- For instance, Bayad and Beck 
+ For instance, In 
 \begin_inset CommandInset citation
 LatexCommand citep
+after "Thm.~2.2"
+key "10"
+literal "true"
+
+\end_inset
+
+, we extended a difference formula by Bayad and Beck 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "Thm.~5.1"
 key "AB_MB_BB-1"
 literal "true"
 
 \end_inset
 
- obtained several properties on the Bernoulli-Barnes polynomials 
-\begin_inset Formula $B_{n}(\mathbf{a};x)$
-\end_inset
-
-, such as the difference formula
-\begin_inset Formula 
-\begin{equation}
-(-1)^{m}B_{m}(\mathbf{a};-x)-B_{m}(\mathbf{a};x)=m!\sum_{j=0}^{n-1}\sum_{\left|J\right|=j}\frac{B_{m-n+j}(\mathbf{a}_{J};x)}{(m-n+j)!};\label{eq:difference}
-\end{equation}
-
-\end_inset
-
-and the self-duality of sequence 
-\begin_inset Formula $((-1/A)^{n}B_{n}(\mathbf{a};0))_{n=0}^{\infty}$
-\end_inset
-
-, where 
-\begin_inset Formula $A:=a_{1}+\cdots+a_{n}\neq0$
-\end_inset
-
-, and the symmetry formula.
- In 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Bernoulli-Barnes-1"
-literal "true"
-
-\end_inset
-
-, based on the symbolic expression, we show that, for any polynomial 
+, symbolically, that for any polynomial 
 \begin_inset Formula $P$
 \end_inset
 
@@ -551,40 +554,779 @@ where
 \begin_inset Formula $J^{*}=[n]\backslash J$
 \end_inset
 
+.
+ 
+\end_layout
 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-, which, by taking 
-\begin_inset Formula $P(x)=x^{m}/(\left|\mathbf{a}\right|m!)$
+\begin_layout Standard
+While in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "06"
+literal "false"
+
 \end_inset
 
- gives 
+, not only did we apply the random variable interpretation to establish
+ and prove identities, an expected observation (see 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "Note 4.8"
+key "06"
+literal "false"
+
+\end_inset
+
+) triggers more probabilistic models involving objects in combinatorics
+ and number theory, especially for finding and proving identities involving
+ Bernoulli and Euler polynomials with their higher-order extensions.
+ This will be stated in Subsection 
 \begin_inset CommandInset ref
-LatexCommand eqref
-reference "eq:difference"
+LatexCommand ref
+reference "subsec:RandomWalk"
+plural "false"
+caps "false"
+noprefix "false"
 
 \end_inset
 
 .
- Namely, the symbolic expression of 
-\begin_inset Formula $B_{n}(\mathbf{a};x)$
+\end_layout
+
+\begin_layout Subsubsection
+Orthogonal polynomials, Hankel determinants, and continued fractions
+\end_layout
+
+\begin_layout Standard
+Admittedly, one does not need the probabilistic background, e.g., random variable,
+ probability measure, moments, etc., to study orthogonal polynomials, Hankel
+ determinants, continued fractions, weighted lattice path, generalized Motzkin
+ number, and other related topics.
+ Comprehensive introduction on basics and facts can be found, e.g., in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "AC-1,Ismail"
+literal "false"
+
 \end_inset
 
- gives a more general result.
- Also, for the self-duality of 
-\begin_inset Formula $((-1/A)^{n}B_{n}(\mathbf{a};0))_{n=0}^{\infty}$
+.
+ Personally, it IS the random variable interpretation of 
+\begin_inset Formula $E_{n}^{(p)}(x)$
 \end_inset
 
-, we gave a direct proof that Bayad and Beck asked for.
+, Euler polynomials of higher-order defined in 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:HigherOrder"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, leading me to study the corresponding orthogonal polynomials, denoted
+ by 
+\begin_inset Formula $\Omega_{n}^{(p)}(y)$
+\end_inset
+
+.
+ In 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "20"
+literal "true"
+
+\end_inset
+
+, we recognize that 
+\begin_inset Formula $\Omega_{n}^{(p)}(y)=i^{n}n!P_{n}^{(p/2)}\left(-i\left(y-x+\frac{p}{2}\right);\frac{\pi}{2}\right)/2^{n}$
+\end_inset
+
+, as the Meixner-Pollaczek polynomial 
+\begin_inset Formula $P_{n}^{(\lambda)}(y;\phi)$
+\end_inset
+
+ (; see also 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "eq.~9.7.1"
+key "OrthPoly-1"
+literal "true"
+
+\end_inset
+
+).
+ Similarly, let 
+\begin_inset Formula $\varrho_{n}(y)$
+\end_inset
+
+ be the the monic orthogonal polynomials with respect to the Bernoulli polynomia
+l 
+\begin_inset Formula $B_{n}(x)$
+\end_inset
+
+, then we identify that 
+\begin_inset Formula $\varrho_{n}(y)=n!p_{n}\left(y;\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2}\right)/(n+1)_{n}$
+\end_inset
+
+, where 
+\begin_inset Formula $p_{n}(y;a,b,c,d)$
+\end_inset
+
+ is the continuous Hahn polynomial 
+\begin_inset CommandInset citation
+LatexCommand cite
+after "pp.~200--202"
+key "OrthPoly-1"
+literal "true"
+
+\end_inset
+
+.
+ This work opens the door for me to continue on Hankel determinants, especially
+ of sequences related to Bernoulli and Euler polynomials, due to the following
+ two reasons.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The classical formula for calculating the monic orthogonal polynomials of
+ a given sequence contains the Hankel determinants (, see, e.g., 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "Eq.~2.1.6"
+key "Ismail"
+literal "false"
+
+\end_inset
+
+);
+\end_layout
+
+\begin_layout Enumerate
+Lemma 1 in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "20"
+literal "true"
+
+\end_inset
+
+ actually provides an alternative proof, in the aspect of random variables
+ and orthogonal polynomials, that Hankel determinants are invariant under
+ binomial transforms 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "Item 445"
+key "Muir"
+literal "false"
+
+\end_inset
+
+.
+ More precisely, the sequence 
+\begin_inset Formula $c_{n}$
+\end_inset
+
+ and its binomial transformed polynomial 
+\begin_inset Formula $c_{n}(x):=\sum_{k=0}^{n}\binom{n}{k}c_{k}x^{n-k}$
+\end_inset
+
+ share the same Hankel determinants.
+ 
+\end_layout
+
+\begin_layout Standard
+Therefore, in recent years, I accomplished a series studies on Hankel determinan
+ts 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "27,28,32,34,36,38"
+literal "false"
+
+\end_inset
+
+, involving mainly Bernoulli and Euler polynomials, with their extensions,
+ in, e.g., Dirchlet characters and 
+\begin_inset Formula $q$
+\end_inset
+
+-analogues.
+ Besides major computations of new and important Hankel determinants, other
+ highlights include the following.
+ 
+\end_layout
+
+\begin_layout Itemize
+An incomplete table of Hankel determinant identities for numerous sequences
+ containing Bernoulli and Euler numbers and polynomials was collected at
+ the end of 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "28"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+New general formulas of Hankel determinants of right-shifted sequence 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "Lem.~2.5"
+key "32"
+literal "false"
+
+\end_inset
+
+ and derivatives of Apell sequence 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "Thm.~5.1"
+key "28"
+literal "false"
+
+\end_inset
+
+ are proven.
+ 
+\end_layout
+
+\begin_layout Itemize
+The Hankel determinants we studied in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "34"
+literal "false"
+
+\end_inset
+
+ originally comes from statistically estimating the variance in nonparametric
+ regression.
+ Also the symbolic computation, or more precisely WZ method, was used and
+ applied in the proofs.
+ 
+\end_layout
+
+\begin_layout Itemize
+In the latest work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "38"
+literal "false"
+
+\end_inset
+
+, we study the 
+\begin_inset Formula $q$
+\end_inset
+
+-binomial transform sequence and its Hankel determinants, with partial result
+ on the degree of polynomials and the leading coefficients.
+ And some proofs make fully use of the Bernoulli and Euler symbols in 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:ProbS"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Probabilistic Models
+\end_layout
+
+\begin_layout Standard
+In 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "06"
+literal "true"
+
+\end_inset
+
+, based on the probabilistic interpretation, we obtained, for any positive
+ integer 
+\begin_inset Formula $N$
+\end_inset
+
+, 
+\begin_inset Formula 
+\[
+E_{n}(x)=\frac{1}{N^{n}}\sum_{l=N}^{\infty}p_{l}^{(N)}E_{n}^{(l)}\left(\frac{l-N}{2}+Nx\right),
+\]
+
+\end_inset
+
+where the coefficients 
+\begin_inset Formula $p_{l}^{(N)}$
+\end_inset
+
+ appear in the series expansion of the reciprocal of the 
+\begin_inset Formula $N$
+\end_inset
+
+th Chebychev polynomial of the first kind 
+\begin_inset Formula $T_{N}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{1}{T_{N}(1/z)}=\sum_{\ell=0}^{\infty}p_{\ell}^{(N)}z^{\ell}.
+\]
+
+\end_inset
+
+Moreover, 
+\begin_inset Formula $p_{\ell}^{(N)}$
+\end_inset
+
+ can also be viewed as transition probabilities in the context of a random
+ walk over a finite number of sites 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "Note 4.8"
+key "06"
+literal "true"
+
+\end_inset
+
+, based on which, we continued to explore more of such probabilistic models.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:RandomWalk"
+
+\end_inset
+
+Random walk, Brownian motion, and Bessel process
+\end_layout
+
+\begin_layout Standard
+We consider both 
+\begin_inset Formula $1$
+\end_inset
+
+-dimensional reflected Brownian motion and 
+\begin_inset Formula $3$
+\end_inset
+
+-dimemsional Bessel process.
+ More specifically, we decompose the hitting times for consecutive level
+ sites.
+ For instance, considering in the figure below: starting from site 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+, the hitting time to the site 
+\begin_inset Formula $a_{m+1}$
+\end_inset
+
+ can be decomposed, combinatorially, by the hitting times among sites 
+\begin_inset Formula $a_{0},a_{1},\ldots,a_{m}$
+\end_inset
+
+ in between, where the back and forth walks between neighboring sites form
+ loops, denoted by 
+\begin_inset Formula $L_{1},L_{2},\ldots,L_{m}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename loops.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Loop Decomposition 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Loop-Decomposition"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+With the combinatorial loop and hitting time decomposition, we can further
+ derive non-trivial identities, involving 
+\begin_inset Formula $B_{n}^{(p)}(x)$
+\end_inset
+
+ and 
+\begin_inset Formula $E_{n}^{(p)}(x)$
+\end_inset
+
+.
+ In the early work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "22"
+literal "true"
+
+\end_inset
+
+, results on only 
+\begin_inset Formula $1$
+\end_inset
+
+ or 
+\begin_inset Formula $2$
+\end_inset
+
+ loops, i.e.
+ 
+\begin_inset Formula $m=1$
+\end_inset
+
+ or 
+\begin_inset Formula $2$
+\end_inset
+
+ in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Loop-Decomposition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, were obtained.
+ Later in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "29"
+literal "false"
+
+\end_inset
+
+, we successfully extended to the general 
+\begin_inset Formula $n$
+\end_inset
+
+ loops, by both induction and a combinatorial interpretation.
+ Further identities are derived from equally distributed level sites.
+ For instance, the 
+\begin_inset Formula $3$
+\end_inset
+
+-loop cases in 
+\begin_inset Formula $3$
+\end_inset
+
+-dim Bessel process implies 
+\begin_inset Formula 
+\[
+B_{n+1}\left(\frac{x+2}{5}\right)-B_{n+1}\left(\frac{x}{5}\right)=\frac{n+1}{5^{n}}\sum_{k=0}^{\infty}\frac{3^{k}}{2^{2k+3}}\sum_{\ell=0}^{k}\binom{k}{\ell}(-1)^{\ell}\frac{1}{12^{\ell}}E_{n}^{(2k+2\ell+3)}(k+\ell+x).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Shuffling model
+\end_layout
+
+\begin_layout Standard
+The very recent work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "36"
+literal "false"
+
+\end_inset
+
+ studies the uniform shuffling on 
+\begin_inset Formula $n$
+\end_inset
+
+ cards, i.e., each result has probability 
+\begin_inset Formula $1/n!$
+\end_inset
+
+.
+ Then, merge the maximal consecutive integer subsequences and reduce the
+ number of cards into the current remaining one.
+ The model was introduced by Rao et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "RZHC"
+literal "false"
+
+\end_inset
+
+ to model the number of times that catalysts must be added to 
+\begin_inset Formula $n$
+\end_inset
+
+ molecules to bond into a single lump.
+ The molecules have a given hierarchical order which led to the above mathematic
+al formulation of the process.
+ They studied the number of permutations needed for the process to end,
+ 
+\begin_inset Formula $X_{n}$
+\end_inset
+
+; and obtained the asymptotic behavior of the mean as 
+\begin_inset Formula 
+\[
+n\leq\mathbb{E}[X_{n}]\leq n+\sqrt{n}\Rightarrow\mathbb{E}[X_{n}]\sim n.
+\]
+
+\end_inset
+
+Our work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "36"
+literal "false"
+
+\end_inset
+
+ not only improved it by
+\begin_inset Formula 
+\begin{equation}
+\mathbb{E}[X_{n}]=n+\left(1+\frac{1}{2}+\cdots\frac{1}{n-1}\right)+\varepsilon_{n},\quad\text{with}\quad0\leq\varepsilon_{n}-\varepsilon_{n+1}\leq\frac{1}{n^{2}},\label{eq:epsilon}
+\end{equation}
+
+\end_inset
+
+which also indicates that 
+\begin_inset Formula $\varepsilon_{n}$
+\end_inset
+
+ has a limit.
+ More importantly, the simulation in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "RZHC"
+literal "false"
+
+\end_inset
+
+, for 
+\begin_inset Formula $X_{2},\ldots,X_{100}$
+\end_inset
+
+ hinted that the asymptotic distribution of 
+\begin_inset Formula $X_{n}$
+\end_inset
+
+ would tend to be normal.
+ While, we completely solve it in the affirmative, i.e., we proved that 
+\begin_inset Formula 
+\[
+\frac{X_{n}-n}{\sqrt{n}}\overset{w}{\rightarrow}\mathcal{N}(0,1),
+\]
+
+\end_inset
+
+by estimating all the central moments of 
+\begin_inset Formula $X_{n}$
+\end_inset
+
+.
+ As a by product, certain limits related to the sequence involve the Bell
+ numbers.
+ 
+\end_layout
+
+\begin_layout Subsection
+Differential and Information Geometry
+\end_layout
+
+\begin_layout Standard
+I studied differential and information geometry for my master's degree,
+ which can be seen from some of my early work, e.g., 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "01,02,03,04,05,15"
+literal "false"
+
+\end_inset
+
+.
+ Switching to studying experimental mathematics in my Ph.
+\begin_inset space ~
+\end_inset
+
+D program does not prevent me from continuing my research in information
+ geometry; in fact, I am gradually combining some work together.
+ 
+\end_layout
+
+\begin_layout Itemize
+In both 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "24"
+literal "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "25"
+literal "false"
+
+\end_inset
+
+, the Wishart distribution plays the essential rule, in defining the zonal
+ polynomials and hence hypergeometric functions with matrix arguments.
+ Alternatively, an equivalent definition of the zonal polynomials is the
+ eigenfunction of the Laplace–Beltrami operator on the space of symmetric,
+ positive definite matrices.
+ 
+\end_layout
+
+\begin_layout Itemize
+I contributed to an awarded joint grant ``Wuhan University—Duke Kunshan
+ University—University of Minnesota, Twin Cities Joint Research Platform'',
+ together with my colleague Dr.
+\begin_inset space ~
+\end_inset
+
+Dongmian Zou.
+ 
+\end_layout
+
+\begin_layout Itemize
+In the recent work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "37"
+literal "false"
+
+\end_inset
+
+, we use the information geometry tools to study the exponential generalized
+ beta of the second kind (EGB2) distribution or the beta-logistic distribution,
+ with density function 
+\begin_inset Formula 
+\[
+f\left(x;\beta_{1},\beta_{2}\right)=\frac{1}{B\left(\beta_{1},\beta_{2}\right)}\cdot\frac{\exp\left(\beta_{1}x\right)}{(1+\exp(x))^{\beta_{1}+\beta_{2}}},
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\beta_{1},\beta_{2}>0$
+\end_inset
+
+ and 
+\begin_inset Formula $B(x,y)$
+\end_inset
+
+ is the beta function.
+ With some simplification, it is not hard to recognize that this family
+ include both densities for Bernoulli and Euler symbols 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:DensitiesBE"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Besides basic geometric structures, we also uncovers that the beta-logistic
+ distribution admits an 
+\begin_inset Formula $\alpha$
+\end_inset
+
+-parallel prior for any real number 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, that has the potential for application in geometric statistical inference.
+\end_layout
+
+\begin_layout Section
+Symbolic Approach
+\end_layout
+
+\begin_layout Standard
+In general, computer or machine proofs, as the major aim in symbolic computation
+, always contribute to mathematical proofs.
+ Bernoulli and Euler symbols mentioned above can also be considered as generaliz
+ed symbolic computation method.
  
 \end_layout
 
@@ -671,15 +1413,11 @@ where
  This shows the two approaches, by Raabe's identity and Euler-Maclaurin
  summation formula that lead to analytic continuations of MZVs, coincide
  on non-positive integer values.
- 
-\end_layout
-
-\begin_layout Standard
-Other results such as recurrence 
+ Other results such as recurrence 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 after "Thm.~3.1"
-key "MVZ-1"
+key "18"
 literal "true"
 
 \end_inset
@@ -688,18 +1426,18 @@ literal "true"
 \size normal
 contiguity identities 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 after "Thm.~4.1"
-key "MVZ-1"
+key "18"
 literal "true"
 
 \end_inset
 
 , and generating functions 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 after "Thm.~5.1"
-key "MVZ-1"
+key "18"
 literal "true"
 
 \end_inset
@@ -714,621 +1452,174 @@ reference "eq:MZV"
 .
 \end_layout
 
-\begin_layout Subsection
-Orthogonal polynomials
-\end_layout
-
 \begin_layout Standard
-Since 
-\begin_inset Formula $E_{n}^{(p)}(x)$
+Also in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "23"
+literal "false"
+
 \end_inset
 
- can be viewed as the 
-\begin_inset Formula $n$
-\end_inset
-
-th moment of certain random variable, it is natural to consider other probabilis
-tic objects, such as the monic orthogonal polynomials, denoted by 
-\begin_inset Formula $\Omega_{n}^{(p)}(y)$
-\end_inset
-
-.
- Here, orthogonality means, for any integers 
+, we further symbolically expressed the 
 \begin_inset Formula $r$
 \end_inset
 
- and 
-\begin_inset Formula $n$
+-fold harmonic sums at negative indices, which is similar to the multiple
+ zeta value expression.
+ For example 
+\begin_inset CommandInset citation
+LatexCommand citep
+after "Thm.~3.1"
+key "23"
+literal "false"
+
 \end_inset
 
- with 
-\begin_inset Formula $0\leq r<n$
+, by defining the 
+\begin_inset Formula $\mathcal{H}$
 \end_inset
 
-, 
+ symbol as 
 \begin_inset Formula 
 \[
-y^{r}\Omega_{n}^{(p)}(y)\bigg|_{y^{k}=E_{k}^{(p)}(x)}=0,
+(\mathcal{H}(N))^{n}=H_{-n}(N)=1^{n}+2^{n}+\cdots+(N-1)^{n},
 \]
 
 \end_inset
 
-where the left-hand sides means expanding the polynomial and evaluating
- at 
-\begin_inset Formula $y^{k}=E_{k}^{(p)}(x)$
-\end_inset
-
- for each power of 
-\begin_inset Formula $y$
-\end_inset
-
-.
- In 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Diane"
-literal "true"
-
-\end_inset
-
-, we not only give the recurrence of 
-\begin_inset Formula $\Omega_{n}^{(p)}(y)$
-\end_inset
-
- as
-\begin_inset Formula 
-\begin{equation}
-\Omega_{n+1}^{(p)}(y)=\left(y-x+\frac{p}{2}\right)\Omega_{n}^{(p)}(y)+\frac{n(n+p-1)}{4}\Omega_{n-1}^{(p)}(y),\label{eq:OmegaRec}
-\end{equation}
-
-\end_inset
-
-but also recognize that 
-\begin_inset Formula $\Omega_{n}^{(p)}(y)=i^{n}n!P_{n}^{(p/2)}\left(-i\left(y-x+\frac{p}{2}\right);\frac{\pi}{2}\right)/2^{n}$
-\end_inset
-
- for Meixner-Pollaczek polynomial 
-\begin_inset Formula $P_{n}^{(\lambda)}(y;\phi)$
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-after "eq.~9.7.1"
-key "OrthPoly-1"
-literal "true"
-
-\end_inset
-
-.
- In fact, 
-\begin_inset CommandInset ref
-LatexCommand eqref
-reference "eq:OmegaRec"
-
-\end_inset
-
- connects 
-\begin_inset Formula $E_{n}^{(p)}(x)$
-\end_inset
-
- to generalized Motzkin numbers through a continued fraction expression
- (see 
-\begin_inset CommandInset citation
-LatexCommand citep
-after "Thm.~13"
-key "Generalized Euler Polynomials-1"
-literal "true"
-
-\end_inset
-
-).
- Namely, define a sequence 
-\begin_inset Formula $\mathfrak{E}_{n,k}^{(p)}$
-\end_inset
-
- by 
-\begin_inset Formula $\mathfrak{E}_{0,0}^{(p)}=1$
-\end_inset
-
- and for 
-\begin_inset Formula $n>0$
-\end_inset
-
-, by the recurrence 
-\begin_inset Formula 
-\[
-\mathfrak{E}_{n+1,k}^{(p)}=\mathfrak{E}_{n,k-1}^{(p)}+\left(x-\frac{p}{2}\right)\mathfrak{E}_{n,k}^{(p)}-\frac{\left(k+1\right)(k+p)}{4}\mathfrak{E}_{n,k+1}^{(p)}.
-\]
-
-\end_inset
-
-Then, when 
-\begin_inset Formula $k=0$
-\end_inset
-
-, we have 
-\begin_inset Formula $\mathfrak{E}_{n,0}^{(p)}=E_{n}^{(p)}(x)$
-\end_inset
-
-.
- The weighted lattice paths interpretation 
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p.~319"
-key "AC-1"
-literal "true"
-
-\end_inset
-
- of generalized Motzkin numbers now can be endowed on 
-\begin_inset Formula $E_{n}^{(p)}(x)$
-\end_inset
-
-, giving it a matrix representation 
-\begin_inset CommandInset citation
-LatexCommand citep
-after "Thm.~14"
-key "Diane"
-literal "true"
-
-\end_inset
-
-.
- See also an example 
-\begin_inset CommandInset citation
-LatexCommand citep
-after "Ex.~16"
-key "Diane"
-literal "true"
-
-\end_inset
-
-, which shows connections between 
-\begin_inset Formula $E_{n}$
-\end_inset
-
- and Catalan number 
-\begin_inset Formula $C_{n}$
-\end_inset
-
-, through weighted lattice paths.
- Analogue for 
-\begin_inset Formula $B_{n}(x)$
-\end_inset
-
- are also obtained 
-\begin_inset CommandInset citation
-LatexCommand citep
-after "Thm.~17"
-key "Diane"
-literal "true"
-
-\end_inset
-
-: let 
-\begin_inset Formula $\varrho_{n}(y)$
-\end_inset
-
- be the monic orthogonal polynomials with respect to 
-\begin_inset Formula $B_{n}(x)$
-\end_inset
-
-, i.e., for integers 
+the 
 \begin_inset Formula $r$
 \end_inset
 
- and 
-\begin_inset Formula $n$
-\end_inset
-
-, with 
-\begin_inset Formula $0\leq r<n$
-\end_inset
-
-, 
-\begin_inset Formula $y^{r}\varrho_{n}(y)|_{y^{k}=B_{k}(x)}=0$
-\end_inset
-
-.
- Then, 
-\begin_inset Formula 
-\begin{equation}
-\varrho_{n+1}(y)=\left(y-x+\frac{1}{2}\right)\varrho_{n}(y)+\frac{n^{4}}{4(2n+1)(2n-1)}\varrho_{n-1}(y).\label{eq:RECBnx}
-\end{equation}
-
-\end_inset
-
-In particular, 
-\begin_inset Formula $\varrho_{n}(y)=n!p_{n}\left(y;\frac{1}{2},\frac{1}{2},\frac{1}{2},\frac{1}{2}\right)/(n+1)_{n}$
-\end_inset
-
-, where 
-\begin_inset Formula $p_{n}(y;a,b,c,d)$
-\end_inset
-
- is the continuous Hahn polynomial 
-\begin_inset CommandInset citation
-LatexCommand cite
-after "pp.~200--202"
-key "OrthPoly-1"
-literal "true"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection
-Probabilistic Models 
-\end_layout
-
-\begin_layout Subsubsection
-Random walk, Brownian motion, and Bessel process
-\end_layout
-
-\begin_layout Standard
-As a convolution, it is not hard to see that
+-fold multiple power sums can be expressed as 
 \begin_inset Formula 
 \[
-E_{n}^{(p)}(x)=\sum_{k_{1}+\cdots+k_{p}=n}\binom{n}{k_{1},\ldots,k_{p}}E_{k_{1}}(x)E_{k_{2}}(0)\cdots E_{k_{p}}(0).
+H_{-n_{1},\ldots,-n_{r}}(N):=\sum_{N>i_{1}>\cdots>i_{r}>0}i_{1}^{n_{1}}\cdots i_{r}^{n_{r}}=\prod_{k=1}^{r}\mathcal{H}_{1,\ldots,k}^{n_{k}},
 \]
 
 \end_inset
 
-In 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Generalized Euler Polynomials-1"
-literal "true"
-
+where 
+\begin_inset Formula $\mathcal{H}_{1}=\mathcal{H}(N)$
 \end_inset
 
-, based on the probabilistic interpretation, we obtained, for any positive
- integer 
-\begin_inset Formula $N$
+ and recursively 
+\begin_inset Formula $\mathcal{H}_{1,\ldots k}=\mathcal{H}\left(\mathcal{H}_{1,\ldots,k-1}\right)$
 \end_inset
 
-, 
-\begin_inset Formula 
-\[
-E_{n}(x)=\frac{1}{N^{n}}\sum_{l=N}^{\infty}p_{l}^{(N)}E_{n}^{(l)}\left(\frac{l-N}{2}+Nx\right),
-\]
-
-\end_inset
-
-where the coefficients 
-\begin_inset Formula $p_{l}^{(N)}$
-\end_inset
-
- appear in the series expansion of the reciprocal of the 
-\begin_inset Formula $N$
-\end_inset
-
-th Chebychev polynomial of the first kind 
-\begin_inset Formula $T_{N}$
-\end_inset
-
-
-\begin_inset Formula 
-\[
-\frac{1}{T_{N}(1/z)}=\sum_{\ell=0}^{\infty}p_{\ell}^{(N)}z^{\ell}.
-\]
-
-\end_inset
-
-Moreover, 
-\begin_inset Formula $p_{\ell}^{(N)}$
-\end_inset
-
- can also be viewed as transition probabilities in the context of a random
- walk over a finite number of sites 
-\begin_inset CommandInset citation
-LatexCommand citep
-after "Note 4.8"
-key "Generalized Euler Polynomials-1"
-literal "true"
-
+ for 
+\begin_inset Formula $k=2,3,\ldots,r$
 \end_inset
 
 .
- This was the trigger to explore more probabilistic models involving objects
- in combinatorics and number theory.
- 
-\end_layout
-
-\begin_layout Standard
-Inspired by this idea, we further explored another probabilistic method
- in 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Besselprocess-1"
-literal "true"
-
-\end_inset
-
-.
- By considering both 
-\begin_inset Formula $1$
-\end_inset
-
--dim reflected Brownian motion and 
-\begin_inset Formula $3$
-\end_inset
-
--dim Bessel process and especially decomposing the hitting times for consecutive
- level sites, we obtained several identities involving 
-\begin_inset Formula $B_{n}^{(p)}(x)$
-\end_inset
-
- and 
-\begin_inset Formula $E_{n}^{(p)}(x)$
-\end_inset
-
-.
- Recently, we 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Edward"
-literal "false"
-
-\end_inset
-
- extended the loop decomposition from 
-\begin_inset Formula $1$
-\end_inset
-
- and 
-\begin_inset Formula $2$
-\end_inset
-
- loop cases into general 
-\begin_inset Formula $n$
-\end_inset
-
- loops, by both induction and a combinatorial interpretation.
- Further identities are derived from equally distributed level sites.
- For instance, the 
-\begin_inset Formula $3$
-\end_inset
-
--loop cases in 
-\begin_inset Formula $3$
-\end_inset
-
--dim Bessel process implies 
-\begin_inset Formula 
-\[
-B_{n+1}\left(\frac{x+2}{5}\right)-B_{n+1}\left(\frac{x}{5}\right)=\frac{n+1}{5^{n}}\sum_{k=0}^{\infty}\frac{3^{k}}{2^{2k+3}}\sum_{\ell=0}^{k}\binom{k}{\ell}(-1)^{\ell}\frac{1}{12^{\ell}}E_{n}^{(2k+2\ell+3)}(k+\ell+x).
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-Shuffling model
-\end_layout
-
-\begin_layout Standard
-The very recent work 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "CJS"
-literal "false"
-
-\end_inset
-
- studies the uniform shuffling on 
-\begin_inset Formula $n$
-\end_inset
-
- cards, i.e., each result has probability 
-\begin_inset Formula $1/n!$
-\end_inset
-
-.
- Then, merge the maximal consecutive integer subsequences and reduce the
- number of cards into the current remaining one.
- The model was introduced by Rao et al.
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "RZHC"
-literal "false"
-
-\end_inset
-
- to model the number of times that catalysts must be added to 
-\begin_inset Formula $n$
-\end_inset
-
- molecules to bond into a single lump.
- The molecules have a given hierarchical order which led to the above mathematic
-al formulation of the process.
- They studied the number of permutations needed for the process to end,
- 
-\begin_inset Formula $X_{n}$
-\end_inset
-
-; and obtained the asymptotic behavior of the mean as 
-\begin_inset Formula 
-\[
-n\leq\mathbb{E}[X_{n}]\leq n+\sqrt{n}\Rightarrow\mathbb{E}[X_{n}]\sim n.
-\]
-
-\end_inset
-
-Our work 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "CJS"
-literal "false"
-
-\end_inset
-
- not only improved it by
-\begin_inset Formula 
-\begin{equation}
-\mathbb{E}[X_{n}]=n+\left(1+\frac{1}{2}+\cdots\frac{1}{n-1}\right)+\varepsilon_{n},\quad\text{with}\quad0\leq\varepsilon_{n}-\varepsilon_{n+1}\leq\frac{1}{n^{2}},\label{eq:epsilon}
-\end{equation}
-
-\end_inset
-
-which also indicates that 
-\begin_inset Formula $\varepsilon_{n}$
-\end_inset
-
- has a limit.
- More importantly, the simulation in 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "RZHC"
-literal "false"
-
-\end_inset
-
-, for 
-\begin_inset Formula $X_{2},\ldots,X_{100}$
-\end_inset
-
- hinted that the asymptotic distribution of 
-\begin_inset Formula $X_{n}$
-\end_inset
-
- would tend to be normal.
- While, we completely solve it in the affirmative, i.e., we proved that 
-\begin_inset Formula 
-\[
-\frac{X_{n}-n}{\sqrt{n}}\overset{w}{\rightarrow}\mathcal{N}(0,1),
-\]
-
-\end_inset
-
-by estimating all the central moments of 
-\begin_inset Formula $X_{n}$
-\end_inset
-
-.
- As a by product, certain limits related to the sequence involve the Bell
- numbers.
- 
-\end_layout
-
-\begin_layout Subsection
-Hankel Determinants and Continued Fractions
-\end_layout
-
-\begin_layout Standard
-Hankel determinants play an essential role in the study of orthogonal polynomial
-s, continued fractions, and the moment problems in probability.
- Several formulas on Bernoulli and Euler numbers are known; while the one
- for special subsequences of Bernoulli and Euler Polynomials were open to
- discover.
- In a serious of work 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "DJ3,DJ2,DJ1,April"
-literal "false"
-
-\end_inset
-
-, we obtained the formulas of Hankel determinants of different sequences
- of numbers and polynomials, all related to Bernoulli and Euler polynomials.
- 
-\end_layout
-
-\begin_layout Standard
-In particular, together with an undergraduate student, we 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "April"
-literal "false"
-
-\end_inset
-
- first computed the Hankel determinants of 
-\begin_inset Formula $B_{2n+1}\left(\frac{x+1}{2}\right)/(2n+1)$
-\end_inset
-
- and 
-\begin_inset Formula $B_{2n+3}\left(\frac{x+1}{2}\right)/(2n+3)$
-\end_inset
-
-.
- On the very next day after posting the result on arXiv, we draw the attention
- of Prof.
- Christian Krattenthaler
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-https://www.mat.univie.ac.at/~kratt/
-\end_layout
-
-\end_inset
-
- from University of Vienna, an expert in determinants.
- By seriously taking his valuable suggestions and independently working
- on his conjecture, we provided alternative proof of the sequence of 
-\begin_inset Formula $B_{2n+5}\left(\frac{x+1}{2}\right)/(2n+5)$
-\end_inset
-
-.
- More importantly part of this result can be applied to non-parametric estimatio
-ns in statistics, especially in 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "DT"
-literal "false"
-
-\end_inset
-
-.
- This potential leads to collaboration and applications in statistics.
- 
-\end_layout
-
-\begin_layout Standard
-The very recent work 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "CJ"
-literal "false"
-
-\end_inset
-
- extends the sequences to the 
-\begin_inset Formula $q$
-\end_inset
-
--analogues, of the Euler polynomials.
- Current in-progress project, also involving an undergraduate student, also
- aims at 
-\begin_inset Formula $q$
-\end_inset
-
--analogues, and making fully use of the Bernoulli and Euler symbols, mentioned
- in 
+ This is compatible with 
 \begin_inset CommandInset ref
 LatexCommand eqref
-reference "eq:ProbS"
+reference "eq:MZV"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
+ by letting 
+\begin_inset Formula $N\rightarrow\infty$
+\end_inset
+
 .
  
 \end_layout
 
 \begin_layout Subsection
-Some Future Plans
+The method of brackets
 \end_layout
 
 \begin_layout Standard
+The method of bracket is an efficient method for the evaluation of a large
+ class of definite integrals on the half-line, i.e., 
+\begin_inset Formula 
+\[
+\int_{0}^{\infty}f(x)dx,
+\]
+
+\end_inset
+
+with only 6 simple rules, with applications to evaluate certain Feymann
+ integrals, which arise from Feynman diagrams.
+ In theoretical physics, a Feynman diagram is a pictorial representation
+ of the mathematical expressions describing the behavior and interaction
+ of subatomic particles.
+ 
+\end_layout
+
+\begin_layout Standard
+Some early work and summary can be found in the first half of my Ph.
+\begin_inset space ~
+\end_inset
+
+D thesis 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "PHD"
+literal "false"
+
+\end_inset
+
+.
+ Further generalization, novel evaluation techniques, and related discussion
+ can be found, e.g., in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "14,17,19,26,31"
+literal "false"
+
+\end_inset
+
+.
+ For instance, in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "14"
+literal "false"
+
+\end_inset
+
+, we first observed several examples, all missing a common factor of 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ This is due to the analytic continuation of the Pochhammer symbol 
+\begin_inset Formula $(a)_{k}=\Gamma(a+k)/\Gamma(a)$
+\end_inset
+
+, when both 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $k$
+\end_inset
+
+ are negative integers.
+ In order to get the correct answer, the evaluation 
+\begin_inset Formula 
+\[
+(-km)_{-m}=\frac{k}{k+1}\frac{(-1)^{m}(km)!}{((k+1)m)!},
+\]
+
+\end_inset
+
+should be applied.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
 A long project right now is based on mutual connections among orthogonal
  polynomials, lattice paths, continued fractions and Hankel determinants;
  see, e.g., 
@@ -1355,7 +1646,7 @@ labeled tree generating polynomials;
 and Hankel determinant guessing and computing.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 My further concentration will be the random variable expressions and models
  in probability; later, the family of Sheffer sequences will be extended
  beyond only these two polynomials.
@@ -1407,7 +1698,7 @@ noprefix "false"
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Meanwhile, I would also involve more computational number theory research.
  In an early paper 
 \begin_inset CommandInset citation
@@ -1449,7 +1740,7 @@ literal "false"
  in number theory and combinatorics
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Another direction involves matrices: matrix representation of certain functions,
  polynomials, e.g., 
 \begin_inset CommandInset citation
@@ -1493,7 +1784,7 @@ and other calculations of matrices, involving quantum computing.
 Symbolic and Quantum Computing
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 In general, computer or machine proofs, as the major aim in symbolic computation
 , always contribute to mathematical proofs.
  Bernoulli and Euler symbols mentioned above can also be considered as generaliz
@@ -1501,38 +1792,7 @@ ed symbolic computation method.
  
 \end_layout
 
-\begin_layout Standard
-For the traditional symbolic computation, I mainly concentrate on an integration
- method, named the Method of Brackets, e.g.
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "MoB3,MoB1,MoB2,MoB4"
-literal "false"
-
-\end_inset
-
-.
- It is an efficient method for the evaluation of a large class of definite
- integrals on the half-line, i.e., 
-\begin_inset Formula 
-\[
-\int_{0}^{\infty}f(x)dx,
-\]
-
-\end_inset
-
-with only 6 simple rules, and can evaluate complicated integrals.
- The importance of symbolic integration, as well as symbolic summations,
- is also due to the applications to evaluate certain Feymann integrals,
- which arise from Feynman diagrams.
- In theoretical physics, a Feynman diagram is a pictorial representation
- of the mathematical expressions describing the behavior and interaction
- of subatomic particles.
- 
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 In Summer 2022, I worked with Siyuan Wu, a student of Class of 2023 with
  the project grant ``Implementation on the Method of Brackets'', approved
  by Duke Kunshan Unversity (DKU) Summer Research Scholars (SRS) program
@@ -1545,14 +1805,14 @@ In Summer 2022, I worked with Siyuan Wu, a student of Class of 2023 with
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset VSpace smallskip
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 In July 2021, as a Co-PI together with 
 \family roman
 \series medium
@@ -1595,7 +1855,7 @@ Myung-Joong Hwang, Assistant Professor of Physics at DKU, we are awarded
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 The ultimate goal is to study and explore the combination of quantum computing,
  algorithms, and symbolic computations.
  I am interested in the following important topics, due to their connections
@@ -1649,86 +1909,43 @@ literal "false"
  
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-Differential and Information Geometry.
- 
+Miscellaneous and final remark
 \end_layout
 
 \begin_layout Standard
-I studied information geometry for my master's degree.
- It is the application of differential geometry in probability and statistics.
- Recently, the theory has been largely applied, in Control Theory, Neural
- Networks, and Machine Learning.
- Switching to studying Experimental Mathematics in my PhD program does not
- prevent me from continuing my research in Information Geometry; See, e.g.,
- 
+Please find the publication list below, including some other work that does
+ not fit into my major research projects.
+ Among them, some are also suitable for undergraduate students, e.g., 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "DF3,DF1,DF2,DF4"
+key "07,11,30,35"
 literal "false"
 
 \end_inset
 
 .
- 
 \end_layout
 
-\begin_layout Itemize
-I contributed to an awarded joint grant ``Wuhan University—Duke Kunshan
- University—University of Minnesota, Twin Cities Joint Research Platform'',
- together with Dr.
-\begin_inset space ~
-\end_inset
-
-Dongmian Zou, Assistant Professor of Data Science, DKU.
- 
+\begin_layout Section*
+List of Publications
 \end_layout
 
-\begin_layout Itemize
-As described above the finding optimal quantum circuits under the framework
- of differential geometry, leads me to re-study this topic, from a different
- aspect.
- The current and potential profound applications, the early experience,
- and collaborations with other colleagues are my key motivations in this
- area.
- 
-\end_layout
-
-\begin_layout Itemize
-A most recent on-going joint work/draft is on the family of hyperbolic secant
- distributions 
-\begin_inset Formula $HS\left(\alpha,\rho\right)$
-\end_inset
-
-, whose probability density function is given by 
-\begin_inset Formula 
-\[
-p_{\alpha,\rho}\left(t\right)=C\left(\alpha,\rho\right)\sech^{\rho}\left(\alpha t\right),
-\]
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "RS"
+options "amsalpha"
 
 \end_inset
 
-where, for uniformization, 
-\begin_inset Formula 
-\[
-C\left(\alpha,\rho\right)=\frac{1}{\int_{\mathbb{R}}\sech^{\rho}\left(\alpha t\right)dt}=\frac{1}{\frac{2^{\rho-1}}{\alpha}B\left(\frac{\rho}{2},\frac{\rho}{2}\right)}.
-\]
 
-\end_inset
-
-One essential reason is that the density functions of both Bernoulli and
- Euler symbols belong to the family.
- Together with Dr.
-\begin_inset space ~
-\end_inset
-
-Linyu Peng, Keio University, we basically use differential and information
- geometry to study the family of hyperbolic secant densities, which are
- the densities of Bernoulli and Euler symbols.
- Once this work is done, we shall continue with how those geometric structures
- can lead, regarding to the identities, orthogonal polynomials, continued
- fractions, and any algorithms.
- 
 \end_layout
 
 \begin_layout Bibliography
@@ -1749,15 +1966,10 @@ Akiyama and Y.
 
 Tanigawa, Multiple zeta values at non-positive integers, 
 \emph on
-Ramanujan J.
-\emph default
-
-\begin_inset space ~
-\end_inset
-
-
+Ramanujan J.,
 \series bold
-5
+\emph default
+ 5
 \series default
  (2001), 327–351.
 \end_layout
@@ -1789,7 +2001,7 @@ J.
 \begin_inset space ~
 \end_inset
 
-Number Theory
+Number Theory,
 \emph default
  
 \series bold
@@ -1832,262 +2044,37 @@ A
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "CJ"
+key "ZagierI"
 literal "false"
 
 \end_inset
 
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-S.
+A.
 \begin_inset space ~
 \end_inset
 
-Chern and 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-L.
+Dixit, V.
 \begin_inset space ~
 \end_inset
 
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, Hankel determinants and Jacobi continued fractions for 
-\begin_inset Formula $q$
+H.
+\begin_inset space ~
 \end_inset
 
--Euler numbers, To Appear in 
-\family default
-\series default
-\shape default
-\size default
+Moll, and C.
+\begin_inset space ~
+\end_inset
+
+Vignat, The Zagier modification of Bernoulli numbers and a polynomial extension.
+ Part I, 
 \emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-C.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-Math.
-\begin_inset space ~
-\end_inset
-
-Acad.
-\begin_inset space ~
-\end_inset
-
-Sci.
-\begin_inset space ~
-\end_inset
-
-Paris.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "CJS"
-literal "false"
-
-\end_inset
-
-S.
-\begin_inset space ~
-\end_inset
-
-Chern, 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, and I.
-\begin_inset space ~
-\end_inset
-
-Simonelli, A central limit theorem for a card shuffling problem, Submitted
- for Publication.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "DT"
-literal "false"
-
-\end_inset
-
-W.
- Dai, X.
- Tong, and T.
- Tong, Optimal-
-\begin_inset Formula $k$
-\end_inset
-
- sequence for difference-based methods in nonparametric regression, in preparati
-on
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "DJ3"
-literal "false"
-
-\end_inset
-
-K
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, Hankel Determinants of shifted sequences of Bernoulli and Euler numbers,
- To Appear in 
-\emph on
-Contrib.
-\begin_inset space ~
-\end_inset
-
-Discrete Math
+Ramanujan J
 \emph default
-.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "DJ2"
-literal "false"
-
-\end_inset
-
-K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
+., 
 \series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+33
 \series default
-, Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
- 
-\emph on
-Int.
-\begin_inset space ~
-\end_inset
-
-J.
-\begin_inset space ~
-\end_inset
-
-Number Theory 
-\series bold
-\emph default
-18
-\series default
- (2022) 331–359.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "DJ1"
-literal "false"
-
-\end_inset
-
-K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, Orthogonal polynomials and Hankel determinants for certain Bernoulli and
- Euler polynomials, 
-\emph on
-J.
-\begin_inset space ~
-\end_inset
-
-Math.
-\begin_inset space ~
-\end_inset
-
-Anal.
-\begin_inset space ~
-\end_inset
-
-Appl
-\emph default
-.
-\begin_inset space ~
-\end_inset
-
-
-\series bold
-497
-\series default
- (2021), Article 124855.
+ (2014), 379–422.
 \end_layout
 
 \begin_layout Bibliography
@@ -2120,1074 +2107,7 @@ Press, 2010.
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "MoB3"
-literal "false"
-
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-I.
-\begin_inset space ~
-\end_inset
-
-Gonzales, 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, and V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll, An extension of the method of brackets.
- Part 2, 
-\family default
-\series default
-\shape default
-\size default
-\emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-Open Math
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-.
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset space ~
-\end_inset
-
-
-\series bold
-18
-\series default
- (2020), 983–955.
- 
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "MoB1"
-literal "false"
-
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-I.
-\begin_inset space ~
-\end_inset
-
-Gonzalez, K.
-\begin_inset space ~
-\end_inset
-
-Kohl, 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, and V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll, The method of brackets in experimental mathematics, 
-\family default
-\series default
-\shape default
-\size default
-\emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-Frontiers of Orthogonal Polynomials and q-Series
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, Z. Nashed and X. Li eds., World Scientific Publishers, 2018.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "MoB2"
-literal "false"
-
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-I.
-\begin_inset space ~
-\end_inset
-
-Gonzales, K.
-\begin_inset space ~
-\end_inset
-
-Kohl, 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, and V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll, An extension of the method of brackets.
- Part 1, 
-\family default
-\series default
-\shape default
-\size default
-\emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-Open Math
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-.
-\begin_inset space ~
-\end_inset
-
-
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-15
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- (2017), 1181–1211.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "MoB4"
-literal "false"
-
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-I.
-\begin_inset space ~
-\end_inset
-
-Gonzalez, 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, and V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll, Pochhammer symbol with negative indices.
- A new rule for the method of brackets, 
-\family default
-\series default
-\shape default
-\size default
-\emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-Open Math
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-.
-\begin_inset space ~
-\end_inset
-
-
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-14
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- (2016) 681–686.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "April"
-literal "false"
-
-\end_inset
-
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
- and Y.
-\begin_inset space ~
-\end_inset
-
-Li, Hankel determinants of certain sequences of Bernoulli polynomials: A
- direct proof of an inverse matrix entry from Statistics, To Appear in 
-\emph on
-Contrib.
-\begin_inset space ~
-\end_inset
-
-Discrete Math
-\emph default
-.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Edward"
-literal "false"
-
-\end_inset
-
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
- I.
-\begin_inset space ~
-\end_inset
-
-Simonelli, and H.
-\begin_inset space ~
-\end_inset
-
-Yue, Random walk models for nontrivial identities of Bernoulli and Euler
- polynomials, 
-\emph on
-Integers
-\emph default
-, 
-\series bold
-22
-\series default
- (2022) A91.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Diane"
-literal "false"
-
-\end_inset
-
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- and D.
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset space ~
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Y.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Shi, Orthogonal polynomials and connection to generalized Motzkin numbers
- for higher-order Euler polynomials, 
-\family default
-\series default
-\shape default
-\size default
-\emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-J.
-\begin_inset space ~
-\end_inset
-
-Number Theory
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-199
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- (2019), 389–402.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Matrix"
-literal "false"
-
-\end_inset
-
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- and D.
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset space ~
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Y.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Shi, Matrix representation for multiplicative nested sums, 
-\family default
-\series default
-\shape default
-\size default
-\emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-Colloq.
-\begin_inset space ~
-\end_inset
-
-Math
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-. 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-158
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- (2019), 183–194.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "MVZ-1"
-literal "true"
-
-\end_inset
-
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll and C.
-\begin_inset space ~
-\end_inset
-
-Vignat, A symbolic approach to multiple zeta values at the negative integers,
- 
-\emph on
-J. 
-\begin_inset space ~
-\end_inset
-
-Symbolic Comput
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-.
-\begin_inset space ~
-\end_inset
-
-
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-84
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- (2018), 1–13.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Bernoulli-Barnes-1"
-literal "true"
-
-\end_inset
-
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll, and C.
-\begin_inset space ~
-\end_inset
-
-Vignat, A symbolic approach to some identities for Bernoulli-Barnes polynomials,
- 
-\emph on
-Int.
-\emph default
-
-\begin_inset space ~
-\end_inset
-
-
-\emph on
-J.
-\emph default
-
-\begin_inset space ~
-\end_inset
-
-
-\emph on
-Number Theory
-\emph default
- 
-\series bold
-12
-\series default
- (2016), 649–662.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Generalized Euler Polynomials-1"
-literal "true"
-
-\end_inset
-
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll, and C.
-\begin_inset space ~
-\end_inset
-
-Vignat, Identities for generalized Euler polynomials,
-\emph on
- Integral Transforms Spec.
-\emph default
-
-\begin_inset space ~
-\end_inset
-
-
-\emph on
-Funct.
-\emph default
-
-\begin_inset space ~
-\end_inset
-
-
-\series bold
-25
-\series default
- (2014), 777–789.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "DF3"
-literal "false"
-
-\end_inset
-
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- and H.
-\begin_inset space ~
-\end_inset
-
-Sun, On minimal homothetical hypersurfaces, 
-\family default
-\series default
-\shape default
-\size default
-\emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-Colloq.
-\begin_inset space ~
-\end_inset
-
-Math
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-.
-\begin_inset space ~
-\end_inset
-
-109 (2007), 239–249.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Besselprocess-1"
-literal "true"
-
-\end_inset
-
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
- and C.
-\begin_inset space ~
-\end_inset
-
-Vignat, Connection coefficients for higher-order Bernoulli and Euler polynomials
-: a random walk approach, 
-\emph on
-Fibonacci Quart
-\emph default
-.
- 
-\series bold
-57
-\series default
- (2019), 84–95.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "MKJM"
+key "Ismail"
 literal "false"
 
 \end_inset
@@ -3196,16 +2116,15 @@ M.
 \begin_inset space ~
 \end_inset
 
-Kauers and J.
+Ismail, 
+\emph on
+Classical and Quantum Orthogonal Polynomials in One Variable
+\emph default
+, Cambridge Univ.
 \begin_inset space ~
 \end_inset
 
-Moosbauer, The FBHHRBNRSSSHK-Algorithm for Multiplication in 
-\begin_inset Formula $\mathbb{Z}_{2}^{5\times5}$
-\end_inset
-
- is still not the end of the story, arXiv: https://arxiv.org/abs/2210.04045.
- 
+Press, 2005.
 \end_layout
 
 \begin_layout Bibliography
@@ -3250,155 +2169,28 @@ Hypergeometric Orthogonal Polynomials and Their
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "DF1"
+key "Muir"
 literal "false"
 
 \end_inset
 
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-C.
+T.
 \begin_inset space ~
 \end_inset
 
-Li, E.
+Muir and W.
 \begin_inset space ~
 \end_inset
 
-Zhang, 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-L.
+H.
 \begin_inset space ~
 \end_inset
 
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, and H.
-\begin_inset space ~
-\end_inset
-
-Sun, Optimal control on special Euclidean group via natural gradient descent
- algorithm, 
-\family default
-\series default
-\shape default
-\size default
+Metzler, 
 \emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-Sci.
-\begin_inset space ~
-\end_inset
-
-China Inf.
-\begin_inset space ~
-\end_inset
-
-Sci
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-.
-\begin_inset space ~
-\end_inset
-
-
-\family default
-\series bold
-\shape default
-\size default
+A Treatise on the Theory of Determinants
 \emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-59
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- (2016) Article: 112203.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "Science"
-literal "false"
-
-\end_inset
-
-M.
-\begin_inset space ~
-\end_inset
-
-Nielsen, M.
-\begin_inset space ~
-\end_inset
-
-Dowling, M.
-\begin_inset space ~
-\end_inset
-
-Gu, and C Doherty, Quantum Computation as Geometry, Science 311, 1133 (2006)
+, Dover Publications, 1960.
 \end_layout
 
 \begin_layout Bibliography
@@ -3490,143 +2282,13 @@ Statist.
 \begin_inset space ~
 \end_inset
 
-Theory Methods 
+Theory Methods, 
 \series bold
 \emph default
 45
 \series default
  (2016), , 612–620.
  
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "DF2"
-literal "false"
-
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-L.
-\begin_inset space ~
-\end_inset
-
-Peng, H.
-\begin_inset space ~
-\end_inset
-
-Sun, and 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, The geometric structure of the Pareto distribution, 
-\family default
-\series default
-\shape default
-\size default
-\emph on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-Bol.
-\begin_inset space ~
-\end_inset
-
-Asoc.
-\begin_inset space ~
-\end_inset
-
-Mat.
-\begin_inset space ~
-\end_inset
-
-Venez
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-.
-\begin_inset space ~
-\end_inset
-
-
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-14
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- (2007), 5–13.
 \end_layout
 
 \begin_layout Bibliography
@@ -3693,97 +2355,11 @@ Paris, Ser.
 \end_inset
 
 1
-\emph default
-, 
 \series bold
-12
+\emph default
+ 12
 \series default
- (2014), 977-984.
-\end_layout
-
-\begin_layout Bibliography
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "DF4"
-literal "false"
-
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-X.
-\begin_inset space ~
-\end_inset
-
-Wang and 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-, Characterizing hypersurfaces of generalized rotation through its normal
- lines, Journal of Ningde Normal University (Natural Science) 
-\family default
-\series bold
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-02
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- (2006), 117–119.
+ (2014), 977–984.
 \end_layout
 
 \end_body
