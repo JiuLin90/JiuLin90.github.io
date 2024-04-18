@@ -1332,8 +1332,17 @@ Symbolic Approach
 \begin_layout Standard
 In general, computer or machine proofs, as the major aim in symbolic computation
 , always contribute to mathematical proofs.
- Bernoulli and Euler symbols mentioned above can also be considered as generaliz
-ed symbolic computation method.
+ For example, the WZ-method is applied in the proofs of 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "09,25,34"
+literal "false"
+
+\end_inset
+
+.
+ Meanwhile, Bernoulli and Euler symbols, mentioned above, can also be considered
+ as generalized symbolic computation method.
  
 \end_layout
 
@@ -1557,7 +1566,29 @@ with only 6 simple rules, with applications to evaluate certain Feymann
  In theoretical physics, a Feynman diagram is a pictorial representation
  of the mathematical expressions describing the behavior and interaction
  of subatomic particles.
- 
+ It is also related to Dr.
+ Moll, my Ph.
+\begin_inset space ~
+\end_inset
+
+D superviser's long term project in proving all entries of 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "GR"
+literal "false"
+
+\end_inset
+
+.
+ Some other work of this project include 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "13"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2110,6 +2141,25 @@ Analytic Combinatorics
 \end_inset
 
 Press, 2010.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "GR"
+literal "false"
+
+\end_inset
+
+I.
+ S.
+ Gradshteyn and I.
+ M.
+ Ryzhik, 
+\emph on
+Table of Integrals, Series, and Products
+\emph default
+, Academic Press, 2015.
 \end_layout
 
 \begin_layout Bibliography
