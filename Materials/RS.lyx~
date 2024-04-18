@@ -879,7 +879,11 @@ th Chebychev polynomial of the first kind
 \begin_inset Formula $T_{N}$
 \end_inset
 
+; while 
+\begin_inset Note Note
+status collapsed
 
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \frac{1}{T_{N}(1/z)}=\sum_{\ell=0}^{\infty}p_{\ell}^{(N)}z^{\ell}.
@@ -888,6 +892,11 @@ th Chebychev polynomial of the first kind
 \end_inset
 
 Moreover, 
+\end_layout
+
+\end_inset
+
+
 \begin_inset Formula $p_{\ell}^{(N)}$
 \end_inset
 
@@ -1325,6 +1334,55 @@ noprefix "false"
 , that has the potential for application in geometric statistical inference.
 \end_layout
 
+\begin_layout Subsection
+Miscellaneous 
+\end_layout
+
+\begin_layout Standard
+There are also some work, inspired by probabilistic intepretations.
+ For example, 
+\end_layout
+
+\begin_layout Itemize
+in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "21"
+literal "false"
+
+\end_inset
+
+, we obtained a matrix representation of multiplicative nested sums, a special
+ case of which is the stochastic transition matrix of a random walk on a
+ finite number of sites;
+\end_layout
+
+\begin_layout Itemize
+and in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "30"
+literal "false"
+
+\end_inset
+
+, some identities are obtained, based on the moments-cumulants relation,
+ by applying Fa
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+`{a}
+\end_layout
+
+\end_inset
+
+ di Bruno's formula.
+\end_layout
+
 \begin_layout Section
 Symbolic Approach
 \end_layout
@@ -1341,12 +1399,8 @@ literal "false"
 \end_inset
 
 .
- 
-\end_layout
-
-\begin_layout Standard
-Bernoulli and Euler symbols mentioned above can also be considered as generalize
-d symbolic computation method.
+ Meanwhile, Bernoulli and Euler symbols, mentioned above, can also be considered
+ as generalized symbolic computation method.
  
 \end_layout
 
@@ -1662,155 +1716,7 @@ should be applied.
 status collapsed
 
 \begin_layout Plain Layout
-A long project right now is based on mutual connections among orthogonal
- polynomials, lattice paths, continued fractions and Hankel determinants;
- see, e.g., 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "CJ,DJ3,DJ2,DJ1,Diane"
-literal "false"
-
-\end_inset
-
-.
- Shot term aims at 
-\end_layout
-
-\begin_layout Itemize
-algorithms in computing operations of continued fraction expressions; 
-\end_layout
-
-\begin_layout Itemize
-labeled tree generating polynomials;
-\end_layout
-
-\begin_layout Itemize
-and Hankel determinant guessing and computing.
-\end_layout
-
-\begin_layout Plain Layout
-My further concentration will be the random variable expressions and models
- in probability; later, the family of Sheffer sequences will be extended
- beyond only these two polynomials.
- 
-\end_layout
-
-\begin_layout Itemize
-For instance, some recent results, e.g., in 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "JCTA"
-literal "false"
-
-\end_inset
-
-, Budd studied the square lattice random walk related to Elliptic functions,
- can be a good start as a new model to explore new identities.
- 
-\end_layout
-
-\begin_layout Itemize
-Those lattice and corresponding tree structures are also related to certain
- polynomials, especially with labeled trees.
- This is also an ongoing joint work with Dr.
-\begin_inset space ~
-\end_inset
-
-Jun Ma from Shanghai Jiao Tong University.
-\end_layout
-
-\begin_layout Itemize
-Also, to continue the project on the shuffling model, we are now working
- on finding and proving the limit of 
-\begin_inset Formula $\varepsilon_{n}$
-\end_inset
-
- in 
-\begin_inset CommandInset ref
-LatexCommand eqref
-reference "eq:epsilon"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- And more general but similar shuffling models are also of our interests.
- 
-\end_layout
-
-\begin_layout Plain Layout
-Meanwhile, I would also involve more computational number theory research.
- In an early paper 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Diane"
-literal "false"
-
-\end_inset
-
-, we discovered new matrix representations of Bernoulli and Euler polynomials,
- including some of their extensions to higher-order.
- Therefore, other matrix representations of classic and new sequences of
- numbers, polynomials are of important interests.
- 
-\end_layout
-
-\begin_layout Itemize
-My next plan is to combining the probabilistic method, i.e., exploring algorithms
- with randomized steps; and comparing with quantum computing mechanisms,
- to modify or discover new, especially quantum, algorithms.
- The current plan is to begin with algorithms related to integer factorization,
- sum of squares, and integer partitions, which will be elaborated in the
- next subsection.
-\end_layout
-
-\begin_layout Itemize
-A second direction is to explore the differential geometry framework in
- effectively finding quantum gates, for which, see the famous result published
- in Science 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Science"
-literal "false"
-
-\end_inset
-
-.
- This is my long term direction, also with focus on potential applications
- in number theory and combinatorics
-\end_layout
-
-\begin_layout Plain Layout
-Another direction involves matrices: matrix representation of certain functions,
- polynomials, e.g., 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Diane,Matrix"
-literal "false"
-
-\end_inset
-
-.
- Also inspired by recent result 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "MKJM"
-literal "false"
-
-\end_inset
-
- of M.
-\begin_inset space ~
-\end_inset
-
-Kauers and J.
-\begin_inset space ~
-\end_inset
-
-Moosbauer, matrix multiplication still can be improved.
- I will focus on
+I will focus on
 \end_layout
 
 \begin_layout Itemize
@@ -1956,8 +1862,186 @@ literal "false"
 
 \end_layout
 
+\begin_layout Subsection
+Zonal polynomials
+\end_layout
+
+\begin_layout Standard
+Besides applying symbolic algorithms for proofs, it is also important to
+ implement certain algorithms for calculation.
+ In 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "25"
+literal "false"
+
+\end_inset
+
+, a SageMath package
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+https://jiulin90.github.io/Packages/BNE.sage
+\end_layout
+
+\end_inset
+
+ was built to compute zonal polynomials 
+\begin_inset Formula $C_{\lambda}(x_{1},\ldots,x_{m})$
+\end_inset
+
+ for any given integer partition 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+ Based on computational results, some patterns are observed and proven.
+ An independent Mathematica package
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+https://jiulin90.github.io/Packages/BNE.sage
+\end_layout
+
+\end_inset
+
+ is built by my coauthor, Dr.
+\begin_inset space ~
+\end_inset
+
+Christoph Koutschan.
+ 
+\end_layout
+
 \begin_layout Section
-Miscellaneous and final remark
+Remarks and some future plans
+\end_layout
+
+\begin_layout Standard
+Here are some potential future research topics and plans, including both
+ continuation of early work, and few completely new areas, with natural
+ motivition.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A long-term project focuses on mutual connections among orthogonal polynomials,
+ lattice paths, continued fractions and Hankel determinants; while current
+ short-term aims at 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+algorithms in computing operations of continued fraction expressions; 
+\end_layout
+
+\begin_layout Itemize
+labeled tree generating polynomials;
+\end_layout
+
+\begin_layout Itemize
+and Hankel determinant guessing and computing, in general.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+My second concentration will continue to work on the random variable expressions
+ and models in probability.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For instance, instead of only Bernoulli and Euler polynomials, the entire
+ family of Sheffer sequences may be taken into consideration.
+ 
+\end_layout
+
+\begin_layout Itemize
+Some recent results, e.g., in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "JCTA"
+literal "false"
+
+\end_inset
+
+, Budd studied the square lattice random walk related to Elliptic functions,
+ can be a good start as a new model to explore new identities.
+ 
+\end_layout
+
+\begin_layout Itemize
+Those lattice and corresponding tree structures are also related to certain
+ polynomials, especially with labeled trees.
+ 
+\end_layout
+
+\begin_layout Itemize
+Also, to continue the project on the shuffling model, we are now working
+ on finding and proving the limit of 
+\begin_inset Formula $\varepsilon_{n}$
+\end_inset
+
+ in 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:epsilon"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ And more general but similar shuffling models are also of our interests.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+I would also involve more computational number theory research.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For example, continuing from the matrix representations of Bernoulli and
+ Euler polynomials 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "20"
+literal "false"
+
+\end_inset
+
+, including some of their extensions to higher-order, we can consider other
+ matrix representations of classic and new sequences of numbers, polynomials
+ are of important interests.
+ 
+\end_layout
+
+\begin_layout Itemize
+Some 
+\begin_inset Formula $q$
+\end_inset
+
+-identities, which have computational applications, either faster convergence,
+ or more digits per term for computing certain constants, are also part
+ of my future plans.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Finally, one important area is the normal numbers, which also admit probabilisti
+c background.
+ I will gradually study related topics, in theory, computations, constructions,
+ and hopefully proofs.
+ 
 \end_layout
 
 \begin_layout Standard
