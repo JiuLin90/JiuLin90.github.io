@@ -2272,8 +2272,12 @@ Colloq.
 
 Math
 \emph default
-. 
+.
 \series bold
+
+\begin_inset space ~
+\end_inset
+
 158
 \series default
  (2019), 183–194.
@@ -2297,7 +2301,11 @@ Vignat, Connection coefficients for higher-order Bernoulli and Euler polynomials
 \emph on
 Fibonacci Quart
 \emph default
-. 
+.
+\begin_inset space ~
+\end_inset
+
+
 \series bold
 57
 \series default
@@ -2660,8 +2668,12 @@ Contrib.
 
 Discrete Math
 \emph default
-., 
+.
 \series bold
+
+\begin_inset space ~
+\end_inset
+
 18
 \series default
  (2023), 146–175.
