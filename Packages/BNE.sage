@@ -1,5 +1,5 @@
 ############################################################################################
-#  Project Name:                    Bernoulli and Eular Symbols                            #
+#  Project Name:                    Bernoulli and Euler Symbols                            #
 #  By                               Lin JIU                                                #
 #  Project Initiate:                July 1st, 2018                                         #
 #  Last Update:                     February 3rd, 2020                                     #
