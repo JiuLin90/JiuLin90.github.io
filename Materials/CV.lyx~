@@ -4698,6 +4698,32 @@ L.
 \end_inset
 
 Jiu
+\series default
+ and L.
+\begin_inset space ~
+\end_inset
+
+Peng, Information geometry and 
+\begin_inset Formula $\alpha$
+\end_inset
+
+-parallel prior of the beta-logistic distribution, To Appear in 
+\emph on
+Comm.
+ Statist.
+ Theory Methods
+\emph default
+.
+\end_layout
+
+\begin_layout Reverse Enumerate
+
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
 \family roman
 \series medium
 \shape up
@@ -4911,26 +4937,6 @@ Jiu
 
 Simonelli, A central limit theorem for a card shuffling problem, Submitted
  for Publication.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
- and L.
-\begin_inset space ~
-\end_inset
-
-Peng, Information geometry and 
-\begin_inset Formula $\alpha$
-\end_inset
-
--parallel prior of the beta-logistic distribution, Submitted for Publication.
 \end_layout
 
 \begin_layout Reverse Enumerate
@@ -5672,6 +5678,33 @@ Department of Mathematics and Statistics, Dalhousie University, Halifax,
 \end_inset
 
 31, 2024.
+ 
+\end_layout
+
+\begin_layout Reverse Enumerate
+
+\series bold
+\begin_inset Formula $q$
+\end_inset
+
+-Analogue on Hankel Determinants: the 
+\begin_inset Formula $q$
+\end_inset
+
+-Euler Numbers and the 
+\begin_inset Formula $q$
+\end_inset
+
+-Binomial Transform
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Canadian Number Theory Association XVI, 
+\emph default
+Fields Institute, Toronto, ON, Canada, June 10–14, 2024.
  
 \end_layout
 
