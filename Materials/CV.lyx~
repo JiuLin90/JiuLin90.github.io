@@ -6,40 +6,13 @@
 \origin unavailable
 \textclass extarticle
 \begin_preamble
-\usepackage{graphicx,titlesec,amsmath,enumitem}
+\usepackage{graphicx,titlesec,amsmath,enumitem,environ}
 
 \titlespacing{\section}{0pt}{-8pt}{-2pt}
 \titleformat{\section}{\vbox{\rule{\linewidth}{0.5pt}}\vspace{-0.3cm}\LARGE\bfseries}{\thesection}{}{}
 
 \setlist{noitemsep}
 
-\usepackage{environ}
-
-\makeatletter
-\newcounter{reverseenum}\newcounter{listcount}[reverseenum]%
-\let\olditem\item% Store regular \item macro
-\NewEnviron{reverseenum}{%
-  \stepcounter{reverseenum}% New reverseenum environment (also resets listcount)
-  \g@addto@macro{\BODY}{\item\relax\item}% Used to delimit the items; last item identified by \item\relax\item
-  \def\item##1\item{% Redefine \item to capture contents
-    \def\optarg{##1}%
-    \expandafter\ifx\optarg\relax\else% Last item not reached
-      \stepcounter{listcount}% Next item being processed
-      \global\@namedef{reverseenum@\thereverseenum @\thelistcount}{##1}% Store item in control sequence
-      \expandafter\item% Recursively continue processing items
-    \fi
-  }
-  \BODY% Process environment (save items)
-  \def\reverselist{% How to reverse list, recursively
-    \ifnum\value{listcount}>0
-      \olditem \csname reverseenum@\thereverseenum @\thelistcount\endcsname
-      \addtocounter{listcount}{-1}%
-      \reverselist
-    \fi
-  }
-  \enumerate\reverselist\endenumerate% Process items
-}
-\makeatother
 
 %\date{}
 \end_preamble
@@ -49,33 +22,6 @@ customHeadersFooters
 theorems-ams
 \end_modules
 \maintain_unincluded_children false
-\begin_local_layout
-Format 60
-
-Style Reverse_Enumerate
-Category              List
-Margin                Static
-LatexType             Item_Environment
-LatexName             reverseenum
-NextNoIndent          1
-ToggleIndent          Never
-LeftMargin            MMN
-LabelSep              xx
-ParSkip               0.0
-ItemSep               0.2
-TopSep                0.7
-BottomSep             0.7
-ParSep                0.3
-Align                 Block
-AlignPossible         Block, Left
-LabelType             Enumerate
-LabelCounter          "enum"
-HTMLTag               ol
-HTMLItem              li
-HTMLLabel             NONE
-RefPrefix             enu
-End
-\end_local_layout
 \language english
 \language_package default
 \inputencoding auto
@@ -334,7 +280,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Assistant Professor of Mathematics
@@ -342,6 +288,130 @@ Assistant Professor of Mathematics
 \end_inset
 
 Duke Kunshan University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "15col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+2023.08–
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Assistant Professor of the Practice
+\begin_inset space \hfill{}
+\end_inset
+
+Duke University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "15col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+2023.08–
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Adjunt of the Faculty of Graduate Studies
+\begin_inset space \hfill{}
+\end_inset
+
+Dalhousie University
 \end_layout
 
 \end_inset
@@ -6430,47 +6500,144 @@ Journal of Ningde Normal University (Natural Science)
 Invited Talks
 \end_layout
 
-\begin_layout Reverse Enumerate
-
-\series bold
-Implementation of an Algorithm on Converting Sums into Nested Sums
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Laboratoire des Signaux et Systemes, Universit
-\emph default
-
-\begin_inset ERT
+\begin_layout Enumerate
+\begin_inset Argument item:1
 status open
 
 \begin_layout Plain Layout
-
-{
-\backslash
-'{e}}
+31.
 \end_layout
 
 \end_inset
 
 
+\series bold
+
+\begin_inset Formula $q$
+\end_inset
+
+-Analogue on Hankel Determinants: the 
+\begin_inset Formula $q$
+\end_inset
+
+-Euler Numbers and the 
+\begin_inset Formula $q$
+\end_inset
+
+-Binomial Transform
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
 \emph on
- Paris Sud XI
+Canadian Number Theory Association XVI, 
 \emph default
-, Orsay, France, Jan.
+Fields Institute, Toronto, ON, Canada, June 10–14, 2024.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+30.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Shuffle to One, Shuffle to Normal
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Invited Seminar Talk, 
+\emph default
+Department of Mathematics and Statistics, Dalhousie University, Halifax,
+ NS, Canada, Jan.
 \begin_inset space ~
 \end_inset
 
-8, 2014.
+31, 2024.
+ 
 \end_layout
 
-\begin_layout Reverse Enumerate
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+29.
+\end_layout
+
+\end_inset
+
 
 \series bold
-Recursion Rules for the Hypergeometric Zeta Functions
+Random Walk Models for Identities Involving Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Invited Seminar Talk, 
+\emph default
+Department of Mathematics and Statistics, Dalhousie University, Halifax,
+ NS, Canada, Mar.
+\begin_inset space ~
+\end_inset
+
+6, 2023.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+28.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Random Walk Model on Finite Number of Sites
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Invited Seminar Talk
+\emph default
+, School of Mathematics, Anhui University, Online, Oct.
+\begin_inset space ~
+\end_inset
+
+19, 2022.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+27.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Bernoulli Symbol and Multiple Zeta Function at Non-negative Integers
 \series default
 
 \begin_inset Newline newline
@@ -6478,10 +6645,326 @@ Recursion Rules for the Hypergeometric Zeta Functions
 
 
 \emph on
-Midwest Number Theory Conference for Graduate Students and Recent PhDs,
- X,
+The First International Conference on Multiple Zeta Values and Related Topics
 \emph default
- University of Illinois at Urbana-Champaign, Urbana, IL, U.
+, Online, Aug.
+\begin_inset space ~
+\end_inset
+
+08–09, 2022.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+26.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Hankel Determinants of Certain Sequences of Bernoulli and Euler Polynomials
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Invited Seminar Talk
+\emph default
+, Department of Mathematics, Zhejiang Sci-Tech University, Online, June
+ 12, 2022.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+25.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
+ Zeta Values
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Duke Kunshan University-Shanghai Jiao Tong University Joint Workshop for
+ Mathematics and Data Science
+\emph default
+, Shanghai, P.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+China, Jan.
+\begin_inset space ~
+\end_inset
+
+5, 2022.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+24.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Random Walk Models for Non-trivial Identities Involving Bernoulli and Euler
+ Polynomials of Higher-orders
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Suzhou Area Youth Mathematicians 2nd Annual Workshop,
+\emph default
+ Soochow University, Kunshan, Suzhou, Jiangsu Province, P.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+China, Sept.
+\begin_inset space ~
+\end_inset
+
+25–26, 2021.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+23.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Random Walks and Identities Involving Bernoulli and Euler Polynomials of
+ Higher-order
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Invited Seminar Talk
+\emph default
+, Institute of Statistics and Big Data, Renmin University of China, Beijing,
+ P.
+ R.
+ China, June 18, 2021.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+22.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Examples on Computer Proofs 
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Invited Seminar Talk
+\emph default
+, Wuhan University, Wuhan, Hubei Province, P.
+ R.
+ China, May 28, 2021.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+21.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Hankel Determinant of Sequences Related to Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+DKU-WHU Math and Stat Academic Conference
+\emph default
+, Wuhan University, Wuhan, Hubei Province, P.
+ R.
+ China, May 28, 2021.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+20.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Hankel Determinant on Sequences Related to Bernoulli and Euler Polynomials
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Suzhou Area Youth Mathematicians 1st Annual Workshop,
+\emph default
+ Duke Kunshan University, Kunshan, Suzhou, Jiangsu Province, P.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+China, Nov.
+\begin_inset space ~
+\end_inset
+
+14–15, 2020.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+19.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Three Examples on Computer Proofs
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+Zu Chongzhi Colloquium Series,
+\emph default
+ Duke Kunshan University, Kunshan, Suzhou, P.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+China, Nov.
+\begin_inset space ~
+\end_inset
+
+6, 2020.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+18.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Orthogonal Polynomials for Higher-order Euler Polynomials
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+15th International Symposium on Orthogonal Polynomials, Special Functions
+ and Applications
+\emph default
+, Hagenberg, Austria, July 22–26, 2019.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+17.
+\end_layout
+
+\end_inset
+
+
+\series bold
+On Harmonic Sums: Integral and Matrix Representations with Connections to
+ Partition-theoretic Generalization of the Riemann Zeta-function and Random
+ Walks
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Analytic and Combinatorial Number Theory: The Legacy of Ramanujan (A conference
+ in honor of Bruce C.
+\begin_inset space ~
+\end_inset
+
+Berndt's 80th birthday)
+\emph default
+, University of Illinois at Urbana-Champaign, Urbana, IL, U.
 \begin_inset space ~
 \end_inset
 
@@ -6489,32 +6972,236 @@ S.
 \begin_inset space ~
 \end_inset
 
-A., June 3–4, 2014.
+A., June 6–9, 2019.
 \end_layout
 
-\begin_layout Reverse Enumerate
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+16.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Random Walk Approaches to Identities on Higher-order Bernoulli and Euler
+ Polynomials
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+American Mathematical Society Spring Southeastern Sectional Meeting
+\emph default
+, Auburn University, Auburn, AL, U.
+\begin_inset space ~
+\end_inset
+
+S.
+\begin_inset space ~
+\end_inset
+
+A., Mar.
+\begin_inset space ~
+\end_inset
+
+15–17, 2019.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+15.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Matrix Representation for Higher-Order Euler Polynomials
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+2019 Joint Mathematics Meetings
+\emph default
+, Baltimore, MD, U.
+\begin_inset space ~
+\end_inset
+
+S.
+\begin_inset space ~
+\end_inset
+
+A., Jan.
+\begin_inset space ~
+\end_inset
+
+16–19, 2019.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+14.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Bernoulli Symbol and Sum of Powers
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+6th International Congress on Mathematical Software
+\emph default
+, University of Notre Dame, Notre Dame, IN, U.
+\begin_inset space ~
+\end_inset
+
+S.
+\begin_inset space ~
+\end_inset
+
+A., July 24–27, 2018.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+13.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Random Walks and Identities for High-order Bernoulli and Euler Polynomials
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+18th International Conference on Fibonacci Numbers and Their Applications
+\emph default
+, Dalhousie University, Halifax, NS, Canada, July 1–8, 2018.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+12.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Matrix Representations for Bernoulli and Euler Polynomials
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+2018 Canadian Mathematical Society Summer Meeting
+\emph default
+, University of New Brunswick, Fredericton, NB, Canada, June 1–4, 2018.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+11.
+\end_layout
+
+\end_inset
+
+
+\series bold
+The Probabilistic and Combinatorial Interpretations of the Bernoulli Symbol
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+2017 Canadian Mathematical Society Winter Meeting
+\emph default
+, University of Waterloo, Waterloo, ON, Canada, Dec.
+ 8–11, 2017.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+10.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Bernoulli Symbol on Multiple Zeta Values at Negative Integers
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+23rd Conference on Applications of Computer Algebra (Commemorating the heritage
+ of Jonathan Michael Borwein)
+\emph default
+, Jerusalem College of Technology, Jerusalem, Israel, July 17–21, 2017.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+9.
+\end_layout
+
+\end_inset
+
 
 \series bold
 On Bernoulli Symbol 
 \begin_inset Formula $\mathcal{B}$
 \end_inset
 
- and Its Applications
-\begin_inset Newline newline
-\end_inset
 
-
-\series default
-\emph on
-Center for Combinatorics, Nankai University
-\emph default
-, Tianjin, China, July 8, 2015.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-The Method of Brackets
 \series default
 
 \begin_inset Newline newline
@@ -6522,64 +7209,21 @@ The Method of Brackets
 
 
 \emph on
-5th International Congress on Mathematical Software
+Klagenfurt-Linz-Wien Workshop
 \emph default
-, The Zuse Institute Berlin, Berlin, Germany, July 11–14, 2016.
+, Riefnitz, Austria, May 3–6, 2017.
 \end_layout
 
-\begin_layout Reverse Enumerate
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
 
-\series bold
-Random Walk: A Probabilistic and Geometric Approach to Number Theory
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\emph on
-International Conference on Mathematical Characterization, Analysis and
- Applications of Complex Information
-\emph default
-, Beijing Institute of Technology, Beijing, China, July 19–20, 2016.
+\begin_layout Plain Layout
+8.
 \end_layout
 
-\begin_layout Reverse Enumerate
-
-\series bold
-On Binomial Identities in Arbitrary Bases
-\series default
-
-\begin_inset Newline newline
 \end_inset
 
-
-\emph on
-Beijing Key Laboratory on Mathematical Characterization, Analysis and Applicatio
-ns of Complex Information, Beijing Institute of Technology
-\emph default
-, Beijing, China, July 26, 2016.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-``Random Walks'' for Harmonic Sums
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\emph on
-SFB Statusseminar
-\emph default
-, Strobl, Austria, Nov.
-\begin_inset space ~
-\end_inset
-
-27–30, 2016.
-\end_layout
-
-\begin_layout Reverse Enumerate
 
 \series bold
 The Method of Brackets (MoB) and Integrating by Differentiating (IbD) Method
@@ -6633,47 +7277,151 @@ status open
 9, 2016.
 \end_layout
 
-\begin_layout Reverse Enumerate
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+7.
+\end_layout
+
+\end_inset
+
+
+\series bold
+``Random Walks'' for Harmonic Sums
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+SFB Statusseminar
+\emph default
+, Strobl, Austria, Nov.
+\begin_inset space ~
+\end_inset
+
+27–30, 2016.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+6.
+\end_layout
+
+\end_inset
+
+
+\series bold
+On Binomial Identities in Arbitrary Bases
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Beijing Key Laboratory on Mathematical Characterization, Analysis and Applicatio
+ns of Complex Information, Beijing Institute of Technology
+\emph default
+, Beijing, China, July 26, 2016.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+5.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Random Walk: A Probabilistic and Geometric Approach to Number Theory
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\emph on
+International Conference on Mathematical Characterization, Analysis and
+ Applications of Complex Information
+\emph default
+, Beijing Institute of Technology, Beijing, China, July 19–20, 2016.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+
+
+\series bold
+The Method of Brackets
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+5th International Congress on Mathematical Software
+\emph default
+, The Zuse Institute Berlin, Berlin, Germany, July 11–14, 2016.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+
 
 \series bold
 On Bernoulli Symbol 
 \begin_inset Formula $\mathcal{B}$
 \end_inset
 
-
-\series default
-
+ and Its Applications
 \begin_inset Newline newline
 \end_inset
 
 
+\series default
 \emph on
-Klagenfurt-Linz-Wien Workshop
+Center for Combinatorics, Nankai University
 \emph default
-, Riefnitz, Austria, May 3–6, 2017.
+, Tianjin, China, July 8, 2015.
 \end_layout
 
-\begin_layout Reverse Enumerate
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
 
-\series bold
-Bernoulli Symbol on Multiple Zeta Values at Negative Integers
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-23rd Conference on Applications of Computer Algebra (Commemorating the heritage
- of Jonathan Michael Borwein)
-\emph default
-, Jerusalem College of Technology, Jerusalem, Israel, July 17–21, 2017.
+\begin_layout Plain Layout
+2.
 \end_layout
 
-\begin_layout Reverse Enumerate
+\end_inset
+
 
 \series bold
-The Probabilistic and Combinatorial Interpretations of the Bernoulli Symbol
+Recursion Rules for the Hypergeometric Zeta Functions
 \series default
 
 \begin_inset Newline newline
@@ -6681,58 +7429,10 @@ The Probabilistic and Combinatorial Interpretations of the Bernoulli Symbol
 
 
 \emph on
-2017 Canadian Mathematical Society Winter Meeting
+Midwest Number Theory Conference for Graduate Students and Recent PhDs,
+ X,
 \emph default
-, University of Waterloo, Waterloo, ON, Canada, Dec.
- 8–11, 2017.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Matrix Representations for Bernoulli and Euler Polynomials
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-2018 Canadian Mathematical Society Summer Meeting
-\emph default
-, University of New Brunswick, Fredericton, NB, Canada, June 1–4, 2018.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Random Walks and Identities for High-order Bernoulli and Euler Polynomials
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-18th International Conference on Fibonacci Numbers and Their Applications
-\emph default
-, Dalhousie University, Halifax, NS, Canada, July 1–8, 2018.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Bernoulli Symbol and Sum of Powers
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-6th International Congress on Mathematical Software
-\emph default
-, University of Notre Dame, Notre Dame, IN, U.
+ University of Illinois at Urbana-Champaign, Urbana, IL, U.
 \begin_inset space ~
 \end_inset
 
@@ -6740,13 +7440,22 @@ S.
 \begin_inset space ~
 \end_inset
 
-A., July 24–27, 2018.
+A., June 3–4, 2014.
 \end_layout
 
-\begin_layout Reverse Enumerate
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+
 
 \series bold
-Matrix Representation for Higher-Order Euler Polynomials
+Implementation of an Algorithm on Converting Sums into Nested Sums
 \series default
 
 \begin_inset Newline newline
@@ -6754,389 +7463,30 @@ Matrix Representation for Higher-Order Euler Polynomials
 
 
 \emph on
-2019 Joint Mathematics Meetings
+Laboratoire des Signaux et Systemes, Universit
 \emph default
-, Baltimore, MD, U.
-\begin_inset space ~
-\end_inset
 
-S.
-\begin_inset space ~
-\end_inset
+\begin_inset ERT
+status open
 
-A., Jan.
-\begin_inset space ~
-\end_inset
+\begin_layout Plain Layout
 
-16–19, 2019.
+{
+\backslash
+'{e}}
 \end_layout
 
-\begin_layout Reverse Enumerate
-
-\series bold
-Random Walk Approaches to Identities on Higher-order Bernoulli and Euler
- Polynomials
-\series default
-
-\begin_inset Newline newline
 \end_inset
 
 
 \emph on
-American Mathematical Society Spring Southeastern Sectional Meeting
+ Paris Sud XI
 \emph default
-, Auburn University, Auburn, AL, U.
+, Orsay, France, Jan.
 \begin_inset space ~
 \end_inset
 
-S.
-\begin_inset space ~
-\end_inset
-
-A., Mar.
-\begin_inset space ~
-\end_inset
-
-15–17, 2019.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-On Harmonic Sums: Integral and Matrix Representations with Connections to
- Partition-theoretic Generalization of the Riemann Zeta-function and Random
- Walks
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Analytic and Combinatorial Number Theory: The Legacy of Ramanujan (A conference
- in honor of Bruce C.
-\begin_inset space ~
-\end_inset
-
-Berndt's 80th birthday)
-\emph default
-, University of Illinois at Urbana-Champaign, Urbana, IL, U.
-\begin_inset space ~
-\end_inset
-
-S.
-\begin_inset space ~
-\end_inset
-
-A., June 6–9, 2019.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Orthogonal Polynomials for Higher-order Euler Polynomials
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-15th International Symposium on Orthogonal Polynomials, Special Functions
- and Applications
-\emph default
-, Hagenberg, Austria, July 22–26, 2019.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Three Examples on Computer Proofs
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\emph on
-Zu Chongzhi Colloquium Series,
-\emph default
- Duke Kunshan University, Kunshan, Suzhou, P.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-China, Nov.
-\begin_inset space ~
-\end_inset
-
-6, 2020.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Hankel Determinant on Sequences Related to Bernoulli and Euler Polynomials
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\emph on
-Suzhou Area Youth Mathematicians 1st Annual Workshop,
-\emph default
- Duke Kunshan University, Kunshan, Suzhou, Jiangsu Province, P.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-China, Nov.
-\begin_inset space ~
-\end_inset
-
-14–15, 2020.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Hankel Determinant of Sequences Related to Bernoulli and Euler Polynomials
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\emph on
-DKU-WHU Math and Stat Academic Conference
-\emph default
-, Wuhan University, Wuhan, Hubei Province, P.
- R.
- China, May 28, 2021.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Examples on Computer Proofs 
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\emph on
-Invited Seminar Talk
-\emph default
-, Wuhan University, Wuhan, Hubei Province, P.
- R.
- China, May 28, 2021.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Random Walks and Identities Involving Bernoulli and Euler Polynomials of
- Higher-order
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\emph on
-Invited Seminar Talk
-\emph default
-, Institute of Statistics and Big Data, Renmin University of China, Beijing,
- P.
- R.
- China, June 18, 2021.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Random Walk Models for Non-trivial Identities Involving Bernoulli and Euler
- Polynomials of Higher-orders
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Suzhou Area Youth Mathematicians 2nd Annual Workshop,
-\emph default
- Soochow University, Kunshan, Suzhou, Jiangsu Province, P.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-China, Sept.
-\begin_inset space ~
-\end_inset
-
-25–26, 2021.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
- Zeta Values
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Duke Kunshan University-Shanghai Jiao Tong University Joint Workshop for
- Mathematics and Data Science
-\emph default
-, Shanghai, P.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-China, Jan.
-\begin_inset space ~
-\end_inset
-
-5, 2022.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Hankel Determinants of Certain Sequences of Bernoulli and Euler Polynomials
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-Invited Seminar Talk
-\emph default
-, Department of Mathematics, Zhejiang Sci-Tech University, Online, June
- 12, 2022.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Bernoulli Symbol and Multiple Zeta Function at Non-negative Integers
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-
-\emph on
-The First International Conference on Multiple Zeta Values and Related Topics
-\emph default
-, Online, Aug.
-\begin_inset space ~
-\end_inset
-
-08–09, 2022.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Random Walk Model on Finite Number of Sites
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\emph on
-Invited Seminar Talk
-\emph default
-, School of Mathematics, Anhui University, Online, Oct.
-\begin_inset space ~
-\end_inset
-
-19, 2022.
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Random Walk Models for Identities Involving Bernoulli and Euler Polynomials
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\emph on
-Invited Seminar Talk, 
-\emph default
-Department of Mathematics and Statistics, Dalhousie University, Halifax,
- NS, Canada, Mar.
-\begin_inset space ~
-\end_inset
-
-6, 2023.
- 
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-Shuffle to One, Shuffle to Normal
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\emph on
-Invited Seminar Talk, 
-\emph default
-Department of Mathematics and Statistics, Dalhousie University, Halifax,
- NS, Canada, Jan.
-\begin_inset space ~
-\end_inset
-
-31, 2024.
- 
-\end_layout
-
-\begin_layout Reverse Enumerate
-
-\series bold
-\begin_inset Formula $q$
-\end_inset
-
--Analogue on Hankel Determinants: the 
-\begin_inset Formula $q$
-\end_inset
-
--Euler Numbers and the 
-\begin_inset Formula $q$
-\end_inset
-
--Binomial Transform
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\emph on
-Canadian Number Theory Association XVI, 
-\emph default
-Fields Institute, Toronto, ON, Canada, June 10–14, 2024.
- 
+8, 2014.
 \end_layout
 
 \begin_layout Section*

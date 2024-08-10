@@ -6,40 +6,13 @@
 \origin unavailable
 \textclass extarticle
 \begin_preamble
-\usepackage{graphicx,titlesec,amsmath,enumitem}
+\usepackage{graphicx,titlesec,amsmath,enumitem,environ}
 
 \titlespacing{\section}{0pt}{-8pt}{-2pt}
 \titleformat{\section}{\vbox{\rule{\linewidth}{0.5pt}}\vspace{-0.3cm}\LARGE\bfseries}{\thesection}{}{}
 
 \setlist{noitemsep}
 
-\usepackage{environ}
-
-\makeatletter
-\newcounter{reverseenum}\newcounter{listcount}[reverseenum]%
-\let\olditem\item% Store regular \item macro
-\NewEnviron{reverseenum}{%
-  \stepcounter{reverseenum}% New reverseenum environment (also resets listcount)
-  \g@addto@macro{\BODY}{\item\relax\item}% Used to delimit the items; last item identified by \item\relax\item
-  \def\item##1\item{% Redefine \item to capture contents
-    \def\optarg{##1}%
-    \expandafter\ifx\optarg\relax\else% Last item not reached
-      \stepcounter{listcount}% Next item being processed
-      \global\@namedef{reverseenum@\thereverseenum @\thelistcount}{##1}% Store item in control sequence
-      \expandafter\item% Recursively continue processing items
-    \fi
-  }
-  \BODY% Process environment (save items)
-  \def\reverselist{% How to reverse list, recursively
-    \ifnum\value{listcount}>0
-      \olditem \csname reverseenum@\thereverseenum @\thelistcount\endcsname
-      \addtocounter{listcount}{-1}%
-      \reverselist
-    \fi
-  }
-  \enumerate\reverselist\endenumerate% Process items
-}
-\makeatother
 
 %\date{}
 \end_preamble
@@ -49,33 +22,6 @@ customHeadersFooters
 theorems-ams
 \end_modules
 \maintain_unincluded_children false
-\begin_local_layout
-Format 60
-
-Style Reverse_Enumerate
-Category              List
-Margin                Static
-LatexType             Item_Environment
-LatexName             reverseenum
-NextNoIndent          1
-ToggleIndent          Never
-LeftMargin            MMN
-LabelSep              xx
-ParSkip               0.0
-ItemSep               0.2
-TopSep                0.7
-BottomSep             0.7
-ParSep                0.3
-Align                 Block
-AlignPossible         Block, Left
-LabelType             Enumerate
-LabelCounter          "enum"
-HTMLTag               ol
-HTMLItem              li
-HTMLLabel             NONE
-RefPrefix             enu
-End
-\end_local_layout
 \language english
 \language_package default
 \inputencoding auto
@@ -334,7 +280,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Assistant Professor of Mathematics
@@ -342,6 +288,130 @@ Assistant Professor of Mathematics
 \end_inset
 
 Duke Kunshan University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "15col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+2023.08–
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Assistant Professor of the Practice
+\begin_inset space \hfill{}
+\end_inset
+
+Duke University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "15col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+2024.07–
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Adjunt of the Faculty of Graduate Studies
+\begin_inset space \hfill{}
+\end_inset
+
+Dalhousie University
 \end_layout
 
 \end_inset
