@@ -378,7 +378,7 @@ backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
-2023.08–
+2024.07–
 \end_layout
 
 \end_inset
@@ -404,7 +404,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Adjunt of the Faculty of Graduate Studies
