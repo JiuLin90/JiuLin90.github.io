@@ -2134,22 +2134,19 @@ L.
 
 Jiu
 \series default
- and L.
+ and Y.
 \begin_inset space ~
 \end_inset
 
-Peng, Information geometry and alpha-parallel prior of the beta-logistic
- distribution, To Appear in 
+Li*, Hankel determinants of certain sequences of Bernoulli polynomials:
+ A direct proof of an inverse matrix entry from Statistics, To Appear in
+ 
 \emph on
-Comm.
+Contrib.
 \begin_inset space ~
 \end_inset
 
-Statist.
-\begin_inset space ~
-\end_inset
-
-Theory Methods
+Discrete Math
 \emph default
 .
 \end_layout
@@ -2209,19 +2206,22 @@ L.
 
 Jiu
 \series default
- and Y.
+ and L.
 \begin_inset space ~
 \end_inset
 
-Li*, Hankel determinants of certain sequences of Bernoulli polynomials:
- A direct proof of an inverse matrix entry from Statistics, To Appear in
- 
+Peng, Information geometry and alpha-parallel prior of the beta-logistic
+ distribution, To Appear in 
 \emph on
-Contrib.
+Comm.
 \begin_inset space ~
 \end_inset
 
-Discrete Math
+Statist.
+\begin_inset space ~
+\end_inset
+
+Theory Methods
 \emph default
 .
 \end_layout
