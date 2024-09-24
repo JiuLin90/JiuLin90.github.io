@@ -1664,75 +1664,6 @@ status open
 \uwave default
 \noun default
 \color inherit
-Q.
-\begin_inset space ~
-\end_inset
-
-Chen, S.
-\begin_inset space ~
-\end_inset
-
-Chern, and 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-, Multi-headed lattices and Green functions, submitted for publication.
- 
-\end_layout
-
-\begin_layout Enumerate
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-38.
-\end_layout
-
-\end_inset
-
-
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
 S.
 \begin_inset space ~
 \end_inset
@@ -1793,7 +1724,7 @@ status open
 \uwave off
 \noun off
 \color none
-37.
+38.
 \end_layout
 
 \end_inset
@@ -1862,7 +1793,7 @@ status open
 \uwave off
 \noun off
 \color none
-36.
+37.
 \end_layout
 
 \end_inset
@@ -1901,15 +1832,7 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Y.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Shi, On 
+Wang, On 
 \begin_inset Formula $b$
 \end_inset
 
@@ -2077,6 +2000,86 @@ Jiu
 \end_inset
 
 
+\end_layout
+
+\begin_layout Enumerate
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+36.
+\end_layout
+
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Q.
+\begin_inset space ~
+\end_inset
+
+Chen, S.
+\begin_inset space ~
+\end_inset
+
+Chern, and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Multi-headed lattices and Green functions, To Appear in 
+\emph on
+J.
+\begin_inset space ~
+\end_inset
+
+Phys.
+\begin_inset space ~
+\end_inset
+
+A
+\emph default
+.
 \end_layout
 
 \begin_layout Enumerate
