@@ -197,15 +197,7 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Y.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Shi, On 
+Wang*, On 
 \begin_inset Formula $b$
 \end_inset
 
@@ -472,6 +464,35 @@ Contrib.
 \end_inset
 
 Discrete Math
+\emph default
+.
+\end_layout
+
+\begin_layout Reverse Enumerate
+
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+ and L.
+\begin_inset space ~
+\end_inset
+
+Peng, Information geometry and alpha-parallel prior of the beta-logistic
+ distribution, To Appear in 
+\emph on
+Comm.
+\begin_inset space ~
+\end_inset
+
+Statist.
+\begin_inset space ~
+\end_inset
+
+Theory Methods
 \emph default
 .
 \end_layout
@@ -3624,6 +3645,43 @@ Paris
 362
 \series default
  (2024), 203–216.
+ 
+\end_layout
+
+\begin_layout Reverse Enumerate
+Q.
+\begin_inset space ~
+\end_inset
+
+Chen, S.
+\begin_inset space ~
+\end_inset
+
+Chern, and 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+, Multi-headed lattices and Green functions, To Appear in 
+\emph on
+J.
+ Phys.
+ A: Math
+\emph default
+.
+ 
+\emph on
+Theor
+\emph default
+.
+ 
+\series bold
+57
+\series default
+ (2024) Article 465204.
  
 \end_layout
 

@@ -742,13 +742,13 @@ Therefore, in recent years, I accomplished a series studies on Hankel determinan
 ts 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "27,28,32,34,36,38"
+key "27,28,32,33,35,38"
 literal "false"
 
 \end_inset
 
 , involving mainly Bernoulli and Euler polynomials, with their extensions,
- in, e.g., Dirchlet characters and 
+ in, e.g., Dirichlet characters and 
 \begin_inset Formula $q$
 \end_inset
 
@@ -800,7 +800,7 @@ literal "false"
 The Hankel determinants we studied in 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "34"
+key "35"
 literal "false"
 
 \end_inset
@@ -1121,7 +1121,7 @@ Shuffling model
 The very recent work 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "36"
+key "37"
 literal "false"
 
 \end_inset
@@ -1169,7 +1169,7 @@ n\leq\mathbb{E}[X_{n}]\leq n+\sqrt{n}\Rightarrow\mathbb{E}[X_{n}]\sim n.
 Our work 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "36"
+key "37"
 literal "false"
 
 \end_inset
@@ -1286,7 +1286,7 @@ Dongmian Zou.
 In the recent work 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "37"
+key "36"
 literal "false"
 
 \end_inset
@@ -1339,7 +1339,7 @@ Miscellaneous
 \end_layout
 
 \begin_layout Standard
-There are also some work, inspired by probabilistic intepretations.
+There are also some work, inspired by probabilistic interpretations.
  For example, 
 \end_layout
 
@@ -1393,7 +1393,7 @@ In general, computer or machine proofs, as the major aim in symbolic computation
  For example, the WZ-method is applied in the proofs of 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "09,25,34"
+key "09,25,35"
 literal "false"
 
 \end_inset
@@ -1629,7 +1629,7 @@ with only 6 simple rules, with applications to evaluate certain Feymann
 \begin_inset space ~
 \end_inset
 
-D superviser's long term project in proving all entries of 
+D supervisor's long term project in proving all entries of 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "GR"
@@ -1915,6 +1915,42 @@ Christoph Koutschan.
  
 \end_layout
 
+\begin_layout Subsection
+Lattice Green functions
+\end_layout
+
+\begin_layout Standard
+In the very recent work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "34"
+literal "false"
+
+\end_inset
+
+, we applied the holonomic function package to study multi-headed lattices,
+ properties of the corresponding Green functions, and the P
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'{o}
+\end_layout
+
+\end_inset
+
+lya numbers.
+ Three missing cases in dimension 
+\begin_inset Formula $\leq5$
+\end_inset
+
+ were completed.
+ 
+\end_layout
+
 \begin_layout Section
 Remarks and some future plans
 \end_layout
@@ -1922,7 +1958,7 @@ Remarks and some future plans
 \begin_layout Standard
 Here are some potential future research topics and plans, including both
  continuation of early work, and few completely new areas, with natural
- motivition.
+ motivation.
  
 \end_layout
 
@@ -2050,7 +2086,7 @@ Please find the publication list below, including some other work that does
  Among them, some are also suitable for undergraduate students, e.g., 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "07,11,30,35"
+key "07,11,30,39"
 literal "false"
 
 \end_inset
@@ -2060,7 +2096,7 @@ literal "false"
 \end_layout
 
 \begin_layout Section*
-List of Publications
+List of Publications (Including Submitted Ones)
 \end_layout
 
 \begin_layout Standard

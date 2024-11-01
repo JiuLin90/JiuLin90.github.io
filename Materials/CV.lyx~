@@ -1832,7 +1832,7 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Wang, On 
+Wang*, On 
 \begin_inset Formula $b$
 \end_inset
 
@@ -6490,6 +6490,37 @@ Journal of Ningde Normal University (Natural Science)
 \size large
 \noun on
 Invited Talks
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+32.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Multi-headed Lattices and Green Functions
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Invited Seminar Talk, 
+\emph default
+Department of Mathematics and Statistics, Dalhousie University, Halifax,
+ NS, Canada, Oct.
+\begin_inset space ~
+\end_inset
+
+8, 2024.
+ 
 \end_layout
 
 \begin_layout Enumerate
