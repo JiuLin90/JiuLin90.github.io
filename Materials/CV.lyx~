@@ -2040,7 +2040,7 @@ status open
 
 
 \family default
-\series default
+\series bold
 \shape default
 \size default
 \emph default
@@ -2051,33 +2051,28 @@ status open
 \uwave default
 \noun default
 \color inherit
-Q.
-\begin_inset space ~
-\end_inset
-
-Chen, S.
-\begin_inset space ~
-\end_inset
-
-Chern, and 
-\series bold
 L.
 \begin_inset space ~
 \end_inset
 
 Jiu
 \series default
-, Multi-headed lattices and Green functions, To Appear in 
+ and L.
+\begin_inset space ~
+\end_inset
+
+Peng, Information geometry and alpha-parallel prior of the beta-logistic
+ distribution, To Appear in 
 \emph on
-J.
+Comm.
 \begin_inset space ~
 \end_inset
 
-Phys.
+Statist.
 \begin_inset space ~
 \end_inset
 
-A
+Theory Methods
 \emph default
 .
 \end_layout
@@ -2192,7 +2187,7 @@ status open
 
 
 \family default
-\series bold
+\series default
 \shape default
 \size default
 \emph default
@@ -2203,30 +2198,35 @@ status open
 \uwave default
 \noun default
 \color inherit
+Q.
+\begin_inset space ~
+\end_inset
+
+Chen, S.
+\begin_inset space ~
+\end_inset
+
+Chern, and 
+\series bold
 L.
 \begin_inset space ~
 \end_inset
 
 Jiu
 \series default
- and L.
-\begin_inset space ~
-\end_inset
-
-Peng, Information geometry and alpha-parallel prior of the beta-logistic
- distribution, To Appear in 
+, Multi-headed lattices and Green functions, 
 \emph on
-Comm.
-\begin_inset space ~
-\end_inset
-
-Statist.
-\begin_inset space ~
-\end_inset
-
-Theory Methods
+J.
+ Phys.
+ A: Math.
+ Theor
 \emph default
 .
+ 
+\series bold
+57
+\series default
+ (2024) Article 465204.
 \end_layout
 
 \begin_layout Enumerate
