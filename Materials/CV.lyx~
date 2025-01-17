@@ -2137,8 +2137,7 @@ Jiu
 \end_inset
 
 Li*, Hankel determinants of certain sequences of Bernoulli polynomials:
- A direct proof of an inverse matrix entry from Statistics, To Appear in
- 
+ A direct proof of an inverse matrix entry from Statistics, 
 \emph on
 Contrib.
 \begin_inset space ~
@@ -2147,6 +2146,14 @@ Contrib.
 Discrete Math
 \emph default
 .
+\begin_inset space ~
+\end_inset
+
+
+\series bold
+19
+\series default
+ (2025), 64–84.
 \end_layout
 
 \begin_layout Enumerate
