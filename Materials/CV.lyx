@@ -8006,10 +8006,154 @@ Teaching Experience
 
 \begin_layout Standard
 \noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "13col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
 
-\shape smallcaps
-\bar under
-Duke Kunshan University
+\begin_layout Plain Layout
+\noindent
+2025 Winter
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "85col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "15col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+MATH 6400
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Integer Partitions and 
+\begin_inset Formula $q$
+\end_inset
+
+-Series
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Dalhousie University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 1bp
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -8021,7 +8165,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8070,7 +8214,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8099,7 +8243,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8112,6 +8256,35 @@ status collapsed
 
 \begin_layout Plain Layout
 Complex Analysis
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8140,7 +8313,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8189,7 +8362,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8198,7 +8371,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 105
@@ -8218,7 +8391,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Calculus
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8230,7 +8432,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Calculus
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8246,7 +8448,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8255,7 +8457,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 202
@@ -8275,7 +8477,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Linear Algebra
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8287,7 +8518,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Linear Algebra
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8303,7 +8534,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8312,7 +8543,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 105
@@ -8332,7 +8563,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Calculus
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8344,7 +8604,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Calculus
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8360,7 +8620,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8369,7 +8629,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 301
@@ -8389,7 +8649,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Advanced Introduction to Probability
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8401,12 +8690,15 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Advanced Introduction to Probability
+Duke Kunshan University
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset VSpace 1bp
 \end_inset
 
@@ -8427,7 +8719,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8476,7 +8768,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8485,7 +8777,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 205
@@ -8505,7 +8797,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Probability and Statistics
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8517,7 +8838,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Probability and Statistics
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8533,7 +8854,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8542,7 +8863,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MINITERM 102
@@ -8562,7 +8883,40 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Experimental Mathematics and 
+\begin_inset Newline newline
+\end_inset
+
+Symbolic Computation
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8574,12 +8928,15 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Experimental Mathematics and Symbolic Computation
+Duke Kunshan University
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset VSpace 1bp
 \end_inset
 
@@ -8600,7 +8957,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8649,7 +9006,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8658,7 +9015,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 INDSTU 391
@@ -8678,7 +9035,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Introduction to Algebraic Geometry
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8690,7 +9076,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Introduction to Algebraic Geometry
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8706,7 +9092,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8715,7 +9101,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 105
@@ -8735,7 +9121,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Calculus
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8747,7 +9162,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Calculus
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8763,7 +9178,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8772,7 +9187,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 306
@@ -8792,7 +9207,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Number Theory
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8804,7 +9248,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Number Theory
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8820,7 +9264,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8829,7 +9273,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 301
@@ -8849,7 +9293,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Advanced Introduction to Probability
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8861,12 +9334,15 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Advanced Introduction to Probability
+Duke Kunshan University
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset VSpace 1bp
 \end_inset
 
@@ -8887,7 +9363,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8936,7 +9412,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8945,7 +9421,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 INDSTU 391
@@ -8965,7 +9441,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Variational Quantum Algorithms
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -8977,7 +9482,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Variational Quantum Algorithms
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8993,7 +9498,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9002,7 +9507,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 201
@@ -9022,7 +9527,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Multivariable Calculus
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9034,7 +9568,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Multivariable Calculus
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -9050,7 +9584,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9059,7 +9593,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 301
@@ -9079,7 +9613,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Advanced Introduction to Probability
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9091,7 +9654,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Advanced Introduction to Probability
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -9107,7 +9670,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9116,7 +9679,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 201
@@ -9136,7 +9699,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Multivariable Calculus
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9148,13 +9740,16 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Multivariable Calculus
+Duke Kunshan University
 \end_layout
 
 \end_inset
 
 
-\begin_inset VSpace 2bp
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 1bp
 \end_inset
 
 
@@ -9174,7 +9769,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9223,7 +9818,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9232,7 +9827,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 105
@@ -9252,7 +9847,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9261,7 +9856,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Calculus
@@ -9270,6 +9865,35 @@ Calculus
 \end_inset
 
 
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -9280,7 +9904,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9289,7 +9913,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 INDSTU 391
@@ -9309,7 +9933,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9318,7 +9942,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Riemann Zeta-Function
@@ -9327,6 +9951,35 @@ Riemann Zeta-Function
 \end_inset
 
 
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -9337,7 +9990,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9346,7 +9999,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 INDSTU 391
@@ -9366,7 +10019,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Quantum Algorithm
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9378,7 +10060,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Quantum Algorithm
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -9394,7 +10076,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9403,7 +10085,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 306
@@ -9423,7 +10105,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Number Theory
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9435,7 +10146,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Number Theory
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -9451,7 +10162,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9460,7 +10171,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 INDSTU 391
@@ -9480,7 +10191,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Combinatorics
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9492,12 +10232,15 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Combinatorics
+Duke Kunshan University
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset VSpace 1bp
 \end_inset
 
@@ -9518,7 +10261,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9567,7 +10310,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9576,7 +10319,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 205
@@ -9596,7 +10339,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Probability and Statistics
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9608,7 +10380,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Probability and Statistics
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -9624,7 +10396,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9633,7 +10405,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 301
@@ -9653,7 +10425,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Advanced Introduction to Probability
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9665,13 +10466,16 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Advanced Introduction to Probability
+Duke Kunshan University
 \end_layout
 
 \end_inset
 
 
-\begin_inset VSpace 2bp
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 1bp
 \end_inset
 
 
@@ -9691,7 +10495,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9740,7 +10544,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9749,7 +10553,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 105
@@ -9769,7 +10573,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Calculus
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9781,7 +10614,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Calculus
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -9797,7 +10630,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9806,7 +10639,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 201
@@ -9826,7 +10659,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Multivariable Calculus
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9838,16 +10700,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Multivariable Calculus
-\end_layout
-
-\end_inset
-
-
-\begin_inset VSpace 2bp
-\end_inset
-
-
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -9855,12 +10708,16 @@ Multivariable Calculus
 
 \end_layout
 
-\begin_layout Standard
-\noindent
+\begin_layout Plain Layout
+\begin_inset VSpace 1bp
+\end_inset
 
-\shape smallcaps
-\bar under
-Dalhousie University
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -9872,7 +10729,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9921,7 +10778,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9930,7 +10787,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 MATH 1030
@@ -9950,7 +10807,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -9959,7 +10816,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Matrix Theory and Linear Algebra I
@@ -9968,10 +10825,39 @@ Matrix Theory and Linear Algebra I
 \end_inset
 
 
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Dalhousie University
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
+\begin_inset VSpace 1bp
 \end_inset
 
 
@@ -9991,7 +10877,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10040,7 +10926,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10069,7 +10955,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10087,10 +10973,39 @@ Introduction to Complex Variables
 \end_inset
 
 
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+Dalhousie University
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
+\begin_inset VSpace 1bp
 \end_inset
 
 
@@ -10099,14 +11014,6 @@ Introduction to Complex Variables
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\shape smallcaps
-\bar under
-Tulane University
 \end_layout
 
 \begin_layout Standard
@@ -10118,7 +11025,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10167,7 +11074,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10176,7 +11083,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 1060
@@ -10196,7 +11103,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Long Calculus II
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10208,7 +11144,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Long Calculus II
+Tulane University
 \end_layout
 
 \end_inset
@@ -10217,7 +11153,7 @@ Long Calculus II
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
+\begin_inset VSpace 1bp
 \end_inset
 
 
@@ -10237,7 +11173,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10286,7 +11222,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10295,7 +11231,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 1310
@@ -10315,7 +11251,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Consolidated Calculus
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10327,7 +11292,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Consolidated Calculus
+Tulane University
 \end_layout
 
 \end_inset
@@ -10336,7 +11301,7 @@ Consolidated Calculus
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
+\begin_inset VSpace 1bp
 \end_inset
 
 
@@ -10356,7 +11321,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10405,7 +11370,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10414,7 +11379,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 1210
@@ -10434,7 +11399,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Long Calculus I
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10446,7 +11440,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Long Calculus I
+Tulane University
 \end_layout
 
 \end_inset
@@ -10455,7 +11449,7 @@ Long Calculus I
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
+\begin_inset VSpace 1bp
 \end_inset
 
 
@@ -10475,7 +11469,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "15col%"
+width "13col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10524,7 +11518,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "20col%"
+width "15col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10533,7 +11527,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 MATH 1160
@@ -10553,7 +11547,36 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "80col%"
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Long Calculus II
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -10565,7 +11588,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Long Calculus II
+Tulane University
 \end_layout
 
 \end_inset
@@ -10574,7 +11597,7 @@ Long Calculus II
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
+\begin_inset VSpace 1bp
 \end_inset
 
 
