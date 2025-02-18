@@ -136,7 +136,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "40col%"
+width "45col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -145,7 +145,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Assistant Professor of Mathematics
@@ -156,11 +156,39 @@ Duke Kunshan University
 \end_layout
 
 \begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
 8 Duke Ave, Kunshan, Suzhou
+
 \end_layout
 
 \begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
 Jiangsu Province, China, 215316
+
 \end_layout
 
 \end_inset
@@ -177,7 +205,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "33col%"
+width "45col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -189,35 +217,81 @@ backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
 
 \emph on
-E-mail:
-\emph default
- lin.jiu@dukekunshan.edu.cn
+E-mails
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+:  lin.jiu@dukekunshan.edu.cn
+
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset space \hspace*{}
-\length 35bp
+\begin_inset space \hfill{}
 \end_inset
 
 lin.jiu.work@gmail.com
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
 
 \emph on
-Tel: 
-\emph default
-+86-0512-36657333
+Tel
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+:  +86-0512-36657333
+
+
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
 
 \emph on
-Website:
-\emph default
- https://JiuLin90.github.io
+Website
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+: https://JiuLin90.github.io
+
+
 \end_layout
 
 \end_inset
@@ -280,7 +354,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Assistant Professor of Mathematics
@@ -313,7 +387,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 2020.08–
@@ -342,7 +416,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Assistant Professor of the Practice of DKU Studies
@@ -375,7 +449,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 2024.07–
@@ -449,7 +523,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 2020.08–2023.07
@@ -478,7 +552,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Lecturer in Mathematics
@@ -1293,11 +1367,11 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Faculty Learning Community grant
+Faculty Learning Community
 \begin_inset space \hfill{}
 \end_inset
 
-Center for Teaching and Learning
+Center for Teaching and Learning, Duke Kunshan Univ.
 \begin_inset VSpace 1bp
 \end_inset
 
@@ -1430,7 +1504,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Gradescope Research Project Grant
@@ -1441,11 +1515,8 @@ Gradescope
 \end_layout
 
 \begin_layout Plain Layout
-Facilitated by Center for Teaching and Learning at Duke Kunshan University
-\end_layout
-
-\begin_layout Plain Layout
-Gradescope for math courses.
+Using Gradescope in math courses, facilitated by Center for Teaching and
+ Learning, Duke Kunshan University 
 \begin_inset VSpace 1bp
 \end_inset
 
@@ -7535,7 +7606,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "9col%"
+width "5col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7547,7 +7618,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-2015–2016
+2016
 \end_layout
 
 \end_inset
@@ -7564,7 +7635,26 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "85col%"
+width "95col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7577,14 +7667,42 @@ status collapsed
 
 \begin_layout Plain Layout
 Tea Doctor (for organizing departmental Tea Time)
-\emph on
+\end_layout
+
+\end_inset
+
 
 \begin_inset space \hfill{}
 \end_inset
 
 
-\emph default
-(Math Dept., Tulane Univ.)
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align right
+Depart.
+ of Math., Tulane University
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7601,7 +7719,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "9col%"
+width "5col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7613,7 +7731,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-2014–2015
+2015
 \end_layout
 
 \end_inset
@@ -7630,7 +7748,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "85col%"
+width "95col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7640,17 +7758,64 @@ shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
 status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
 
 \begin_layout Plain Layout
 Tea Master (for organizing departmental Tea Time)
-\emph on
+\end_layout
+
+\end_inset
+
 
 \begin_inset space \hfill{}
 \end_inset
 
 
-\emph default
-(Math Dept., Tulane Univ.)
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align right
+Depart.
+ of Math., Tulane University
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7667,7 +7832,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "9col%"
+width "5col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7679,7 +7844,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-2013–2014
+2014
 \end_layout
 
 \end_inset
@@ -7696,7 +7861,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "85col%"
+width "95col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7708,15 +7873,62 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Excellence in Mathematics 
-\emph on
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Excellence in Mathematics
+\end_layout
+
+\end_inset
+
 
 \begin_inset space \hfill{}
 \end_inset
 
 
-\emph default
-(Math Dept., Tulane Univ.)
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align right
+Depart.
+ of Math., Tulane University
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7733,7 +7945,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "9col%"
+width "5col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7745,7 +7957,7 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-2012–2013
+2013
 \end_layout
 
 \end_inset
@@ -7762,7 +7974,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "85col%"
+width "95col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7774,15 +7986,62 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Excellent Graduate Student Teacher 
-\emph on
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Excellent Graduate Student Teacher
+\end_layout
+
+\end_inset
+
 
 \begin_inset space \hfill{}
 \end_inset
 
 
-\emph default
-(Math Dept., Tulane Univ.)
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align right
+Depart.
+ of Math., Tulane University
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7799,7 +8058,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "9col%"
+width "5col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7828,7 +8087,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "85col%"
+width "95col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7840,15 +8099,61 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Outstanding Graduates 
-\emph on
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Outstanding Graduates
+\end_layout
+
+\end_inset
+
 
 \begin_inset space \hfill{}
 \end_inset
 
 
-\emph default
-(Beijing Institute of Technology)
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align right
+Beijing Institute of Technology
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7865,7 +8170,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "9col%"
+width "5col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7894,7 +8199,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "85col%"
+width "95col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7906,15 +8211,56 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-National Scholarship 
-\emph on
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+National Scholarship
+\end_layout
+
+\end_inset
+
 
 \begin_inset space \hfill{}
 \end_inset
 
 
-\emph default
-(Department of Education, P.
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align right
+Department of Education, P.
 \begin_inset space ~
 \end_inset
 
@@ -7922,7 +8268,12 @@ R.
 \begin_inset space ~
 \end_inset
 
-China)
+China
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -7939,7 +8290,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "9col%"
+width "5col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7968,7 +8319,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "85col%"
+width "95col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -7980,15 +8331,61 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-China Aerospace Science and Technology Corporation (CASC) Scholarship 
-\emph on
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+China Aerospace Science and Technology Corporation Scholarship, 2nd Prize
+\end_layout
+
+\end_inset
+
 
 \begin_inset space \hfill{}
 \end_inset
 
 
-\emph default
-(CASC)
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "35col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align right
+China Aerospace Science and Technology Corporation
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -8002,6 +8399,158 @@ China Aerospace Science and Technology Corporation (CASC) Scholarship
 \size large
 \noun on
 Teaching Experience
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "13col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+2025 Winter
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "85col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "15col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+MATH 6400
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Integer Partitions and 
+\begin_inset Formula $q$
+\end_inset
+
+-Series
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+Dalhousie University
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 1bp
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
