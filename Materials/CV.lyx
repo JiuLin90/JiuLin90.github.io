@@ -170,7 +170,6 @@ Duke Kunshan University
 \noun off
 \color none
 8 Duke Ave, Kunshan, Suzhou
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -188,7 +187,6 @@ Duke Kunshan University
 \noun off
 \color none
 Jiangsu Province, China, 215316
-
 \end_layout
 
 \end_inset
@@ -236,7 +234,6 @@ E-mails
 \noun off
 \color none
 :  lin.jiu@dukekunshan.edu.cn
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -266,8 +263,6 @@ Tel
 \noun off
 \color none
 :  +86-0512-36657333
-
-
 \end_layout
 
 \begin_layout Plain Layout
@@ -290,8 +285,6 @@ Website
 \noun off
 \color none
 : https://JiuLin90.github.io
-
-
 \end_layout
 
 \end_inset
@@ -1504,7 +1497,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Gradescope Research Project Grant
@@ -2067,6 +2060,21 @@ Jiu
 \color none
 , Matrix geometric means and uncertainty relation, Submitted for Publication.
 \end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "90col%"
+height "0.5pt"
 
 \end_inset
 
@@ -6568,6 +6576,37 @@ Journal of Ningde Normal University (Natural Science)
 \size large
 \noun on
 Invited Talks
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+33.
+\end_layout
+
+\end_inset
+
+
+\series bold
+Examples of Computer Proofs: From Elementary to Recent Ones
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Invited Honours Seminar Talk, 
+\emph default
+Department of Mathematics and Statistics, Dalhousie University, Halifax,
+ NS, Canada, Jan.
+\begin_inset space ~
+\end_inset
+
+15, 2025.
+ 
 \end_layout
 
 \begin_layout Enumerate
