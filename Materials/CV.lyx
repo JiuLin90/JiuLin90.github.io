@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -21,11 +21,11 @@
 customHeadersFooters
 theorems-ams
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "times" "default"
 \font_sans "avant" "default"
 \font_typewriter "default" "default"
@@ -33,7 +33,9 @@ theorems-ams
 \font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -46,7 +48,7 @@ theorems-ams
 \paperfontsize 10
 \spacing single
 \use_hyperref false
-\papersize a4paper
+\papersize a4
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -67,7 +69,9 @@ theorems-ams
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -90,11 +94,16 @@ theorems-ams
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -169,7 +178,9 @@ Duke Kunshan University
 \uwave off
 \noun off
 \color none
-8 Duke Ave, Kunshan, Suzhou
+8 Duke Ave,
+ Kunshan,
+ Suzhou
 \end_layout
 
 \begin_layout Plain Layout
@@ -186,7 +197,9 @@ Duke Kunshan University
 \uwave off
 \noun off
 \color none
-Jiangsu Province, China, 215316
+Jiangsu Province,
+ China,
+ 215316
 \end_layout
 
 \end_inset
@@ -233,7 +246,8 @@ E-mails
 \uwave off
 \noun off
 \color none
-:  lin.jiu@dukekunshan.edu.cn
+:
+  lin.jiu@dukekunshan.edu.cn
 \end_layout
 
 \begin_layout Plain Layout
@@ -262,7 +276,8 @@ Tel
 \uwave off
 \noun off
 \color none
-:  +86-0512-36657333
+:
+  +86-0512-36657333
 \end_layout
 
 \begin_layout Plain Layout
@@ -284,7 +299,8 @@ Website
 \uwave off
 \noun off
 \color none
-: https://JiuLin90.github.io
+:
+ https://JiuLin90.github.io
 \end_layout
 
 \end_inset
@@ -629,7 +645,8 @@ Karl Dilcher
 \end_layout
 
 \begin_layout Plain Layout
-Department of Mathematics and Statistics, Dalhousie University
+Department of Mathematics and Statistics,
+ Dalhousie University
 \end_layout
 
 \begin_layout Plain Layout
@@ -706,7 +723,8 @@ Karl Dilcher
 \end_layout
 
 \begin_layout Plain Layout
-Department of Mathematics and Statistics, Dalhousie University
+Department of Mathematics and Statistics,
+ Dalhousie University
 \end_layout
 
 \begin_layout Plain Layout
@@ -771,20 +789,22 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Postdoctoral Research Scientist, 
+Postdoctoral Research Scientist,
+ 
 \emph on
 
 \begin_inset space \hfill{}
 \end_inset
 
-Mentor: 
+Mentor:
+ 
 \bar under
 Christoph Koutschan
 \end_layout
 
 \begin_layout Plain Layout
-Johann Radon Institute for Computational and Applied Mathematics, Austrian
- Academy of Sciences
+Johann Radon Institute for Computational and Applied Mathematics,
+ Austrian Academy of Sciences
 \end_layout
 
 \begin_layout Plain Layout
@@ -851,11 +871,13 @@ status collapsed
 \begin_layout Plain Layout
 Post-Doc Fellow
 \emph on
-, 
+,
+ 
 \begin_inset space \hfill{}
 \end_inset
 
-Mentors: 
+Mentors:
+ 
 \bar under
 Peter Paule
 \bar default
@@ -865,7 +887,8 @@ Carsten Schneider
 \end_layout
 
 \begin_layout Plain Layout
-Research Institute for Symbolic Computation, Johannes Kepler University
+Research Institute for Symbolic Computation,
+ Johannes Kepler University
 \end_layout
 
 \end_inset
@@ -931,14 +954,16 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Tulane University, Ph.D.
+Tulane University,
+ Ph.D.
  in Mathematics
 \emph on
 
 \begin_inset space \hfill{}
 \end_inset
 
-Advisor: 
+Advisor:
+ 
 \bar under
 Victor Hugo Moll
 \emph default
@@ -1005,7 +1030,8 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Research Institute for Symbolic Computation, Johannes Kepler University
+Research Institute for Symbolic Computation,
+ Johannes Kepler University
 \end_layout
 
 \begin_layout Plain Layout
@@ -1016,7 +1042,8 @@ Exchange Ph.D.
 \begin_inset space \hfill{}
 \end_inset
 
-Advisor: 
+Advisor:
+ 
 \bar under
 Carsten Schneider
 \emph default
@@ -1083,13 +1110,15 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Beijing Institute of Technology, Master of Science (Mathematics)
+Beijing Institute of Technology,
+ Master of Science (Mathematics)
 \begin_inset space \hfill{}
 \end_inset
 
 
 \emph on
-Advisor: 
+Advisor:
+ 
 \bar under
 Huafei Sun
 \emph default
@@ -1156,7 +1185,8 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-Beijing Institute of Technology, Bachelor of Science (Mathematics)
+Beijing Institute of Technology,
+ Bachelor of Science (Mathematics)
 \end_layout
 
 \end_inset
@@ -1174,41 +1204,53 @@ Research Interests
 
 \begin_layout Standard
 \align center
-Symbolic Computation, Number Theory, Combinatorics, Special Functions 
+Symbolic Computation,
+ Number Theory,
+ Combinatorics,
+ Special Functions 
 \begin_inset Note Comment
 status collapsed
 
 \begin_layout Plain Layout
 \noindent
 D.
- Li, H.
- Sun, C.
- Tao, and 
+ Li,
+ H.
+ Sun,
+ C.
+ Tao,
+ and 
 \series bold
 L.
  Jiu
 \series default
-, Principal bundles and holonomy groups on statistical manifolds, Submitted
- for Publication.
+,
+ Principal bundles and holonomy groups on statistical manifolds,
+ Submitted for Publication.
 \end_layout
 
 \begin_layout Plain Layout
 A.
- Dixit, X.
- Guan, 
+ Dixit,
+ X.
+ Guan,
+ 
 \series bold
 L.
  Jiu
 \series default
-, V.
+,
+ V.
  H.
  Moll and C.
  Vignat.
  The integrals in Gradshteyn and Ryzhik.
- Part 32: the generating function of Chebyshev polynomials of the second
- kind, To Appear in 
+ Part 32:
+ the generating function of Chebyshev polynomials of the second kind,
+ To Appear in 
 \emph on
-SCIENTIA Series A: Mathematical Sciences.
+SCIENTIA Series A:
+ Mathematical Sciences.
 \end_layout
 
 \begin_layout Plain Layout
@@ -1221,9 +1263,12 @@ L.
  H.
  Moll.
  The integrals in Gradshteyn and Ryzhik.
- Part 31: rational functions, To Appear in 
+ Part 31:
+ rational functions,
+ To Appear in 
 \emph on
-SCIENTIA Series A: Mathematical Sciences.
+SCIENTIA Series A:
+ Mathematical Sciences.
 \end_layout
 
 \end_inset
@@ -1297,8 +1342,7 @@ Wuhan University and Duke Kunshan University
 \end_layout
 
 \begin_layout Plain Layout
-DKU PI of ``Wuhan University-Duke Kunshan University-Dalhousie University
- Research Platform on Combinatorics and Number Theory''
+DKU PI of ``Wuhan University-Duke Kunshan University-Dalhousie University Research Platform on Combinatorics and Number Theory''
 \begin_inset VSpace 1bp
 \end_inset
 
@@ -1364,7 +1408,8 @@ Faculty Learning Community
 \begin_inset space \hfill{}
 \end_inset
 
-Center for Teaching and Learning, Duke Kunshan Univ.
+Center for Teaching and Learning,
+ Duke Kunshan Univ.
 \begin_inset VSpace 1bp
 \end_inset
 
@@ -1438,7 +1483,8 @@ Research team member of Dr.
 \begin_inset space ~
 \end_inset
 
-Dongmian Zou, Duke Kunshan University
+Dongmian Zou,
+ Duke Kunshan University
 \begin_inset VSpace 1bp
 \end_inset
 
@@ -1508,8 +1554,9 @@ Gradescope
 \end_layout
 
 \begin_layout Plain Layout
-Using Gradescope in math courses, facilitated by Center for Teaching and
- Learning, Duke Kunshan University 
+Using Gradescope in math courses,
+ facilitated by Center for Teaching and Learning,
+ Duke Kunshan University 
 \begin_inset VSpace 1bp
 \end_inset
 
@@ -1583,12 +1630,14 @@ Joint with Dr.
 \begin_inset space ~
 \end_inset
 
-Myung-Joong Huang, Duke Kunshan University
+Myung-Joong Huang,
+ Duke Kunshan University
 \end_layout
 
 \begin_layout Plain Layout
-Quantum algorithms for computational number theory, linear algebra, and
- combinatorics
+Quantum algorithms for computational number theory,
+ linear algebra,
+ and combinatorics
 \begin_inset VSpace 1bp
 \end_inset
 
@@ -1672,11 +1721,147 @@ Research Support for Killam Postdocs
 \shape smallcaps
 \size large
 \noun on
-Publications 
+Publications
 \end_layout
 
 \begin_layout Standard
-(While working on the papers, undergraduate students are marked with a *)
+\noindent
+\align block
+
+\shape smallcaps
+Book
+\end_layout
+
+\begin_layout Enumerate
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1.
+\end_layout
+
+\end_inset
+
+ H.
+\begin_inset space ~
+\end_inset
+
+Sun,
+ L.
+\begin_inset space ~
+\end_inset
+
+Peng,
+ Y.
+\begin_inset space ~
+\end_inset
+
+Cheng,
+ D.
+\begin_inset space ~
+\end_inset
+
+Li,
+ and
+\family default
+\series bold
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+,
+ 
+\family default
+\series default
+\shape slanted
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Mathematical Foundations of Information Geometry
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+,
+ Science Press,
+ Beijing,
+ 2025.
+ ISBN:
+ 978-7-03-080107-4.
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+Papers
+\end_layout
+
+\begin_layout Standard
+(While working on the papers,
+ undergraduate students are marked with a *)
 \end_layout
 
 \begin_layout Enumerate
@@ -1732,7 +1917,8 @@ S.
 \begin_inset space ~
 \end_inset
 
-Chern, 
+Chern,
+ 
 \series bold
 L.
 \begin_inset space ~
@@ -1740,20 +1926,23 @@ L.
 
 Jiu
 \series default
-, S.
+,
+ S.
 \begin_inset space ~
 \end_inset
 
-Li*, and L.
+Li*,
+ and L.
 \begin_inset space ~
 \end_inset
 
-Wang, Leading coefficient in the Hankel determinants related to binomial
- and 
+Wang,
+ Leading coefficient in the Hankel determinants related to binomial and 
 \begin_inset Formula $q$
 \end_inset
 
--binomial transforms, submitted for publication.
+-binomial transforms,
+ submitted for publication.
  
 \end_layout
 
@@ -1827,11 +2016,13 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Wang*, On 
+Wang*,
+ On 
 \begin_inset Formula $b$
 \end_inset
 
--ary binomial coefficients with negative entries, Submitted for Publication.
+-ary binomial coefficients with negative entries,
+ Submitted for Publication.
 \family default
 \series bold
 \shape default
@@ -1879,15 +2070,18 @@ Y.
 \begin_inset space ~
 \end_inset
 
-Li, B.
+Li,
+ B.
 \begin_inset space ~
 \end_inset
 
-Li, H.
+Li,
+ H.
 \begin_inset space ~
 \end_inset
 
-Sun, and 
+Sun,
+ and 
 \family default
 \series bold
 \shape default
@@ -1917,7 +2111,9 @@ Jiu
 \uwave off
 \noun off
 \color none
-, Application of entropy in Riemannian manifolds, Submitted for Publication.
+,
+ Application of entropy in Riemannian manifolds,
+ Submitted for Publication.
 \end_layout
 
 \begin_layout Itemize
@@ -1951,15 +2147,18 @@ Y.
 \begin_inset space ~
 \end_inset
 
-Li, B.
+Li,
+ B.
 \begin_inset space ~
 \end_inset
 
-Li, H.
+Li,
+ H.
 \begin_inset space ~
 \end_inset
 
-Sun, and 
+Sun,
+ and 
 \family default
 \series bold
 \shape default
@@ -1989,7 +2188,9 @@ Jiu
 \uwave off
 \noun off
 \color none
-, Matrix geometric means and uncertainty relation, Submitted for Publication.
+,
+ Matrix geometric means and uncertainty relation,
+ Submitted for Publication.
 \end_layout
 
 \end_inset
@@ -2065,7 +2266,8 @@ S.
 \begin_inset space ~
 \end_inset
 
-Chern, 
+Chern,
+ 
 \series bold
 L.
 \begin_inset space ~
@@ -2073,12 +2275,14 @@ L.
 
 Jiu
 \series default
-, and I.
+,
+ and I.
 \begin_inset space ~
 \end_inset
 
-Simonelli, A central limit theorem for a card shuffling problem, To Appear
- in 
+Simonelli,
+ A central limit theorem for a card shuffling problem,
+ To Appear in 
 \emph on
 J.
 \begin_inset space ~
@@ -2157,8 +2361,9 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Peng, Information geometry and alpha-parallel prior of the beta-logistic
- distribution, To Appear in 
+Peng,
+ Information geometry and alpha-parallel prior of the beta-logistic distribution,
+ To Appear in 
 \emph on
 Comm.
 \begin_inset space ~
@@ -2232,8 +2437,10 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Li*, Hankel determinants of certain sequences of Bernoulli polynomials:
- A direct proof of an inverse matrix entry from Statistics, 
+Li*,
+ Hankel determinants of certain sequences of Bernoulli polynomials:
+ A direct proof of an inverse matrix entry from Statistics,
+ 
 \emph on
 Contrib.
 \begin_inset space ~
@@ -2249,7 +2456,8 @@ Discrete Math
 \series bold
 19
 \series default
- (2024), 64–84.
+ (2024),
+ 64–84.
 \end_layout
 
 \begin_layout Enumerate
@@ -2305,11 +2513,13 @@ Q.
 \begin_inset space ~
 \end_inset
 
-Chen, S.
+Chen,
+ S.
 \begin_inset space ~
 \end_inset
 
-Chern, and 
+Chern,
+ and 
 \series bold
 L.
 \begin_inset space ~
@@ -2317,11 +2527,14 @@ L.
 
 Jiu
 \series default
-, Multi-headed lattices and Green functions, 
+,
+ Multi-headed lattices and Green functions,
+ 
 \emph on
 J.
  Phys.
- A: Math.
+ A:
+ Math.
  Theor
 \emph default
 .
@@ -2402,11 +2615,13 @@ Jiu
 \uwave off
 \noun off
 \color none
-, Hankel determinants and Jacobi continued fractions for 
+,
+ Hankel determinants and Jacobi continued fractions for 
 \begin_inset Formula $q$
 \end_inset
 
--Euler numbers, 
+-Euler numbers,
+ 
 \family default
 \series default
 \shape default
@@ -2441,7 +2656,8 @@ Paris
 \emph default
 362
 \series default
- (2024), 203–216.
+ (2024),
+ 203–216.
  
 \end_layout
 
@@ -2506,7 +2722,8 @@ L.
 
 Jiu
 \series default
-, Hankel determinants of shifted sequences of Bernoulli and Euler numbers,
+,
+ Hankel determinants of shifted sequences of Bernoulli and Euler numbers,
  
 \emph on
 Contrib.
@@ -2523,7 +2740,8 @@ Discrete Math
 \series bold
 18
 \series default
- (2023), 146–175.
+ (2023),
+ 146–175.
 \end_layout
 
 \begin_layout Enumerate
@@ -2579,11 +2797,13 @@ Z.
 \begin_inset space ~
 \end_inset
 
-Bradshaw, I.
+Bradshaw,
+ I.
 \begin_inset space ~
 \end_inset
 
-Gonzalez, 
+Gonzalez,
+ 
 \series bold
 L.
 \begin_inset space ~
@@ -2591,7 +2811,8 @@ L.
 
 Jiu
 \series default
-, V.
+,
+ V.
 \begin_inset space ~
 \end_inset
 
@@ -2599,12 +2820,14 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, and C.
+Moll,
+ and C.
 \begin_inset space ~
 \end_inset
 
-Vignat, Compatibility of the method of brackets with classical integration
- rules, 
+Vignat,
+ Compatibility of the method of brackets with classical integration rules,
+ 
 \emph on
 Open Math
 \family roman
@@ -2640,7 +2863,9 @@ Open Math
 \series bold
 21
 \series default
- (2023), Article number: 20220581.
+ (2023),
+ Article number:
+ 20220581.
  
 \end_layout
 
@@ -2722,7 +2947,8 @@ H.
 \begin_inset space ~
 \end_inset
 
-Shi, Moments and cumulants on identities for Bernoulli and Euler numbers,
+Shi,
+ Moments and cumulants on identities for Bernoulli and Euler numbers,
  
 \family default
 \series default
@@ -2742,7 +2968,8 @@ Math.
 \emph default
 24
 \series default
- (2022), 643–650.
+ (2022),
+ 643–650.
 \end_layout
 
 \begin_layout Enumerate
@@ -2804,12 +3031,14 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Simonelli, and H.
+Simonelli,
+ and H.
 \begin_inset space ~
 \end_inset
 
-Yue*, Loop Decompositions of Random Walks and Nontrivial Identities of Bernoulli
- and Euler Polynomials, 
+Yue*,
+ Loop Decompositions of Random Walks and Nontrivial Identities of Bernoulli and Euler Polynomials,
+ 
 \emph on
 Integers
 \emph default
@@ -2817,7 +3046,8 @@ Integers
 \series bold
 22
 \series default
- (2022), A91.
+ (2022),
+ A91.
 \end_layout
 
 \begin_layout Enumerate
@@ -2881,7 +3111,8 @@ L.
 
 Jiu
 \series default
-, Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
+,
+ Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
  
 \emph on
 Int.
@@ -2897,7 +3128,8 @@ Number Theory
 \emph default
 18
 \series default
- (2022), 331–359.
+ (2022),
+ 331–359.
 \end_layout
 
 \begin_layout Enumerate
@@ -2961,8 +3193,9 @@ L.
 
 Jiu
 \series default
-, Orthogonal polynomials and Hankel determinants for certain Bernoulli and
- Euler polynomials, 
+,
+ Orthogonal polynomials and Hankel determinants for certain Bernoulli and Euler polynomials,
+ 
 \emph on
 J.
 \begin_inset space ~
@@ -3019,7 +3252,8 @@ Appl
 \uwave off
 \noun off
 \color none
- (2021), Article 124855.
+ (2021),
+ Article 124855.
 \end_layout
 
 \begin_layout Enumerate
@@ -3062,7 +3296,8 @@ I.
 \begin_inset space ~
 \end_inset
 
-Gonzales, 
+Gonzales,
+ 
 \family default
 \series bold
 \shape default
@@ -3092,7 +3327,8 @@ Jiu
 \uwave off
 \noun off
 \color none
-, and V.
+,
+ and V.
 \begin_inset space ~
 \end_inset
 
@@ -3100,8 +3336,10 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, An extension of the method of brackets.
- Part 2, 
+Moll,
+ An extension of the method of brackets.
+ Part 2,
+ 
 \family default
 \series default
 \shape default
@@ -3148,7 +3386,8 @@ Open Math
 \series bold
 18
 \series default
- (2020), 983–955.
+ (2020),
+ 983–955.
  
 \end_layout
 
@@ -3222,7 +3461,9 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Koutschan, Calculation and properties of zonal polynomials,
+Koutschan,
+ Calculation and properties of zonal polynomials,
+
 \family default
 \series default
 \shape default
@@ -3286,7 +3527,8 @@ Sci
 \uwave off
 \noun off
 \color none
- (2020), 623–640.
+ (2020),
+ 623–640.
 \end_layout
 
 \begin_layout Enumerate
@@ -3329,7 +3571,8 @@ N.
 \begin_inset space ~
 \end_inset
 
-Takayama, 
+Takayama,
+ 
 \family default
 \series bold
 \shape default
@@ -3359,16 +3602,19 @@ Jiu
 \uwave off
 \noun off
 \color none
-, S.
+,
+ S.
 \begin_inset space ~
 \end_inset
 
-Kuriki, and Y.
+Kuriki,
+ and Y.
 \begin_inset space ~
 \end_inset
 
-Zhang, Computations of the Expected Euler Characteristic for the Largest
- Eigenvalue of a Real Wishart Matrix, 
+Zhang,
+ Computations of the Expected Euler Characteristic for the Largest Eigenvalue of a Real Wishart Matrix,
+ 
 \family default
 \series default
 \shape default
@@ -3394,7 +3640,8 @@ Multivariate Anal.
 \emph default
 179
 \series default
- (2020), Article 104642.
+ (2020),
+ Article 104642.
  
 \end_layout
 
@@ -3464,16 +3711,19 @@ Jiu
 \uwave off
 \noun off
 \color none
-, C.
+,
+ C.
 \begin_inset space ~
 \end_inset
 
-Vignat, and T.
+Vignat,
+ and T.
 \begin_inset space ~
 \end_inset
 
-Wakhare, Analytic Continuation for Multiple Zeta Values using Symbolic Represent
-ations, 
+Wakhare,
+ Analytic Continuation for Multiple Zeta Values using Symbolic Representations,
+ 
 \family default
 \series default
 \shape default
@@ -3533,7 +3783,8 @@ Number Theory
 \uwave off
 \noun off
 \color none
- (2020), 579–602.
+ (2020),
+ 579–602.
 \end_layout
 
 \begin_layout Enumerate
@@ -3606,8 +3857,10 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Vignat, Connection coefficients for higher-order Bernoulli and Euler polynomials
-: a random walk approach, 
+Vignat,
+ Connection coefficients for higher-order Bernoulli and Euler polynomials:
+ a random walk approach,
+ 
 \family default
 \series default
 \shape default
@@ -3640,7 +3893,8 @@ Fibonacci Quart.
 \uwave off
 \noun off
 \color none
- (2019), 84–95.
+ (2019),
+ 84–95.
  
 \end_layout
 
@@ -3748,7 +4002,9 @@ H.
 \begin_inset space ~
 \end_inset
 
-Shi, Matrix representation for multiplicative nested sums, 
+Shi,
+ Matrix representation for multiplicative nested sums,
+ 
 \family default
 \series default
 \shape default
@@ -3808,7 +4064,8 @@ Math
 \uwave off
 \noun off
 \color none
- (2019), 183–194.
+ (2019),
+ 183–194.
 \end_layout
 
 \begin_layout Enumerate
@@ -3915,8 +4172,9 @@ H.
 \begin_inset space ~
 \end_inset
 
-Shi, Orthogonal polynomials and connection to generalized Motzkin numbers
- for higher-order Euler polynomials, 
+Shi,
+ Orthogonal polynomials and connection to generalized Motzkin numbers for higher-order Euler polynomials,
+ 
 \family default
 \series default
 \shape default
@@ -3972,7 +4230,8 @@ Number Theory
 \uwave off
 \noun off
 \color none
- (2019), 389–402.
+ (2019),
+ 389–402.
 \end_layout
 
 \begin_layout Enumerate
@@ -4015,11 +4274,13 @@ I.
 \begin_inset space ~
 \end_inset
 
-Gonzalez, K.
+Gonzalez,
+ K.
 \begin_inset space ~
 \end_inset
 
-Kohl, 
+Kohl,
+ 
 \family default
 \series bold
 \shape default
@@ -4049,7 +4310,8 @@ Jiu
 \uwave off
 \noun off
 \color none
-, and V.
+,
+ and V.
 \begin_inset space ~
 \end_inset
 
@@ -4057,7 +4319,9 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, The method of brackets in experimental mathematics, 
+Moll,
+ The method of brackets in experimental mathematics,
+ 
 \family default
 \series default
 \shape default
@@ -4083,7 +4347,10 @@ Frontiers of Orthogonal Polynomials and q-Series
 \uwave off
 \noun off
 \color none
-, Z. Nashed and X. Li eds., World Scientific Publishers, 2018.
+,
+ Z. Nashed and X. Li eds.,
+ World Scientific Publishers,
+ 2018.
 \end_layout
 
 \begin_layout Enumerate
@@ -4152,7 +4419,8 @@ Jiu
 \uwave off
 \noun off
 \color none
-, V.
+,
+ V.
 \begin_inset space ~
 \end_inset
 
@@ -4160,11 +4428,14 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, and C.
+Moll,
+ and C.
 \begin_inset space ~
 \end_inset
 
-Vignat, A symbolic approach to multiple zeta values at the negative integers,
+Vignat,
+ A symbolic approach to multiple zeta values at the negative integers,
+
 \family default
 \series default
 \shape default
@@ -4224,7 +4495,8 @@ Symbolic Comput
 \uwave off
 \noun off
 \color none
- (2018), 1–13.
+ (2018),
+ 1–13.
 \end_layout
 
 \begin_layout Enumerate
@@ -4267,11 +4539,13 @@ I.
 \begin_inset space ~
 \end_inset
 
-Gonzales, K.
+Gonzales,
+ K.
 \begin_inset space ~
 \end_inset
 
-Kohl, 
+Kohl,
+ 
 \family default
 \series bold
 \shape default
@@ -4301,7 +4575,8 @@ Jiu
 \uwave off
 \noun off
 \color none
-, and V.
+,
+ and V.
 \begin_inset space ~
 \end_inset
 
@@ -4309,8 +4584,10 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, An extension of the method of brackets.
- Part 1, 
+Moll,
+ An extension of the method of brackets.
+ Part 1,
+ 
 \family default
 \series default
 \shape default
@@ -4366,7 +4643,8 @@ Open Math
 \uwave off
 \noun off
 \color none
- (2017), 1181–1211.
+ (2017),
+ 1181–1211.
 \end_layout
 
 \begin_layout Enumerate
@@ -4435,8 +4713,9 @@ Jiu
 \uwave off
 \noun off
 \color none
-, Integral representations of equally positive integer-indexed harmonic
- sums at infinity, 
+,
+ Integral representations of equally positive integer-indexed harmonic sums at infinity,
+ 
 \family default
 \series default
 \shape default
@@ -4488,7 +4767,8 @@ Research in Number Theory
 \uwave off
 \noun off
 \color none
- (2017), Article 3:10.
+ (2017),
+ Article 3:10.
  
 \end_layout
 
@@ -4532,11 +4812,13 @@ C.
 \begin_inset space ~
 \end_inset
 
-Li, E.
+Li,
+ E.
 \begin_inset space ~
 \end_inset
 
-Zhang, 
+Zhang,
+ 
 \family default
 \series bold
 \shape default
@@ -4566,12 +4848,14 @@ Jiu
 \uwave off
 \noun off
 \color none
-, and H.
+,
+ and H.
 \begin_inset space ~
 \end_inset
 
-Sun, Optimal control on special Euclidean group via natural gradient descent
- algorithm, 
+Sun,
+ Optimal control on special Euclidean group via natural gradient descent algorithm,
+ 
 \family default
 \series default
 \shape default
@@ -4635,7 +4919,9 @@ Sci
 \uwave off
 \noun off
 \color none
- (2016), Article: 112203.
+ (2016),
+ Article:
+ 112203.
 \end_layout
 
 \begin_layout Enumerate
@@ -4678,7 +4964,8 @@ I.
 \begin_inset space ~
 \end_inset
 
-Gonzalez, 
+Gonzalez,
+ 
 \family default
 \series bold
 \shape default
@@ -4708,7 +4995,8 @@ Jiu
 \uwave off
 \noun off
 \color none
-, and V.
+,
+ and V.
 \begin_inset space ~
 \end_inset
 
@@ -4716,8 +5004,10 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, Pochhammer symbol with negative indices.
- A new rule for the method of brackets, 
+Moll,
+ Pochhammer symbol with negative indices.
+ A new rule for the method of brackets,
+ 
 \family default
 \series default
 \shape default
@@ -4773,7 +5063,8 @@ Open Math
 \uwave off
 \noun off
 \color none
- (2016), 681–686.
+ (2016),
+ 681–686.
 \end_layout
 
 \begin_layout Enumerate
@@ -4816,15 +5107,18 @@ T.
 \begin_inset space ~
 \end_inset
 
-Amdeberhan, A.
+Amdeberhan,
+ A.
 \begin_inset space ~
 \end_inset
 
-Dixit, X.
+Dixit,
+ X.
 \begin_inset space ~
 \end_inset
 
-Guan, 
+Guan,
+ 
 \family default
 \series bold
 \shape default
@@ -4854,11 +5148,13 @@ Jiu
 \uwave off
 \noun off
 \color none
-, A.
+,
+ A.
 \begin_inset space ~
 \end_inset
 
-Kuznetsov, V.
+Kuznetsov,
+ V.
 \begin_inset space ~
 \end_inset
 
@@ -4866,12 +5162,16 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, and C.
+Moll,
+ and C.
 \begin_inset space ~
 \end_inset
 
-Vignat, The integrals in Gradshteyn and Ryzhik.
- Part 30: trigonometric functions, 
+Vignat,
+ The integrals in Gradshteyn and Ryzhik.
+ Part 30:
+ trigonometric functions,
+ 
 \family default
 \series default
 \shape default
@@ -4884,7 +5184,8 @@ Vignat, The integrals in Gradshteyn and Ryzhik.
 \uwave default
 \noun default
 \color inherit
-Scientia Series A: Mathematical Sciences
+Scientia Series A:
+ Mathematical Sciences
 \family roman
 \series medium
 \shape up
@@ -4923,7 +5224,8 @@ Scientia Series A: Mathematical Sciences
 \uwave off
 \noun off
 \color none
- (2016), 47–74.
+ (2016),
+ 47–74.
 \end_layout
 
 \begin_layout Enumerate
@@ -4966,15 +5268,18 @@ T.
 \begin_inset space ~
 \end_inset
 
-Amdeberhan, A.
+Amdeberhan,
+ A.
 \begin_inset space ~
 \end_inset
 
-Dixit, X.
+Dixit,
+ X.
 \begin_inset space ~
 \end_inset
 
-Guan, 
+Guan,
+ 
 \family default
 \series bold
 \shape default
@@ -5004,7 +5309,8 @@ Jiu
 \uwave off
 \noun off
 \color none
-, V.
+,
+ V.
 \begin_inset space ~
 \end_inset
 
@@ -5012,12 +5318,15 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, and C.
+Moll,
+ and C.
 \begin_inset space ~
 \end_inset
 
-Vignat, A series involving Catalan numbers.
- Proofs and demonstrations, 
+Vignat,
+ A series involving Catalan numbers.
+ Proofs and demonstrations,
+ 
 \family default
 \series default
 \shape default
@@ -5077,7 +5386,8 @@ Math
 \uwave off
 \noun off
 \color none
- (2016), 109–121.
+ (2016),
+ 109–121.
  
 \end_layout
 
@@ -5151,7 +5461,9 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Vignat, On binomial identities in arbitrary bases, 
+Vignat,
+ On binomial identities in arbitrary bases,
+ 
 \family default
 \series default
 \shape default
@@ -5211,7 +5523,8 @@ Integer Seq
 \uwave off
 \noun off
 \color none
- (2016), Article 16.5.5.
+ (2016),
+ Article 16.5.5.
 \end_layout
 
 \begin_layout Enumerate
@@ -5280,7 +5593,8 @@ Jiu
 \uwave off
 \noun off
 \color none
-, V.
+,
+ V.
 \begin_inset space ~
 \end_inset
 
@@ -5288,11 +5602,13 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, and C.
+Moll,
+ and C.
 \begin_inset space ~
 \end_inset
 
-Vignat, A symbolic approach to some identities for Bernoulli-Barnes polynomials,
+Vignat,
+ A symbolic approach to some identities for Bernoulli-Barnes polynomials,
  
 \family default
 \series default
@@ -5353,7 +5669,8 @@ Number Theory
 \uwave off
 \noun off
 \color none
- (2016), 649–662.
+ (2016),
+ 649–662.
 \end_layout
 
 \begin_layout Enumerate
@@ -5396,7 +5713,8 @@ A.
 \begin_inset space ~
 \end_inset
 
-Dixit, 
+Dixit,
+ 
 \family default
 \series bold
 \shape default
@@ -5426,7 +5744,8 @@ Jiu
 \uwave off
 \noun off
 \color none
-, V.
+,
+ V.
 \begin_inset space ~
 \end_inset
 
@@ -5434,11 +5753,14 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, and C.
+Moll,
+ and C.
 \begin_inset space ~
 \end_inset
 
-Vignat, The finite Fourier transform of classical polynomials, 
+Vignat,
+ The finite Fourier transform of classical polynomials,
+ 
 \family default
 \series default
 \shape default
@@ -5503,7 +5825,8 @@ Soc
 \uwave off
 \noun off
 \color none
- (2015), 145–160.
+ (2015),
+ 145–160.
 \end_layout
 
 \begin_layout Enumerate
@@ -5546,15 +5869,18 @@ T.
 \begin_inset space ~
 \end_inset
 
-Amdeberhan, A.
+Amdeberhan,
+ A.
 \begin_inset space ~
 \end_inset
 
-Dixit, X.
+Dixit,
+ X.
 \begin_inset space ~
 \end_inset
 
-Guan, 
+Guan,
+ 
 \family default
 \series bold
 \shape default
@@ -5592,8 +5918,10 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, The unimodality of a polynomial coming from a rational integral.
- Back to the original proof, 
+Moll,
+ The unimodality of a polynomial coming from a rational integral.
+ Back to the original proof,
+ 
 \family default
 \series default
 \shape default
@@ -5661,7 +5989,8 @@ Appl
 \uwave off
 \noun off
 \color none
- (2014), 1154–1166.
+ (2014),
+ 1154–1166.
 \end_layout
 
 \begin_layout Enumerate
@@ -5704,7 +6033,8 @@ A.
 \begin_inset space ~
 \end_inset
 
-Byrnes*, 
+Byrnes*,
+ 
 \family default
 \series bold
 \shape default
@@ -5734,7 +6064,10 @@ Jiu
 \uwave off
 \noun off
 \color none
-, V. H. Moll, and C. Vignat, Recursion rules for the hypergeometric zeta functions,
+,
+ V. H. Moll,
+ and C. Vignat,
+ Recursion rules for the hypergeometric zeta functions,
  
 \family default
 \series default
@@ -5795,7 +6128,8 @@ Number Theory
 \uwave off
 \noun off
 \color none
- (2014), 1761–1782.
+ (2014),
+ 1761–1782.
 \end_layout
 
 \begin_layout Enumerate
@@ -5864,7 +6198,8 @@ Jiu
 \uwave off
 \noun off
 \color none
-, V.
+,
+ V.
 \begin_inset space ~
 \end_inset
 
@@ -5872,12 +6207,14 @@ H.
 \begin_inset space ~
 \end_inset
 
-Moll, and C.
+Moll,
+ and C.
 \begin_inset space ~
 \end_inset
 
-Vignat, Identities for generalized Euler polynomials, Integral Transforms
- 
+Vignat,
+ Identities for generalized Euler polynomials,
+ Integral Transforms 
 \family default
 \series default
 \shape default
@@ -5934,7 +6271,8 @@ Spec.
 \uwave off
 \noun off
 \color none
- (2014), 777–789.
+ (2014),
+ 777–789.
 \end_layout
 
 \begin_layout Enumerate
@@ -5977,11 +6315,13 @@ Z.
 \begin_inset space ~
 \end_inset
 
-Zhang, H.
+Zhang,
+ H.
 \begin_inset space ~
 \end_inset
 
-Sun, 
+Sun,
+ 
 \family default
 \series bold
 \shape default
@@ -6011,11 +6351,13 @@ Jiu
 \uwave off
 \noun off
 \color none
-, and L.
+,
+ and L.
 \begin_inset space ~
 \end_inset
 
-Peng, A natural gradient algorithm for stochastic distribution systems,
+Peng,
+ A natural gradient algorithm for stochastic distribution systems,
  
 \family default
 \series default
@@ -6068,7 +6410,8 @@ Entropy
 \uwave off
 \noun off
 \color none
- (2014), 4338–4352.
+ (2014),
+ 4338–4352.
 \end_layout
 
 \begin_layout Enumerate
@@ -6111,11 +6454,13 @@ F.
 \begin_inset space ~
 \end_inset
 
-Zhang, H.
+Zhang,
+ H.
 \begin_inset space ~
 \end_inset
 
-Sun, 
+Sun,
+ 
 \family default
 \series bold
 \shape default
@@ -6145,11 +6490,14 @@ Jiu
 \uwave off
 \noun off
 \color none
-, and L.
+,
+ and L.
 \begin_inset space ~
 \end_inset
 
-Peng, The arc length variational formula on the exponential manifold, 
+Peng,
+ The arc length variational formula on the exponential manifold,
+ 
 \family default
 \series default
 \shape default
@@ -6205,7 +6553,8 @@ Slovaca
 \uwave off
 \noun off
 \color none
- (2013), 1101–1112.
+ (2013),
+ 1101–1112.
 \end_layout
 
 \begin_layout Enumerate
@@ -6248,11 +6597,13 @@ L.
 \begin_inset space ~
 \end_inset
 
-Peng, H.
+Peng,
+ H.
 \begin_inset space ~
 \end_inset
 
-Sun, and 
+Sun,
+ and 
 \family default
 \series bold
 \shape default
@@ -6282,7 +6633,9 @@ Jiu
 \uwave off
 \noun off
 \color none
-, The geometric structure of the Pareto distribution, 
+,
+ The geometric structure of the Pareto distribution,
+ 
 \family default
 \series default
 \shape default
@@ -6350,7 +6703,8 @@ Venez
 \uwave off
 \noun off
 \color none
- (2007), 5–13.
+ (2007),
+ 5–13.
 \end_layout
 
 \begin_layout Enumerate
@@ -6423,7 +6777,9 @@ Jiu
 \begin_inset space ~
 \end_inset
 
-Sun, On minimal homothetical hypersurfaces, 
+Sun,
+ On minimal homothetical hypersurfaces,
+ 
 \family default
 \series default
 \shape default
@@ -6457,7 +6813,8 @@ Math
 \begin_inset space ~
 \end_inset
 
-109 (2007), 239–249.
+109 (2007),
+ 239–249.
 \end_layout
 
 \begin_layout Enumerate
@@ -6530,8 +6887,9 @@ Jiu
 \uwave off
 \noun off
 \color none
-, Characterizing hypersurfaces of generalized rotation through its normal
- lines, 
+,
+ Characterizing hypersurfaces of generalized rotation through its normal lines,
+ 
 \family default
 \series default
 \shape default
@@ -6583,7 +6941,8 @@ Journal of Ningde Normal University (Natural Science)
 \uwave off
 \noun off
 \color none
- (2006), 117–119.
+ (2006),
+ 117–119.
 \end_layout
 
 \begin_layout Section*
@@ -6607,7 +6966,8 @@ status open
 
 
 \series bold
-Examples of Computer Proofs: From Elementary to Recent Ones
+Examples of Computer Proofs:
+ From Elementary to Recent Ones
 \series default
 
 \begin_inset Newline newline
@@ -6615,14 +6975,20 @@ Examples of Computer Proofs: From Elementary to Recent Ones
 
 
 \emph on
-Invited Honours Seminar Talk, 
+Invited Honours Seminar Talk,
+ 
 \emph default
-Department of Mathematics and Statistics, Dalhousie University, Halifax,
- NS, Canada, Jan.
+Department of Mathematics and Statistics,
+ Dalhousie University,
+ Halifax,
+ NS,
+ Canada,
+ Jan.
 \begin_inset space ~
 \end_inset
 
-15, 2025.
+15,
+ 2025.
  
 \end_layout
 
@@ -6646,14 +7012,20 @@ Multi-headed Lattices and Green Functions
 
 
 \emph on
-Invited Seminar Talk, 
+Invited Seminar Talk,
+ 
 \emph default
-Department of Mathematics and Statistics, Dalhousie University, Halifax,
- NS, Canada, Oct.
+Department of Mathematics and Statistics,
+ Dalhousie University,
+ Halifax,
+ NS,
+ Canada,
+ Oct.
 \begin_inset space ~
 \end_inset
 
-8, 2024.
+8,
+ 2024.
  
 \end_layout
 
@@ -6673,7 +7045,8 @@ status open
 \begin_inset Formula $q$
 \end_inset
 
--Analogue on Hankel Determinants: the 
+-Analogue on Hankel Determinants:
+ the 
 \begin_inset Formula $q$
 \end_inset
 
@@ -6688,9 +7061,15 @@ status open
 
 \series default
 \emph on
-Canadian Number Theory Association XVI, 
+Canadian Number Theory Association XVI,
+ 
 \emph default
-Fields Institute, Toronto, ON, Canada, June 10–14, 2024.
+Fields Institute,
+ Toronto,
+ ON,
+ Canada,
+ June 10–14,
+ 2024.
  
 \end_layout
 
@@ -6706,21 +7085,28 @@ status open
 
 
 \series bold
-Shuffle to One, Shuffle to Normal
+Shuffle to One,
+ Shuffle to Normal
 \begin_inset Newline newline
 \end_inset
 
 
 \series default
 \emph on
-Invited Seminar Talk, 
+Invited Seminar Talk,
+ 
 \emph default
-Department of Mathematics and Statistics, Dalhousie University, Halifax,
- NS, Canada, Jan.
+Department of Mathematics and Statistics,
+ Dalhousie University,
+ Halifax,
+ NS,
+ Canada,
+ Jan.
 \begin_inset space ~
 \end_inset
 
-31, 2024.
+31,
+ 2024.
  
 \end_layout
 
@@ -6743,14 +7129,20 @@ Random Walk Models for Identities Involving Bernoulli and Euler Polynomials
 
 \series default
 \emph on
-Invited Seminar Talk, 
+Invited Seminar Talk,
+ 
 \emph default
-Department of Mathematics and Statistics, Dalhousie University, Halifax,
- NS, Canada, Mar.
+Department of Mathematics and Statistics,
+ Dalhousie University,
+ Halifax,
+ NS,
+ Canada,
+ Mar.
 \begin_inset space ~
 \end_inset
 
-6, 2023.
+6,
+ 2023.
  
 \end_layout
 
@@ -6775,11 +7167,16 @@ Random Walk Model on Finite Number of Sites
 \emph on
 Invited Seminar Talk
 \emph default
-, School of Mathematics, Anhui University, Online, Oct.
+,
+ School of Mathematics,
+ Anhui University,
+ Online,
+ Oct.
 \begin_inset space ~
 \end_inset
 
-19, 2022.
+19,
+ 2022.
 \end_layout
 
 \begin_layout Enumerate
@@ -6804,11 +7201,14 @@ Bernoulli Symbol and Multiple Zeta Function at Non-negative Integers
 \emph on
 The First International Conference on Multiple Zeta Values and Related Topics
 \emph default
-, Online, Aug.
+,
+ Online,
+ Aug.
 \begin_inset space ~
 \end_inset
 
-08–09, 2022.
+08–09,
+ 2022.
 \end_layout
 
 \begin_layout Enumerate
@@ -6833,8 +7233,12 @@ Hankel Determinants of Certain Sequences of Bernoulli and Euler Polynomials
 \emph on
 Invited Seminar Talk
 \emph default
-, Department of Mathematics, Zhejiang Sci-Tech University, Online, June
- 12, 2022.
+,
+ Department of Mathematics,
+ Zhejiang Sci-Tech University,
+ Online,
+ June 12,
+ 2022.
 \end_layout
 
 \begin_layout Enumerate
@@ -6849,8 +7253,10 @@ status open
 
 
 \series bold
-Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
- Zeta Values
+Bernoulli and Euler Symbols:
+ Umbral Calculus,
+ Random Variables,
+ and Multiple Zeta Values
 \series default
 
 \begin_inset Newline newline
@@ -6858,10 +7264,11 @@ Bernoulli and Euler Symbols: Umbral Calculus, Random Variables, and Multiple
 
 
 \emph on
-Duke Kunshan University-Shanghai Jiao Tong University Joint Workshop for
- Mathematics and Data Science
+Duke Kunshan University-Shanghai Jiao Tong University Joint Workshop for Mathematics and Data Science
 \emph default
-, Shanghai, P.
+,
+ Shanghai,
+ P.
 \begin_inset space ~
 \end_inset
 
@@ -6869,11 +7276,13 @@ R.
 \begin_inset space ~
 \end_inset
 
-China, Jan.
+China,
+ Jan.
 \begin_inset space ~
 \end_inset
 
-5, 2022.
+5,
+ 2022.
 \end_layout
 
 \begin_layout Enumerate
@@ -6888,8 +7297,7 @@ status open
 
 
 \series bold
-Random Walk Models for Non-trivial Identities Involving Bernoulli and Euler
- Polynomials of Higher-orders
+Random Walk Models for Non-trivial Identities Involving Bernoulli and Euler Polynomials of Higher-orders
 \series default
 
 \begin_inset Newline newline
@@ -6898,8 +7306,13 @@ Random Walk Models for Non-trivial Identities Involving Bernoulli and Euler
 
 \emph on
 Suzhou Area Youth Mathematicians 2nd Annual Workshop,
+
 \emph default
- Soochow University, Kunshan, Suzhou, Jiangsu Province, P.
+ Soochow University,
+ Kunshan,
+ Suzhou,
+ Jiangsu Province,
+ P.
 \begin_inset space ~
 \end_inset
 
@@ -6907,11 +7320,13 @@ R.
 \begin_inset space ~
 \end_inset
 
-China, Sept.
+China,
+ Sept.
 \begin_inset space ~
 \end_inset
 
-25–26, 2021.
+25–26,
+ 2021.
 \end_layout
 
 \begin_layout Enumerate
@@ -6926,8 +7341,7 @@ status open
 
 
 \series bold
-Random Walks and Identities Involving Bernoulli and Euler Polynomials of
- Higher-order
+Random Walks and Identities Involving Bernoulli and Euler Polynomials of Higher-order
 \begin_inset Newline newline
 \end_inset
 
@@ -6936,10 +7350,15 @@ Random Walks and Identities Involving Bernoulli and Euler Polynomials of
 \emph on
 Invited Seminar Talk
 \emph default
-, Institute of Statistics and Big Data, Renmin University of China, Beijing,
+,
+ Institute of Statistics and Big Data,
+ Renmin University of China,
+ Beijing,
  P.
  R.
- China, June 18, 2021.
+ China,
+ June 18,
+ 2021.
 \end_layout
 
 \begin_layout Enumerate
@@ -6963,9 +7382,15 @@ Examples on Computer Proofs
 \emph on
 Invited Seminar Talk
 \emph default
-, Wuhan University, Wuhan, Hubei Province, P.
+,
+ Wuhan University,
+ Wuhan,
+ Hubei Province,
+ P.
  R.
- China, May 28, 2021.
+ China,
+ May 28,
+ 2021.
 \end_layout
 
 \begin_layout Enumerate
@@ -6989,9 +7414,15 @@ Hankel Determinant of Sequences Related to Bernoulli and Euler Polynomials
 \emph on
 DKU-WHU Math and Stat Academic Conference
 \emph default
-, Wuhan University, Wuhan, Hubei Province, P.
+,
+ Wuhan University,
+ Wuhan,
+ Hubei Province,
+ P.
  R.
- China, May 28, 2021.
+ China,
+ May 28,
+ 2021.
 \end_layout
 
 \begin_layout Enumerate
@@ -7014,8 +7445,13 @@ Hankel Determinant on Sequences Related to Bernoulli and Euler Polynomials
 \series default
 \emph on
 Suzhou Area Youth Mathematicians 1st Annual Workshop,
+
 \emph default
- Duke Kunshan University, Kunshan, Suzhou, Jiangsu Province, P.
+ Duke Kunshan University,
+ Kunshan,
+ Suzhou,
+ Jiangsu Province,
+ P.
 \begin_inset space ~
 \end_inset
 
@@ -7023,11 +7459,13 @@ R.
 \begin_inset space ~
 \end_inset
 
-China, Nov.
+China,
+ Nov.
 \begin_inset space ~
 \end_inset
 
-14–15, 2020.
+14–15,
+ 2020.
 \end_layout
 
 \begin_layout Enumerate
@@ -7050,8 +7488,12 @@ Three Examples on Computer Proofs
 \series default
 \emph on
 Zu Chongzhi Colloquium Series,
+
 \emph default
- Duke Kunshan University, Kunshan, Suzhou, P.
+ Duke Kunshan University,
+ Kunshan,
+ Suzhou,
+ P.
 \begin_inset space ~
 \end_inset
 
@@ -7059,11 +7501,13 @@ R.
 \begin_inset space ~
 \end_inset
 
-China, Nov.
+China,
+ Nov.
 \begin_inset space ~
 \end_inset
 
-6, 2020.
+6,
+ 2020.
 \end_layout
 
 \begin_layout Enumerate
@@ -7086,10 +7530,14 @@ Orthogonal Polynomials for Higher-order Euler Polynomials
 
 
 \emph on
-15th International Symposium on Orthogonal Polynomials, Special Functions
- and Applications
+15th International Symposium on Orthogonal Polynomials,
+ Special Functions and Applications
 \emph default
-, Hagenberg, Austria, July 22–26, 2019.
+,
+ Hagenberg,
+ Austria,
+ July 22–26,
+ 2019.
 \end_layout
 
 \begin_layout Enumerate
@@ -7104,9 +7552,8 @@ status open
 
 
 \series bold
-On Harmonic Sums: Integral and Matrix Representations with Connections to
- Partition-theoretic Generalization of the Riemann Zeta-function and Random
- Walks
+On Harmonic Sums:
+ Integral and Matrix Representations with Connections to Partition-theoretic Generalization of the Riemann Zeta-function and Random Walks
 \series default
 
 \begin_inset Newline newline
@@ -7114,14 +7561,18 @@ On Harmonic Sums: Integral and Matrix Representations with Connections to
 
 
 \emph on
-Analytic and Combinatorial Number Theory: The Legacy of Ramanujan (A conference
- in honor of Bruce C.
+Analytic and Combinatorial Number Theory:
+ The Legacy of Ramanujan (A conference in honor of Bruce C.
 \begin_inset space ~
 \end_inset
 
 Berndt's 80th birthday)
 \emph default
-, University of Illinois at Urbana-Champaign, Urbana, IL, U.
+,
+ University of Illinois at Urbana-Champaign,
+ Urbana,
+ IL,
+ U.
 \begin_inset space ~
 \end_inset
 
@@ -7129,7 +7580,9 @@ S.
 \begin_inset space ~
 \end_inset
 
-A., June 6–9, 2019.
+A.,
+ June 6–9,
+ 2019.
 \end_layout
 
 \begin_layout Enumerate
@@ -7144,8 +7597,7 @@ status open
 
 
 \series bold
-Random Walk Approaches to Identities on Higher-order Bernoulli and Euler
- Polynomials
+Random Walk Approaches to Identities on Higher-order Bernoulli and Euler Polynomials
 \series default
 
 \begin_inset Newline newline
@@ -7155,7 +7607,11 @@ Random Walk Approaches to Identities on Higher-order Bernoulli and Euler
 \emph on
 American Mathematical Society Spring Southeastern Sectional Meeting
 \emph default
-, Auburn University, Auburn, AL, U.
+,
+ Auburn University,
+ Auburn,
+ AL,
+ U.
 \begin_inset space ~
 \end_inset
 
@@ -7163,11 +7619,13 @@ S.
 \begin_inset space ~
 \end_inset
 
-A., Mar.
+A.,
+ Mar.
 \begin_inset space ~
 \end_inset
 
-15–17, 2019.
+15–17,
+ 2019.
 \end_layout
 
 \begin_layout Enumerate
@@ -7192,7 +7650,10 @@ Matrix Representation for Higher-Order Euler Polynomials
 \emph on
 2019 Joint Mathematics Meetings
 \emph default
-, Baltimore, MD, U.
+,
+ Baltimore,
+ MD,
+ U.
 \begin_inset space ~
 \end_inset
 
@@ -7200,11 +7661,13 @@ S.
 \begin_inset space ~
 \end_inset
 
-A., Jan.
+A.,
+ Jan.
 \begin_inset space ~
 \end_inset
 
-16–19, 2019.
+16–19,
+ 2019.
 \end_layout
 
 \begin_layout Enumerate
@@ -7229,7 +7692,11 @@ Bernoulli Symbol and Sum of Powers
 \emph on
 6th International Congress on Mathematical Software
 \emph default
-, University of Notre Dame, Notre Dame, IN, U.
+,
+ University of Notre Dame,
+ Notre Dame,
+ IN,
+ U.
 \begin_inset space ~
 \end_inset
 
@@ -7237,7 +7704,9 @@ S.
 \begin_inset space ~
 \end_inset
 
-A., July 24–27, 2018.
+A.,
+ July 24–27,
+ 2018.
 \end_layout
 
 \begin_layout Enumerate
@@ -7262,7 +7731,13 @@ Random Walks and Identities for High-order Bernoulli and Euler Polynomials
 \emph on
 18th International Conference on Fibonacci Numbers and Their Applications
 \emph default
-, Dalhousie University, Halifax, NS, Canada, July 1–8, 2018.
+,
+ Dalhousie University,
+ Halifax,
+ NS,
+ Canada,
+ July 1–8,
+ 2018.
 \end_layout
 
 \begin_layout Enumerate
@@ -7287,7 +7762,13 @@ Matrix Representations for Bernoulli and Euler Polynomials
 \emph on
 2018 Canadian Mathematical Society Summer Meeting
 \emph default
-, University of New Brunswick, Fredericton, NB, Canada, June 1–4, 2018.
+,
+ University of New Brunswick,
+ Fredericton,
+ NB,
+ Canada,
+ June 1–4,
+ 2018.
 \end_layout
 
 \begin_layout Enumerate
@@ -7312,8 +7793,14 @@ The Probabilistic and Combinatorial Interpretations of the Bernoulli Symbol
 \emph on
 2017 Canadian Mathematical Society Winter Meeting
 \emph default
-, University of Waterloo, Waterloo, ON, Canada, Dec.
- 8–11, 2017.
+,
+ University of Waterloo,
+ Waterloo,
+ ON,
+ Canada,
+ Dec.
+ 8–11,
+ 2017.
 \end_layout
 
 \begin_layout Enumerate
@@ -7336,10 +7823,14 @@ Bernoulli Symbol on Multiple Zeta Values at Negative Integers
 
 
 \emph on
-23rd Conference on Applications of Computer Algebra (Commemorating the heritage
- of Jonathan Michael Borwein)
+23rd Conference on Applications of Computer Algebra (Commemorating the heritage of Jonathan Michael Borwein)
 \emph default
-, Jerusalem College of Technology, Jerusalem, Israel, July 17–21, 2017.
+,
+ Jerusalem College of Technology,
+ Jerusalem,
+ Israel,
+ July 17–21,
+ 2017.
 \end_layout
 
 \begin_layout Enumerate
@@ -7368,7 +7859,11 @@ On Bernoulli Symbol
 \emph on
 Klagenfurt-Linz-Wien Workshop
 \emph default
-, Riefnitz, Austria, May 3–6, 2017.
+,
+ Riefnitz,
+ Austria,
+ May 3–6,
+ 2017.
 \end_layout
 
 \begin_layout Enumerate
@@ -7408,7 +7903,8 @@ status open
 
 
 \emph on
-s, Universit
+s,
+ Universit
 \emph default
 
 \begin_inset ERT
@@ -7427,11 +7923,15 @@ status open
 \emph on
  Paris Sud XI
 \emph default
-, Orsay, France, Dec.
+,
+ Orsay,
+ France,
+ Dec.
 \begin_inset space ~
 \end_inset
 
-9, 2016.
+9,
+ 2016.
 \end_layout
 
 \begin_layout Enumerate
@@ -7455,11 +7955,15 @@ status open
 \emph on
 SFB Statusseminar
 \emph default
-, Strobl, Austria, Nov.
+,
+ Strobl,
+ Austria,
+ Nov.
 \begin_inset space ~
 \end_inset
 
-27–30, 2016.
+27–30,
+ 2016.
 \end_layout
 
 \begin_layout Enumerate
@@ -7482,10 +7986,15 @@ On Binomial Identities in Arbitrary Bases
 
 
 \emph on
-Beijing Key Laboratory on Mathematical Characterization, Analysis and Applicatio
-ns of Complex Information, Beijing Institute of Technology
+Beijing Key Laboratory on Mathematical Characterization,
+ Analysis and Applications of Complex Information,
+ Beijing Institute of Technology
 \emph default
-, Beijing, China, July 26, 2016.
+,
+ Beijing,
+ China,
+ July 26,
+ 2016.
 \end_layout
 
 \begin_layout Enumerate
@@ -7500,17 +8009,23 @@ status open
 
 
 \series bold
-Random Walk: A Probabilistic and Geometric Approach to Number Theory
+Random Walk:
+ A Probabilistic and Geometric Approach to Number Theory
 \begin_inset Newline newline
 \end_inset
 
 
 \series default
 \emph on
-International Conference on Mathematical Characterization, Analysis and
- Applications of Complex Information
+International Conference on Mathematical Characterization,
+ Analysis and Applications of Complex Information
 \emph default
-, Beijing Institute of Technology, Beijing, China, July 19–20, 2016.
+,
+ Beijing Institute of Technology,
+ Beijing,
+ China,
+ July 19–20,
+ 2016.
 \end_layout
 
 \begin_layout Enumerate
@@ -7535,7 +8050,12 @@ The Method of Brackets
 \emph on
 5th International Congress on Mathematical Software
 \emph default
-, The Zuse Institute Berlin, Berlin, Germany, July 11–14, 2016.
+,
+ The Zuse Institute Berlin,
+ Berlin,
+ Germany,
+ July 11–14,
+ 2016.
 \end_layout
 
 \begin_layout Enumerate
@@ -7561,9 +8081,14 @@ On Bernoulli Symbol
 
 \series default
 \emph on
-Center for Combinatorics, Nankai University
+Center for Combinatorics,
+ Nankai University
 \emph default
-, Tianjin, China, July 8, 2015.
+,
+ Tianjin,
+ China,
+ July 8,
+ 2015.
 \end_layout
 
 \begin_layout Enumerate
@@ -7588,8 +8113,12 @@ Recursion Rules for the Hypergeometric Zeta Functions
 \emph on
 Midwest Number Theory Conference for Graduate Students and Recent PhDs,
  X,
+
 \emph default
- University of Illinois at Urbana-Champaign, Urbana, IL, U.
+ University of Illinois at Urbana-Champaign,
+ Urbana,
+ IL,
+ U.
 \begin_inset space ~
 \end_inset
 
@@ -7597,7 +8126,9 @@ S.
 \begin_inset space ~
 \end_inset
 
-A., June 3–4, 2014.
+A.,
+ June 3–4,
+ 2014.
 \end_layout
 
 \begin_layout Enumerate
@@ -7620,7 +8151,8 @@ Implementation of an Algorithm on Converting Sums into Nested Sums
 
 
 \emph on
-Laboratoire des Signaux et Systemes, Universit
+Laboratoire des Signaux et Systemes,
+ Universit
 \emph default
 
 \begin_inset ERT
@@ -7639,11 +8171,15 @@ status open
 \emph on
  Paris Sud XI
 \emph default
-, Orsay, France, Jan.
+,
+ Orsay,
+ France,
+ Jan.
 \begin_inset space ~
 \end_inset
 
-8, 2014.
+8,
+ 2014.
 \end_layout
 
 \begin_layout Section*
@@ -7753,7 +8289,8 @@ status open
 \begin_layout Plain Layout
 \align right
 Depart.
- of Math., Tulane University
+ of Math.,
+ Tulane University
 \end_layout
 
 \end_inset
@@ -7866,7 +8403,8 @@ status open
 \begin_layout Plain Layout
 \align right
 Depart.
- of Math., Tulane University
+ of Math.,
+ Tulane University
 \end_layout
 
 \end_inset
@@ -7979,7 +8517,8 @@ status open
 \begin_layout Plain Layout
 \align right
 Depart.
- of Math., Tulane University
+ of Math.,
+ Tulane University
 \end_layout
 
 \end_inset
@@ -8092,7 +8631,8 @@ status open
 \begin_layout Plain Layout
 \align right
 Depart.
- of Math., Tulane University
+ of Math.,
+ Tulane University
 \end_layout
 
 \end_inset
@@ -8316,7 +8856,8 @@ status open
 
 \begin_layout Plain Layout
 \align right
-Department of Education, P.
+Department of Education,
+ P.
 \begin_inset space ~
 \end_inset
 
@@ -8406,7 +8947,8 @@ backgroundcolor "none"
 status open
 
 \begin_layout Plain Layout
-China Aerospace Science and Technology Corporation Scholarship, 2nd Prize
+China Aerospace Science and Technology Corporation Scholarship,
+ 2nd Prize
 \end_layout
 
 \end_inset
@@ -12213,7 +12755,8 @@ Spring
 \begin_inset space ~
 \end_inset
 
-Real Analysis I, Calculus II
+Real Analysis I,
+ Calculus II
 \end_layout
 
 \begin_layout Labeling
@@ -12262,7 +12805,8 @@ Fall
 \begin_inset space ~
 \end_inset
 
-Calculus III, Experimental Mathematics
+Calculus III,
+ Experimental Mathematics
 \end_layout
 
 \begin_layout Labeling
@@ -12372,11 +12916,13 @@ Beijing Institute of Technology
 \begin_inset space ~
 \end_inset
 
-(For Special Joint Class with University of Central Lancashire, U.
+(For Special Joint Class with University of Central Lancashire,
+ U.
 \begin_inset space ~
 \end_inset
 
-K., completely in English)
+K.,
+ completely in English)
 \end_layout
 
 \begin_layout Labeling
@@ -12578,8 +13124,10 @@ Relevant Skills
 
 \series bold
 Language:
+
 \series default
- Mandarin (native), English (fluent)
+ Mandarin (native),
+ English (fluent)
 \end_layout
 
 \begin_layout Labeling
@@ -12589,8 +13137,13 @@ Language:
 
 \series bold
 Computer:
+
 \series default
- Mathematica, SageMath, Python, Maple, 
+ Mathematica,
+ SageMath,
+ Python,
+ Maple,
+ 
 \begin_inset ERT
 status open
 
@@ -12603,7 +13156,8 @@ LaTeX
 
 \end_inset
 
-, \SpecialChar LyX
+,
+ \SpecialChar LyX
 
 \end_layout
 
@@ -12611,7 +13165,8 @@ LaTeX
 \labelwidthstring 00.00.0000
 
 \series bold
-Packages: 
+Packages:
+ 
 \series default
 
 \begin_inset Box Frameless
