@@ -226,6 +226,20 @@ SCIENTIA Series A:
 
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 
 \series bold
@@ -256,7 +270,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
-<features tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
 <column alignment="right" valignment="top">
 <row>
@@ -464,12 +478,12 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="13" columns="3">
-<features tabularvalignment="middle">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
 <column alignment="right" valignment="top">
@@ -1642,7 +1656,7 @@ Papers
 \align block
 \begin_inset Tabular
 <lyxtabular version="3" rows="39" columns="2">
-<features islongtable="true" longtabularalignment="left">
+<features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
 <row>
@@ -5923,7 +5937,7 @@ Invited Talks
 \align block
 \begin_inset Tabular
 <lyxtabular version="3" rows="66" columns="2">
-<features islongtable="true" longtabularalignment="left">
+<features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
 <row>
@@ -7871,7 +7885,7 @@ Honors and Awards
 \noindent
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="3">
-<features islongtable="true" longtabularalignment="center">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="38page%">
 <column alignment="right" valignment="top" width="28page%">
@@ -8115,7 +8129,7 @@ Teaching Experience
 \noindent
 \begin_inset Tabular
 <lyxtabular version="3" rows="31" columns="4">
-<features islongtable="true" longtabularalignment="center">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
