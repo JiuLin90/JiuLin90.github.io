@@ -130,20 +130,6 @@ Lin JIU
 Curriculum Vitae
 \end_layout
 
-\begin_layout Standard
-\noindent
-\align block
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100col%"
-height "1pt"
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section*
 
 \series bold
