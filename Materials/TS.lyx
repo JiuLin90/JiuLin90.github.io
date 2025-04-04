@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -19,11 +19,11 @@ eqs-within-sections
 figs-within-sections
 enumitem
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language american
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "times" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -31,7 +31,9 @@ enumitem
 \font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -65,7 +67,9 @@ enumitem
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -88,11 +92,16 @@ enumitem
 \papercolumns 1
 \papersides 2
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -130,7 +139,9 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-—The Book of Rite, Warring States period.
+—
+The Book of Rite,
+ Warring States period.
 \end_layout
 
 \end_inset
@@ -139,12 +150,14 @@ status open
 \end_layout
 
 \begin_layout Standard
-This Chinese quote on teaching and learning reveals the mutual benefit between
- them, as well as between the instructor and students.
- Although I read it as a teenager, not until 2014, when I first became an
- instructor, did I finally begin to better understand the nature and connections
- between teaching and learning.
- There are several key concepts, such as 
+This Chinese quote on teaching and learning reveals the mutual benefit between them,
+ as well as between the instructor and students.
+ Although I read it as a teenager,
+ not until 2014,
+ when I first became an instructor,
+ did I finally begin to better understand the nature and connections between teaching and learning.
+ There are several key concepts,
+ such as 
 \end_layout
 
 \begin_layout Itemize
@@ -156,10 +169,12 @@ motivation
 \emph on
 inspiration
 \emph default
-: as William Arthur Ward said “The mediocre teacher tells.
+:
+ as William Arthur Ward said “The mediocre teacher tells.
  The good teacher explains.
  The superior teacher demonstrates.
- The great teacher inspires.”; 
+ The great teacher inspires.”;
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -167,7 +182,12 @@ inspiration
 \emph on
 engagement
 \emph default
-, by, e.g., group discussion, asking and answering questions; 
+,
+ by,
+ e.g.,
+ group discussion,
+ asking and answering questions;
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -179,8 +199,12 @@ training plans
 \emph on
 course designs
 \emph default
-, by organizing materials, setting appropriate homework assignments, quizzes,
- and tests; 
+,
+ by organizing materials,
+ setting appropriate homework assignments,
+ quizzes,
+ and tests;
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -188,11 +212,13 @@ involvement of
 \emph on
 student research projects
 \emph default
- (, as my published my first paper as a junior student) 
+ (,
+ as my published my first paper as a junior student) 
 \emph on
 and beyond
 \emph default
-; 
+;
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -205,13 +231,16 @@ active pursuing
 \end_layout
 
 \begin_layout Standard
-For instance, teaching objects are no long restricted to course materials;
- it is more important to foster a deeper understanding, to cultivate a self-inde
-pendent learning, and to guide students with problem-solving skills.
- My ultimate goal is to cultivate the students necessary skills in problem
- solving, such as critical thinking and communication, and finally to guide
- the students into becoming self/independent math learners outside the classroom.
- To fulfill those goals, certain pedagogical strategies are applied.
+For instance,
+ teaching objects are no long restricted to course materials;
+ it is more important to foster a deeper understanding,
+ to cultivate a self-independent learning,
+ and to guide students with problem-solving skills.
+ My ultimate goal is to cultivate the students necessary skills in problem solving,
+ such as critical thinking and communication,
+ and finally to guide the students into becoming self/independent math learners outside the classroom.
+ To fulfill those goals,
+ certain pedagogical strategies are applied.
  
 \end_layout
 
@@ -221,12 +250,15 @@ pendent learning, and to guide students with problem-solving skills.
 Experiential teaching
 \bar default
  enriches the contents and activities in class.
- Besides traditional in-class activities, e.g., group discussion on problems
- with interactions, model tools, such as presentations on simulation demos,
+ Besides traditional in-class activities,
+ e.g.,
+ group discussion on problems with interactions,
+ model tools,
+ such as presentations on simulation demos,
  can catch the attention and stimulate students to further explore materials.
- Connecting a real-world problem to mathematical theory, not only encourages
- interdisciplinary learning for students; but also reveals the process of
- analyzing and solving real problems.
+ Connecting a real-world problem to mathematical theory,
+ not only encourages interdisciplinary learning for students;
+ but also reveals the process of analyzing and solving real problems.
  
 \end_layout
 
@@ -235,16 +267,18 @@ Experiential teaching
 \bar under
 Research-driven teaching
 \bar default
- opens the door of higher-level research projects to graduate, as well as
- undergraduate, students.
- Some homework problems, especially in high level courses, are particularly
- selected.
- They are either directly from research projects or published papers, to
- offer the opportunity to the students participating certain projects; or
- are given in a literature review format, as the opening step to research
- topics.
- For example, presentation on topics related but beyond the teaching materials
- is one of such formats.
+ opens the door of higher-level research projects to graduate,
+ as well as undergraduate,
+ students.
+ Some homework problems,
+ especially in high level courses,
+ are particularly selected.
+ They are either directly from research projects or published papers,
+ to offer the opportunity to the students participating certain projects;
+ or are given in a literature review format,
+ as the opening step to research topics.
+ For example,
+ presentation on topics related but beyond the teaching materials is one of such formats.
  
 \end_layout
 
@@ -275,7 +309,9 @@ https://www.sagemath.org/
 \end_inset
 
  is not restricted in presenting simulations and plots.
- Programming homework, dynamic notes, etc.
+ Programming homework,
+ dynamic notes,
+ etc.
  always appear in my class.
  
 \end_layout
@@ -285,8 +321,11 @@ Diverse and Abundant Experiences
 \end_layout
 
 \begin_layout Standard
-Throughout all three institutes I have taught: Tulane University, Dalhousie
- University, and Duke Kunshan University, I experienced from private university,
+Throughout all three institutes I have taught:
+ Tulane University,
+ Dalhousie University,
+ and Duke Kunshan University,
+ I experienced from private university,
  public university to the joint-venture liberal arts college.
  As shown in Appendix 
 \begin_inset CommandInset ref
@@ -295,10 +334,13 @@ reference "sec:Teaching-Experience"
 plural "false"
 caps "false"
 noprefix "false"
+nolink "false"
 
 \end_inset
 
-, up to now, I have lectured (including current teaching ones)
+,
+ up to now,
+ I have lectured (including current teaching ones)
 \end_layout
 
 \begin_layout Itemize
@@ -306,27 +348,35 @@ noprefix "false"
 \series bold
 24
 \series default
- sections, of 10 different regular math courses, including 
+ sections,
+ of 10 different regular math courses,
+ including 
 \series bold
 various levels of calculus
 \series default
-, 
+,
+ 
 \series bold
 linear algebra
 \series default
-, 
+,
+ 
 \series bold
 probability
 \series default
-, 
+,
+ 
 \series bold
 complex analysis
 \series default
-, and 
+,
+ and 
 \series bold
 number theory
 \series default
-, at three different institutes; 
+,
+ at three different institutes;
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -338,27 +388,38 @@ number theory
 \series bold
 miniterm
 \series default
-, i.e., a 1-week short course, and 
+,
+ i.e.,
+ a 1-week short course,
+ and 
 \series bold
-5
+6
 \series default
  
 \series bold
 independent study
 \series default
-, i.e., reading courses, for completely different topics, e.g., 
+,
+ i.e.,
+ reading courses,
+ for completely different topics,
+ e.g.,
+ 
 \series bold
 combinatorics
 \series default
-, 
+,
+ 
 \series bold
 analytic number theory
 \series default
-, 
+,
+ 
 \series bold
 quantum computing
 \series default
-, and 
+,
+ and 
 \series bold
 algebraic geometry
 \series default
@@ -367,44 +428,62 @@ algebraic geometry
 \end_layout
 
 \begin_layout Standard
-In general, for basic math courses, e.g.
- calculus, linear algebra, probability and statistics, I have no preference,
- as all such courses are essential and important to students majoring in
- STEM.
- Meanwhile, as my research topics include several branches, such as combinatoric
-s, number theory, etc., many advanced courses, e.g., complex analysis, abstract
- algebra, also fit my area perfectly.
- Take MATH301–Advanced Introduction to Probability at Duke Kunshan University
- (DKU) as an example.
+In general,
+ for basic math courses,
+ e.g.
+ calculus,
+ linear algebra,
+ probability and statistics,
+ I have no preference,
+ as all such courses are essential and important to students majoring in STEM.
+ Meanwhile,
+ as my research topics include several branches,
+ such as combinatorics,
+ number theory,
+ etc.,
+ many advanced courses,
+ e.g.,
+ complex analysis,
+ abstract algebra,
+ also fit my area perfectly.
+ Take MATH301–Advanced Introduction to Probability at Duke Kunshan University (DKU) as an example.
  This course was designed by me upon my arrival at DKU.
- Many ingredients were taken into consideration, including but not restricted
- to the seven-week session structure at DKU, undergraduate curriculum, related
- major requirements, and other courses.
- The course serves as an elective in math major, and also consists of important
- materials for further courses, such as MATH405—Financial Mathematics.
- Some research topics, e.g., probabilistic methods, Shor’s algorithms in quantum
- computing are also introduced in the end.
+ Many ingredients were taken into consideration,
+ including but not restricted to the seven-week session structure at DKU,
+ undergraduate curriculum,
+ related major requirements,
+ and other courses.
+ The course serves as an elective in math major,
+ and also consists of important materials for further courses,
+ such as MATH405—
+Financial Mathematics.
+ Some research topics,
+ e.g.,
+ probabilistic methods,
+ Shor’s algorithms in quantum computing are also introduced in the end.
  
 \end_layout
 
 \begin_layout Section
-Adjustment, Improvement, and Innovation
+Adjustment,
+ Improvement,
+ and Innovation
 \end_layout
 
 \begin_layout Standard
-Teaching and learning is a dynamic process, so adjustment is required almost
- every single time.
- I am always willing to modify part of my teaching and adopt new already
- tested techniques into my course.
- This continuous adjustment encourages me to constantly reconsider the purpose
- and aims of the course and my teaching strategies.
- Moreover, comments on each course’s evaluation are also helpful for improvement.
- The current average of the overall score and some comments show that I
- am a “good teacher”; still, there is room and space be become a better
- instructor.
- In order to constantly improve my teaching, I am also engaged in many activitie
-s.
- For instance, I 
+Teaching and learning is a dynamic process,
+ so adjustment is required almost every single time.
+ I am always willing to modify part of my teaching and adopt new already tested techniques into my course.
+ This continuous adjustment encourages me to constantly reconsider the purpose and aims of the course and my teaching strategies.
+ Moreover,
+ comments on each course’s evaluation are also helpful for improvement.
+ The current average of the overall score and some comments show that I am a “good teacher”;
+ still,
+ there is room and space be become a better instructor.
+ In order to constantly improve my teaching,
+ I am also engaged in many activities.
+ For instance,
+ I 
 \series bold
 led two sessions
 \series default
@@ -412,7 +491,8 @@ led two sessions
 \emph on
 Center for Teaching and Learning
 \emph default
- (CTL) of DKU, on the 
+ (CTL) of DKU,
+ on the 
 \series bold
 usage of MaxHub
 \series default
@@ -426,7 +506,9 @@ https://www.maxhub.com/
 
 \end_inset
 
- , a digital whiteboard in hybrid teaching; and 
+ ,
+ a digital whiteboard in hybrid teaching;
+ and 
 \series bold
 WeBWorK
 \series default
@@ -445,8 +527,8 @@ https://openwebwork.org/
 \end_layout
 
 \begin_layout Standard
-Also facilitated by the CTL, I was selected as one of the two instructors
- at DKU to conduct the 
+Also facilitated by the CTL,
+ I was selected as one of the two instructors at DKU to conduct the 
 \series bold
 Gradescope
 \series default
@@ -464,39 +546,48 @@ https://www.gradescope.com/
 \series bold
 Research Project
 \series default
-, awarded a grant of $2,000.
- Gradescope is a digital grading system that allows instructors to scan
- and upload exams, and to grade them online.
- It reduces the grading time for classes of large size and digitizes the
- tests.
- In addition, I was selected as a 
+,
+ awarded a grant of $2,000.
+ Gradescope is a digital grading system that allows instructors to scan and upload exams,
+ and to grade them online.
+ It reduces the grading time for classes of large size and digitizes the tests.
+ In addition,
+ I was selected as a 
 \series bold
 member of Faculty Learning Community
 \series default
- (FLC) 2022-2023, across all disciplines, to discuss and learn from each
- other in teaching.
+ (FLC) 2022-2023,
+ across all disciplines,
+ to discuss and learn from each other in teaching.
 \end_layout
 
 \begin_layout Section
-Outside the Classroom—Undergraduate Mentoring
+Outside the Classroom—
+Undergraduate Mentoring
 \end_layout
 
 \begin_layout Standard
-As an advisor at DKU, we are assigned 
+As an advisor at DKU,
+ we are assigned 
 \series bold
 totally 10-16 
 \series default
-undergraduate mentees, from each year, so that students can get guide and
- suggestions from course registrations, major declaration, etc.
- For instance, every semester before registering courses for the next term,
- advisees are required to meet the mentor, for discussion.
+undergraduate mentees,
+ from each year,
+ so that students can get guide and suggestions from course registrations,
+ major declaration,
+ etc.
+ For instance,
+ every semester before registering courses for the next term,
+ advisees are required to meet the mentor,
+ for discussion.
  
 \end_layout
 
 \begin_layout Standard
 Undergraduate research has always been a strong part of my academic life;
- and I have benefited from it myself, by joining seminars and publishing
- my first 2 papers as an undergraduate student.
+ and I have benefited from it myself,
+ by joining seminars and publishing my first 2 papers as an undergraduate student.
  As the current Discrete Math Seminar
 \begin_inset Foot
 status collapsed
@@ -507,21 +598,30 @@ https://sites.duke.edu/kits_team_101_48585/
 
 \end_inset
 
- organizer, many talks/presentations are given by undergraduate students;
+ organizer,
+ many talks/presentations are given by undergraduate students;
  and some projects eventually end as papers.
- Since 2020 at DKU, 
+ Since 2020 at DKU,
+ 
 \series bold
 each summer
 \series default
-, I have guided 
+,
+ I have guided 
 \series bold
 at least 2 students
 \series default
- for summer research projects; in Summer 2024, as a visiting scholar at
- Dalhousie University, I also co-mentor, with Dr.
- Karl Dilcher, two undergraduate students.
- Since an undergraduate thesis, which is called Signature Work project at
- DKU, is required in China, I have guided 
+ for summer research projects;
+ in Summer 2024,
+ as a visiting scholar at Dalhousie University,
+ I also co-mentor,
+ with Dr.
+ Karl Dilcher,
+ two undergraduate students.
+ Since an undergraduate thesis,
+ which is called Signature Work project at DKU,
+ is required in China,
+ I have guided 
 \series bold
 7 in 2023
 \series default
@@ -529,7 +629,9 @@ at least 2 students
 \series bold
 3 in 2024
 \series default
-; among which, 
+;
+ among which,
+ 
 \series bold
 three were based on publish/submitted papers
 \series default
@@ -545,10 +647,13 @@ three were based on publish/submitted papers
 \end_layout
 
 \begin_layout Standard
-Admittedly, there is always a distance from being a great teacher, and I
- am willing to constantly improve in teaching.
- As my experience growth, my teaching will be more effective, diverse, and
- innovative.
+Admittedly,
+ there is always a distance from being a great teacher,
+ and I am willing to constantly improve in teaching.
+ As my experience growth,
+ my teaching will be more effective,
+ diverse,
+ and innovative.
  My enthusiasm and commitment will never decrease.
 \end_layout
 
@@ -562,7 +667,7 @@ Appendix
 
 \size largest
 \noun on
-Teaching Awards
+Teaching Grants and Awards
 \end_layout
 
 \begin_layout Standard
@@ -759,7 +864,8 @@ Excellent Graduate Student Teacher
 
 
 \emph default
-Math Dept., Tulane Univ.
+Math Dept.,
+ Tulane Univ.
 \end_layout
 
 \end_inset
@@ -780,2575 +886,1197 @@ Teaching Experience
 \begin_layout Standard
 \noindent
 
-\shape smallcaps
-\bar under
-Duke Kunshan University
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="31" columns="4">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt" varwidth="true">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
+2025 Winter
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MATH 6400
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Integer Partitions and 
+\begin_inset Formula $q$
+\end_inset
+
+-Series
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dalhousie University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 2024 Fall
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 307
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Complex Analysis
 \end_layout
 
 \end_inset
-
-
-\begin_inset VSpace 1bp
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 2023 Fall
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 105
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Calculus
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 202
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Linear Algebra
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 105
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Calculus
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 301
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Advanced Introduction to Probability
 \end_layout
 
 \end_inset
-
-
-\begin_inset VSpace 1bp
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 2023 Spring
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 205
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Probability and Statistics
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MINITERM 102
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Experimental Mathematics and Symbolic Computation
 \end_layout
 
 \end_inset
-
-
-\begin_inset VSpace 1bp
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 2022 Fall
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 INDSTU 391
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Introduction to Algebraic Geometry
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 105
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Calculus
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 306
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Number Theory
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 301
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Advanced Introduction to Probability
 \end_layout
 
 \end_inset
-
-
-\begin_inset VSpace 1bp
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 2022 Spring
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 INDSTU 391
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Variational Quantum Algorithms
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 201
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Multivariable Calculus
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 301
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Advanced Introduction to Probability
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 201
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Multivariable Calculus
 \end_layout
 
 \end_inset
-
-
-\begin_inset VSpace 2bp
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 2021 Fall
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 105
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Calculus
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 INDSTU 391
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Riemann Zeta-Function
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 INDSTU 391
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Quantum Algorithm
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 306
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Number Theory
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 INDSTU 391
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Combinatorics
 \end_layout
 
 \end_inset
-
-
-\begin_inset VSpace 2bp
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 2021 Spring
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 205
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Probability and Statistics
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 301
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Advanced Introduction to Probability
 \end_layout
 
 \end_inset
-
-
-\begin_inset VSpace 2bp
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 2020 Fall
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 105
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Calculus
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 201
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Multivariable Calculus
 \end_layout
 
 \end_inset
-
-
-\begin_inset VSpace 2bp
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\shape smallcaps
-\bar under
-Dalhousie University
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
+Duke Kunshan University
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 2019 Summer
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 1030
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Matrix Theory and Linear Algebra I
 \end_layout
 
 \end_inset
-
-
-\end_layout
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
-\end_inset
-
-
+Dalhousie University
 \end_layout
 
 \end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
 2019 Winter
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 3080
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status open
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Introduction to Complex Variables
 \end_layout
 
 \end_inset
-
-
-\end_layout
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
-\end_inset
-
-
+Dalhousie University
 \end_layout
 
 \end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\shape smallcaps
-\bar under
-Tulane University
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
 2016 Spring
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 1060
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Long Calculus II
 \end_layout
 
 \end_inset
-
-
-\end_layout
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
-\end_inset
-
-
+Tulane University
 \end_layout
 
 \end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
 2015 Fall
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 1310
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Consolidated Calculus
 \end_layout
 
 \end_inset
-
-
-\end_layout
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
-\end_inset
-
-
+Tulane University
 \end_layout
 
 \end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
 2015 Spring
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 1210
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Long Calculus I
 \end_layout
 
 \end_inset
-
-
-\end_layout
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
-\end_inset
-
-
+Tulane University
 \end_layout
 
 \end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "15col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
 2014 Summer
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "85col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "20col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 MATH 1160
 \end_layout
 
 \end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "80col%"
-special "none"
-height "1in"
-height_special "totalheight"
-thickness "0.4pt"
-separation "3pt"
-shadowsize "4pt"
-framecolor "black"
-backgroundcolor "none"
-status collapsed
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
 Long Calculus II
 \end_layout
 
 \end_inset
-
-
-\end_layout
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset VSpace 2bp
-\end_inset
-
-
+Tulane University
 \end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
