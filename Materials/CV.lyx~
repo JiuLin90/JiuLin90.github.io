@@ -8,7 +8,7 @@
 \begin_preamble
 \usepackage{graphicx,titlesec,amsmath,enumitem,environ,longtable}
 
-\titlespacing{\section}{0pt}{-2pt}{-2pt}
+%\titlespacing{\section}{0pt}{-2pt}{-2pt}
 %\titleformat{\section}{\vbox{\rule{\linewidth}{0.5pt}}\vspace{-0.3cm}\LARGE\bfseries}{\thesection}{}{}
 
 \setlist{noitemsep}
@@ -78,13 +78,13 @@ theorems-ams
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 1in
-\topmargin 1in
-\rightmargin 1in
-\bottommargin 1in
-\headheight 0cm
-\headsep 0cm
-\footskip 0.5cm
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\headheight 1cm
+\headsep 1cm
+\footskip 1cm
 \secnumdepth 1
 \tocdepth 1
 \paragraph_separation indent
@@ -95,7 +95,7 @@ theorems-ams
 \dynamic_quotes 0
 \papercolumns 1
 \papersides 1
-\paperpagestyle default
+\paperpagestyle fancy
 \tablestyle default
 \tracking_changes false
 \output_changes false
@@ -110,22 +110,29 @@ theorems-ams
 
 \begin_body
 
-\begin_layout Standard
-\noindent
-
-\series bold
-\size larger
-\emph on
+\begin_layout Left Header
 Lin JIU
-\series default
-\shape smallcaps
-\size default
-\emph default
+\end_layout
 
-\begin_inset space \hfill{}
+\begin_layout Right Header
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
 \end_inset
 
 
+\end_layout
+
+\begin_layout Center Header
+
+\shape smallcaps
 \size larger
 Curriculum Vitae
 \end_layout
@@ -133,100 +140,6 @@ Curriculum Vitae
 \begin_layout Standard
 \noindent
 \align block
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100col%"
-height "1pt"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
-
-\series bold
-\shape smallcaps
-\size large
-Research Interests
-\end_layout
-
-\begin_layout Standard
-\align center
-Symbolic Computation,
- Number Theory,
- Combinatorics,
- Special Functions 
-\begin_inset Note Comment
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-D.
- Li,
- H.
- Sun,
- C.
- Tao,
- and 
-\series bold
-L.
- Jiu
-\series default
-,
- Principal bundles and holonomy groups on statistical manifolds,
- Submitted for Publication.
-\end_layout
-
-\begin_layout Plain Layout
-A.
- Dixit,
- X.
- Guan,
- 
-\series bold
-L.
- Jiu
-\series default
-,
- V.
- H.
- Moll and C.
- Vignat.
- The integrals in Gradshteyn and Ryzhik.
- Part 32:
- the generating function of Chebyshev polynomials of the second kind,
- To Appear in 
-\emph on
-SCIENTIA Series A:
- Mathematical Sciences.
-\end_layout
-
-\begin_layout Plain Layout
-
-\series bold
-L.
- Jiu
-\series default
- and V.
- H.
- Moll.
- The integrals in Gradshteyn and Ryzhik.
- Part 31:
- rational functions,
- To Appear in 
-\emph on
-SCIENTIA Series A:
- Mathematical Sciences.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
 
 \series bold
 \shape smallcaps
@@ -235,6 +148,7 @@ Contact
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -255,8 +169,8 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="2">
-<features tabularvalignment="middle">
+<lyxtabular version="3" rows="5" columns="2">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
 <column alignment="right" valignment="top">
 <row>
@@ -374,7 +288,7 @@ Tel
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -398,7 +312,7 @@ Jiangsu Province,
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+<cell alignment="right" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -427,6 +341,26 @@ https://JiuLin90.github.io
 \end_inset
 </cell>
 </row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
 </lyxtabular>
 
 \end_inset
@@ -439,7 +373,8 @@ https://JiuLin90.github.io
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
+\noindent
 
 \series bold
 \shape smallcaps
@@ -448,6 +383,7 @@ Employment
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -468,10 +404,10 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="3">
-<features tabularvalignment="middle">
+<lyxtabular version="3" rows="10" columns="3">
+<features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt" varwidth="true">
+<column alignment="left" valignment="top" width="0pt">
 <column alignment="right" valignment="top">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
@@ -483,20 +419,24 @@ status collapsed
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Assistant Professor of Mathematics
+\begin_inset space \hfill{}
+\end_inset
+
+Duke Kunshan Univ.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="right" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Duke Kunshan University
+
 \end_layout
 
 \end_inset
@@ -512,27 +452,31 @@ Duke Kunshan University
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Assistant Professor of the Practice of DKU Studies
+\begin_inset space \hfill{}
+\end_inset
+
+Duke Univ.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="right" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Duke University
+
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -541,20 +485,24 @@ Duke University
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Adjunct of the Faculty of Graduate Studies
+\begin_inset space \hfill{}
+\end_inset
+
+Dalhousie Univ.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+<cell multicolumn="2" alignment="right" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Dalhousie University
+
 \end_layout
 
 \end_inset
@@ -570,20 +518,24 @@ Dalhousie University
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Lecturer in Mathematics
+\begin_inset space \hfill{}
+\end_inset
+
+Duke Kunshan Univ.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="right" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Duke Kunshan University
+
 \end_layout
 
 \end_inset
@@ -603,8 +555,13 @@ Duke Kunshan University
 \begin_inset Text
 
 \begin_layout Plain Layout
-Assistant Professor of the Practice of Trinity College of Arts & Sciences,
- Duke University
+Assistant Prof.
+ of the Practice
+\begin_inset space \hfill{}
+\end_inset
+
+Trinity College of Arts & Sci.,
+ Duke Univ.
 \end_layout
 
 \end_inset
@@ -620,7 +577,7 @@ Assistant Professor of the Practice of Trinity College of Arts & Sciences,
 </cell>
 </row>
 <row>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -629,60 +586,34 @@ Assistant Professor of the Practice of Trinity College of Arts & Sciences,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Research Associate
+Research Associate 
+\begin_inset space \hfill{}
+\end_inset
+
+ Dept.
+ of Math.
+ and Stat.,
+ Dalhousie Univ.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\emph on
-Mentor:
-\bar under
-Karl Dilcher
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Department of Mathematics and Statistics
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Dalhousie University
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -691,60 +622,34 @@ Dalhousie University
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Killam Postdoctoral Fellowship
+Killam Postdoc Fellow 
+\begin_inset space \hfill{}
+\end_inset
+
+Dept.
+ of Math.
+ and Stat.,
+ Dalhousie Univ.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\emph on
-Mentor:
-\bar under
-Karl Dilcher
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Department of Mathematics and Statistics
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Dalhousie University
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="left" valignment="middle" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -753,61 +658,33 @@ Dalhousie University
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Postdoctoral Research Scientist
+Research Scientist,
+ Johann Radon Inst.
+ for Comp.
+ and Appl.
+ Math.,
+ Austrian Acad.
+ of Sci.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\emph on
-Mentor:
- 
-\bar under
-Christoph Koutschan
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Johann Radon Institute for Computational and Applied Mathematics (RICAM)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Austrian Academy of Sciences
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="3" alignment="left" valignment="middle" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -820,20 +697,12 @@ Austrian Academy of Sciences
 \begin_inset Text
 
 \begin_layout Plain Layout
-Post-Doc Fellow
-\emph on
-
+Postdoc Fellow
 \begin_inset space \hfill{}
 \end_inset
 
-Mentors:
- 
-\bar under
-Peter Paule
-\bar default
- & 
-\bar under
-Carsten Schneider
+Research Institute for Symbolic Computation,
+ Johannes Kepler Univ.
 \end_layout
 
 \end_inset
@@ -849,7 +718,7 @@ Carsten Schneider
 </cell>
 </row>
 <row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -858,20 +727,20 @@ Carsten Schneider
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Research Institute for Symbolic Computation (RISC)
+
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Johannes Kepler University
+
 \end_layout
 
 \end_inset
@@ -889,7 +758,91 @@ Johannes Kepler University
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
+\noindent
+
+\series bold
+\shape smallcaps
+\size large
+Research Interests
+\end_layout
+
+\begin_layout Standard
+\align center
+Symbolic Computation,
+ Number Theory,
+ Combinatorics,
+ Special Functions 
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+D.
+ Li,
+ H.
+ Sun,
+ C.
+ Tao,
+ and 
+\series bold
+L.
+ Jiu
+\series default
+,
+ Principal bundles and holonomy groups on statistical manifolds,
+ Submitted for Publication.
+\end_layout
+
+\begin_layout Plain Layout
+A.
+ Dixit,
+ X.
+ Guan,
+ 
+\series bold
+L.
+ Jiu
+\series default
+,
+ V.
+ H.
+ Moll and C.
+ Vignat.
+ The integrals in Gradshteyn and Ryzhik.
+ Part 32:
+ the generating function of Chebyshev polynomials of the second kind,
+ To Appear in 
+\emph on
+SCIENTIA Series A:
+ Mathematical Sciences.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+L.
+ Jiu
+\series default
+ and V.
+ H.
+ Moll.
+ The integrals in Gradshteyn and Ryzhik.
+ Part 31:
+ rational functions,
+ To Appear in 
+\emph on
+SCIENTIA Series A:
+ Mathematical Sciences.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 
 \series bold
 \shape smallcaps
@@ -898,6 +851,7 @@ Education
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -977,36 +931,9 @@ Moll
 \begin_inset Text
 
 \begin_layout Plain Layout
-Research Institute for Symbolic Computation
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Johannes Kepler University
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell multirow="4" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Exchange Ph.D.
+Research Institute for Symbolic Computation,
+ Johannes Kepler University,
+ Exchange Ph.D.
  Student
 \end_layout
 
@@ -1063,7 +990,7 @@ Huafei Sun
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1072,7 +999,7 @@ Huafei Sun
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1082,16 +1009,45 @@ Beijing Institute of Technology,
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+<cell alignment="right" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
 \emph on
-Advisor:
+Thesis Advisor:
  
 \bar under
 Huafei Sun
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1109,7 +1065,8 @@ Huafei Sun
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
+\noindent
 
 \series bold
 \shape smallcaps
@@ -1118,6 +1075,7 @@ Grant Awarded
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -1138,7 +1096,7 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="2">
+<lyxtabular version="3" rows="14" columns="2">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
@@ -1419,7 +1377,7 @@ Killam Trust @ Dalhousie University
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1428,11 +1386,31 @@ Killam Trust @ Dalhousie University
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Research Support for Killam Postdocs
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1499,12 +1477,12 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="1" columns="2">
+<lyxtabular version="3" rows="2" columns="2">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
 <row>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1513,7 +1491,7 @@ status collapsed
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1618,6 +1596,26 @@ Mathematical Foundations of Information Geometry
 \end_inset
 </cell>
 </row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
 </lyxtabular>
 
 \end_inset
@@ -1641,8 +1639,8 @@ Papers
 \noindent
 \align block
 \begin_inset Tabular
-<lyxtabular version="3" rows="39" columns="2">
-<features islongtable="true" longtabularalignment="left">
+<lyxtabular version="3" rows="40" columns="2">
+<features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
 <row>
@@ -1695,7 +1693,7 @@ Wang,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1704,7 +1702,7 @@ Wang,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1930,62 +1928,6 @@ Jiu
 \begin_inset Text
 
 \begin_layout Plain Layout
-S.
-\begin_inset space ~
-\end_inset
-
-Chern,
- 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-,
- and I.
-\begin_inset space ~
-\end_inset
-
-Simonelli,
- A central limit theorem for a card shuffling problem,
- To Appear in 
-\emph on
-J.
-\begin_inset space ~
-\end_inset
-
-Combin.
-\begin_inset space ~
-\end_inset
-
-Theory Ser.
-\begin_inset space ~
-\end_inset
-
-A
-\emph default
-.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-36
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
 L.
@@ -2013,6 +1955,68 @@ Statist.
 Theory Methods
 \emph default
 .
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+S.
+\begin_inset space ~
+\end_inset
+
+Chern,
+ 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+,
+ and I.
+\begin_inset space ~
+\end_inset
+
+Simonelli,
+ A central limit theorem for a card shuffling problem,
+ 
+\emph on
+J.
+\begin_inset space ~
+\end_inset
+
+Combin.
+\begin_inset space ~
+\end_inset
+
+Theory Ser.
+\begin_inset space ~
+\end_inset
+
+A
+\emph default
+ 
+\series bold
+214
+\series default
+ (2025),
+ Article 106048.
+ 
 \end_layout
 
 \end_inset
@@ -5781,7 +5785,7 @@ Math
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5790,7 +5794,7 @@ Math
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -5902,6 +5906,26 @@ Journal of Ningde Normal University (Natural Science)
 \end_inset
 </cell>
 </row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
 </lyxtabular>
 
 \end_inset
@@ -5909,21 +5933,20 @@ Journal of Ningde Normal University (Natural Science)
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
 \noindent
 
+\series bold
 \shape smallcaps
 \size large
-\noun on
 Invited Talks
 \end_layout
 
 \begin_layout Standard
 \noindent
-\align block
 \begin_inset Tabular
-<lyxtabular version="3" rows="66" columns="2">
-<features islongtable="true" longtabularalignment="left">
+<lyxtabular version="3" rows="67" columns="2">
+<features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
 <row>
@@ -7804,7 +7827,7 @@ Implementation of an Algorithm on Converting Sums into Nested Sums
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7813,7 +7836,7 @@ Implementation of an Algorithm on Converting Sums into Nested Sums
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -7853,6 +7876,26 @@ status open
 \end_inset
 </cell>
 </row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
 </lyxtabular>
 
 \end_inset
@@ -7860,8 +7903,10 @@ status open
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
+\noindent
 
+\series bold
 \size large
 \noun on
 Honors and Awards
@@ -7870,8 +7915,8 @@ Honors and Awards
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="3">
-<features islongtable="true" longtabularalignment="center">
+<lyxtabular version="3" rows="8" columns="3">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="38page%">
 <column alignment="right" valignment="top" width="28page%">
@@ -8067,7 +8112,7 @@ China
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8076,7 +8121,7 @@ China
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -8086,11 +8131,40 @@ China Aerospace Science and Technology Corporation Scholarship,
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" bottomline="true" usebox="none">
+<cell alignment="right" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 China Aerospace Science and Technology Corporation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -8103,9 +8177,10 @@ China Aerospace Science and Technology Corporation
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
 \noindent
 
+\series bold
 \size large
 \noun on
 Teaching Experience
@@ -8113,13 +8188,20 @@ Teaching Experience
 
 \begin_layout Standard
 \noindent
+\align block
+
+\shape smallcaps
+Dalhousie University
+\end_layout
+
+\begin_layout Standard
+\noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="31" columns="4">
-<features islongtable="true" longtabularalignment="center">
+<lyxtabular version="3" rows="1" columns="3">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
-<column alignment="right" valignment="top">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
@@ -8152,16 +8234,30 @@ Integer Partitions and
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Dalhousie University
-\end_layout
+</row>
+</lyxtabular>
 
 \end_inset
-</cell>
-</row>
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\shape smallcaps
+Duke Kunshan University
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="24" columns="3">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt" varwidth="true">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -8186,15 +8282,6 @@ MATH 307
 
 \begin_layout Plain Layout
 Complex Analysis
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8228,15 +8315,6 @@ Calculus
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8262,15 +8340,6 @@ MATH 202
 
 \begin_layout Plain Layout
 Linear Algebra
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8304,15 +8373,6 @@ Calculus
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8338,15 +8398,6 @@ MATH 301
 
 \begin_layout Plain Layout
 Advanced Introduction to Probability
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8380,15 +8431,6 @@ Probability and Statistics
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8414,15 +8456,6 @@ MINITERM 102
 
 \begin_layout Plain Layout
 Experimental Mathematics and Symbolic Computation
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8456,15 +8489,6 @@ Introduction to Algebraic Geometry
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8490,15 +8514,6 @@ MATH 105
 
 \begin_layout Plain Layout
 Calculus
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8532,15 +8547,6 @@ Number Theory
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8566,15 +8572,6 @@ MATH 301
 
 \begin_layout Plain Layout
 Advanced Introduction to Probability
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8608,15 +8605,6 @@ Variational Quantum Algorithms
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8642,15 +8630,6 @@ MATH 201
 
 \begin_layout Plain Layout
 Multivariable Calculus
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8684,15 +8663,6 @@ Advanced Introduction to Probability
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8718,15 +8688,6 @@ MATH 201
 
 \begin_layout Plain Layout
 Multivariable Calculus
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8760,15 +8721,6 @@ Calculus
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8794,15 +8746,6 @@ INDSTU 391
 
 \begin_layout Plain Layout
 Riemann Zeta-Function
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8836,15 +8779,6 @@ Quantum Algorithm
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8870,15 +8804,6 @@ MATH 306
 
 \begin_layout Plain Layout
 Number Theory
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8912,15 +8837,6 @@ Combinatorics
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8946,15 +8862,6 @@ MATH 205
 
 \begin_layout Plain Layout
 Probability and Statistics
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -8988,15 +8895,6 @@ Advanced Introduction to Probability
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -9022,15 +8920,6 @@ MATH 105
 
 \begin_layout Plain Layout
 Calculus
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -9064,16 +8953,30 @@ Multivariable Calculus
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Duke Kunshan University
-\end_layout
+</row>
+</lyxtabular>
 
 \end_inset
-</cell>
-</row>
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\shape smallcaps
+Dalhousie University
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt" varwidth="true">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -9098,15 +9001,6 @@ MATH 1030
 
 \begin_layout Plain Layout
 Matrix Theory and Linear Algebra I
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Dalhousie University
 \end_layout
 
 \end_inset
@@ -9140,16 +9034,30 @@ Introduction to Complex Variables
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Dalhousie University
-\end_layout
+</row>
+</lyxtabular>
 
 \end_inset
-</cell>
-</row>
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\shape smallcaps
+Tulane University
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt" varwidth="true">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -9174,15 +9082,6 @@ MATH 1060
 
 \begin_layout Plain Layout
 Long Calculus II
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Tulane University
 \end_layout
 
 \end_inset
@@ -9216,15 +9115,6 @@ Consolidated Calculus
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Tulane University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -9254,18 +9144,9 @@ Long Calculus I
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Tulane University
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9274,7 +9155,7 @@ Tulane University
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -9283,20 +9164,11 @@ MATH 1160
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Long Calculus II
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Tulane University
 \end_layout
 
 \end_inset
@@ -9309,14 +9181,17 @@ Tulane University
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
+\noindent
 
+\series bold
 \shape smallcaps
 \size large
 Relevant Skills
 \end_layout
 
 \begin_layout Standard
+\noindent
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -9333,7 +9208,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
