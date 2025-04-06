@@ -1439,7 +1439,8 @@ Publications
 \shape default
 \size default
 
-\begin_inset space \hfill{}
+\begin_inset space \hspace{}
+\length 2cm
 \end_inset
 
 (While working on the projects,
@@ -5939,13 +5940,13 @@ Journal of Ningde Normal University (Natural Science)
 \series bold
 \shape smallcaps
 \size large
-Invited Talks
+Academic Talks
 \end_layout
 
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="67" columns="2">
+<lyxtabular version="3" rows="95" columns="2">
 <features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
@@ -5954,7 +5955,7 @@ Invited Talks
 \begin_inset Text
 
 \begin_layout Plain Layout
-33
+47
 \end_layout
 
 \end_inset
@@ -6012,7 +6013,7 @@ Department of Mathematics and Statistics,
 \begin_inset Text
 
 \begin_layout Plain Layout
-32
+46
 \end_layout
 
 \end_inset
@@ -6069,7 +6070,7 @@ Department of Mathematics and Statistics,
 \begin_inset Text
 
 \begin_layout Plain Layout
-31
+45
 \end_layout
 
 \end_inset
@@ -6133,7 +6134,7 @@ Fields Institute,
 \begin_inset Text
 
 \begin_layout Plain Layout
-30
+44
 \end_layout
 
 \end_inset
@@ -6167,11 +6168,11 @@ Shuffle to One,
 \begin_layout Plain Layout
 
 \emph on
-Invited Seminar Talk,
- 
+Number Theory Seminar,
+ Department of Mathematics and Statistics,
+ Dalhousie University
 \emph default
-Department of Mathematics and Statistics,
- Dalhousie University,
+,
  Halifax,
  NS,
  Canada,
@@ -6191,7 +6192,7 @@ Department of Mathematics and Statistics,
 \begin_inset Text
 
 \begin_layout Plain Layout
-29
+43
 \end_layout
 
 \end_inset
@@ -6224,11 +6225,11 @@ Random Walk Models for Identities Involving Bernoulli and Euler Polynomials
 \begin_layout Plain Layout
 
 \emph on
-Invited Seminar Talk,
- 
+Number Theory Seminar,
+ Department of Mathematics and Statistics,
+ Dalhousie University
 \emph default
-Department of Mathematics and Statistics,
- Dalhousie University,
+,
  Halifax,
  NS,
  Canada,
@@ -6248,7 +6249,7 @@ Department of Mathematics and Statistics,
 \begin_inset Text
 
 \begin_layout Plain Layout
-28
+42
 \end_layout
 
 \end_inset
@@ -6281,11 +6282,14 @@ Random Walk Model on Finite Number of Sites
 \begin_layout Plain Layout
 
 \emph on
-Invited Seminar Talk
+Seminar
+\shape slanted
 \emph default
 ,
  School of Mathematics,
- Anhui University,
+ Anhui University
+\shape default
+,
  Online,
  Oct.
 \begin_inset space ~
@@ -6303,7 +6307,7 @@ Invited Seminar Talk
 \begin_inset Text
 
 \begin_layout Plain Layout
-27
+41
 \end_layout
 
 \end_inset
@@ -6356,7 +6360,7 @@ The First International Conference on Multiple Zeta Values and Related Topics
 \begin_inset Text
 
 \begin_layout Plain Layout
-26
+40
 \end_layout
 
 \end_inset
@@ -6389,11 +6393,14 @@ Hankel Determinants of Certain Sequences of Bernoulli and Euler Polynomials
 \begin_layout Plain Layout
 
 \emph on
-Invited Seminar Talk
+Seminar
+\shape slanted
 \emph default
 ,
  Department of Mathematics,
- Zhejiang Sci-Tech University,
+ Zhejiang Sci-Tech University
+\shape default
+,
  Online,
  June 12,
  2022.
@@ -6407,7 +6414,7 @@ Invited Seminar Talk
 \begin_inset Text
 
 \begin_layout Plain Layout
-25
+39
 \end_layout
 
 \end_inset
@@ -6472,7 +6479,7 @@ China,
 \begin_inset Text
 
 \begin_layout Plain Layout
-24
+38
 \end_layout
 
 \end_inset
@@ -6537,7 +6544,7 @@ China,
 \begin_inset Text
 
 \begin_layout Plain Layout
-23
+37
 \end_layout
 
 \end_inset
@@ -6569,12 +6576,12 @@ Random Walks and Identities Involving Bernoulli and Euler Polynomials of Higher-
 
 \begin_layout Plain Layout
 
-\emph on
-Invited Seminar Talk
-\emph default
-,
+\shape slanted
+Seminar,
  Institute of Statistics and Big Data,
- Renmin University of China,
+ Renmin University of China
+\shape default
+,
  Beijing,
  P.
  R.
@@ -6591,7 +6598,7 @@ Invited Seminar Talk
 \begin_inset Text
 
 \begin_layout Plain Layout
-22
+36
 \end_layout
 
 \end_inset
@@ -6624,10 +6631,14 @@ Examples on Computer Proofs
 \begin_layout Plain Layout
 
 \emph on
-Invited Seminar Talk
+Seminar
 \emph default
 ,
- Wuhan University,
+ 
+\shape slanted
+Wuhan University
+\shape default
+,
  Wuhan,
  Hubei Province,
  P.
@@ -6645,7 +6656,7 @@ Invited Seminar Talk
 \begin_inset Text
 
 \begin_layout Plain Layout
-21
+35
 \end_layout
 
 \end_inset
@@ -6687,7 +6698,7 @@ DKU-WHU Math and Stat Academic Conference
  P.
  R.
  China,
- May 28,
+ May 27,
  2021.
 \end_layout
 
@@ -6699,7 +6710,7 @@ DKU-WHU Math and Stat Academic Conference
 \begin_inset Text
 
 \begin_layout Plain Layout
-20
+34
 \end_layout
 
 \end_inset
@@ -6764,7 +6775,7 @@ China,
 \begin_inset Text
 
 \begin_layout Plain Layout
-19
+33
 \end_layout
 
 \end_inset
@@ -6797,10 +6808,14 @@ Three Examples on Computer Proofs
 \begin_layout Plain Layout
 
 \emph on
-Zu Chongzhi Colloquium Series,
+Zu Chongzhi Colloquium Series
+\shape slanted
+,
 
 \emph default
- Duke Kunshan University,
+ Duke Kunshan University
+\shape default
+,
  Kunshan,
  Suzhou,
  P.
@@ -6828,7 +6843,120 @@ China,
 \begin_inset Text
 
 \begin_layout Plain Layout
-18
+32
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Introduction to Four Symbolic Integration Methods:
+ Two Examples
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Number Theory Seminar,
+ Department of Mathematics and Statistics,
+ Dalhousie University
+\emph default
+,
+ Halifax,
+ NS,
+ Canada,
+ Sept.
+ 23,
+ 2019
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+On 
+\begin_inset Formula $b$
+\end_inset
+
+-ary Binomial Coefficients
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Number Theory Seminar,
+ Department of Mathematics and Statistics,
+ Dalhousie University
+\emph default
+,
+ Halifax,
+ NS,
+ Canada,
+ Sept.
+ 16,
+ 2019
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
 \end_layout
 
 \end_inset
@@ -6879,7 +7007,7 @@ Orthogonal Polynomials for Higher-order Euler Polynomials
 \begin_inset Text
 
 \begin_layout Plain Layout
-17
+29
 \end_layout
 
 \end_inset
@@ -6945,7 +7073,7 @@ A.,
 \begin_inset Text
 
 \begin_layout Plain Layout
-16
+28
 \end_layout
 
 \end_inset
@@ -7009,7 +7137,7 @@ A.,
 \begin_inset Text
 
 \begin_layout Plain Layout
-15
+27
 \end_layout
 
 \end_inset
@@ -7020,7 +7148,61 @@ A.,
 \begin_layout Plain Layout
 
 \series bold
-Matrix Representation for Higher-Order Euler Polynomials
+Random Walk & Identities
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Number Theory Seminar,
+ Department of Mathematics and Statistics,
+ Dalhousie University
+\emph default
+,
+ Halifax,
+ NS,
+ Canada,
+ Feb.
+ 25,
+ 2019
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+26
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Matrix Representation for Multiplicative Nested Sums
 \end_layout
 
 \end_inset
@@ -7072,7 +7254,173 @@ A.,
 \begin_inset Text
 
 \begin_layout Plain Layout
-14
+25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Orthogonal Polynomials for Bernoulli and Euler Polynomials
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Number Theory Seminar,
+ Department of Mathematics and Statistics,
+ Dalhousie University
+\emph default
+,
+ Halifax,
+ NS,
+ Canada,
+ Jan.
+ 7,
+ 2019
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Three Examples of Computer Proofs of Combinatorial Results
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Honours Seminar
+\shape slanted
+,
+ 
+\emph default
+Department of Mathematics and Statistics,
+ Dalhousie University
+\shape default
+,
+ Halifax,
+ NS,
+ Canada,
+ Oct.
+ 17,
+ 2018
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Matrix Representation for Multiplicative Nested Sums
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Number Theory Seminar,
+ Department of Mathematics and Statistics,
+ Dalhousie University
+\emph default
+,
+ Halifax,
+ NS,
+ Canada,
+ Sept.
+ 21,
+ 2018.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+22
 \end_layout
 
 \end_inset
@@ -7132,7 +7480,7 @@ A.,
 \begin_inset Text
 
 \begin_layout Plain Layout
-13
+21
 \end_layout
 
 \end_inset
@@ -7184,7 +7532,7 @@ Random Walks and Identities for High-order Bernoulli and Euler Polynomials
 \begin_inset Text
 
 \begin_layout Plain Layout
-12
+20
 \end_layout
 
 \end_inset
@@ -7236,7 +7584,168 @@ Matrix Representations for Bernoulli and Euler Polynomials
 \begin_inset Text
 
 \begin_layout Plain Layout
-11
+19
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Two Sequences Related to Bernoulli and Euler Numbers
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Number Theory Seminar,
+ Department of Mathematics and Statistics,
+ Dalhousie University
+\emph default
+,
+ Halifax,
+ NS,
+ Canada,
+ May 30,
+ 2018.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Hidden Walks
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Number Theory Seminar,
+ Department of Mathematics and Statistics,
+ Dalhousie University
+\emph default
+,
+ Halifax,
+ NS,
+ Canada,
+ Feb.
+ 26,
+ 2018.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Introduction to Zonal Polynomials
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Number Theory Seminar,
+ Department of Mathematics and Statistics,
+ Dalhousie University
+\emph default
+,
+ Halifax,
+ NS,
+ Canada,
+ Jan.
+ 22,
+ 2018.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
 \end_layout
 
 \end_inset
@@ -7289,7 +7798,7 @@ The Probabilistic and Combinatorial Interpretations of the Bernoulli Symbol
 \begin_inset Text
 
 \begin_layout Plain Layout
-10
+15
 \end_layout
 
 \end_inset
@@ -7340,7 +7849,120 @@ Bernoulli Symbol on Multiple Zeta Values at Negative Integers
 \begin_inset Text
 
 \begin_layout Plain Layout
-9
+14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Bernoulli Symbol 
+\begin_inset Formula $\mathcal{B}$
+\end_inset
+
+:
+ from Umbral Calculus to Random Variable and Combinatorics
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Number Theory Seminar,
+ Department of Mathematics and Statistics,
+ Dalhousie University
+\emph default
+,
+ Halifax,
+ NS,
+ Canada,
+ Oct.
+ 13,
+ 2017.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Visualization of Bernoulli Numbers
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Colloquium,
+ Department of Mathematics and Statistics,
+ Dalhousie University
+\emph default
+,
+ Halifax,
+ NS,
+ Canada,
+ Oct.
+ 12,
+ 2017.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
 \end_layout
 
 \end_inset
@@ -7394,7 +8016,7 @@ Klagenfurt-Linz-Wien Workshop
 \begin_inset Text
 
 \begin_layout Plain Layout
-8
+11
 \end_layout
 
 \end_inset
@@ -7483,7 +8105,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-7
+10
 \end_layout
 
 \end_inset
@@ -7537,7 +8159,77 @@ SFB Statusseminar
 \begin_inset Text
 
 \begin_layout Plain Layout
-6
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+A Hot Pot
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape slanted
+Algorithmic Combinatorics Seminar,
+ Research Institute for Symbolic Computations,
+ Johannes Kepler University
+\shape default
+,
+ Hagenberg im M
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\begin_inset Quotes erd
+\end_inset
+
+{u}
+\end_layout
+
+\end_inset
+
+hlkreis,
+ Austria,
+ Oct.
+ 5,
+ 2016.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
 \end_layout
 
 \end_inset
@@ -7589,7 +8281,7 @@ Beijing Key Laboratory on Mathematical Characterization,
 \begin_inset Text
 
 \begin_layout Plain Layout
-5
+7
 \end_layout
 
 \end_inset
@@ -7642,7 +8334,7 @@ International Conference on Mathematical Characterization,
 \begin_inset Text
 
 \begin_layout Plain Layout
-4
+6
 \end_layout
 
 \end_inset
@@ -7683,6 +8375,137 @@ The Method of Brackets
  Germany,
  July 11–14,
  2016.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+The Method of Brackets
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape slanted
+Algorithmic Combinatorics Seminar,
+ Research Institute for Symbolic Computations,
+ Johannes Kepler University
+\shape default
+,
+ Hagenberg im M
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\begin_inset Quotes erd
+\end_inset
+
+{u}
+\end_layout
+
+\end_inset
+
+hlkreis,
+ Austria,
+ June 22,
+ 2016.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Binomial Identities in Arbitrary Bases
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape slanted
+Graduate Students Colloquium,
+ Department of Mathematics,
+ Tulane University
+\shape default
+,
+ New Orleans,
+ LA.,
+ U.
+\begin_inset space ~
+\end_inset
+
+S.
+\begin_inset space ~
+\end_inset
+
+A.,
+ Mar.
+ 8,
+ 2016
 \end_layout
 
 \end_inset
@@ -8488,6 +9311,8 @@ MINITERM 102
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Experimental Mathematics and Symbolic Computation
 \end_layout
 
