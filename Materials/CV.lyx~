@@ -400,14 +400,14 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="3">
 <features booktabs="true" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt" varwidth="true">
 <column alignment="right" valignment="top">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
@@ -427,7 +427,7 @@ Assistant Professor of Mathematics
 \begin_inset space \hfill{}
 \end_inset
 
-Duke Kunshan Univ.
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -460,7 +460,7 @@ Assistant Professor of the Practice of DKU Studies
 \begin_inset space \hfill{}
 \end_inset
 
-Duke Univ.
+Duke University
 \end_layout
 
 \end_inset
@@ -493,7 +493,7 @@ Adjunct of the Faculty of Graduate Studies
 \begin_inset space \hfill{}
 \end_inset
 
-Dalhousie Univ.
+Dalhousie University
 \end_layout
 
 \end_inset
@@ -526,7 +526,7 @@ Lecturer in Mathematics
 \begin_inset space \hfill{}
 \end_inset
 
-Duke Kunshan Univ.
+Duke Kunshan University
 \end_layout
 
 \end_inset
@@ -561,7 +561,7 @@ Assistant Prof.
 \end_inset
 
 Trinity College of Arts & Sci.,
- Duke Univ.
+ Duke University
 \end_layout
 
 \end_inset
@@ -597,7 +597,7 @@ Research Associate
  Dept.
  of Math.
  and Stat.,
- Dalhousie Univ.
+ Dalhousie University
 \end_layout
 
 \end_inset
@@ -633,7 +633,7 @@ Killam Postdoc Fellow
 Dept.
  of Math.
  and Stat.,
- Dalhousie Univ.
+ Dalhousie University
 \end_layout
 
 \end_inset
@@ -702,7 +702,7 @@ Postdoc Fellow
 \end_inset
 
 Research Institute for Symbolic Computation,
- Johannes Kepler Univ.
+ Johannes Kepler University
 \end_layout
 
 \end_inset
@@ -10207,15 +10207,6 @@ Tulane University
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\noindent
-
-\series bold
-\shape smallcaps
-\size large
-Students 
 \end_layout
 
 \begin_layout Standard
