@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -17,11 +17,11 @@ eqs-within-sections
 figs-within-sections
 enumitem
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "times" "default"
 \font_sans "avant" "default"
 \font_typewriter "default" "default"
@@ -29,7 +29,9 @@ enumitem
 \font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -42,7 +44,7 @@ enumitem
 \paperfontsize 11
 \spacing single
 \use_hyperref false
-\papersize letterpaper
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -63,7 +65,9 @@ enumitem
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -86,14 +90,66 @@ enumitem
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
+
+\begin_layout Enumerate
+Shane Chern,
+ 
+\series bold
+Lin Jiu
+\series default
+,
+ and Italo Simonelli,
+ A central limit theorem for a card shuffling problem,
+ 
+\emph on
+Journal of Combinatorial Theory.
+ Series A
+\emph default
+ 
+\series bold
+214
+\series default
+,
+ Article 106048,
+ 2025
+\end_layout
+
+\begin_layout Enumerate
+\align block
+Qipin Chen,
+ Shane Chern,
+ and 
+\series bold
+Lin Jiu
+\series default
+,
+ 
+\shape slanted
+Journal of Physics A:
+ Mathematical and Theoretical
+\shape default
+,
+ 
+\series bold
+57
+\series default
+(46),
+ Article 465204,
+ 2024
+\end_layout
 
 \begin_layout Enumerate
 \paragraph_spacing onehalf
@@ -101,12 +157,16 @@ Karl Dilcher and
 \series bold
 Lin Jiu
 \series default
-, Orthogonal Polynomials and Hankel Determinants for Certain Bernoulli and
- Euler Polynomials, 
+,
+ Orthogonal Polynomials and Hankel Determinants for Certain Bernoulli and Euler Polynomials,
+ 
 \emph on
 Journal of Mathematical Analysis and Applications
 \emph default
-, 497 (1), Article 124855, 2021.
+,
+ 497 (1),
+ Article 124855,
+ 2021.
  
 \end_layout
 
@@ -115,27 +175,17 @@ Journal of Mathematical Analysis and Applications
 \series bold
 Lin Jiu
 \series default
-, Christophe Vignat, and Tanay Wakhare, Analytic continuation for multiple
- zeta values using symbolic representations, 
-\emph on
-International Journal of Number Theory
-\emph default
-, 16(3), pp.
- 579–602, 2020.
-\end_layout
-
-\begin_layout Enumerate
-
-\series bold
-Lin Jiu
-\series default
- and Diane Yahui Shi, Orthogonal polynomials and connection to generalized
- Motzkin numbers for higher-order Euler polynomials, 
+ and Diane Yahui Shi,
+ Orthogonal polynomials and connection to generalized Motzkin numbers for higher-order Euler polynomials,
+ 
 \emph on
 Journal of Number Theory
 \emph default
-, 199, pp.
- 389–402, 2019.
+,
+ 199,
+ pp.
+ 389–402,
+ 2019.
 \end_layout
 
 \begin_layout Enumerate
@@ -143,27 +193,17 @@ Journal of Number Theory
 \series bold
 Lin Jiu
 \series default
-, Victor Hugo Moll and Christophe Vignat, A symbolic approach to multiple
- zeta values at the negative integers 
+,
+ Victor Hugo Moll and Christophe Vignat,
+ A symbolic approach to multiple zeta values at the negative integers 
 \emph on
 Journal of Symbolic Computation
 \emph default
-, 84, pp.
- 1–13, 2018.
-\end_layout
-
-\begin_layout Enumerate
-
-\series bold
-Lin Jiu
-\series default
-, Victor Hugo Moll and Christophe Vignat, A symbolic approach to some identities
- for Bernoulli-Barnes polynomials, 
-\emph on
-International Journal of Number Theory
-\emph default
- 12(3), pp.
- 649--662, 2016.
+,
+ 84,
+ pp.
+ 1–13,
+ 2018.
 \end_layout
 
 \end_body
