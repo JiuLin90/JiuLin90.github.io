@@ -9039,7 +9039,7 @@ Teaching Experience
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="31" columns="4">
+<lyxtabular version="3" rows="32" columns="4">
 <features booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -10229,6 +10229,44 @@ Tulane University
 \end_inset
 </cell>
 </row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
 </lyxtabular>
 
 \end_inset
@@ -10242,7 +10280,6 @@ Academic Services and Memberships
 
 \begin_layout Standard
 \noindent
-\align block
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -10405,7 +10442,6 @@ Departmental and University Service
 
 \begin_layout Standard
 \noindent
-\align block
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -10422,7 +10458,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
