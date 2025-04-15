@@ -10774,7 +10774,11 @@ TOTAL
 \begin_layout Standard
 \noindent
 \align block
-Students Projects
+
+\shape smallcaps
+Undergraduate Student Research Projects
+\shape default
+
 \begin_inset VSpace -20bp
 \end_inset
 

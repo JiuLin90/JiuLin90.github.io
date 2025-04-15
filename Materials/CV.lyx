@@ -1938,7 +1938,7 @@ Jiu
 
 Peng,
  Information geometry and alpha-parallel prior of the beta-logistic distribution,
- To Appear in 
+ 
 \emph on
 Comm.
 \begin_inset space ~
@@ -1951,6 +1951,13 @@ Statist.
 Theory Methods
 \emph default
 .
+ 
+\series bold
+54
+\series default
+ (2025),
+ 3292–3306.
+ 
 \end_layout
 
 \end_inset
@@ -10803,7 +10810,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
