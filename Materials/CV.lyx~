@@ -9038,6 +9038,7 @@ Teaching Experience
 
 \begin_layout Standard
 \noindent
+\align block
 \begin_inset Tabular
 <lyxtabular version="3" rows="32" columns="4">
 <features booktabs="true" islongtable="true" longtabularalignment="center">
@@ -10271,6 +10272,12 @@ Tulane University
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
 
 \series bold
 \shape smallcaps
