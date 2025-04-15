@@ -8756,7 +8756,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -8764,8 +8764,8 @@ status collapsed
 <lyxtabular version="3" rows="8" columns="3">
 <features booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="38page%">
-<column alignment="right" valignment="top" width="28page%">
+<column alignment="left" valignment="top" width="0pt" varwidth="true">
+<column alignment="right" valignment="top" width="0pt" varwidth="true">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
