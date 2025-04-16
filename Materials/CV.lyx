@@ -10304,7 +10304,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -10317,7 +10317,7 @@ status collapsed
 \begin_inset Text
 
 \begin_layout Plain Layout
-Since 2025
+2025–
 \end_layout
 
 \end_inset
