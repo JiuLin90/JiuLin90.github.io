@@ -6,14 +6,14 @@
 \origin unavailable
 \textclass extarticle
 \begin_preamble
-\usepackage{graphicx,titlesec,amsmath,enumitem,environ,longtable,advdate}
+\usepackage{graphicx,titlesec,amsmath,enumitem,environ,longtable,
+advdate,lastpage}
 
 %\titlespacing{\section}{0pt}{-2pt}{-2pt}
 %\titleformat{\section}{\vbox{\rule{\linewidth}{0.5pt}}\vspace{-0.3cm}\LARGE\bfseries}{\thesection}{}{}
 
 \newcommand{\yesterday}{{\AdvanceDate[-1]\today}}
 \setlist{noitemsep}
-
 
 %\date{}
 \end_preamble
@@ -51,7 +51,7 @@ theorems-ams
 \paperfontsize 10
 \spacing single
 \use_hyperref false
-\papersize a4
+\papersize letter
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -80,12 +80,12 @@ theorems-ams
 \color #008000
 \end_index
 \leftmargin 1in
-\topmargin 1in
+\topmargin 1.5in
 \rightmargin 1in
 \bottommargin 1in
 \headheight 0.5in
-\headsep 0.5in
-\footskip 0.5in
+\headsep 0in
+\footskip 0in
 \secnumdepth 1
 \tocdepth 1
 \paragraph_separation indent
@@ -112,10 +112,14 @@ theorems-ams
 \begin_body
 
 \begin_layout Left Header
+
+\size larger
 Lin JIU
 \end_layout
 
 \begin_layout Right Header
+
+\size small
 \begin_inset ERT
 status open
 
@@ -129,13 +133,61 @@ yesterday
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thepage
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pageref{LastPage}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Center Header
 
+\series bold
 \shape smallcaps
 \size larger
 Curriculum Vitae
+\end_layout
+
+\begin_layout Center Footer
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -166,7 +218,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -219,7 +271,8 @@ lin.jiu@dukekunshan.edu.cn
 \begin_inset Text
 
 \begin_layout Plain Layout
-Duke Kunshan University
+Zu Chongzhi Center,
+ Duke Kunshan University
 \end_layout
 
 \end_inset
