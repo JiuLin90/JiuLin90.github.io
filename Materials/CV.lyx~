@@ -113,7 +113,7 @@ theorems-ams
 
 \begin_layout Left Header
 
-\size large
+\size larger
 Lin JIU
 \end_layout
 
@@ -171,6 +171,7 @@ pageref{LastPage}
 
 \begin_layout Center Header
 
+\series bold
 \shape smallcaps
 \size larger
 Curriculum Vitae
