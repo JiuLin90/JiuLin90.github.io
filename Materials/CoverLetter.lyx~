@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -15,11 +15,11 @@ eqs-within-sections
 figs-within-sections
 enumitem
 \end_modules
-\maintain_unincluded_children false
+\maintain_unincluded_children no
 \language english
 \language_package default
-\inputencoding auto
-\fontencoding global
+\inputencoding auto-legacy
+\fontencoding auto
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -27,7 +27,9 @@ enumitem
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_osf false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -61,7 +63,9 @@ enumitem
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_formatted_ref 0
 \use_minted 0
+\use_lineno 0
 \index Index
 \shortcut idx
 \color #008000
@@ -84,11 +88,16 @@ enumitem
 \papercolumns 1
 \papersides 1
 \paperpagestyle empty
+\tablestyle default
 \tracking_changes false
 \output_changes false
+\change_bars false
+\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -194,11 +203,15 @@ backgroundcolor "none"
 status collapsed
 
 \begin_layout Plain Layout
-8 Duke Avenue, Kunshan, Suzhou,
+8 Duke Avenue,
+ Kunshan,
+ Suzhou,
 \end_layout
 
 \begin_layout Plain Layout
-Jiangsu Province, P.R.China, 215316
+Jiangsu Province,
+ P.R.China,
+ 215316
 \end_layout
 
 \begin_layout Plain Layout
@@ -209,11 +222,13 @@ Jiangsu Province, P.R.China, 215316
 \end_layout
 
 \begin_layout Plain Layout
-Email: Lin.Jiu@dukekunshan.edu.cn
+Email:
+ Lin.Jiu@dukekunshan.edu.cn
 \end_layout
 
 \begin_layout Plain Layout
-Phone: +86-0512-36657333
+Phone:
+ +86-0512-36657333
 \end_layout
 
 \begin_layout Plain Layout
@@ -277,20 +292,29 @@ Dear Hiring Committee,
 
 \begin_layout Standard
 \noindent
-I am writing in response to the application for the ????, as advertised
- on University Affairs.
- Currently, I am
+
+\size large
+I am writing in response to the application for the ????,
+ as advertised on University Affairs.
+ Currently,
+ I am
 \end_layout
 
 \begin_layout Itemize
 \noindent
-an Assistant Professor of Mathematics, at Zu Chongzhi Center for Mathematics
- and Computational Sciences, Duke Kunshan University;
+
+\size large
+an Assistant Professor of Mathematics,
+ at Zu Chongzhi Center,
+ Duke Kunshan University;
 \end_layout
 
 \begin_layout Itemize
-and also holding the Adjunct of the Faculty of Graduate Studies, Department
- of Mathematics and Statistics, Dalhousie University.
+
+\size large
+and also holding the Adjunct of the Faculty of Graduate Studies,
+ Department of Mathematics and Statistics,
+ Dalhousie University.
  
 \end_layout
 
@@ -312,11 +336,22 @@ I am studying
 \emph on
 Experimental Mathematics
 \emph default
-, namely, computer software (e.g., Mathematica, SageMath, Maple, etc.
- ) and algorithms play important role to investigate, observe, and proof
- certain results.
- Mainly, I am interested in problems in Number Theory, Combinatorics, Symbolic
- Computation, Special Functions, and Probabilistic Methods.
+,
+ namely,
+ computer software (e.g.,
+ Mathematica,
+ SageMath,
+ Maple,
+ etc.
+ ) and algorithms play important role to investigate,
+ observe,
+ and proof certain results.
+ Mainly,
+ I am interested in problems in Number Theory,
+ Combinatorics,
+ Symbolic Computation,
+ Special Functions,
+ and Probabilistic Methods.
  
 \begin_inset Note Note
 status collapsed
@@ -334,9 +369,11 @@ the Bernoulli symbol
 \begin_inset Formula $\mathcal{E}=iL_{E}-1/2$
 \end_inset
 
-: 
+:
+ 
 \emph default
-two random variables, for 
+two random variables,
+ for 
 \begin_inset Formula $L_{B}\sim\pi\sech^{2}\left(\pi t\right)/2$
 \end_inset
 
@@ -360,14 +397,18 @@ two random variables, for
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
-, and 
+,
+ and 
 \begin_inset Formula $i^{2}=1$
 \end_inset
 
 .
- The method involves probabilistic method and symbolic computation, with
- applications in extended polynomials, multiple zeta values, orthogonal
- polynomials, Hankel determinants, etc.
+ The method involves probabilistic method and symbolic computation,
+ with applications in extended polynomials,
+ multiple zeta values,
+ orthogonal polynomials,
+ Hankel determinants,
+ etc.
 \end_layout
 
 \begin_layout Itemize
@@ -377,15 +418,20 @@ two random variables, for
 \emph on
 symbolic and algorithmic computations
 \emph default
-, especially with applications in special functions, numbers theory, and
- combinatorics.
+,
+ especially with applications in special functions,
+ numbers theory,
+ and combinatorics.
  This includes
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-symbolic summation and integration: for example, the method of brackets,
- which is a symbolic integration method, based on Ramanujan's master theorem,
+symbolic summation and integration:
+ for example,
+ the method of brackets,
+ which is a symbolic integration method,
+ based on Ramanujan's master theorem,
  with only six rules to compute 
 \begin_inset Formula $\int_{0}^{\infty}f\left(x\right)dx$
 \end_inset
@@ -396,9 +442,15 @@ symbolic summation and integration: for example, the method of brackets,
 \begin_layout Itemize
 \noindent
 \align left
-quantum algorithms: and I mainly focus on matrix representations of certain
- functions, that are highly related to quantum gates; and implementation
- of algorithms:via, e.g., Python, Mathematica, Qiskit, and Quitip.
+quantum algorithms:
+ and I mainly focus on matrix representations of certain functions,
+ that are highly related to quantum gates;
+ and implementation of algorithms:via,
+ e.g.,
+ Python,
+ Mathematica,
+ Qiskit,
+ and Quitip.
 \end_layout
 
 \end_deeper
@@ -407,8 +459,10 @@ quantum algorithms: and I mainly focus on matrix representations of certain
 \emph on
 differential and information geometry
 \emph default
-: in only two directions: finding the shortest quantum gate path via geodesics
- framework, and the study of family of hyperbolic secant distributions,
+:
+ in only two directions:
+ finding the shortest quantum gate path via geodesics framework,
+ and the study of family of hyperbolic secant distributions,
  which includes the density functions of both Bernoulli and Euler symbols,
  mentioned above.
 \end_layout
@@ -426,11 +480,15 @@ differential and information geometry
 \noindent
 
 \size large
-Since August 2020, I began my position at Duke Kunshan University (DKU),
+Since August 2020,
+ I began my position at Duke Kunshan University (DKU),
  a joint-venture liberal arts college.
- I enjoy the teaching, advising, and research in a liberal arts college.
- For instance, with my 4-5 courses teaching loads per year, I am also organizing
- the Discrete Math Seminar
+ I enjoy the teaching,
+ advising,
+ and research in a liberal arts college.
+ For instance,
+ with my 4-5 courses teaching loads per year,
+ I am also organizing the Discrete Math Seminar
 \begin_inset Foot
 status collapsed
 
@@ -442,8 +500,13 @@ https://sites.duke.edu/kits_team_101_48585/
 
 \end_inset
 
-, for both faculty and undergraduate students.
- So far, I have published two papers with undergraduate students from DKU.
+,
+ for both faculty and undergraduate students.
+ So far,
+ I have published two papers with undergraduate students from DKU.
+ Right now while visiting Dalhousie University,
+ I am organizing the Number Theory Seminar for Fall 2024,
+ the same
 \begin_inset VSpace 10bp
 \end_inset
 
@@ -455,11 +518,15 @@ https://sites.duke.edu/kits_team_101_48585/
 
 \size large
 I am in particularly interested in St.
- Olaf College, not only because of my current, sweet experiences at a liberal
- arts college.
- More importantly, my teaching experiences, research interests in symbolic
- computation, number theory, combinatorics, as well as interdisciplinary
- projects can fit and contribute to the community.
+ Olaf College,
+ not only because of my current,
+ sweet experiences at a liberal arts college.
+ More importantly,
+ my teaching experiences,
+ research interests in symbolic computation,
+ number theory,
+ combinatorics,
+ as well as interdisciplinary projects can fit and contribute to the community.
  
 \end_layout
 
@@ -477,7 +544,11 @@ I am in particularly interested in St.
 \noindent
 
 \size large
-My other materials, e.g., Resume, and etc., have been uploaded as well.
+My other materials,
+ e.g.,
+ Resume,
+ and etc.,
+ have been uploaded as well.
  I look forward to hearing from you.
  
 \end_layout
@@ -496,7 +567,8 @@ My other materials, e.g., Resume, and etc., have been uploaded as well.
 \noindent
 
 \size large
-Sincerely, 
+Sincerely,
+ 
 \end_layout
 
 \begin_layout Standard
