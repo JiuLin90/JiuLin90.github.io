@@ -283,7 +283,21 @@ height "1pt"
 \noindent
 
 \size large
-Dear Hiring Committee,
+Dear Search Committee of 
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size large
+The Department of Mathematics and Statistics,
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\size large
+Queen’s University
 \begin_inset VSpace 10bp
 \end_inset
 
@@ -294,8 +308,8 @@ Dear Hiring Committee,
 \noindent
 
 \size large
-I am writing in response to the application for the ????,
- as advertised on University Affairs.
+I am writing in response to the application for the Peter Taylor Professorship,
+ as advertised on MathJobs.org.
  Currently,
  I am
 \end_layout
@@ -502,11 +516,25 @@ https://sites.duke.edu/kits_team_101_48585/
 
 ,
  for both faculty and undergraduate students.
- So far,
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+
+\size large
+So far,
  I have published two papers with undergraduate students from DKU.
- Right now while visiting Dalhousie University,
- I am organizing the Number Theory Seminar for Fall 2024,
- the same
+ 
+\end_layout
+
+\end_inset
+
+While visiting Dalhousie University for 2024-2025,
+ I both organized the Number Theory Seminar and taught the MATH6200 course,
+ at the Department of Mathematics and Statistics.
+ 
 \begin_inset VSpace 10bp
 \end_inset
 
@@ -517,16 +545,12 @@ https://sites.duke.edu/kits_team_101_48585/
 \noindent
 
 \size large
-I am in particularly interested in St.
- Olaf College,
- not only because of my current,
- sweet experiences at a liberal arts college.
- More importantly,
- my teaching experiences,
- research interests in symbolic computation,
- number theory,
- combinatorics,
- as well as interdisciplinary projects can fit and contribute to the community.
+Finally,
+ I am a 
+\series bold
+Canadian permanent resident
+\series default
+.
  
 \end_layout
 
