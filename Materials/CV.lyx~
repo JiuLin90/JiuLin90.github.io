@@ -1561,7 +1561,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -6067,10 +6067,83 @@ Academic Talks
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="95" columns="2">
+<lyxtabular version="3" rows="97" columns="2">
 <features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+48
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Hankel Determinants and Big 
+\begin_inset Formula $q$
+\end_inset
+
+-Jacobi Polynomials for 
+\begin_inset Formula $q$
+\end_inset
+
+-Euler Numbers
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+The Third Joint SIAM/CAIMS Annual Meetings (AN25),
+ Montr
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'{e}
+\end_layout
+
+\end_inset
+
+al,
+ QC,
+ Canada,
+ July 28—
+Aug.
+\begin_inset space ~
+\end_inset
+
+1,
+ 2025
+\end_layout
+
+\end_inset
+</cell>
+</row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -9179,7 +9252,7 @@ Teaching Experience
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH 6400
+MATH 6200
 \end_layout
 
 \end_inset
@@ -10455,7 +10528,7 @@ status open
 \uwave off
 \noun off
 \color none
-Reviewer for Mathematical Reviews
+Reviewer for Mathematical Reviews @ AMS
 \end_layout
 
 \end_inset
@@ -10489,7 +10562,7 @@ Reviewer for Mathematical Reviews
 \uwave off
 \noun off
 \color none
-Organizing the mini-symposium 
+Organizer of the mini-symposium 
 \family default
 \series default
 \shape slanted
@@ -10517,7 +10590,14 @@ Special Functions with Applications in Number Theory and Combinatorics
 \uwave off
 \noun off
 \color none
- at The Third Joint SIAM/CAIMS Annual Meetings
+ at The Third Joint SIAM/CAIMS Annual Meetings,
+ July 27—
+Aug.
+ 1,
+ 2025,
+ Montreal,
+ QC,
+ Canada
 \end_layout
 
 \end_inset
@@ -10528,7 +10608,7 @@ Special Functions with Applications in Number Theory and Combinatorics
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2014–
 \end_layout
 
 \end_inset
@@ -10537,7 +10617,12 @@ Special Functions with Applications in Number Theory and Combinatorics
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Reviewer for journals including:
+ Journal of Number Theory,
+ International Journal of Number Theory,
+ Journal of Difference Equations and Applications,
+ etc.
+ 
 \end_layout
 
 \end_inset
