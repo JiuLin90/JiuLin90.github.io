@@ -1792,7 +1792,7 @@ literal "false"
 \end_inset
 
 .
- Some other work of this project include 
+ (See also 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "13"
@@ -1800,7 +1800,7 @@ literal "false"
 
 \end_inset
 
-
+ for results related to those entries.)
 \end_layout
 
 \begin_layout Standard
@@ -2064,10 +2064,10 @@ literal "false"
 ,
  a SageMath package
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
-https://jiulin90.github.io/Packages/BNE.sage
+https://jiulin90.github.io/Packages/Zonal.sage
 \end_layout
 
 \end_inset
@@ -2088,7 +2088,7 @@ https://jiulin90.github.io/Packages/BNE.sage
 status open
 
 \begin_layout Plain Layout
-https://jiulin90.github.io/Packages/Zonal.sage
+http://koutschan.de/data/zonal/
 \end_layout
 
 \end_inset

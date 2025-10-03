@@ -1227,7 +1227,7 @@ Shuffling model
 The very recent work 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "37"
+key "36"
 literal "false"
 
 \end_inset
@@ -1277,7 +1277,7 @@ n\leq\mathbb{E}[X_{n}]\leq n+\sqrt{n}\Rightarrow\mathbb{E}[X_{n}]\sim n.
 Our work 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "37"
+key "36"
 literal "false"
 
 \end_inset
@@ -1413,7 +1413,7 @@ Dongmian Zou.
 In the recent work 
 \begin_inset CommandInset citation
 LatexCommand citep
-key "36"
+key "37"
 literal "false"
 
 \end_inset
@@ -1792,7 +1792,7 @@ literal "false"
 \end_inset
 
 .
- Some other work of this project include 
+ (See also 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "13"
@@ -1800,7 +1800,7 @@ literal "false"
 
 \end_inset
 
-
+ for results related to those entries.)
 \end_layout
 
 \begin_layout Standard

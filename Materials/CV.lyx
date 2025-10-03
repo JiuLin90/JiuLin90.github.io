@@ -1745,55 +1745,6 @@ Papers
 \begin_inset Text
 
 \begin_layout Plain Layout
-S.
-\begin_inset space ~
-\end_inset
-
-Chern,
- 
-\series bold
-L.
-\begin_inset space ~
-\end_inset
-
-Jiu
-\series default
-,
- S.
-\begin_inset space ~
-\end_inset
-
-Li*,
- and L.
-\begin_inset space ~
-\end_inset
-
-Wang,
- Leading coefficient in the Hankel determinants related to binomial and 
-\begin_inset Formula $q$
-\end_inset
-
--binomial transforms,
- submitted for publication.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-38
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
 L.
@@ -1997,6 +1948,55 @@ Jiu
 \end_inset
 
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+38
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+S.
+\begin_inset space ~
+\end_inset
+
+Chern,
+ 
+\series bold
+L.
+\begin_inset space ~
+\end_inset
+
+Jiu
+\series default
+,
+ S.
+\begin_inset space ~
+\end_inset
+
+Li*,
+ and L.
+\begin_inset space ~
+\end_inset
+
+Wang,
+ Leading coefficient in the Hankel determinants related to binomial and 
+\begin_inset Formula $q$
+\end_inset
+
+-binomial transforms,
+ submitted for publication.
 \end_layout
 
 \end_inset
@@ -5322,7 +5322,33 @@ Moll,
 
 Vignat,
  Identities for generalized Euler polynomials,
- Integral Transforms 
+ 
+\family default
+\series default
+\shape slanted
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Integral Transforms
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
 \family default
 \series default
 \shape default

@@ -5322,7 +5322,33 @@ Moll,
 
 Vignat,
  Identities for generalized Euler polynomials,
- Integral Transforms 
+ 
+\family default
+\series default
+\shape slanted
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Integral Transforms
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
 \family default
 \series default
 \shape default
@@ -10853,7 +10879,7 @@ status open
 \begin_layout Plain Layout
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="9" columns="3">
+<lyxtabular version="3" rows="10" columns="3">
 <features booktabs="true" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -11117,6 +11143,36 @@ Binghan Cheng,
 \begin_inset Text
 
 \begin_layout Plain Layout
+2029
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zidi Gao,
+ Wangzi Ding
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 TOTAL
 \end_layout
 
@@ -11126,7 +11182,7 @@ TOTAL
 \begin_inset Text
 
 \begin_layout Plain Layout
-23
+25
 \end_layout
 
 \end_inset
