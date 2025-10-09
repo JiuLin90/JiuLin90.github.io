@@ -156,13 +156,16 @@ I am an experimental mathematician working mainly in
 \series bold
 number theory
 \series default
-,
- also intersecting with 
+ and 
 \series bold
 combinatorics
 \series default
 ,
- 
+ also including 
+\series bold
+special functions
+\series default
+ and intersecting with 
 \series bold
 probability
 \series default

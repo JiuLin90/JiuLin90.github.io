@@ -132,7 +132,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 “Teaching and learning promote and enhance each other.” 
@@ -317,7 +317,7 @@ https://www.sagemath.org/
 \end_layout
 
 \begin_layout Section
-Diverse and Abundant Experiences 
+Diverse and Abundant Experiences
 \end_layout
 
 \begin_layout Standard
@@ -908,7 +908,7 @@ Teaching Experience
 \begin_inset Text
 
 \begin_layout Plain Layout
-MATH 6400
+MATH 6200
 \end_layout
 
 \end_inset
@@ -2083,8 +2083,17 @@ Tulane University
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
 \begin_layout Section
 Sampled Course Syllabi and Evaluations
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
