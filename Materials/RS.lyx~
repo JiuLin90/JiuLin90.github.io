@@ -2317,7 +2317,7 @@ List of Current and Future Projects
 \end_layout
 
 \begin_layout Standard
-For the following projects,
+For the following 21 projects,
  undergraduate students are welcome to join all,
  among which,
  Projects,
@@ -2328,6 +2328,41 @@ For the following projects,
  11,
  and 15 are in particularly suitable for undergraduate research.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "default"
+backgroundcolor "none"
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../../../2025/10-30St.Mary's/Research Proposals.pdf
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description

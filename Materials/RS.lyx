@@ -2347,12 +2347,12 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../../../2025/10-30St.Mary's/Research Proposals.pdf
+	filename Research Proposals.pdf
 	scale 40
 
 \end_inset

@@ -218,7 +218,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -1157,7 +1157,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -1996,9 +1996,18 @@ Wang,
 \end_inset
 
 -binomial transforms,
- To Appear in Adv.
- Appl.
- Math.
+ Adv.
+\begin_inset space ~
+\end_inset
+
+Appl.
+\begin_inset space ~
+\end_inset
+
+Math.
+ (2026),
+ Article 103051.
+  
 \end_layout
 
 \end_inset
