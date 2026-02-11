@@ -6112,10 +6112,70 @@ Academic Talks
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="97" columns="2">
+<lyxtabular version="3" rows="99" columns="2">
 <features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt" varwidth="true">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+49
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Hankel Determinants of Sequences Related to Bernoulli Polynomials,
+ Euler Polynomials,
+ and 
+\begin_inset Formula $q$
+\end_inset
+
+-series
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Invited Seminar Talk,
+ 
+\emph default
+Department of Mathematics and Statistics,
+ Dalhousie University,
+ Halifax,
+ NS,
+ Canada,
+ Feb.
+ 11,
+ 2026
+\end_layout
+
+\end_inset
+</cell>
+</row>
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text

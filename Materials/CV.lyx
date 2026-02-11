@@ -6130,6 +6130,8 @@ Academic Talks
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\series bold
 Hankel Determinants of Sequences Related to Bernoulli Polynomials,
  Euler Polynomials,
  and 
@@ -6167,8 +6169,11 @@ Department of Mathematics and Statistics,
  NS,
  Canada,
  Feb.
- 11,
- 2026
+\begin_inset space ~
+\end_inset
+
+11,
+ 2026.
 \end_layout
 
 \end_inset
