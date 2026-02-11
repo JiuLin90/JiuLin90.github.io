@@ -1996,7 +1996,9 @@ Wang,
 \end_inset
 
 -binomial transforms,
- Adv.
+ 
+\emph on
+Adv.
 \begin_inset space ~
 \end_inset
 
@@ -2004,7 +2006,13 @@ Appl.
 \begin_inset space ~
 \end_inset
 
-Math.
+Math
+\emph default
+.
+ 
+\series bold
+176
+\series default
  (2026),
  Article 103051.
   
