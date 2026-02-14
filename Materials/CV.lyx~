@@ -220,7 +220,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "foreground"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -384,15 +384,7 @@ Tel
 \noun off
 \color none
 Jiangsu Province,
- P.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-China,
+ China,
  215316
 \end_layout
 

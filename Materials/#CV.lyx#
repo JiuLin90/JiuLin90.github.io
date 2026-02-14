@@ -220,7 +220,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "foreground"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -384,15 +384,7 @@ Tel
 \noun off
 \color none
 Jiangsu Province,
- P.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-China,
+ China,
  215316
 \end_layout
 
@@ -8499,24 +8491,7 @@ July 23
 \emph on
 15th International Symposium on Orthogonal Polynomials,
  Special Functions and Applications,
- Hagenberg im M
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-
-\begin_inset Quotes erd
-\end_inset
-
-{u}
-\end_layout
-
-\end_inset
-
-hlkreis,
+ Hagenberg,
  Austria,
  July 22–26.
 \end_layout
@@ -10092,9 +10067,6 @@ A Hot Pot
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\size scriptsize
-\emph on
 Oct.
  5
 \end_layout
@@ -10116,12 +10088,10 @@ Oct.
 \begin_layout Plain Layout
 
 \shape slanted
-\size scriptsize
 Algorithmic Combinatorics Seminar,
  Research Institute for Symbolic Computations,
  Johannes Kepler University
 \shape default
-\emph on
 ,
  Hagenberg im M
 \begin_inset ERT
@@ -10141,7 +10111,10 @@ status open
 \end_inset
 
 hlkreis,
- Austria.
+ Austria,
+ Oct.
+ 5,
+ 2016.
 \end_layout
 
 \end_inset
@@ -10184,9 +10157,6 @@ On Binomial Identities in Arbitrary Bases
 
 \begin_layout Plain Layout
 
-\size scriptsize
-\emph on
-July 26
 \end_layout
 
 \end_inset
@@ -10205,21 +10175,16 @@ July 26
 
 \begin_layout Plain Layout
 
-\size scriptsize
 \emph on
 Beijing Key Laboratory on Mathematical Characterization,
  Analysis and Applications of Complex Information,
- Beijing Institute of Technology,
+ Beijing Institute of Technology
+\emph default
+,
  Beijing,
- P.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-China.
+ China,
+ July 26,
+ 2016.
 \end_layout
 
 \end_inset
@@ -10263,9 +10228,6 @@ Random Walk:
 
 \begin_layout Plain Layout
 
-\size scriptsize
-\emph on
-July 19
 \end_layout
 
 \end_inset
@@ -10284,22 +10246,16 @@ July 19
 
 \begin_layout Plain Layout
 
-\size scriptsize
 \emph on
 International Conference on Mathematical Characterization,
- Analysis and Applications of Complex Information,
+ Analysis and Applications of Complex Information
+\emph default
+,
  Beijing Institute of Technology,
  Beijing,
- P.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-China,
- July 19–20.
+ China,
+ July 19–20,
+ 2016.
 \end_layout
 
 \end_inset
@@ -10342,9 +10298,6 @@ The Method of Brackets
 
 \begin_layout Plain Layout
 
-\size scriptsize
-\emph on
-July 13
 \end_layout
 
 \end_inset
@@ -10363,13 +10316,15 @@ July 13
 
 \begin_layout Plain Layout
 
-\size scriptsize
 \emph on
-5th International Congress on Mathematical Software,
+5th International Congress on Mathematical Software
+\emph default
+,
  The Zuse Institute Berlin,
  Berlin,
  Germany,
- July 11–14.
+ July 11–14,
+ 2016.
 \end_layout
 
 \end_inset
@@ -10412,9 +10367,6 @@ The Method of Brackets
 
 \begin_layout Plain Layout
 
-\size scriptsize
-\emph on
-June 22
 \end_layout
 
 \end_inset
@@ -10434,12 +10386,10 @@ June 22
 \begin_layout Plain Layout
 
 \shape slanted
-\size scriptsize
 Algorithmic Combinatorics Seminar,
  Research Institute for Symbolic Computations,
  Johannes Kepler University
 \shape default
-\emph on
 ,
  Hagenberg im M
 \begin_inset ERT
@@ -10459,7 +10409,9 @@ status open
 \end_inset
 
 hlkreis,
- Austria.
+ Austria,
+ June 22,
+ 2016.
 \end_layout
 
 \end_inset
@@ -10502,10 +10454,6 @@ Binomial Identities in Arbitrary Bases
 
 \begin_layout Plain Layout
 
-\size scriptsize
-\emph on
-Mar.
- 8
 \end_layout
 
 \end_inset
@@ -10525,12 +10473,10 @@ Mar.
 \begin_layout Plain Layout
 
 \shape slanted
-\size scriptsize
 Graduate Students Colloquium,
  Department of Mathematics,
  Tulane University
 \shape default
-\emph on
 ,
  New Orleans,
  LA.,
@@ -10542,7 +10488,10 @@ S.
 \begin_inset space ~
 \end_inset
 
-A.
+A.,
+ Mar.
+ 8,
+ 2016
 \end_layout
 
 \end_inset
@@ -10591,9 +10540,6 @@ On Bernoulli Symbol
 
 \begin_layout Plain Layout
 
-\size scriptsize
-\emph on
-July 8
 \end_layout
 
 \end_inset
@@ -10612,20 +10558,15 @@ July 8
 
 \begin_layout Plain Layout
 
-\size scriptsize
 \emph on
 Center for Combinatorics,
- Nankai University,
+ Nankai University
+\emph default
+,
  Tianjin,
- P.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-China
+ China,
+ July 8,
+ 2015.
 \end_layout
 
 \end_inset
@@ -10670,9 +10611,6 @@ Recursion Rules for the Hypergeometric Zeta Functions
 
 \begin_layout Plain Layout
 
-\size scriptsize
-\emph on
-June 3
 \end_layout
 
 \end_inset
@@ -10691,10 +10629,11 @@ June 3
 
 \begin_layout Plain Layout
 
-\size scriptsize
 \emph on
 Midwest Number Theory Conference for Graduate Students and Recent PhDs,
  X,
+
+\emph default
  University of Illinois at Urbana-Champaign,
  Urbana,
  IL,
@@ -10707,7 +10646,8 @@ S.
 \end_inset
 
 A.,
- June 3–4.
+ June 3–4,
+ 2014.
 \end_layout
 
 \end_inset
