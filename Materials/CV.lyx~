@@ -3261,7 +3261,7 @@ H.
  Yue
 \bar default
 ,
- Loop Decompositions of Random Walks and Nontrivial Identities of Bernoulli and Euler Polynomials,
+ Loop decompositions of random walks and nontrivial identities of Bernoulli and Euler polynomials,
  
 \emph on
 Integers
@@ -3307,7 +3307,7 @@ L.
  Jiu
 \series default
 ,
- Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
+ Hankel determinants of sequences related to Bernoulli and Euler polynomials,
  
 \emph on
 Int.
@@ -6170,7 +6170,7 @@ L.
 \shape default
 \size default
 \emph default
-\bar default
+\bar under
 \strikeout default
 \xout default
 \uuline default
@@ -6281,6 +6281,7 @@ Bol.
 \begin_layout Plain Layout
 
 \series bold
+\bar under
 L.
  Jiu
 \family roman
@@ -6402,7 +6403,7 @@ X.
 \shape default
 \size default
 \emph default
-\bar default
+\bar under
 \strikeout default
 \xout default
 \uuline default
