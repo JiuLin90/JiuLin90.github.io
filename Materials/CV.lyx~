@@ -2435,10 +2435,7 @@ Papers
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -2465,10 +2462,7 @@ Jiu
 \noun default
 \color inherit
 D.
-\begin_inset space ~
-\end_inset
-
-Wang
+ Wang
 \family roman
 \series medium
 \shape up
@@ -2690,33 +2684,21 @@ Jiu
 
 \begin_layout Plain Layout
 S.
-\begin_inset space ~
-\end_inset
-
-Chern,
+ Chern,
  
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \series default
 ,
  
 \bar under
 S.
-\begin_inset space ~
-\end_inset
-
-Li
+ Li
 \bar default
 ,
  and L.
-\begin_inset space ~
-\end_inset
-
-Wang,
+ Wang,
  Leading coefficient in the Hankel determinants related to binomial and 
 \begin_inset Formula $q$
 \end_inset
@@ -2725,14 +2707,8 @@ Wang,
  
 \emph on
 Adv.
-\begin_inset space ~
-\end_inset
-
-Appl.
-\begin_inset space ~
-\end_inset
-
-Math
+ Appl.
+ Math
 \emph default
 .
  
@@ -2772,28 +2748,16 @@ Math
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \series default
  and L.
-\begin_inset space ~
-\end_inset
-
-Peng,
+ Peng,
  Information geometry and alpha-parallel prior of the beta-logistic distribution,
  
 \emph on
 Comm.
-\begin_inset space ~
-\end_inset
-
-Statist.
-\begin_inset space ~
-\end_inset
-
-Theory Methods
+ Statist.
+ Theory Methods
 \emph default
 .
  
@@ -2831,40 +2795,22 @@ Theory Methods
 
 \begin_layout Plain Layout
 S.
-\begin_inset space ~
-\end_inset
-
-Chern,
+ Chern,
  
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \series default
 ,
  and I.
-\begin_inset space ~
-\end_inset
-
-Simonelli,
+ Simonelli,
  A central limit theorem for a card shuffling problem,
  
 \emph on
 J.
-\begin_inset space ~
-\end_inset
-
-Combin.
-\begin_inset space ~
-\end_inset
-
-Theory Ser.
-\begin_inset space ~
-\end_inset
-
-A
+ Combin.
+ Theory Ser.
+ A
 \emph default
  
 \series bold
@@ -2903,18 +2849,12 @@ A
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \series default
  and 
 \bar under
 Y.
-\begin_inset space ~
-\end_inset
-
-Li
+ Li
 \bar default
 ,
  Hankel determinants of certain sequences of Bernoulli polynomials:
@@ -2922,18 +2862,12 @@ Li
  
 \emph on
 Contrib.
-\begin_inset space ~
-\end_inset
-
-Discrete Math
+ Discrete Math
 \emph default
 .
-\begin_inset space ~
-\end_inset
-
 
 \series bold
-19
+ 19
 \series default
  (2024),
  64–84.
@@ -2966,22 +2900,13 @@ Discrete Math
 
 \begin_layout Plain Layout
 Q.
-\begin_inset space ~
-\end_inset
-
-Chen,
+ Chen,
  S.
-\begin_inset space ~
-\end_inset
-
-Chern,
+ Chern,
  and 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \series default
 ,
  Multi-headed lattices and Green functions,
@@ -3041,10 +2966,7 @@ J.
 \noun off
 \color none
 S.
-\begin_inset space ~
-\end_inset
-
-Chern and 
+ Chern and 
 \family default
 \series bold
 \shape default
@@ -3058,10 +2980,7 @@ Chern and
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -3094,26 +3013,11 @@ Jiu
 \noun default
 \color inherit
 C.
-\begin_inset space ~
-\end_inset
-
-R.
-\begin_inset space ~
-\end_inset
-
-Math.
-\begin_inset space ~
-\end_inset
-
-Acad.
-\begin_inset space ~
-\end_inset
-
-Sci.
-\begin_inset space ~
-\end_inset
-
-Paris 
+ R.
+ Math.
+ Acad.
+ Sci.
+ Paris 
 \series bold
 \emph default
 362
@@ -3149,34 +3053,22 @@ Paris
 
 \begin_layout Plain Layout
 K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
+ Dilcher and 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \series default
 ,
  Hankel determinants of shifted sequences of Bernoulli and Euler numbers,
  
 \emph on
 Contrib.
-\begin_inset space ~
-\end_inset
-
-Discrete Math
+ Discrete Math
 \emph default
 .
-\begin_inset space ~
-\end_inset
-
 
 \series bold
-18
+ 18
 \series default
  (2023),
  146–175.
@@ -3209,38 +3101,20 @@ Discrete Math
 
 \begin_layout Plain Layout
 Z.
-\begin_inset space ~
-\end_inset
-
-Bradshaw,
+ Bradshaw,
  I.
-\begin_inset space ~
-\end_inset
-
-Gonzalez,
+ Gonzalez,
  
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \series default
 ,
  V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  and C.
-\begin_inset space ~
-\end_inset
-
-Vignat,
+ Vignat,
  Compatibility of the method of brackets with classical integration rules,
  
 \emph on
@@ -3258,8 +3132,9 @@ Open Math
 \noun off
 \color none
 .
+
 \family default
-\series default
+\series bold
 \shape default
 \size default
 \emph default
@@ -3270,17 +3145,10 @@ Open Math
 \uwave default
 \noun default
 \color inherit
-
-\begin_inset space ~
-\end_inset
-
-
-\series bold
-21
+ 21
 \series default
  (2023),
- Article number:
- 20220581.
+ Article 20220581.
 \end_layout
 
 \end_inset
@@ -3312,10 +3180,7 @@ Open Math
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -3329,18 +3194,9 @@ Jiu
 \noun off
 \color none
  and D.
-\begin_inset space ~
-\end_inset
-
-Y.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Shi,
+ Y.
+ H.
+ Shi,
  Moments and cumulants on identities for Bernoulli and Euler numbers,
  
 \family default
@@ -3394,24 +3250,15 @@ Math.
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \series default
 ,
  I.
-\begin_inset space ~
-\end_inset
-
-Simonelli,
+ Simonelli,
  and 
 \bar under
 H.
-\begin_inset space ~
-\end_inset
-
-Yue
+ Yue
 \bar default
 ,
  Loop Decompositions of Random Walks and Nontrivial Identities of Bernoulli and Euler Polynomials,
@@ -3454,30 +3301,18 @@ Integers
 
 \begin_layout Plain Layout
 K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
+ Dilcher and 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \series default
 ,
  Hankel Determinants of sequences related to Bernoulli and Euler Polynomials,
  
 \emph on
 Int.
-\begin_inset space ~
-\end_inset
-
-J.
-\begin_inset space ~
-\end_inset
-
-Number Theory 
+ J.
+ Number Theory 
 \series bold
 \emph default
 18
@@ -3513,34 +3348,19 @@ Number Theory
 
 \begin_layout Plain Layout
 K.
-\begin_inset space ~
-\end_inset
-
-Dilcher and 
+ Dilcher and 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \series default
 ,
  Orthogonal polynomials and Hankel determinants for certain Bernoulli and Euler polynomials,
  
 \emph on
 J.
-\begin_inset space ~
-\end_inset
-
-Math.
-\begin_inset space ~
-\end_inset
-
-Anal.
-\begin_inset space ~
-\end_inset
-
-Appl
+ Math.
+ Anal.
+ Appl
 \family roman
 \series medium
 \shape up
@@ -3554,9 +3374,6 @@ Appl
 \noun off
 \color none
 .
-\begin_inset space ~
-\end_inset
-
 
 \family default
 \series bold
@@ -3570,7 +3387,7 @@ Appl
 \uwave default
 \noun default
 \color inherit
-497
+ 497
 \family roman
 \series medium
 \shape up
@@ -3627,10 +3444,7 @@ Appl
 \noun off
 \color none
 I.
-\begin_inset space ~
-\end_inset
-
-Gonzales,
+ Gonzales,
  
 \family default
 \series bold
@@ -3645,10 +3459,7 @@ Gonzales,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -3663,14 +3474,8 @@ Jiu
 \color none
 ,
  and V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  An extension of the method of brackets.
  Part 2,
  
@@ -3700,8 +3505,9 @@ Open Math
 \noun off
 \color none
 .
+
 \family default
-\series default
+\series bold
 \shape default
 \size default
 \emph default
@@ -3712,13 +3518,7 @@ Open Math
 \uwave default
 \noun default
 \color inherit
-
-\begin_inset space ~
-\end_inset
-
-
-\series bold
-18
+ 18
 \series default
  (2020),
  983–955.
@@ -3753,10 +3553,7 @@ Open Math
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -3770,10 +3567,7 @@ Jiu
 \noun off
 \color none
  and C.
-\begin_inset space ~
-\end_inset
-
-Koutschan,
+ Koutschan,
  Calculation and properties of zonal polynomials,
 
 \family default
@@ -3789,14 +3583,8 @@ Koutschan,
 \noun default
 \color inherit
  Math.
-\begin_inset space ~
-\end_inset
-
-Comput.
-\begin_inset space ~
-\end_inset
-
-Sci
+ Comput.
+ Sci
 \family roman
 \series medium
 \shape up
@@ -3810,9 +3598,6 @@ Sci
 \noun off
 \color none
 .
-\begin_inset space ~
-\end_inset
-
 
 \family default
 \series bold
@@ -3826,7 +3611,7 @@ Sci
 \uwave default
 \noun default
 \color inherit
-14
+ 14
 \family roman
 \series medium
 \shape up
@@ -3883,10 +3668,7 @@ Sci
 \noun off
 \color none
 N.
-\begin_inset space ~
-\end_inset
-
-Takayama,
+ Takayama,
  
 \family default
 \series bold
@@ -3901,10 +3683,7 @@ Takayama,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -3919,15 +3698,9 @@ Jiu
 \color none
 ,
  S.
-\begin_inset space ~
-\end_inset
-
-Kuriki,
+ Kuriki,
  and Y.
-\begin_inset space ~
-\end_inset
-
-Zhang,
+ Zhang,
  Computations of the Expected Euler Characteristic for the Largest Eigenvalue of a Real Wishart Matrix,
  
 \family default
@@ -3943,17 +3716,11 @@ Zhang,
 \noun default
 \color inherit
 J.
-\begin_inset space ~
-\end_inset
-
-Multivariate Anal.
-\begin_inset space ~
-\end_inset
-
+ Multivariate Anal.
 
 \series bold
 \emph default
-179
+ 179
 \series default
  (2020),
  Article 104642.
@@ -3988,10 +3755,7 @@ Multivariate Anal.
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -4006,15 +3770,9 @@ Jiu
 \color none
 ,
  C.
-\begin_inset space ~
-\end_inset
-
-Vignat,
+ Vignat,
  and T.
-\begin_inset space ~
-\end_inset
-
-Wakhare,
+ Wakhare,
  Analytic Continuation for Multiple Zeta Values using Symbolic Representations,
  
 \family default
@@ -4030,14 +3788,8 @@ Wakhare,
 \noun default
 \color inherit
 Int.
-\begin_inset space ~
-\end_inset
-
-J.
-\begin_inset space ~
-\end_inset
-
-Number Theory
+ J.
+ Number Theory
 \family roman
 \series medium
 \shape up
@@ -4109,10 +3861,7 @@ Number Theory
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -4126,10 +3875,7 @@ Jiu
 \noun off
 \color none
  and C.
-\begin_inset space ~
-\end_inset
-
-Vignat,
+ Vignat,
  Connection coefficients for higher-order Bernoulli and Euler polynomials:
  a random walk approach,
  
@@ -4146,13 +3892,10 @@ Vignat,
 \noun default
 \color inherit
 Fibonacci Quart.
-\begin_inset space ~
-\end_inset
-
 
 \series bold
 \emph default
-57
+ 57
 \family roman
 \series medium
 \shape up
@@ -4198,10 +3941,7 @@ Fibonacci Quart.
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -4215,44 +3955,9 @@ Jiu
 \noun off
 \color none
  and D.
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset space ~
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Y.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Shi,
+ Y.
+ H.
+ Shi,
  Matrix representation for multiplicative nested sums,
  
 \family default
@@ -4268,10 +3973,7 @@ Shi,
 \noun default
 \color inherit
 Colloq.
-\begin_inset space ~
-\end_inset
-
-Math
+ Math
 \family roman
 \series medium
 \shape up
@@ -4285,6 +3987,7 @@ Math
 \noun off
 \color none
 .
+
 \family default
 \series bold
 \shape default
@@ -4297,11 +4000,7 @@ Math
 \uwave default
 \noun default
 \color inherit
-
-\begin_inset space ~
-\end_inset
-
-158
+ 158
 \family roman
 \series medium
 \shape up
@@ -4347,10 +4046,7 @@ Math
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -4364,44 +4060,9 @@ Jiu
 \noun off
 \color none
  and D.
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-
-\begin_inset space ~
-\end_inset
-
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
-Y.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Shi,
+ Y.
+ H.
+ Shi,
  Orthogonal polynomials and connection to generalized Motzkin numbers for higher-order Euler polynomials,
  
 \family default
@@ -4417,10 +4078,7 @@ Shi,
 \noun default
 \color inherit
 J.
-\begin_inset space ~
-\end_inset
-
-Number Theory
+ Number Theory
 \family roman
 \series medium
 \shape up
@@ -4503,15 +4161,9 @@ Number Theory
 \noun off
 \color none
 I.
-\begin_inset space ~
-\end_inset
-
-Gonzalez,
+ Gonzalez,
  K.
-\begin_inset space ~
-\end_inset
-
-Kohl,
+ Kohl,
  
 \family default
 \series bold
@@ -4526,10 +4178,7 @@ Kohl,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -4544,14 +4193,8 @@ Jiu
 \color none
 ,
  and V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  The method of brackets in experimental mathematics,
  
 \family default
@@ -4614,10 +4257,7 @@ Frontiers of Orthogonal Polynomials and q-Series
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -4632,19 +4272,10 @@ Jiu
 \color none
 ,
  V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  and C.
-\begin_inset space ~
-\end_inset
-
-Vignat,
+ Vignat,
  A symbolic approach to multiple zeta values at the negative integers,
 
 \family default
@@ -4659,11 +4290,7 @@ Vignat,
 \uwave default
 \noun default
 \color inherit
- J. 
-\begin_inset space ~
-\end_inset
-
-Symbolic Comput
+ J.  Symbolic Comput
 \family roman
 \series medium
 \shape up
@@ -4677,9 +4304,6 @@ Symbolic Comput
 \noun off
 \color none
 .
-\begin_inset space ~
-\end_inset
-
 
 \family default
 \series bold
@@ -4693,7 +4317,7 @@ Symbolic Comput
 \uwave default
 \noun default
 \color inherit
-84
+ 84
 \family roman
 \series medium
 \shape up
@@ -4750,15 +4374,9 @@ Symbolic Comput
 \noun off
 \color none
 I.
-\begin_inset space ~
-\end_inset
-
-Gonzales,
+ Gonzales,
  K.
-\begin_inset space ~
-\end_inset
-
-Kohl,
+ Kohl,
  
 \family default
 \series bold
@@ -4773,10 +4391,7 @@ Kohl,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -4791,14 +4406,8 @@ Jiu
 \color none
 ,
  and V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  An extension of the method of brackets.
  Part 1,
  
@@ -4828,9 +4437,6 @@ Open Math
 \noun off
 \color none
 .
-\begin_inset space ~
-\end_inset
-
 
 \family default
 \series bold
@@ -4844,7 +4450,7 @@ Open Math
 \uwave default
 \noun default
 \color inherit
-15
+ 15
 \family roman
 \series medium
 \shape up
@@ -4890,10 +4496,7 @@ Open Math
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -5004,15 +4607,9 @@ Research in Number Theory
 \noun off
 \color none
 C.
-\begin_inset space ~
-\end_inset
-
-Li,
+ Li,
  E.
-\begin_inset space ~
-\end_inset
-
-Zhang,
+ Zhang,
  
 \family default
 \series bold
@@ -5027,10 +4624,7 @@ Zhang,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -5045,10 +4639,7 @@ Jiu
 \color none
 ,
  and H.
-\begin_inset space ~
-\end_inset
-
-Sun,
+ Sun,
  Optimal control on special Euclidean group via natural gradient descent algorithm,
  
 \family default
@@ -5064,14 +4655,8 @@ Sun,
 \noun default
 \color inherit
 Sci.
-\begin_inset space ~
-\end_inset
-
-China Inf.
-\begin_inset space ~
-\end_inset
-
-Sci
+ China Inf.
+ Sci
 \family roman
 \series medium
 \shape up
@@ -5085,9 +4670,6 @@ Sci
 \noun off
 \color none
 .
-\begin_inset space ~
-\end_inset
-
 
 \family default
 \series bold
@@ -5101,7 +4683,7 @@ Sci
 \uwave default
 \noun default
 \color inherit
-59
+ 59
 \family roman
 \series medium
 \shape up
@@ -5159,10 +4741,7 @@ Sci
 \noun off
 \color none
 I.
-\begin_inset space ~
-\end_inset
-
-Gonzalez,
+ Gonzalez,
  
 \family default
 \series bold
@@ -5177,10 +4756,7 @@ Gonzalez,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -5195,14 +4771,8 @@ Jiu
 \color none
 ,
  and V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  Pochhammer symbol with negative indices.
  A new rule for the method of brackets,
  
@@ -5232,9 +4802,6 @@ Open Math
 \noun off
 \color none
 .
-\begin_inset space ~
-\end_inset
-
 
 \family default
 \series bold
@@ -5248,7 +4815,7 @@ Open Math
 \uwave default
 \noun default
 \color inherit
-14
+ 14
 \family roman
 \series medium
 \shape up
@@ -5305,20 +4872,11 @@ Open Math
 \noun off
 \color none
 T.
-\begin_inset space ~
-\end_inset
-
-Amdeberhan,
+ Amdeberhan,
  A.
-\begin_inset space ~
-\end_inset
-
-Dixit,
+ Dixit,
  X.
-\begin_inset space ~
-\end_inset
-
-Guan,
+ Guan,
  
 \family default
 \series bold
@@ -5333,10 +4891,7 @@ Guan,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -5351,24 +4906,12 @@ Jiu
 \color none
 ,
  A.
-\begin_inset space ~
-\end_inset
-
-Kuznetsov,
+ Kuznetsov,
  V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  and C.
-\begin_inset space ~
-\end_inset
-
-Vignat,
+ Vignat,
  The integrals in Gradshteyn and Ryzhik.
  Part 30:
  trigonometric functions,
@@ -5469,20 +5012,11 @@ Scientia Series A:
 \noun off
 \color none
 T.
-\begin_inset space ~
-\end_inset
-
-Amdeberhan,
+ Amdeberhan,
  A.
-\begin_inset space ~
-\end_inset
-
-Dixit,
+ Dixit,
  X.
-\begin_inset space ~
-\end_inset
-
-Guan,
+ Guan,
  
 \family default
 \series bold
@@ -5497,10 +5031,7 @@ Guan,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -5515,19 +5046,10 @@ Jiu
 \color none
 ,
  V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  and C.
-\begin_inset space ~
-\end_inset
-
-Vignat,
+ Vignat,
  A series involving Catalan numbers.
  Proofs and demonstrations,
  
@@ -5544,10 +5066,7 @@ Vignat,
 \noun default
 \color inherit
 Elem.
-\begin_inset space ~
-\end_inset
-
-Math
+ Math
 \family roman
 \series medium
 \shape up
@@ -5561,9 +5080,6 @@ Math
 \noun off
 \color none
 .
-\begin_inset space ~
-\end_inset
-
 
 \family default
 \series bold
@@ -5577,7 +5093,7 @@ Math
 \uwave default
 \noun default
 \color inherit
-71
+ 71
 \family roman
 \series medium
 \shape up
@@ -5623,10 +5139,7 @@ Math
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -5640,10 +5153,7 @@ Jiu
 \noun off
 \color none
  and C.
-\begin_inset space ~
-\end_inset
-
-Vignat,
+ Vignat,
  On binomial identities in arbitrary bases,
  
 \family default
@@ -5659,10 +5169,7 @@ Vignat,
 \noun default
 \color inherit
 J.
-\begin_inset space ~
-\end_inset
-
-Integer Seq
+ Integer Seq
 \family roman
 \series medium
 \shape up
@@ -5676,9 +5183,6 @@ Integer Seq
 \noun off
 \color none
 .
-\begin_inset space ~
-\end_inset
-
 
 \family default
 \series bold
@@ -5692,7 +5196,7 @@ Integer Seq
 \uwave default
 \noun default
 \color inherit
-19
+ 19
 \family roman
 \series medium
 \shape up
@@ -5738,10 +5242,7 @@ Integer Seq
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -5756,19 +5257,10 @@ Jiu
 \color none
 ,
  V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  and C.
-\begin_inset space ~
-\end_inset
-
-Vignat,
+ Vignat,
  A symbolic approach to some identities for Bernoulli-Barnes polynomials,
  
 \family default
@@ -5784,14 +5276,8 @@ Vignat,
 \noun default
 \color inherit
 Int.
-\begin_inset space ~
-\end_inset
-
-J.
-\begin_inset space ~
-\end_inset
-
-Number Theory
+ J.
+ Number Theory
 \family roman
 \series medium
 \shape up
@@ -5874,10 +5360,7 @@ Number Theory
 \noun off
 \color none
 A.
-\begin_inset space ~
-\end_inset
-
-Dixit,
+ Dixit,
  
 \family default
 \series bold
@@ -5892,10 +5375,7 @@ Dixit,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -5910,19 +5390,10 @@ Jiu
 \color none
 ,
  V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  and C.
-\begin_inset space ~
-\end_inset
-
-Vignat,
+ Vignat,
  The finite Fourier transform of classical polynomials,
  
 \family default
@@ -5938,15 +5409,9 @@ Vignat,
 \noun default
 \color inherit
 J.
-\begin_inset space ~
-\end_inset
-
-Aust.
+ Aust.
  Math.
-\begin_inset space ~
-\end_inset
-
-Soc
+ Soc
 \family roman
 \series medium
 \shape up
@@ -5960,6 +5425,7 @@ Soc
 \noun off
 \color none
 .
+
 \family default
 \series bold
 \shape default
@@ -5972,11 +5438,7 @@ Soc
 \uwave default
 \noun default
 \color inherit
-
-\begin_inset space ~
-\end_inset
-
-98
+ 98
 \family roman
 \series medium
 \shape up
@@ -6033,20 +5495,11 @@ Soc
 \noun off
 \color none
 T.
-\begin_inset space ~
-\end_inset
-
-Amdeberhan,
+ Amdeberhan,
  A.
-\begin_inset space ~
-\end_inset
-
-Dixit,
+ Dixit,
  X.
-\begin_inset space ~
-\end_inset
-
-Guan,
+ Guan,
  
 \family default
 \series bold
@@ -6061,10 +5514,7 @@ Guan,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -6078,14 +5528,8 @@ Jiu
 \noun off
 \color none
  and V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  The unimodality of a polynomial coming from a rational integral.
  Back to the original proof,
  
@@ -6102,18 +5546,9 @@ Moll,
 \noun default
 \color inherit
 J.
-\begin_inset space ~
-\end_inset
-
-Math.
-\begin_inset space ~
-\end_inset
-
-Anal.
-\begin_inset space ~
-\end_inset
-
-Appl
+ Math.
+ Anal.
+ Appl
 \family roman
 \series medium
 \shape up
@@ -6189,10 +5624,7 @@ Appl
 
 \bar under
 A.
-\begin_inset space ~
-\end_inset
-
-Byrnes
+ Byrnes
 \family roman
 \series medium
 \shape up
@@ -6220,10 +5652,7 @@ Byrnes
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -6254,14 +5683,8 @@ Jiu
 \noun default
 \color inherit
 Int.
-\begin_inset space ~
-\end_inset
-
-J.
-\begin_inset space ~
-\end_inset
-
-Number Theory
+ J.
+ Number Theory
 \family roman
 \series medium
 \shape up
@@ -6333,10 +5756,7 @@ Number Theory
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -6351,19 +5771,10 @@ Jiu
 \color none
 ,
  V.
-\begin_inset space ~
-\end_inset
-
-H.
-\begin_inset space ~
-\end_inset
-
-Moll,
+ H.
+ Moll,
  and C.
-\begin_inset space ~
-\end_inset
-
-Vignat,
+ Vignat,
  Identities for generalized Euler polynomials,
  
 \family default
@@ -6419,9 +5830,6 @@ Spec.
 \noun off
 \color none
 .
-\begin_inset space ~
-\end_inset
-
 
 \family default
 \series bold
@@ -6435,7 +5843,7 @@ Spec.
 \uwave default
 \noun default
 \color inherit
-25
+ 25
 \family roman
 \series medium
 \shape up
@@ -6492,15 +5900,9 @@ Spec.
 \noun off
 \color none
 Z.
-\begin_inset space ~
-\end_inset
-
-Zhang,
+ Zhang,
  H.
-\begin_inset space ~
-\end_inset
-
-Sun,
+ Sun,
  
 \family default
 \series bold
@@ -6515,10 +5917,7 @@ Sun,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -6533,10 +5932,7 @@ Jiu
 \color none
 ,
  and L.
-\begin_inset space ~
-\end_inset
-
-Peng,
+ Peng,
  A natural gradient algorithm for stochastic distribution systems,
  
 \family default
@@ -6634,15 +6030,9 @@ Entropy
 \noun off
 \color none
 F.
-\begin_inset space ~
-\end_inset
-
-Zhang,
+ Zhang,
  H.
-\begin_inset space ~
-\end_inset
-
-Sun,
+ Sun,
  
 \family default
 \series bold
@@ -6657,10 +6047,7 @@ Sun,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -6675,10 +6062,7 @@ Jiu
 \color none
 ,
  and L.
-\begin_inset space ~
-\end_inset
-
-Peng,
+ Peng,
  The arc length variational formula on the exponential manifold,
  
 \family default
@@ -6694,10 +6078,7 @@ Peng,
 \noun default
 \color inherit
 Math.
-\begin_inset space ~
-\end_inset
-
-Slovaca
+ Slovaca
 \family roman
 \series medium
 \shape up
@@ -6780,15 +6161,9 @@ Slovaca
 \noun off
 \color none
 L.
-\begin_inset space ~
-\end_inset
-
-Peng,
+ Peng,
  H.
-\begin_inset space ~
-\end_inset
-
-Sun,
+ Sun,
  and 
 \family default
 \series bold
@@ -6803,10 +6178,7 @@ Sun,
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -6835,18 +6207,9 @@ Jiu
 \noun default
 \color inherit
 Bol.
-\begin_inset space ~
-\end_inset
-
-Asoc.
-\begin_inset space ~
-\end_inset
-
-Mat.
-\begin_inset space ~
-\end_inset
-
-Venez
+ Asoc.
+ Mat.
+ Venez
 \family roman
 \series medium
 \shape up
@@ -6860,10 +6223,7 @@ Venez
 \noun off
 \color none
 .
-\begin_inset space ~
-\end_inset
-
-
+ 
 \family default
 \series bold
 \shape default
@@ -6922,10 +6282,7 @@ Venez
 
 \series bold
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up
@@ -6939,10 +6296,7 @@ Jiu
 \noun off
 \color none
  and H.
-\begin_inset space ~
-\end_inset
-
-Sun,
+ Sun,
  On minimal homothetical hypersurfaces,
  
 \family default
@@ -6958,10 +6312,7 @@ Sun,
 \noun default
 \color inherit
 Colloq.
-\begin_inset space ~
-\end_inset
-
-Math
+ Math
 \family roman
 \series medium
 \shape up
@@ -6975,9 +6326,6 @@ Math
 \noun off
 \color none
 .
-\begin_inset space ~
-\end_inset
-
 
 \family default
 \series bold
@@ -6991,7 +6339,7 @@ Math
 \uwave default
 \noun default
 \color inherit
-109
+ 109
 \family roman
 \series medium
 \shape up
@@ -7048,10 +6396,7 @@ Math
 \noun off
 \color none
 X.
-\begin_inset space ~
-\end_inset
-
-Wang and 
+ Wang and 
 \family default
 \series bold
 \shape default
@@ -7065,10 +6410,7 @@ Wang and
 \noun default
 \color inherit
 L.
-\begin_inset space ~
-\end_inset
-
-Jiu
+ Jiu
 \family roman
 \series medium
 \shape up

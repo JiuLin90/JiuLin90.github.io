@@ -6170,7 +6170,7 @@ L.
 \shape default
 \size default
 \emph default
-\bar default
+\bar under
 \strikeout default
 \xout default
 \uuline default
@@ -6281,6 +6281,7 @@ Bol.
 \begin_layout Plain Layout
 
 \series bold
+\bar under
 L.
  Jiu
 \family roman
@@ -6402,7 +6403,7 @@ X.
 \shape default
 \size default
 \emph default
-\bar default
+\bar under
 \strikeout default
 \xout default
 \uuline default
