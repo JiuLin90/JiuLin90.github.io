@@ -2451,11 +2451,37 @@ Jiu
 \uwave off
 \noun off
 \color none
- and D.
+ and 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar under
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+D.
 \begin_inset space ~
 \end_inset
 
-Wang*,
+Wang
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+,
  On 
 \begin_inset Formula $b$
 \end_inset
@@ -2677,11 +2703,15 @@ L.
 Jiu
 \series default
 ,
- S.
+ 
+\bar under
+S.
 \begin_inset space ~
 \end_inset
 
-Li*,
+Li
+\bar default
+,
  and L.
 \begin_inset space ~
 \end_inset
@@ -2878,11 +2908,15 @@ L.
 
 Jiu
 \series default
- and Y.
+ and 
+\bar under
+Y.
 \begin_inset space ~
 \end_inset
 
-Li*,
+Li
+\bar default
+,
  Hankel determinants of certain sequences of Bernoulli polynomials:
  A direct proof of an inverse matrix entry from Statistics,
  
@@ -3368,11 +3402,15 @@ Jiu
 \end_inset
 
 Simonelli,
- and H.
+ and 
+\bar under
+H.
 \begin_inset space ~
 \end_inset
 
-Yue*,
+Yue
+\bar default
+,
  Loop Decompositions of Random Walks and Nontrivial Identities of Bernoulli and Euler Polynomials,
  
 \emph on
@@ -6146,6 +6184,12 @@ Appl
 
 \begin_layout Plain Layout
 
+\bar under
+A.
+\begin_inset space ~
+\end_inset
+
+Byrnes
 \family roman
 \series medium
 \shape up
@@ -6158,11 +6202,7 @@ Appl
 \uwave off
 \noun off
 \color none
-A.
-\begin_inset space ~
-\end_inset
-
-Byrnes*,
+,
  
 \family default
 \series bold
@@ -14708,7 +14748,7 @@ Peer-Reviewed Publications:
  Guided 4 students to co-author papers in international journals (see items [29],
  [35],
  [38],
- [39] in Publications).
+ [39] in Publications/Papers).
 \end_layout
 
 \begin_layout Itemize
