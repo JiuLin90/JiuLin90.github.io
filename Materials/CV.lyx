@@ -502,7 +502,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "default"
 backgroundcolor "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -756,7 +756,7 @@ Research Associate
 Dept.
  of Math.
  & Stats.,
- Dalhousie University
+ Dalhousie Univ.
 \end_layout
 
 \end_inset
@@ -797,7 +797,7 @@ Killam Postdoc Fellow
 Dept.
  of Math.
  & Stats.,
- Dalhousie University
+ Dalhousie Univ.
 \end_layout
 
 \end_inset
@@ -9020,7 +9020,7 @@ June 9
 
 \begin_layout Plain Layout
 
-\size scriptsize
+\size tiny
 \emph on
 Analytic and Combinatorial Number Theory:
  The Legacy of Ramanujan (A conference in honor of Bruce C.
@@ -12848,7 +12848,6 @@ Special Functions with Applications in Number Theory and Combinatorics
 \color none
  at The SIAM Annual Meetings,
  July 6–10,
- 2026,
  Cleveland,
  OH,
  U.S.A.
@@ -12862,7 +12861,7 @@ Special Functions with Applications in Number Theory and Combinatorics
 \begin_inset Text
 
 \begin_layout Plain Layout
-2025–
+2025–Present
 \end_layout
 
 \end_inset
@@ -12968,8 +12967,20 @@ Special Functions with Applications in Number Theory and Combinatorics
  July 27—
 Aug.
  1,
- 2025,
- Montreal,
+ Montr
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+'{e}
+\end_layout
+
+\end_inset
+
+al,
  QC,
  Canada
 \end_layout
@@ -12982,7 +12993,7 @@ Aug.
 \begin_inset Text
 
 \begin_layout Plain Layout
-2014–
+2014–Present
 \end_layout
 
 \end_inset
@@ -13039,7 +13050,7 @@ Departmental and University Service
 \begin_inset Text
 
 \begin_layout Plain Layout
-2021–
+2021–Present
 \end_layout
 
 \end_inset
@@ -14680,7 +14691,7 @@ Mentored
 \series bold
 10 Signature Work projects
 \series default
- (Class of 2023–24) on topics ranging from Random Walks to Quantum Algorithms.
+ (Class of 2023–24) @DKU on topics ranging from Random Walks to Quantum Algorithms.
 \end_layout
 
 \begin_layout Itemize
