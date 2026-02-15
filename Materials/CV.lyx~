@@ -3102,7 +3102,10 @@ R.
 \end_inset
 
 Math.
- Acad.
+\begin_inset space ~
+\end_inset
+
+Acad.
 \begin_inset space ~
 \end_inset
 
@@ -14707,7 +14710,7 @@ Provide continuous guidance on course selection,
 
 \begin_layout Subsection*
 \noindent
-Undergraduate Signature Work
+Undergraduate Signature Work (SW)
 \begin_inset Foot
 status collapsed
 
@@ -14727,7 +14730,7 @@ https://signature-work.dukekunshan.edu.cn/signature-work-overview/
 \begin_layout Itemize
 Mentored 
 \series bold
-10 Signature Work projects
+10 SW projects
 \series default
  (Class of 2023–24) @DKU on topics ranging from Random Walks to Quantum Algorithms.
 \end_layout
@@ -14747,7 +14750,9 @@ Peer-Reviewed Publications:
 
 \begin_layout Itemize
 Software Development:
- Directed the development of 2 Mathematica packages for Method of Brackets and Weakly Increasing Trees.
+ Directed the development of 2 Mathematica packages for Method of Brackets and Weakly Increasing Trees,
+ leading to SW projects.
+ 
 \end_layout
 
 \begin_layout Itemize
