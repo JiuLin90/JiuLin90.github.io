@@ -2759,7 +2759,6 @@ Comm.
  Statist.
  Theory Methods
 \emph default
-.
  
 \series bold
 54
@@ -2857,7 +2856,7 @@ Y.
  Li
 \bar default
 ,
- Hankel determinants of certain sequences of Bernoulli polynomials:
+ Hankel determinants of certain sequences of Bernoulli polynomials.
  A direct proof of an inverse matrix entry from Statistics,
  
 \emph on
@@ -8410,8 +8409,7 @@ June 9
 
 \begin_layout Plain Layout
 
-\size tiny
-\emph on
+\size scriptsize
 Analytic and Combinatorial Number Theory:
  The Legacy of Ramanujan (A conference in honor of Bruce C.
 \begin_inset space ~
