@@ -17,7 +17,8 @@ h1 {
   letter-spacing : 1pt;
   line-height    : 32pt;
   text-align     : left;
-  border-bottom  : 2px solid #1a3a5a; /* 用底部横线代替背景色 */
+  margin	 : 20px 0; 
+  border-bottom	 : 2px solid #1a3a5a;
   padding-bottom : 10px;
 }
 
