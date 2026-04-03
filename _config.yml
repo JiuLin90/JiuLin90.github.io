@@ -1,0 +1,17 @@
+# 站点基本信息
+title: Lin Jiu | Assistant Professor of Mathematics
+email: lin.jiu.work@gmail.com
+description: Personal academic homepage of Lin Jiu.
+
+# 路径配置（非常关键！）
+# 如果你的域名是 https://jiulin90.github.io/，这里保持空 ""
+# 如果你在测试子目录，请写上子目录名
+baseurl: "" 
+url: "https://jiulin90.github.io"
+
+# 排除不需要被编译的文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - test.html  # 既然是测试页，可以不让它出现在搜素引擎里

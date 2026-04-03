@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | Lin Jiu</title>
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="site-wrapper">
+        <aside class="site-sidebar">
+            {% include sidebar.html %}
+        </aside>
+
+        <main class="site-content">
+            {{ content }}
+        </main>
+    </div>
+</body>
+</html>

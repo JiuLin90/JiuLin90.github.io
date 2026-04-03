@@ -3,7 +3,8 @@ body {
   background     : #FFFFFF;
   font-family    : -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; /* 使用系统字体 */
   letter-spacing : 0.5pt;
-  margin         : 40pt 80pt 0 80pt;
+  margin         : 0；
+  padding	 :0
 }
 
 h1 {
@@ -55,94 +56,17 @@ h2 {
   border	 : 1px solid #e1e4e8; /* 使用非常浅的灰色边框，或者只留上下边框 */
 }
 
-#content {
-  color          : #000000;
-  background     : #FFFFAA;
-  font-family    : arial, sans-serif;
-  line-height    : 1.3em;
-  padding        : 18pt 108pt 6pt 108pt;
-  margin         : 50pt 60pt 0 60pt;
-  min-width      : 500pt;
-  max-width      : 700pt;
-  border	 : none; /* 去掉四周沉重的边框 */
-  border-top	 : 1px solid #eaecef; /* 只留一条浅灰色顶线，增加现代感 */
-  background	 : #ffffff;
-  padding	 : 20px 0; /* 适当增加间距 */
-}
 
-/*
-#menu {
-  width          : 130pt;
-  color          : #000000;
-  float          : center; 
-  background     : #00DB00;
-  padding        : 7pt 11pt 7pt 6pt;
-  margin         : 60pt 0  0 0;
-  border-top     : 1pt solid #435fff;
-  border-right   : 1pt solid #435fff;
-  border-bottom  : 1pt solid #435fff;
-  border-left    : 1pt solid #435fff;
+/* 侧边栏菜单样式 */
+#menu ul { list-style: none; padding: 0; margin-top: 30px; }
+#menu li { margin-bottom: 12px; }
+#menu li a { 
+    text-decoration: none; 
+    color: #1a3a5a; 
+    font-variant: small-caps;
+    font-size: 1.2rem;
 }
-
-#menu a {
-  color          : #0000aa;
-  background     : #00DB00;
-  width          : 124pt;
-  height         : 24pt;
-  margin         : 4pt 0 4pt 0;
-  padding        : 3pt 2pt 0 6pt;
-  line-height    : 19pt;
-  font-family    : arial, sans-serif;
-  font-size      : 13.5pt;
-  font-variant   : small-caps;
-  letter-spacing : 0.4pt;
-  text-decoration: none;
-  display        : list-item;
-  border-top     : 1pt solid #d7e9ff;;
-  border-right   : 1pt solid #435fff;
-  border-bottom  : 1pt solid #435fff;
-  border-left    : 1pt solid #d7e9ff;
-}
-
-#menu a:hover {
-  color          : #d7e9ff;
-  background     : #00DB00;
-  border-top     : 1pt solid #435fff;
-  border-right   : 1pt solid #d7e9ff;
-  border-bottom  : 1pt solid #d7e9ff;
-  border-left    : 1pt solid #435fff;
-}
-*/
-
-#menu { 
-  font           :24px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */
-  list-style     :none; /* 将默认的列表符号去掉 */
-  padding        :0; /* 将默认的内边距去掉 */
-  margin         :0/* 将默认的外边距去掉 */
-}
-#menu li {
-  list-style     :none; /* 将默认的列表符号去掉 */
-  padding        :0; /* 将默认的内边距去掉 */
-  margin         :0; /* 将默认的内边距去掉 */
-  float          :left; /* 往左浮动 */
-}
-#menu li a {
-  display        :block; /* 将链接设为块级元素 */
-  width          :170px; /* 设置宽度 */
-  height         :30px; /* 设置高度 */
-  line-height    :30px; /* 设置行高，将行高和高度设置同一个值，可以让单行文本垂直居中 */
-  text-align     :center; /* 居中对齐文字 */
-  background     :#ffffff; /* 设置背景色 */
-  color          :#0366d6; /* 设置文字颜色 */
-  Text-decoration:underline; /* 去掉下划线 */
-  border	 : 1px solid #d1d5da;
-  transition	 : all 0.3s; /* 加入一点平滑过渡 */
-  font-variant   : small-caps;
-}
-#menu li a:hover {
-  background     :#ffffff; /* 变换背景色 */
-  color          :#1a3a5a; /* 变换文字颜色 */
-}
+#menu li a:hover { color: #0366d6; }
 
 
 .tab0 {
@@ -169,63 +93,23 @@ h2 {
   padding-left   : 0;
 }
 
-/* For photo gallery */
-.tab2 {
-  width          : 100%;
+.site-content {
+    flex: 1;
+    padding: 50px 60px;
+    background: #ffffff;
 }
 
-.tab2 td {
-  width          : 25%;
-  text-align     : center;
-  vertical-align : top;
-  padding-top    : 10pt;
-  padding-bottom : 10pt;
-  padding-right  : 10pt;
-  padding-left   : 10pt;
+.site-wrapper {
+    display: flex !important; /* 强制开启分栏 */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.tab2 img {
-  border         : 0;
+.site-sidebar {
+    width: 260px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    border-right: 1px solid #eee;
 }
 
-/* Data table with borders */
-.tab3 {
-  border-spacing : 0;
-  border         : 1pt;
-  border-style   : inset;
-}
-
-.tab3 td {
-  border         : 1pt;
-  border-style   : outset;
-  padding        : 3pt;
-}
-
-/* Useful for browsers which cannot css */
-.menulist {
-  color          : #000000;
-  background     : #FFFFAA;
-  list-style-type: none;
-  margin         : 0;
-  padding        : 0;
-}
-
-.menutable {
-  color          : #000000;
-  background     : #FFFFAA;
-}
-
-.li {
-  margin         : 0 0 4pt 0;
-}
-
-/* Only for compatibility with old homepage */
-img.langgif {
-  margin: 0 0 0 0;
-  border: 0;
-}
-
-.bigli {
-  font-size: 1.1em;
-  margin   : 0 0 8px 0;
-}
