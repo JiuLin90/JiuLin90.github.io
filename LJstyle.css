@@ -64,7 +64,10 @@ h2 {
   margin         : 50pt 60pt 0 60pt;
   min-width      : 500pt;
   max-width      : 700pt;
-  border	 : 1px solid #e1e4e8; /* 使用非常浅的灰色边框，或者只留上下边框 */
+  border	 : none; /* 去掉四周沉重的边框 */
+  border-top	 : 1px solid #eaecef; /* 只留一条浅灰色顶线，增加现代感 */
+  background	 : #ffffff;
+  padding	 : 20px 0; /* 适当增加间距 */
 }
 
 /*
@@ -130,8 +133,8 @@ h2 {
   line-height    :30px; /* 设置行高，将行高和高度设置同一个值，可以让单行文本垂直居中 */
   text-align     :center; /* 居中对齐文字 */
   background     :#ffffff; /* 设置背景色 */
-  color          :#1a3a5a; /* 设置文字颜色 */
-  text-decoration:none; /* 去掉下划线 */
+  color          :#0366d6; /* 设置文字颜色 */
+  Text-decoration:underline; /* 去掉下划线 */
   border	 : 1px solid #d1d5da;
   transition	 : all 0.3s; /* 加入一点平滑过渡 */
   font-variant   : small-caps;
