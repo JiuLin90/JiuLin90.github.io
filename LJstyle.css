@@ -1,14 +1,14 @@
 body {
-  color          : #000000;
-  background     : #FFFFAA;
-  font-family    : arial, sans-serif;
+  color          : #24292e;
+  background     : #FFFFFF;
+  font-family    : -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; /* 使用系统字体 */
   letter-spacing : 0.5pt;
   margin         : 40pt 80pt 0 80pt;
 }
 
 h1 {
-  color          : #0000C6;
-  background     : #FFFFAA;
+  color          : #1a3a5a;
+  background     : transparent;
   font-size      : 32pt;
   font-family    : Times, cursive;
   font-weight    : normal;
@@ -16,11 +16,15 @@ h1 {
   letter-spacing : 1pt;
   line-height    : 32pt;
   text-align     : left;
+  border-bottom  : 2px solid #1a3a5a; /* 用底部横线代替背景色 */
+  padding-bottom : 10px;
 }
 
 h2 {
-  color          : #0000C6;
-  background     : #53FF53;
+  color          : #1a3a5a;
+  background	 : #f0f7ff;  /* 淡淡的蓝色背景，代替刺眼的绿色 */
+  border-radius  : 4px;   /* 加一点圆角 */
+  padding	 : 5px;
   font-size      : 22pt;
   font-family    : arial, sans-serif;
   font-weight    : bold;
@@ -38,8 +42,8 @@ h2 {
 }
 
 #heading {
-  color          : #0000C6;
-  background     : #FFFFAA;
+  color          : #1a3a5a;
+  background     : #transparent;
   margin         : 50pt 168pt 0 168pt;
   text-align     : center;
   font-size      : 24pt;
@@ -48,10 +52,7 @@ h2 {
   font-variant   : small-caps;
   letter-spacing : 0.7pt;
   line-height    : 48pt;
-  border-top     : 1pt solid #435fff;
-  border-right   : 1pt solid #435fff;
-  border-bottom  : 1pt solid #435fff;
-  border-left    : 1pt solid #435fff;
+  border	 : 1px solid #e1e4e8; /* 使用非常浅的灰色边框，或者只留上下边框 */
 }
 
 #content {
@@ -63,10 +64,7 @@ h2 {
   margin         : 50pt 60pt 0 60pt;
   min-width      : 500pt;
   max-width      : 700pt;
-  border-top     : 1pt solid #435fff;
-  border-right   : 1pt solid #435fff;
-  border-bottom  : 1pt solid #435fff;
-  border-left    : 1pt solid #435fff;
+  border	 : 1px solid #e1e4e8; /* 使用非常浅的灰色边框，或者只留上下边框 */
 }
 
 /*
@@ -131,15 +129,16 @@ h2 {
   height         :30px; /* 设置高度 */
   line-height    :30px; /* 设置行高，将行高和高度设置同一个值，可以让单行文本垂直居中 */
   text-align     :center; /* 居中对齐文字 */
-  background     :#006000; /* 设置背景色 */
-  color          :#00FFFF; /* 设置文字颜色 */
+  background     :#ffffff; /* 设置背景色 */
+  color          :#1a3a5a; /* 设置文字颜色 */
   text-decoration:none; /* 去掉下划线 */
-  border-right   :1px solid #000; /* 在左侧加上分隔线 */
+  border	 : 1px solid #d1d5da;
+  transition	 : all 0.3s; /* 加入一点平滑过渡 */
   font-variant   : small-caps;
 }
 #menu li a:hover {
-  background     :#FFFFAA; /* 变换背景色 */
-  color          :#000000; /* 变换文字颜色 */
+  background     :#ffffff; /* 变换背景色 */
+  color          :#1a3a5a; /* 变换文字颜色 */
 }
 
 
