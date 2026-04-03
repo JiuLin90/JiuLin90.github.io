@@ -7,6 +7,30 @@ body {
   padding	 : 0;
 }
 
+/* 2. 限制头像大小 */
+.profile-img {
+    width: 150px;      /* 调整这个数值直到你满意 */
+    height: 150px;
+    border-radius: 50%; /* 圆形头像 */
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #f0f7ff;
+}
+
+/* 3. 确保侧边栏文字不会撑开 */
+.sidebar-bio h1 {
+    font-size: 1.5rem;
+    border: none;      /* 去掉侧边栏名字下的横线 */
+    margin: 10px 0;
+    padding: 0;
+}
+
+.sidebar-bio p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 5px 0;
+}
+
 h1 {
   color          : #1a3a5a;
   background     : transparent;
