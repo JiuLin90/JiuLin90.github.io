@@ -102,7 +102,7 @@ h2 {
 
 .tab0 td {
     padding-top: 10px;
-    padding-bottom: 10px; /* 增加这个数值会让列表显得更疏朗 */
+    padding-bottom: 15px; /* 增加这个数值会让列表显得更疏朗 */
     vertical-align: top;
     line-height: 1.5;
 }
@@ -142,3 +142,9 @@ h2 {
     padding: 40px 20px;
 }
 
+.pub-info {
+    display: inline-block;
+    margin-top: 4px;
+    color: #555;
+    /* 如果你希望作者名比标题更靠右，可以在这里加 margin-left */
+}
