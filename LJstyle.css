@@ -9,8 +9,8 @@ body {
 
 /* 2. 限制头像大小 */
 .profile-img {
-    width: 150px;      /* 调整这个数值直到你满意 */
-    height: 150px;
+    width: 130px;      /* 调整这个数值直到你满意 */
+    height: 130px;
     border-radius: 50%; /* 圆形头像 */
     object-fit: cover;
     margin-bottom: 20px;
@@ -131,10 +131,11 @@ h2 {
 }
 
 .site-sidebar {
-    width: 260px;
+    width: 210px;
     position: sticky;
     top: 0;
     height: 100vh;
     border-right: 1px solid #eee;
+    padding: 40px 20px;
 }
 
