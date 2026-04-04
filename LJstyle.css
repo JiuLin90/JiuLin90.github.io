@@ -95,12 +95,13 @@ h2 {
 
 
 .tab0 {
-  border-spacing : 0;
+  border-spacing: 0;
+  width: 100%;    /* 新增：让表格铺开，减少不必要的换行 */
 }
 
 .tab0 td {
-  padding        : 0;
-  vertical-align : top;
+  padding-bottom: 12px; /* 新增：给每一项之间留出空隙 */
+  vertical-align: top;
 }
 
 .tab0 th {
