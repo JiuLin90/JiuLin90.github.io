@@ -136,6 +136,7 @@ h2 {
 .site-sidebar {
     width: 220px;       /* 建议设为 220px 更协调 */
     min-width: 220px;   /* 关键：强制防止被挤压 */
+    flex-shrink: 0;     /* 关键：告诉浏览器无论右边多挤，都不许挤压我 */
     position: sticky;
     top: 0;
     height: 100vh;
