@@ -107,7 +107,7 @@ h2 {
     line-height: 1.5;
 }
 
-.tab0 td:first-child {
+.tab0 td:second-child {
     width: 100px; /* 固定年份列宽度，不让它乱动 */
     color: #666;  /* 让年份颜色稍淡，突出课程名 */
 }
