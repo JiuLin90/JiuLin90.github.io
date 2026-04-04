@@ -94,22 +94,22 @@ h2 {
 #menu li a:hover { color: #0366d6; }
 
 
-.tab0 {
-  border-spacing: 0;
-  width: 100%;    /* 新增：让表格铺开，减少不必要的换行 */
+.tab0, .tab1 {
+    width: 100% !important;
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
 .tab0 td {
-  padding-bottom: 12px; /* 新增：给每一项之间留出空隙 */
-  vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 10px; /* 增加这个数值会让列表显得更疏朗 */
+    vertical-align: top;
+    line-height: 1.5;
 }
 
-.tab0 th {
-  text-align     : left;
-}
-
-.tab1 {
-  border-spacing : 0;
+.tab0 td:first-child {
+    width: 100px; /* 固定年份列宽度，不让它乱动 */
+    color: #666;  /* 让年份颜色稍淡，突出课程名 */
 }
 
 .tab1 td {
