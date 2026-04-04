@@ -134,7 +134,8 @@ h2 {
 }
 
 .site-sidebar {
-    width: 210px;
+    width: 220px;       /* 建议设为 220px 更协调 */
+    min-width: 220px;   /* 关键：强制防止被挤压 */
     position: sticky;
     top: 0;
     height: 100vh;
