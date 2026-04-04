@@ -107,6 +107,13 @@ h2 {
     line-height: 1.5;
 }
 
+.tab0 td:nth-child(2) {
+    width: 100px;      /* 给年份一个固定宽度 */
+    white-space: nowrap; /* 强制年份不换行 */
+    color: #666;       /* 颜色稍微调淡一点，拉开层次 */
+    padding-right: 20px; /* 让年份和后面的课程名保持距离 */
+}
+
 .tab1 td {
   padding-top    : 0;
   padding-bottom : 10pt;
