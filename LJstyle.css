@@ -98,9 +98,7 @@ h2 {
     width: 100% !important;
     table-layout: fixed;    /* 关键：强制所有表格遵循相同的列宽计算 */
     border-collapse: collapse;
-    margin-bottom: 20px;
     margin-left: 0;      /* 强制左边距为0 */
-    padding-left: 0;
 }
 
 .tab0 td {
@@ -111,22 +109,23 @@ h2 {
 }
 
 .tab0 td:first-child {
-    width: 30px;            /* 固定宽度 */
-    min-width: 35px;
-    max-width: 35px;
-    vertical-align: top;
-    text-align: center;
+    width: 30px !important;  /* 与 HTML 保持一致 */
+    min-width: 30px !important;
+    max-width: 30px !important;
     padding-left: 0 !important;
-    padding-right: 5px;      /* 只留一点点右边距给符号和文字之间 */
+    padding-right: 0 !important;
     text-align: center;
     vertical-align: top;
 }
 
 .tab0 td:nth-child(2) {
-    width: 100px;      /* 给年份一个固定宽度 */
-    white-space: nowrap; /* 强制年份不换行 */
-    color: #666;       /* 颜色稍微调淡一点，拉开层次 */
-    padding-right: 20px; /* 让年份和后面的课程名保持距离 */
+    padding-left: 10px;      /* 这里控制符号和文字之间的距离 */
+    vertical-align: top;
+}
+
+.tab0 td.time-col {
+    width: 110px;
+    white-space: nowrap;
 }
 
 .tab1 td {
