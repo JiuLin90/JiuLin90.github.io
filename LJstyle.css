@@ -192,7 +192,6 @@ h2 {
     text-align: left !important;
 }
 .home-address td:first-child {
-    width: 120px; /* 锁定左侧标签宽度 */
     font-weight: bold;
 }
 
