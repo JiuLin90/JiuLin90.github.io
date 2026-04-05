@@ -44,9 +44,10 @@ h1 {
     position: sticky;
     top: 0;
     height: 100vh;
-    /* --- 修改部分 --- */
-    background-color: #f8f9fa; /* 极简淡灰色 */
-    border-right: 1px solid #e1e4e8; /* 稍微加深边线，配合背景 */
+    /* --- 尝试这个灰蓝色 --- */
+    background-color: #eff3f6; 
+    /* 边框颜色也稍微加深，形成更好的分界 */
+    border-right: 1px solid #d1d5da; 
     padding: 40px 20px;
 }
 
