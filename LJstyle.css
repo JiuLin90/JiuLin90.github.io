@@ -67,13 +67,22 @@ h1 {
     margin: 5px 0 !important; /* 强制压缩段落间距 */
 }
 
-.sidebar-title, .sidebar-loc {
+.sidebar-title{
     text-align: left !important; /* 确保这里不被父级的居中影响 */
     font-size: 0.9rem;
     color: #444;
     line-height: 1.4;
     margin: 5px 0;
     padding-left: 5px; /* 稍微给一点左边距，视觉上更好看 */
+    margin-bottom: 15px !important;
+}
+
+.sidebar-loc {
+    text-align: left !important;
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 20px; /* 给下方的菜单留出间距 */
 }
 
 /* 隐藏滚动条但保留滚动功能（可选，为了美观） */
@@ -83,6 +92,12 @@ h1 {
 .site-sidebar::-webkit-scrollbar-thumb {
     background: #d1dbe5; 
     border-radius: 10px;
+}
+
+/* 确保名字下方也有固定间距 */
+.sidebar-name {
+    text-align: center !important;
+    margin-bottom: 20px !important;
 }
 
 .profile-img {
