@@ -98,7 +98,7 @@ h2 {
     width: 100% !important;
     table-layout: fixed;    /* 关键：强制所有表格遵循相同的列宽计算 */
     border-collapse: collapse;
-    margin-left: 0;      /* 强制左边距为0 */
+    margin-left: 0 !important; /* 强制左边距归零 */
 }
 
 .tab0 td {
@@ -119,7 +119,7 @@ h2 {
 }
 
 .tab0 td:nth-child(2) {
-    padding-left: 10px;      /* 这里控制符号和文字之间的距离 */
+    padding-left: 10px !important; 
     vertical-align: top;
 }
 
@@ -137,8 +137,9 @@ h2 {
 
 .site-content {
     flex: 1;
-    padding: 50px 60px;
+    padding: 50px 30px; /* 把原来的 60px 改为 30px，这会立刻让内容向左移动 */
     background: #ffffff;
+    min-width: 0; /* 防止内容撑开容器 */
 }
 
 .site-wrapper {
