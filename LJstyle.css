@@ -44,7 +44,9 @@ h1 {
     position: sticky;
     top: 0;
     height: 100vh;
-    border-right: 1px solid #eee;
+    /* --- 修改部分 --- */
+    background-color: #f8f9fa; /* 极简淡灰色 */
+    border-right: 1px solid #e1e4e8; /* 稍微加深边线，配合背景 */
     padding: 40px 20px;
 }
 
