@@ -157,8 +157,6 @@ h2 {
     display: inline-block;
     margin-top: 2px;
     color: #555;
-    font-size: 0.95em;
-    display: block; /* 确保它们各占一行 */
     /* 如果你希望作者名比标题更靠右，可以在这里加 margin-left */
 }
 
