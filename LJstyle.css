@@ -99,6 +99,8 @@ h2 {
     table-layout: fixed;    /* 关键：强制所有表格遵循相同的列宽计算 */
     border-collapse: collapse;
     margin-bottom: 20px;
+    margin-left: 0;      /* 强制左边距为0 */
+    padding-left: 0;
 }
 
 .tab0 td {
@@ -109,11 +111,15 @@ h2 {
 }
 
 .tab0 td:first-child {
-    width: 35px;            /* 固定宽度 */
+    width: 30px;            /* 固定宽度 */
     min-width: 35px;
     max-width: 35px;
     vertical-align: top;
     text-align: center;
+    padding-left: 0 !important;
+    padding-right: 5px;      /* 只留一点点右边距给符号和文字之间 */
+    text-align: center;
+    vertical-align: top;
 }
 
 .tab0 td:nth-child(2) {
