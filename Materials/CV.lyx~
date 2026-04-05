@@ -8009,6 +8009,13 @@ May 27
 \size scriptsize
 \emph on
 DKU-WHU Math and Stat Academic Conference,
+ 
+\shape slanted
+\emph default
+School of Mathematics and Statistics
+\shape default
+\emph on
+,
  Wuhan University,
  Wuhan,
  Hubei Province,
@@ -8086,6 +8093,7 @@ Nov.
 \size scriptsize
 \emph on
 Suzhou Area Youth Mathematicians 1st Annual Workshop,
+ Zu Chongzhi Center,
  Duke Kunshan University,
  Kunshan,
  Suzhou,
@@ -10436,7 +10444,7 @@ Graduate Students Colloquium,
 \emph on
 ,
  New Orleans,
- LA.,
+ LA,
  U.
 \begin_inset space ~
 \end_inset
@@ -10517,7 +10525,8 @@ July 8
 
 \size scriptsize
 \emph on
-Center for Combinatorics,
+Invited Talk,
+ Center for Combinatorics,
  Nankai University,
  Tianjin,
  P.
@@ -10677,7 +10686,8 @@ Jan.
 
 \size scriptsize
 \emph on
-Laboratoire des Signaux et Systemes,
+Invited Talk,
+ Laboratoire des Signaux et Systemes,
  Universit
 \emph default
 
