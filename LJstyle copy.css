@@ -1,0 +1,277 @@
+body {
+  color          : #24292e;
+  background     : #FFFFFF;
+  font-family    : -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; /* 使用系统字体 */
+  letter-spacing : 0.5pt;
+  margin         : 0;
+  padding	 : 0;
+}
+
+/* 2. 限制头像大小 */
+.profile-img {
+    width: 130px;      /* 调整这个数值直到你满意 */
+    height: 130px;
+    border-radius: 50%; /* 圆形头像 */
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #f0f7ff;
+}
+
+/* 3. 确保侧边栏文字不会撑开 */
+.sidebar-bio h1 {
+    font-size: 1.5rem;
+    border: none;      /* 去掉侧边栏名字下的横线 */
+    margin: 10px 0;
+    padding: 0;
+}
+
+.sidebar-bio p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 5px 0;
+}
+
+h1 {
+  color          : #1a3a5a;
+  background     : transparent;
+  font-size      : 32pt;
+  font-family    : Times, cursive;
+  font-weight    : normal;
+  font-variant   : small-caps;
+  letter-spacing : 1pt;
+  line-height    : 32pt;
+  text-align     : left;
+  margin	 : 20px 0; 
+  border-bottom	 : 2px solid #1a3a5a;
+  padding-bottom : 10px;
+}
+
+h2 {
+  color          : #1a3a5a;
+  background	 : #f0f7ff;  /* 淡淡的蓝色背景，代替刺眼的绿色 */
+  border-radius  : 4px;   /* 加一点圆角 */
+  padding	 : 5px;
+  font-size      : 22pt;
+  font-family    : arial, sans-serif;
+  font-weight    : bold;
+  line-height    : 24pt;
+  text-align     : center;
+}
+
+
+.myh3 {
+  font-size      : 14pt;
+  font-weight    : bold;
+  font-family    : arial, sans-serif;
+  text-align     : left;
+  line-height    : 30pt;
+}
+
+#heading {
+  color          : #1a3a5a;
+  background     : #transparent;
+  margin         : 50pt 168pt 0 168pt;
+  text-align     : left !important;
+  font-size      : 24pt;
+  font-family    : arial, sans-serif;
+  font-weight    : normal;
+  font-variant   : small-caps;
+  letter-spacing : 0.7pt;
+  line-height    : 48pt;
+  border	 : 1px solid #e1e4e8; /* 使用非常浅的灰色边框，或者只留上下边框 */
+}
+
+
+/* 侧边栏菜单样式 */
+#menu ul { list-style: none; padding: 0; margin-top: 30px; }
+#menu li { margin-bottom: 12px; }
+#menu li a { 
+    text-decoration: none; 
+    color: #1a3a5a; 
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+#menu li a:hover { color: #0366d6; }
+
+
+.tab0, .tab1 {
+    width: 100% !important;
+    table-layout: fixed;    /* 关键：强制所有表格遵循相同的列宽计算 */
+    border-collapse: collapse;
+    margin-left: 0 !important; /* 强制左边距归零 */
+}
+
+.tab0 td {
+    padding-top: 4px;
+    padding-bottom: 18px; /* 增加这个数值会让列表显得更疏朗 */
+    vertical-align: top;
+    line-height: 1.6;
+}
+
+.tab0 td:first-child, .symbol-col {
+    width: 30px !important;
+    min-width: 30px !important;  /* 必须改成 30，否则这里会产生 5px 位移 */
+    max-width: 30px !important;
+    padding: 0 !important;
+    text-align: center;
+    vertical-align: top;
+}
+
+.tab0 td:nth-child(2) {
+    padding-left: 10px !important; 
+    vertical-align: top;
+}
+
+.tab0 td.time-col {
+    width: 110px;
+    white-space: nowrap;
+}
+
+.tab1 td {
+  padding-top    : 0;
+  padding-bottom : 10pt;
+  padding-right  : 0;
+  padding-left   : 0;
+}
+
+.site-content {
+    flex: 1;
+    padding: 50px 25px !important; /* 将 30px 或 60px 减小到 25px，整体会向左吸附 */
+    background: #ffffff;
+    min-width: 0;
+}
+
+.site-wrapper {
+    display: flex !important; /* 强制开启分栏 */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-sidebar {
+    width: 220px;       /* 建议设为 220px 更协调 */
+    min-width: 220px;   /* 关键：强制防止被挤压 */
+    flex-shrink: 0;     /* 关键：告诉浏览器无论右边多挤，都不许挤压我 */
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    border-right: 1px solid #eee;
+    padding: 40px 20px;
+}
+
+.pub-info {
+    display: inline-block;
+    margin-top: 2px;
+    color: #555;
+    /* 如果你希望作者名比标题更靠右，可以在这里加 margin-left */
+}
+
+.time-col { 
+    width: 110px !important; /* 稍微加宽一点点防止年份挤压 */
+    vertical-align: top; 
+    color: #666; 
+}
+
+.course-col { 
+    padding-left: 15px !important; /* 统一起始线 */
+    vertical-align: top;
+}
+
+.school-col { 
+    width: 60px !important; 
+    text-align: right; 
+    vertical-align: top; 
+    color: #888; 
+}
+
+.home-address {
+    width: 100% !important;
+    margin-bottom: 30px;
+}
+.home-address td {
+    padding: 5px 0;
+    text-align: left !important;
+}
+.home-address td:first-child {
+    font-weight: bold;
+}
+
+/* 首页 Resume/Previous Employment 三列对齐 */
+.resume-table {
+    width: 100% !important;
+    table-layout: fixed; /* 强制平分空间，防止乱序 */
+    border-collapse: collapse;
+}
+.resume-table td {
+    padding: 10px 15px 20px 0 !important;
+    vertical-align: top;
+    text-align: left !important;
+}
+
+/* --- 教学页面 (teaching.html) 专用 --- */
+.tea-table {
+    width: 100% !important;
+    table-layout: fixed;
+}
+.tea-table .symbol-col { width: 30px !important; text-align: center; }
+.tea-table .time-col   { width: 110px !important; }
+.tea-table .course-col { padding-left: 15px !important; }
+.tea-table .school-col { width: 60px !important; text-align: right; }
+
+/* --- 研究/讲座页面 (research/talks) 专用 --- */
+.res-table {
+    width: 100% !important;
+    table-layout: fixed;
+}
+.res-table td:first-child {
+    width: 35px !important;
+    text-align: center;
+}
+.res-table td:last-child {
+    padding-left: 15px !important;
+}
+
+/* 彻底修正你提到的 #heading 乱象 */
+#heading {
+    text-align: left !important;
+    margin: 20px 0 !important;
+    width: 100% !important;
+    border: none !important;
+}
+
+
+/* --- Software 页面专用：完全隔离 Teaching 逻辑 --- */
+.soft-table {
+    width: 100% !important;
+    table-layout: fixed; /* 锁定列宽 */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.soft-table td {
+    padding-bottom: 20px;
+    vertical-align: top;
+    text-align: left !important;
+}
+
+/* 1. 图标列：与 Teaching 保持一致的 30px */
+.soft-sym {
+    width: 30px !important;
+    text-align: center !important;
+}
+
+/* 2. 名字/版本列：固定宽度，确保所有描述起始线对齐 */
+.soft-name {
+    width: 150px !important;
+    padding-right: 15px;
+}
+
+.soft-name a {
+    text-decoration: none;
+    color: #1a3a5a;
+}
+
+/* 3. 描述列：自动填充 */
+.soft-desc {
+    line-height: 1.5;
+    color: #333;
+}
