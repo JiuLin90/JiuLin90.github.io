@@ -45,7 +45,7 @@ h1 {
     top: 0;
     height: 100vh;
     /* --- 尝试这个灰蓝色 --- */
-    background-color: #eff3f6; 
+    background-color: #e1e8ed; 
     /* 边框颜色也稍微加深，形成更好的分界 */
     border-right: 1px solid #d1d5da; 
     padding: 40px 20px;
