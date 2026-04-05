@@ -44,22 +44,27 @@ h1 {
     flex-shrink: 0;
     position: sticky;
     top: 0;
-    height: 100vh;           /* 保持占据全屏高度 */
-    overflow-y: auto;        /* 关键：内容超出时允许内部滚动 */
-    overflow-x: hidden;      /* 防止水平晃动 */
-    /* --- 尝试这个灰蓝色 --- */
-    background-color: #e1e8ed; 
-    /* 边框颜色也稍微加深，形成更好的分界 */
-    border-right: 1px solid #d1d5da; 
-    padding: 40px 20px;
-    /* 确保内部元素依然按列排列 */
+	/* 核心修复：高度和滚动 */
+    height: 100vh !important;    /* 锁定视口高度 */
+    overflow-y: auto !important;  /* 强制开启垂直滚动 */
+    overflow-x: hidden;
+	/* 保持你的风格设置 */
+    background-color: #eff3f6; 
+    border-right: 1px solid #d1d5da;
+    padding: 30px 15px !important; /* 稍微缩小内边距，给内容留空间 */
+    
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;       /* 极其重要：确保 padding 不增加总高度 */
 }
 
 .sidebar-bio {
     text-align: center;
     margin-bottom: 30px;
+}
+
+.sidebar-bio p {
+    margin: 5px 0 !important; /* 强制压缩段落间距 */
 }
 
 .sidebar-title, .sidebar-loc {
@@ -91,7 +96,10 @@ h1 {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 增加一点点阴影提升立体感 */
 }
 
-#menu ul { list-style: none; padding: 0; margin-top: 30px; }
+#menu ul {
+    margin-top: 10px !important; /* 缩短头像区与菜单的距离 */
+    padding-bottom: 20px;        /* 给最底下的 CV 留出一点呼吸空间 */
+}
 #menu li { margin-bottom: 8px; }
 #menu li a { 
     display: block;     /* 变成块级元素，让背景颜色撑满整个宽度 */
