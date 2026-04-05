@@ -182,3 +182,59 @@ h2 {
     vertical-align: top; 
     color: #888; 
 }
+
+.home-address {
+    width: 100% !important;
+    margin-bottom: 30px;
+}
+.home-address td {
+    padding: 5px 0;
+    text-align: left !important;
+}
+.home-address td:first-child {
+    width: 120px; /* 锁定左侧标签宽度 */
+    font-weight: bold;
+}
+
+/* 首页 Resume/Previous Employment 三列对齐 */
+.resume-table {
+    width: 100% !important;
+    table-layout: fixed; /* 强制平分空间，防止乱序 */
+    border-collapse: collapse;
+}
+.resume-table td {
+    padding: 10px 15px 20px 0 !important;
+    vertical-align: top;
+    text-align: left !important;
+}
+
+/* --- 教学页面 (teaching.html) 专用 --- */
+.tea-table {
+    width: 100% !important;
+    table-layout: fixed;
+}
+.tea-table .symbol-col { width: 30px !important; text-align: center; }
+.tea-table .time-col   { width: 110px !important; }
+.tea-table .course-col { padding-left: 15px !important; }
+.tea-table .school-col { width: 60px !important; text-align: right; }
+
+/* --- 研究/讲座页面 (research/talks) 专用 --- */
+.res-table {
+    width: 100% !important;
+    table-layout: fixed;
+}
+.res-table td:first-child {
+    width: 35px !important;
+    text-align: center;
+}
+.res-table td:last-child {
+    padding-left: 15px !important;
+}
+
+/* 彻底修正你提到的 #heading 乱象 */
+#heading {
+    text-align: left !important;
+    margin: 20px 0 !important;
+    width: 100% !important;
+    border: none !important;
+}
