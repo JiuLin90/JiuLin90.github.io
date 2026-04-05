@@ -108,12 +108,11 @@ h2 {
     line-height: 1.6;
 }
 
-.tab0 td:first-child {
-    width: 30px !important;  /* 与 HTML 保持一致 */
-    min-width: 30px !important;
+.tab0 td:first-child, .symbol-col {
+    width: 30px !important;
+    min-width: 30px !important;  /* 必须改成 30，否则这里会产生 5px 位移 */
     max-width: 30px !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding: 0 !important;
     text-align: center;
     vertical-align: top;
 }
@@ -137,9 +136,9 @@ h2 {
 
 .site-content {
     flex: 1;
-    padding: 50px 30px; /* 把原来的 60px 改为 30px，这会立刻让内容向左移动 */
+    padding: 50px 25px !important; /* 将 30px 或 60px 减小到 25px，整体会向左吸附 */
     background: #ffffff;
-    min-width: 0; /* 防止内容撑开容器 */
+    min-width: 0;
 }
 
 .site-wrapper {
@@ -166,7 +165,20 @@ h2 {
     /* 如果你希望作者名比标题更靠右，可以在这里加 margin-left */
 }
 
-.symbol-col { width: 30px; text-align: center; vertical-align: top; }
-.time-col   { width: 100px; vertical-align: top; color: #666; }
-.course-col { padding-left: 15px; vertical-align: top;}
-.school-col { width: 60px; text-align: right; vertical-align: top; color: #888; }
+.time-col { 
+    width: 110px !important; /* 稍微加宽一点点防止年份挤压 */
+    vertical-align: top; 
+    color: #666; 
+}
+
+.course-col { 
+    padding-left: 15px !important; /* 统一起始线 */
+    vertical-align: top;
+}
+
+.school-col { 
+    width: 60px !important; 
+    text-align: right; 
+    vertical-align: top; 
+    color: #888; 
+}
