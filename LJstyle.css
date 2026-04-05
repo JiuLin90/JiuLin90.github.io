@@ -164,3 +164,10 @@ h2 {
 .time-col   { width: 100px; vertical-align: top; color: #666; }
 .course-col { padding-left: 15px; vertical-align: top;}
 .school-col { width: 60px; text-align: right; vertical-align: top; color: #888; }
+
+.pub-info {
+    color: #555;
+    font-size: 0.95em;
+    display: block; /* 确保它们各占一行 */
+    margin-top: 2px;
+}
