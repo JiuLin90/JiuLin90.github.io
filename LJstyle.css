@@ -51,23 +51,39 @@ h1 {
     padding: 40px 20px;
 }
 
+.sidebar-bio {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .profile-img {
-    width: 130px;
-    height: 130px;
+    display: block;    /* 必须设为 block 才能用 margin: auto */
+    width: 160px;      /* 从 130px 增加到 160px */
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
-    border: 3px solid #f0f7ff;
+    margin: 0 auto 20px auto; /* 上下保持间距，左右 auto 实现居中 */
+    border: 4px solid #ffffff; /* 白色边框在灰蓝色背景下更显眼 */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 增加一点点阴影提升立体感 */
 }
 
 #menu ul { list-style: none; padding: 0; margin-top: 30px; }
-#menu li { margin-bottom: 12px; }
-#menu li a { text-decoration: none; color: #1a3a5a; font-variant: small-caps; font-size: 1.2rem; }
-#menu li a:hover {
-    color: #0366d6;
-    background-color: #e1e8ed; /* 悬停时稍微加深背景 */
-    border-radius: 4px;
-    padding: 2px 5px;
+#menu li { margin-bottom: 8px; }
+#menu li a { 
+    display: block;     /* 变成块级元素，让背景颜色撑满整个宽度 */
+    padding: 10px 15px; /* 增加内边距 */
+    text-decoration: none; 
+    color: #1a3a5a; 
+    font-variant: small-caps;
+    font-size: 1.1rem;
+    background-color: #e1e8ed; /* 设置一个比侧边栏背景（#eff3f6）稍深的常驻背景 */
+    border-radius: 6px;        /* 柔和的圆角 */
+    transition: all 0.2s ease; /* 增加平滑过渡效果 */
+}
+#menu li a:hover { 
+    color: #0366d6; 
+    background-color: #d1d9e0; /* 悬停时更深一点 */
+    transform: translateX(3px); /* 悬停时轻微向右偏移，增加灵动感 */
 }
 
 /* 修正地址栏 */
