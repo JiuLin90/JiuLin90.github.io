@@ -155,8 +155,10 @@ h2 {
 
 .pub-info {
     display: inline-block;
-    margin-top: 4px;
+    margin-top: 2px;
     color: #555;
+    font-size: 0.95em;
+    display: block; /* 确保它们各占一行 */
     /* 如果你希望作者名比标题更靠右，可以在这里加 margin-left */
 }
 
@@ -164,10 +166,3 @@ h2 {
 .time-col   { width: 100px; vertical-align: top; color: #666; }
 .course-col { padding-left: 15px; vertical-align: top;}
 .school-col { width: 60px; text-align: right; vertical-align: top; color: #888; }
-
-.pub-info {
-    color: #555;
-    font-size: 0.95em;
-    display: block; /* 确保它们各占一行 */
-    margin-top: 2px;
-}
