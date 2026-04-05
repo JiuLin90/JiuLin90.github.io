@@ -162,5 +162,5 @@ h2 {
 
 .symbol-col { width: 30px; text-align: center; vertical-align: top; }
 .time-col   { width: 100px; vertical-align: top; color: #666; }
-.course-col { padding-left: 15px; vertical-align: top; font-weight: bold; }
+.course-col { padding-left: 15px; vertical-align: top;}
 .school-col { width: 60px; text-align: right; vertical-align: top; color: #888; }
