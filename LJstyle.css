@@ -71,7 +71,7 @@ h2 {
   color          : #1a3a5a;
   background     : #transparent;
   margin         : 50pt 168pt 0 168pt;
-  text-align     : center;
+  text-align     : left !important;
   font-size      : 24pt;
   font-family    : arial, sans-serif;
   font-weight    : normal;
