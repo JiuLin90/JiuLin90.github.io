@@ -159,3 +159,8 @@ h2 {
     color: #555;
     /* 如果你希望作者名比标题更靠右，可以在这里加 margin-left */
 }
+
+.symbol-col { width: 30px; text-align: center; vertical-align: top; }
+.time-col   { width: 100px; vertical-align: top; color: #666; }
+.course-col { padding-left: 15px; vertical-align: top; font-weight: bold; }
+.school-col { width: 60px; text-align: right; vertical-align: top; color: #888; }
