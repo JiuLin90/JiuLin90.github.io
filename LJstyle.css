@@ -237,3 +237,41 @@ h2 {
     width: 100% !important;
     border: none !important;
 }
+
+
+/* --- Software 页面专用：完全隔离 Teaching 逻辑 --- */
+.soft-table {
+    width: 100% !important;
+    table-layout: fixed; /* 锁定列宽 */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.soft-table td {
+    padding-bottom: 20px;
+    vertical-align: top;
+    text-align: left !important;
+}
+
+/* 1. 图标列：与 Teaching 保持一致的 30px */
+.soft-sym {
+    width: 30px !important;
+    text-align: center !important;
+}
+
+/* 2. 名字/版本列：固定宽度，确保所有描述起始线对齐 */
+.soft-name {
+    width: 150px !important;
+    padding-right: 15px;
+}
+
+.soft-name a {
+    text-decoration: none;
+    color: #1a3a5a;
+}
+
+/* 3. 描述列：自动填充 */
+.soft-desc {
+    line-height: 1.5;
+    color: #333;
+}
