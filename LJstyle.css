@@ -96,15 +96,24 @@ h2 {
 
 .tab0, .tab1 {
     width: 100% !important;
+    table-layout: fixed;    /* 关键：强制所有表格遵循相同的列宽计算 */
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
 .tab0 td {
     padding-top: 4px;
-    padding-bottom: 15px; /* 增加这个数值会让列表显得更疏朗 */
+    padding-bottom: 18px; /* 增加这个数值会让列表显得更疏朗 */
     vertical-align: top;
-    line-height: 1.5;
+    line-height: 1.6;
+}
+
+.tab0 td:first-child {
+    width: 35px;            /* 固定宽度 */
+    min-width: 35px;
+    max-width: 35px;
+    vertical-align: top;
+    text-align: center;
 }
 
 .tab0 td:nth-child(2) {
