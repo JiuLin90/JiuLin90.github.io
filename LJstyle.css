@@ -73,7 +73,7 @@ h1 {
     font-size: 0.9rem;
     line-height: 1.4;
     margin-top: 0 !important;
-    margin-bottom: 20px !important; /* 这一行代替了你的 <p><br></p> */
+    margin-bottom: 40px !important; /* 这一行代替了你的 <p><br></p> */
     color: #444;
 }
 
