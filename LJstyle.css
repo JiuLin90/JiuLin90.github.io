@@ -63,25 +63,27 @@ h1 {
     margin-bottom: 30px;
 }
 
-.sidebar-bio p {
-    margin: 5px 0 !important; /* 强制压缩段落间距 */
+.sidebar-bio p:not(.sidebar-title):not(.sidebar-loc) {
+    margin: 5px 0 !important; 
 }
 
+/* --- 第二步：强化标题间距 --- */
 .sidebar-title {
-    display: block !important;     /* 必须是块级元素，margin 才会生效 */
+    display: block !important;     
     text-align: left !important;
     font-size: 0.9rem;
-    line-height: 1.4;
+    line-height: 1.5;
     margin-top: 0 !important;
-    margin-bottom: 40px !important; /* 这一行代替了你的 <p><br></p> */
+    /* 增加到 45px 观察效果，如果生效了再调小 */
+    margin-bottom: 45px !important; 
     color: #444;
 }
 
 .sidebar-loc {
     display: block !important;
     text-align: left !important;
-    margin-top: 10px !important;
-    margin-bottom: 25px !important; /* 给下方菜单留出足够的空隙 */
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
 }
 
 /* 隐藏滚动条但保留滚动功能（可选，为了美观） */
