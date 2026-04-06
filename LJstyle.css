@@ -121,8 +121,10 @@ h1 {
 }
 
 #menu ul {
-    margin-top: 10px !important; /* 缩短头像区与菜单的距离 */
-    padding-bottom: 20px;        /* 给最底下的 CV 留出一点呼吸空间 */
+    list-style: none !important; /* 核心：去掉圆点 */
+    padding-left: 0 !important;  /* 核心：消除左侧缩进，让块状背景对齐 */
+    margin-top: 10px !important; 
+    padding-bottom: 20px;
 }
 #menu li { margin-bottom: 8px; }
 #menu li a { 
