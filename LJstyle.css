@@ -97,7 +97,17 @@ h1 {
 /* 确保名字下方也有固定间距 */
 .sidebar-name {
     text-align: center !important;
-    margin-bottom: 20px !important;
+    /* 缩小字号，防止汉字因空间不足而被迫换行 */
+    font-size: 1.2rem !important; 
+    font-weight: bold;
+    margin: 10px 0 !important;
+    width: 100%;
+    /* 移除 h1 默认的边框和多余内边距 */
+    border: none !important;
+    padding: 0 !important;
+    /* 稍微收缩字母间距，为汉字腾出空间 */
+    letter-spacing: -0.5pt; 
+    line-height: 1.2;
 }
 
 .profile-img {
