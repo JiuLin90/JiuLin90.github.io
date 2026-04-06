@@ -181,7 +181,6 @@ h1 {
 .resume-table td:nth-child(3) { 
     width: auto !important; 
     padding-left: 15px !important; 
-    font-weight: 500; 
 }
 
 /* 第四列：学校或机构名称 */
