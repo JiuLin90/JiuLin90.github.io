@@ -185,10 +185,8 @@ h1 {
 
 /* 第四列：学校或机构名称 */
 .resume-table td:nth-child(4) { 
-    width: 260px !important; 
+    width: 300px !important; 
     text-align: right; 
-    color: #888; 
-    font-size: 0.9rem;
 }
 
 
