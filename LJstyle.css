@@ -162,15 +162,47 @@ h1 {
     text-align: left !important;
 }
 
+/* --- 教学页面 (teaching.html) 专用更新 --- */
 .tea-table {
     width: 100% !important;
-    table-layout: fixed;
+    table-layout: fixed; /* 保持固定布局以对齐起始线 */
     border-collapse: collapse;
+    margin-top: 10px;
 }
-.tea-table .symbol-col { width: 30px !important; text-align: center; vertical-align: top; }
-.tea-table .time-col   { width: 110px !important; vertical-align: top; color: #666; }
-.tea-table .course-col { padding-left: 15px !important; vertical-align: top; }
-.tea-table .school-col { width: 60px !important; text-align: right; vertical-align: top; color: #888; }
+
+/* 1. 图标列：固定 30px */
+.tea-table .symbol-col { 
+    width: 30px !important; 
+    text-align: center; 
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+/* 2. 时间列：保持 110px，防止年份换行 */
+.tea-table .time-col { 
+    width: 110px !important; 
+    vertical-align: top; 
+    color: #666; 
+    padding-top: 5px;
+}
+
+/* 3. 课程内容列：关键修改，不设宽度，让它自动占据剩余所有空间 */
+.tea-table .course-col { 
+    width: auto !important; /* 撤销固定宽度限制 */
+    padding-left: 15px !important; 
+    vertical-align: top;
+    line-height: 1.6;
+}
+
+/* 4. 学校/地点列：如果你不需要显示，可以设为 0 或者给一个固定小宽度 */
+.tea-table .school-col { 
+    width: 80px !important; 
+    text-align: right; 
+    vertical-align: top; 
+    color: #888; 
+    font-size: 0.85rem;
+    padding-top: 5px;
+}
 
 .res-table {
     width: 100% !important;
