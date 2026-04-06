@@ -75,7 +75,7 @@ h1 {
     line-height: 1.5;
     margin-top: 0 !important;
     /* 增加到 45px 观察效果，如果生效了再调小 */
-    margin-bottom: 45px !important; 
+    margin-bottom: 25px !important; 
     color: #444;
 }
 
