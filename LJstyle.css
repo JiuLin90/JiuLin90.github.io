@@ -173,14 +173,12 @@ h1 {
 /* 第二列：时间间隔 (建议设为 160px 左右，防止长日期换行) */
 .resume-table td:nth-child(2) { 
     width: 200px !important; 
-    color: #666; 
-    font-size: 0.95rem;
 }
 
 /* 第三列：职位或学位名称 */
 .resume-table td:nth-child(3) { 
     width: auto !important; 
-    padding-left: 15px !important; 
+    padding-left: 5px !important; 
 }
 
 /* 第四列：学校或机构名称 */
