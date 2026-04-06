@@ -203,6 +203,13 @@ h1 {
     padding-top: 5px;
 }
 
+.tea-table td {
+    padding-top: 12px !important;    /* 增加每一行上方的间距 */
+    padding-bottom: 12px !important; /* 增加每一行下方的间距 */
+    vertical-align: top !important;
+}
+
+
 .res-table {
     width: 100% !important;
     table-layout: fixed;
@@ -215,12 +222,6 @@ h1 {
 .res-table td:last-child {
     padding-left: 15px !important;
     vertical-align: top;
-}
-
-.tea-table td {
-    padding-top: 12px !important;    /* 增加每一行上方的间距 */
-    padding-bottom: 12px !important; /* 增加每一行下方的间距 */
-    border-bottom: 1px solid #f0f0f0; /* 可选：加一条极浅的分隔线，视觉更整齐 */
 }
 
 .tea-table .course-col {
