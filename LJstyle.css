@@ -151,7 +151,7 @@ h1 {
 .home-address td:first-child { font-weight: bold; width: 100px; }
 
 /* 让 Home 页面的简历表格与 Teaching 页面保持一致的对齐线 */
-..resume-table {
+.resume-table {
     width: 100% !important;
     table-layout: fixed !important; /* 必须开启固定布局，下方宽度才生效 */
     border-collapse: collapse !important;
