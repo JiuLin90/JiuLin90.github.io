@@ -172,7 +172,7 @@ h1 {
 
 /* 第二列：时间间隔 (建议设为 160px 左右，防止长日期换行) */
 .resume-table td:nth-child(2) { 
-    width: 160px !important; 
+    width: 2000px !important; 
     color: #666; 
     font-size: 0.95rem;
 }
