@@ -151,27 +151,49 @@ h1 {
 .home-address td:first-child { font-weight: bold; width: 100px; }
 
 /* 让 Home 页面的简历表格与 Teaching 页面保持一致的对齐线 */
-.resume-table {
+..resume-table {
     width: 100% !important;
-    table-layout: fixed !important;
+    table-layout: fixed !important; /* 必须开启固定布局，下方宽度才生效 */
     border-collapse: collapse !important;
     margin-bottom: 30px;
 }
 
 .resume-table td {
-    padding: 10px 0 !important; /* 增加行间距 */
+    padding: 12px 0 !important; /* 增加行间距，解决挤在一起的问题 */
     vertical-align: top;
-    border: none !important;
+    border: none !important;    /* 确保没有下划线 */
 }
 
 /* 第一列：图标点 */
-.resume-table td:nth-child(1) { width: 30px !important; text-align: center; }
-/* 第二列：时间 (建议设为 160px 左右，防止 May 2016--Feb 2017 这种长日期换行) */
-.resume-table td:nth-child(2) { width: 160px !important; color: #666; }
-/* 第三列：职位/学位 (自动占据剩余空间) */
-.resume-table td:nth-child(3) { width: auto !important; padding-left: 15px !important; font-weight: 500; }
-/* 第四列：学校/单位 */
-.resume-table td:nth-child(4) { width: 250px !important; text-align: right; color: #888; font-size: 0.9rem; }
+.resume-table td:nth-child(1) { 
+    width: 25px !important; 
+    text-align: center; 
+}
+
+/* 第二列：时间间隔 (建议设为 160px 左右，防止长日期换行) */
+.resume-table td:nth-child(2) { 
+    width: 160px !important; 
+    color: #666; 
+    font-size: 0.95rem;
+}
+
+/* 第三列：职位或学位名称 */
+.resume-table td:nth-child(3) { 
+    width: auto !important; 
+    padding-left: 15px !important; 
+    font-weight: 500; 
+}
+
+/* 第四列：学校或机构名称 */
+.resume-table td:nth-child(4) { 
+    width: 260px !important; 
+    text-align: right; 
+    color: #888; 
+    font-size: 0.9rem;
+}
+
+
+
 /* --- 教学页面 (teaching.html) 专用更新 --- */
 .tea-table {
     width: 100% !important;
