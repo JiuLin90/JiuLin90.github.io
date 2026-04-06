@@ -203,12 +203,6 @@ h1 {
     padding-top: 5px;
 }
 
-.tea-table td {
-    padding-top: 12px !important;    /* 增加每一行上方的间距 */
-    padding-bottom: 12px !important; /* 增加每一行下方的间距 */
-    vertical-align: top !important;
-}
-
 
 .res-table {
     width: 100% !important;
