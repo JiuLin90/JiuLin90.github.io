@@ -67,22 +67,21 @@ h1 {
     margin: 5px 0 !important; /* 强制压缩段落间距 */
 }
 
-.sidebar-title{
-    text-align: left !important; /* 确保这里不被父级的居中影响 */
+.sidebar-title {
+    display: block !important;     /* 必须是块级元素，margin 才会生效 */
+    text-align: left !important;
     font-size: 0.9rem;
-    color: #444;
     line-height: 1.4;
-    margin: 5px 0;
-    padding-left: 5px; /* 稍微给一点左边距，视觉上更好看 */
-    margin-bottom: 25px !important;
+    margin-top: 0 !important;
+    margin-bottom: 20px !important; /* 这一行代替了你的 <p><br></p> */
+    color: #444;
 }
 
 .sidebar-loc {
+    display: block !important;
     text-align: left !important;
-    font-size: 0.85rem;
-    color: #666;
-    margin-top: 10px;
-    margin-bottom: 20px; /* 给下方的菜单留出间距 */
+    margin-top: 10px !important;
+    margin-bottom: 25px !important; /* 给下方菜单留出足够的空隙 */
 }
 
 /* 隐藏滚动条但保留滚动功能（可选，为了美观） */
@@ -216,6 +215,17 @@ h1 {
 .res-table td:last-child {
     padding-left: 15px !important;
     vertical-align: top;
+}
+
+.tea-table td {
+    padding-top: 12px !important;    /* 增加每一行上方的间距 */
+    padding-bottom: 12px !important; /* 增加每一行下方的间距 */
+    border-bottom: 1px solid #f0f0f0; /* 可选：加一条极浅的分隔线，视觉更整齐 */
+}
+
+.tea-table .course-col {
+    padding-left: 20px !important;   /* 增加文字与年份之间的距离 */
+    line-height: 1.6 !important;
 }
 
 .soft-table {
