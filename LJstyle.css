@@ -148,7 +148,7 @@ h1 {
     margin-bottom: 30px;
 }
 .home-address td { padding: 5px 0; text-align: left !important; }
-.home-address td:first-child { font-weight: bold; width: 200px; }
+.home-address td:first-child { font-weight: bold; width: 225px; }
 
 /* 让 Home 页面的简历表格与 Teaching 页面保持一致的对齐线 */
 .resume-table {
