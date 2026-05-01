@@ -621,21 +621,25 @@ Dept.
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Assistant Professor of the Practice
+Assistant Professor of the Practice (Secondary appointment for cross-institutional teaching)
+\begin_inset space \hfill{}
+\end_inset
+
+DKU Studies Unit,
+ Duke Univ.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="right" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="right" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-DKU Studies Unit,
- Duke Univ.
+
 \end_layout
 
 \end_inset
@@ -10525,7 +10529,7 @@ July 8
 
 \size scriptsize
 \emph on
-Invited Talk,
+Invited Seminar Talk,
  Center for Combinatorics,
  Nankai University,
  Tianjin,
@@ -10686,7 +10690,7 @@ Jan.
 
 \size scriptsize
 \emph on
-Invited Talk,
+Invited Seminar Talk,
  Laboratoire des Signaux et Systemes,
  Universit
 \emph default
