@@ -507,7 +507,7 @@ status open
 \begin_layout Plain Layout
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="9" columns="4">
+<lyxtabular version="3" rows="8" columns="4">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -607,7 +607,7 @@ Dept.
 \begin_inset Text
 
 \begin_layout Plain Layout
-2023.08–2025.12
+2020.08–2025.12
 \end_layout
 
 \end_inset
@@ -683,47 +683,6 @@ Lecturer in Mathematics
 \begin_layout Plain Layout
 Zu Chongzhi Center,
  DKU
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Assistant Professor of the Practice
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Dept.
- of Global Studies,
- Trinity Coll.,
- Duke Univ.
 \end_layout
 
 \end_inset
