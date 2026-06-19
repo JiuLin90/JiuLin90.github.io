@@ -1,0 +1,641 @@
+%% LyX 2.4.3 created this file.  For more info, see https://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[10pt,english]{extarticle}
+\usepackage{mathptmx}
+\usepackage{avant}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{1}
+\usepackage{array}
+\usepackage{verbatim}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{xltabular}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage[letterpaper]{geometry}
+\geometry{verbose,tmargin=0.75in,bmargin=0.8in,lmargin=0.8in,rmargin=0.8in,headheight=15pt,headsep=0.2in,footskip=0.4in}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\PassOptionsToPackage{normalem}{ulem}
+\usepackage{ulem}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\LyX}{\ensureascii{%
+  L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}}
+\newcommand{\noun}[1]{\textsc{#1}}
+%% Special footnote code from the package 'stblftnt.sty'
+%% Author: Robin Fairbairns -- Last revised Dec 13 1996
+\let\SF@@footnote\footnote
+\def\footnote{\ifx\protect\@typeset@protect
+    \expandafter\SF@@footnote
+  \else
+    \expandafter\SF@gobble@opt
+  \fi
+}
+\expandafter\def\csname SF@gobble@opt \endcsname{\@ifnextchar[%]
+  \SF@gobble@twobracket
+  \@gobble
+}
+\edef\SF@gobble@opt{\noexpand\protect
+  \expandafter\noexpand\csname SF@gobble@opt \endcsname}
+\def\SF@gobble@twobracket[#1]#2{}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{graphicx,titlesec,amsmath,enumitem,environ,longtable,
+advdate,lastpage,xcolor}
+
+\setlist{noitemsep}
+
+\definecolor{myblue}{RGB}{0, 33, 100}
+
+\titleformat{\section}
+  {\color{myblue}\normalfont\Large\bfseries} 
+  {} 
+  {0em} 
+  {} 
+  [{\titlerule[0.8pt]}] 
+
+\titlespacing*{\section}{0pt}{1.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\tabcolsep}{0pt}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\lhead{{\Large Lin JIU}}
+
+\rhead{{\small\thepage~of \pageref{LastPage}}}
+
+\chead{}
+
+\cfoot{}
+
+\thispagestyle{empty}
+
+\noindent{}%
+\begin{minipage}[b][1\totalheight][t]{0.75\columnwidth}%
+\noindent{}%
+\begin{tabularx}{\columnwidth}{>{\raggedright\arraybackslash}Xr}
+{\LARGE Lin JIU} & \tabularnewline
+Assistant Professor of Mathematics & \emph{E-mails}:\hfill{}lin.jiu@dukekunshan.edu.cn\tabularnewline
+Zu Chongzhi Center, Duke Kunshan University & lin.jiu.work@gmail.com\tabularnewline
+8 Duke Ave, Kunshan, Suzhou, & \emph{Tel}:\hfill{}+86-0512-36657333\tabularnewline
+Jiangsu Province, P.~R.~China, 215316 & \emph{Website}:\hfill{}https://JiuLin90.github.io\tabularnewline
+\end{tabularx}%
+\end{minipage}\hfill{}%
+\begin{minipage}[b][1\totalheight][t]{0.2\columnwidth}%
+\begin{flushright}
+\includegraphics[scale=0.05]{date}
+\par\end{flushright}%
+\end{minipage}
+
+\section*{{\large\textsc{Employment}}}
+
+\noindent{}%
+\noindent\begin{minipage}[t]{1\columnwidth}%
+\noindent{}%
+\begin{tabularx}{\columnwidth}{ll>{\raggedright\arraybackslash}Xr}
+2023.08\textendash Present & ~~ & \textbf{Assistant Professor of Mathematics} & Zu Chongzhi Center, Duke Kunshan University(DKU)\tabularnewline
+2024.07\textendash Present &  & Adjunct of the Faculty of Graduate Studies & Dept. of Math. \& Stats., Dalhousie University\tabularnewline
+2020.08\textendash 2025.12 &  & \multicolumn{2}{l}{Assistant Professor of the Practice {\footnotesize (Secondary for cross-institutional
+teaching)}\hfill{}DKU Studies Unit, Duke Univ.}\tabularnewline
+2020.08\textendash 2023.07 &  & Lecturer in Mathematics & Zu Chongzhi Center, DKU\tabularnewline
+2019.09\textendash 2020.07 &  & Research Associate & Dept. of Math. \& Stats., Dalhousie Univ.\tabularnewline
+2017.09\textendash 2019.08 &  & Killam Postdoc Fellow & Dept. of Math. \& Stats., Dalhousie Univ.\tabularnewline
+2017.03\textendash 2017.08 &  & Research Scientist & RICAM, Austrian Acad. Sci.\tabularnewline
+2016.06\textendash 2017.02 &  & Postdoc Fellow & RISC, Johannes Kepler Univ.\tabularnewline
+\end{tabularx}%
+\end{minipage}
+
+\section*{{\large\textsc{Research Interests}}}
+\begin{center}
+Symbolic Computation, Number Theory, Combinatorics, Special Functions,
+Information Geometry %
+\begin{comment}
+\noindent D. Li, H. Sun, C. Tao, and \textbf{L. Jiu}, Principal bundles
+and holonomy groups on statistical manifolds, Submitted for Publication.
+
+A. Dixit, X. Guan, \textbf{L. Jiu}, V. H. Moll and C. Vignat. The
+integrals in Gradshteyn and Ryzhik. Part 32: the generating function
+of Chebyshev polynomials of the second kind, To Appear in \emph{SCIENTIA
+Series A: Mathematical Sciences.}
+
+\textbf{L. Jiu} and V. H. Moll. The integrals in Gradshteyn and Ryzhik.
+Part 31: rational functions, To Appear in \emph{SCIENTIA Series A:
+Mathematical Sciences.}
+\end{comment}
+\par\end{center}
+
+\section*{{\large\textsc{Education}}}
+
+\noindent{}%
+\noindent\begin{minipage}[t]{1\columnwidth}%
+\noindent{}%
+\begin{tabularx}{\columnwidth}{ll>{\raggedright\arraybackslash}Xr}
+2011.08\textendash 2016.05 & ~~ & Tulane University, Ph.D. in Mathematics & \emph{Advisor: }\emph{\uline{Victor H.~Moll}}\tabularnewline
+ &  & \multicolumn{2}{l}{\emph{Thesis: The Method of Brackets and the Bernoulli Symbol, 146
+pages.}}\tabularnewline
+\multirow{1}{*}{2013.09\textendash 2014.02} &  & RISC, Johannes Kepler University, Exchange Ph.D. Student & \emph{Advisor: }\emph{\uline{Carsten Schneider}}\tabularnewline
+2008.09\textendash 2010.07 &  & Beijing Institute of Technology, Master of Science & \emph{Advisor: }\emph{\uline{Huafei Sun}}\tabularnewline
+2004.09\textendash 2008.06 &  & Beijing Institute of Technology, Bachelor of Science & \emph{Thesis Advisor: }\emph{\uline{Huafei Sun}}\tabularnewline
+\end{tabularx}%
+\end{minipage}
+
+\section*{{\large\textsc{Grant Awarded}}}
+
+\noindent{}%
+\noindent\begin{minipage}[t]{1\columnwidth}%
+\noindent{}%
+\begin{tabularx}{\columnwidth}{ll>{\raggedright\arraybackslash}Xllll}
+2023.07\textendash 2025.06 & ~~~ & \textbf{WHU-DKU Joint Grant Seed}\hfill{}Wuhan and Duke Kunshan University & ~~~ & DKU \textbf{PI} & | & ~~50K RMB\tabularnewline
+ &  & \multicolumn{5}{l}{``WHU-DKU-Dal Research Platform on Combinatorics and Number Theory''}\tabularnewline
+2023.01\textendash 2024.12 &  & \textbf{Faculty Learning Community}\hfill{}Center for Teaching and
+Learning (CTL), DKU &  & Participant~~ & | & ~~10K RMB\tabularnewline
+ &  & \multicolumn{5}{l}{11 Faculty members across disciplines | discussions on all possible
+teaching aspects}\tabularnewline
+2022.07\textendash 2024.06 &  & \textbf{WHU-DKU Joint Grant Seed}\hfill{}Wuhan and Duke Kunshan University &  & Member & | & ~~50K RMB\tabularnewline
+ &  & \multicolumn{5}{l}{``WHU-DKU-UMN Joint Research Center on Applied Harmonic Analysis''}\tabularnewline
+2022.01\textendash 2022.12 &  & \textbf{Gradescope Research Project Grant}\hfill{}Gradescope &  & \textbf{PI} & | & ~~2K USD\tabularnewline
+ &  & \multicolumn{5}{l}{Using Gradescope in Math Courses, facilitated by CTL, DKU}\tabularnewline
+2021.07\textendash 2023.06 &  & \textbf{DKU Interdisciplinary Seed Grant}\hfill{}DKU &  & \textbf{Co-PI} & | & ~~60K RMB\tabularnewline
+ &  & \multicolumn{5}{l}{``Quantum Algorithms for Computational Number Theory, Linear Algebra,
+and Combinatorics''}\tabularnewline
+2017.09\textendash 2019.08 &  & \textbf{Killam Research Fund}\hfill{}Killam Trust @ Dalhousie University &  & \textbf{PI} & | & ~~3K CAD\tabularnewline
+ &  & \multicolumn{3}{l}{Research Support for Killam Postdocs} & \tabularnewline
+\end{tabularx}%
+\end{minipage}
+
+\section*{{\large\textsc{Publications}}{\footnotesize\hspace*{\fill}(While
+working on the projects, undergraduate students' }{\footnotesize\uline{names}}{\footnotesize{}
+are marked with underlines)}}
+
+\subsection*{\textsc{Book}}
+
+\noindent{}%
+\noindent\begin{minipage}[t]{1\columnwidth}%
+\noindent{}%
+\begin{tabularx}{\columnwidth}{ll>{\raggedright\arraybackslash}X}
+1. & ~~ & H.~Sun, L.~Peng, Y.~Cheng, D.~Li, and\textbf{ L.~Jiu}, \textsl{Mathematical
+Foundations of Information Geometry}, Science Press, Beijing, 2025.
+ISBN: 978-7-03-080107-4.\tabularnewline
+\end{tabularx}%
+\end{minipage}
+
+\subsection*{\textsc{Papers}}
+
+\noindent{}%
+\begin{xltabular}[l]{\columnwidth}{ll>{\raggedright\arraybackslash}X}
+39. & ~~ & \textbf{L. Jiu} and \uline{D. Wang}, On $b$-ary binomial coefficients
+with negative entries, \emph{Scientia Series A: Mathematical Sciences}
+\textbf{37} (2026), To Appear. \tabularnewline
+38. &  & S. Chern, \textbf{L. Jiu}, \uline{S. Li}, and L. Wang, Leading coefficient
+in the Hankel determinants related to binomial and $q$-binomial transforms,
+\emph{Adv. Appl. Math}. \textbf{176} (2026), Article 103051.\tabularnewline
+37. &  & \textbf{L. Jiu} and L. Peng, Information geometry and alpha-parallel
+prior of the beta-logistic distribution, \emph{Comm. Statist. Theory
+Methods} \textbf{54} (2025), 3292\textendash 3306.\tabularnewline
+36. &  & S. Chern, \textbf{L. Jiu}, and I. Simonelli, A central limit theorem
+for a card shuffling problem, \emph{J. Combin. Theory Ser. A} \textbf{214}
+(2025), Article 106048.\tabularnewline
+35. &  & \textbf{L. Jiu} and \uline{Y. Li}, Hankel determinants of certain
+sequences of Bernoulli polynomials. A direct proof of an inverse matrix
+entry from Statistics, \emph{Contrib. Discrete Math}.\textbf{ 19}
+(2024), 64\textendash 84.\tabularnewline
+34. &  & Q. Chen, S. Chern, and \textbf{L. Jiu}, Multi-headed lattices and
+Green functions, \emph{J. Phys. A: Math. Theor}. \textbf{57} (2024)
+Article 465204.\tabularnewline
+33. &  & S. Chern and \textbf{L. Jiu}, Hankel determinants and Jacobi continued
+fractions for $q$-Euler numbers, \emph{C. R. Math. Acad. Sci. Paris
+}\textbf{362} (2024), 203\textendash 216.\tabularnewline
+32. &  & K. Dilcher and \textbf{L. Jiu}, Hankel determinants of shifted sequences
+of Bernoulli and Euler numbers, \emph{Contrib. Discrete Math}.\textbf{
+18} (2023), 146\textendash 175.\tabularnewline
+31. &  & Z. Bradshaw, I. Gonzalez, \textbf{L. Jiu}, V. H. Moll, and C. Vignat,
+Compatibility of the method of brackets with classical integration
+rules, \emph{Open Math}.\textbf{ 21} (2023), Article 20220581.\tabularnewline
+30. &  & \textbf{L. Jiu} and D. Y. H. Shi, Moments and cumulants on identities
+for Bernoulli and Euler numbers, \emph{Math. Reports }\textbf{24}
+(2022), 643\textendash 650.\tabularnewline
+29. &  & \textbf{L. Jiu}, I. Simonelli, and \uline{H. Yue}, Loop decompositions
+of random walks and nontrivial identities of Bernoulli and Euler polynomials,
+\emph{Integers} \textbf{22} (2022), A91.\tabularnewline
+28. &  & K. Dilcher and \textbf{L. Jiu}, Hankel determinants of sequences related
+to Bernoulli and Euler polynomials, \emph{Int. J. Number Theory }\textbf{18}
+(2022), 331\textendash 359.\tabularnewline
+27. &  & K. Dilcher and \textbf{L. Jiu}, Orthogonal polynomials and Hankel
+determinants for certain Bernoulli and Euler polynomials, \emph{J.
+Math. Anal. Appl}.\textbf{ 497} (2021), Article 124855.\tabularnewline
+26. &  & I. Gonzales, \textbf{L. Jiu}, and V. H. Moll, An extension of the
+method of brackets. Part 2, \emph{Open Math}.\textbf{ 18} (2020),
+983\textendash 955.\tabularnewline
+25. &  & \textbf{L. Jiu} and C. Koutschan, Calculation and properties of zonal
+polynomials,\emph{ Math. Comput. Sci}.\textbf{ 14} (2020), 623\textendash 640.\tabularnewline
+24. &  & N. Takayama, \textbf{L. Jiu}, S. Kuriki, and Y. Zhang, Computations
+of the expected Euler characteristic for the largest eigenvalue of
+a real Wishart matrix, \emph{J. Multivariate Anal.}\textbf{ 179} (2020),
+Article 104642.\tabularnewline
+23. &  & \textbf{L. Jiu}, C. Vignat, and T. Wakhare, Analytic continuation
+for multiple zeta values using symbolic representations, \emph{Int.
+J. Number Theory} \textbf{16} (2020), 579\textendash 602.\tabularnewline
+22. &  & \textbf{L. Jiu} and C. Vignat, Connection coefficients for higher-order
+Bernoulli and Euler polynomials: a random walk approach, \emph{Fibonacci
+Quart.}\textbf{ 57} (2019), 84\textendash 95.\tabularnewline
+21. &  & \textbf{L. Jiu} and D. Y. H. Shi, Matrix representation for multiplicative
+nested sums, \emph{Colloq. Math}.\textbf{ 158} (2019), 183\textendash 194.\tabularnewline
+20. &  & \textbf{L. Jiu} and D. Y. H. Shi, Orthogonal polynomials and connection
+to generalized Motzkin numbers for higher-order Euler polynomials,
+\emph{J. Number Theory} \textbf{199} (2019), 389\textendash 402.\tabularnewline
+19. &  & I. Gonzalez, K. Kohl, \textbf{L. Jiu}, and V. H. Moll, The method
+of brackets in experimental mathematics, \emph{Frontiers of Orthogonal
+Polynomials and q-Series}, Z. Nashed and X. Li eds., World Scientific
+Publishers, 2018.\tabularnewline
+18. &  & \textbf{L. Jiu}, V. H. Moll, and C. Vignat, A symbolic approach to
+multiple zeta values at the negative integers,\emph{ J.  Symbolic
+Comput}.\textbf{ 84} (2018), 1\textendash 13.\tabularnewline
+17. &  & I. Gonzales, K. Kohl, \textbf{L. Jiu}, and V. H. Moll, An extension
+of the method of brackets. Part 1, \emph{Open Math}.\textbf{ 15} (2017),
+1181\textendash 1211.\tabularnewline
+16. &  & \textbf{L. Jiu}, Integral representations of equally positive integer-indexed
+harmonic sums at infinity, \emph{Research in Number Theory} \textbf{3}
+(2017), Article 3:10.\tabularnewline
+15. &  & C. Li, E. Zhang, \textbf{L. Jiu}, and H. Sun, Optimal control on special
+Euclidean group via natural gradient descent algorithm, \emph{Sci.
+China Inf. Sci}.\textbf{ 59} (2016), Article: 112203.\tabularnewline
+14. &  & I. Gonzalez, \textbf{L. Jiu}, and V. H. Moll, Pochhammer symbol with
+negative indices. A new rule for the method of brackets, \emph{Open
+Math}.\textbf{ 14} (2016), 681\textendash 686.\tabularnewline
+13. &  & T. Amdeberhan, A. Dixit, X. Guan, \textbf{L. Jiu}, A. Kuznetsov, V.
+H. Moll, and C. Vignat, The integrals in Gradshteyn and Ryzhik. Part
+30: trigonometric functions, \emph{Scientia Series A: Mathematical
+Sciences} \textbf{27} (2016), 47\textendash 74.\tabularnewline
+12. &  & T. Amdeberhan, A. Dixit, X. Guan, \textbf{L. Jiu}, V. H. Moll, and
+C. Vignat, A series involving Catalan numbers. Proofs and demonstrations,
+\emph{Elem. Math}.\textbf{ 71} (2016), 109\textendash 121.\tabularnewline
+11. &  & \textbf{L. Jiu} and C. Vignat, On binomial identities in arbitrary
+bases, \emph{J. Integer Seq}.\textbf{ 19} (2016), Article 16.5.5.\tabularnewline
+10. &  & \textbf{L. Jiu}, V. H. Moll, and C. Vignat, A symbolic approach to
+some identities for Bernoulli-Barnes polynomials, \emph{Int. J. Number
+Theory} \textbf{12} (2016), 649\textendash 662.\tabularnewline
+9. &  & A. Dixit, \textbf{L. Jiu}, V. H. Moll, and C. Vignat, The finite Fourier
+transform of classical polynomials, \emph{J. Aust. Math. Soc}.\textbf{
+98} (2015), 145\textendash 160.\tabularnewline
+8. &  & T. Amdeberhan, A. Dixit, X. Guan, \textbf{L. Jiu} and V. H. Moll,
+The unimodality of a polynomial coming from a rational integral. Back
+to the original proof, \emph{J. Math. Anal. Appl}.~\textbf{420} (2014),
+1154\textendash 1166.\tabularnewline
+7. &  & \uline{A. Byrnes}, \textbf{L. Jiu}, V. H. Moll, and C. Vignat, Recursion
+rules for the hypergeometric zeta functions, \emph{Int. J. Number
+Theory} \textbf{10} (2014), 1761\textendash 1782.\tabularnewline
+6. &  & \textbf{L. Jiu}, V. H. Moll, and C. Vignat, Identities for generalized
+Euler polynomials, \textsl{Integral Transforms} \emph{Spec. Funct}.\textbf{
+25} (2014), 777\textendash 789.\tabularnewline
+5. &  & Z. Zhang, H. Sun, \textbf{L. Jiu}, and L. Peng, A natural gradient
+algorithm for stochastic distribution systems, \emph{Entropy} \textbf{16}
+(2014), 4338\textendash 4352.\tabularnewline
+4. &  & F. Zhang, H. Sun, \textbf{L. Jiu}, and L. Peng, The arc length variational
+formula on the exponential manifold, \emph{Math. Slovaca} \textbf{63}
+(2013), 1101\textendash 1112.\tabularnewline
+3. &  & L. Peng, H. Sun, and \textbf{\uline{L. Jiu}}, The geometric structure
+of the Pareto distribution, \emph{Bol. Asoc. Mat. Venez}. \textbf{14}
+(2007), 5\textendash 13.\tabularnewline
+2. &  & \textbf{\uline{L. Jiu}} and H. Sun, On minimal homothetical hypersurfaces,
+\emph{Colloq. Math}.\textbf{ 109} (2007), 239\textendash 249.\tabularnewline
+1. &  & X. Wang and \textbf{\uline{L. Jiu}}, Characterizing hypersurfaces
+of generalized rotation through its normal lines, \emph{Journal of
+Ningde Normal University (Natural Science)} \textbf{02} (2006), 117\textendash 119.\tabularnewline
+\end{xltabular}
+
+\section*{{\large\textsc{Academic Talks}}}
+
+\noindent{}%
+\begin{xltabular}[l]{\columnwidth}{ll>{\raggedright\arraybackslash}X}
+\textbf{2026} & ~~ & \textbf{Identities Involving Central ($q$-)Binomial Coefficients
+via ($q$-)Hypergeometric Series}\tabularnewline
+{\scriptsize\emph{Mar.. 18}} &  & {\scriptsize\emph{Invited Number Theory Seminar Talk, Department of
+Mathematics and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+ &  & \textbf{Hankel Determinants of Sequences Related to Bernoulli Polynomials,
+Euler Polynomials, and $q$-Series}\tabularnewline
+{\scriptsize\emph{Feb. 11}} &  & {\scriptsize\emph{Invited Number Theory Seminar Talk, Department of
+Mathematics and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+\textbf{2025} &  & \textbf{Hankel Determinants and Big $q$-Jacobi Polynomials for $q$-Euler
+Numbers}\tabularnewline
+{\scriptsize\emph{Aug. 1}} &  & {\scriptsize\textsl{The Third Joint SIAM/CAIMS Annual Meetings (AN25)}}{\scriptsize ,
+}{\scriptsize\emph{Montr\'{e}al, QC, Canada, July 28\textendash Aug.~1.}}\tabularnewline
+ &  & \textbf{Examples of Computer Proofs: From Elementary to Recent Ones}\tabularnewline
+{\scriptsize\emph{Jan. 15}} &  & {\scriptsize\emph{Invited Honours Seminar Talk, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+\textbf{2024} &  & \textbf{Multi-headed Lattices and Green Functions}\tabularnewline
+{\scriptsize\emph{Oct. 8}} &  & {\scriptsize\emph{Invited Number Theory Seminar Talk, Department of
+Mathematics and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+ &  & \textbf{$q$-Analogue on Hankel Determinants: the $q$-Euler Numbers
+and the $q$-Binomial Transform}\tabularnewline
+{\scriptsize\emph{June 13}} &  & {\scriptsize\emph{Canadian Number Theory Association XVI, Fields Institute,
+Toronto, ON, Canada, June 10\textendash 14.}}\tabularnewline
+ &  & \textbf{Shuffle to One, Shuffle to Normal}\tabularnewline
+{\scriptsize\emph{Jan. 31}} &  & {\scriptsize\emph{Invited Number Theory Seminar, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+\textbf{2023} &  & \textbf{Hankel Determinants on Bernoulli polynomials and $q$-analogues}\tabularnewline
+{\scriptsize\emph{Sept. 1 }} &  & {\scriptsize\emph{Discrete Math Seminar, Zu Chongzhi Center, Duke
+Kunshan University, Kunshan, Suzhou, Jiangsu Province, P.~R.~China.}}\tabularnewline
+ &  & \textbf{Random Walk Models for Identities Involving Bernoulli and
+Euler Polynomials}\tabularnewline
+{\scriptsize\emph{Mar. 6}} &  & {\scriptsize\emph{Number Theory Seminar, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+\textbf{2022} &  & \textbf{Random Walk Model on Finite Number of Sites}\tabularnewline
+{\scriptsize\emph{Oct. 19}} &  & {\scriptsize\emph{Invited Seminar Talk}}{\scriptsize\textsl{\emph{,
+}}}{\scriptsize\textsl{School of Mathematics, Anhui University}}{\scriptsize ,
+}{\scriptsize\emph{Online.}}\tabularnewline
+ &  & \textbf{Bernoulli Symbol and Multiple Zeta Function at Non-negative
+Integers}\tabularnewline
+{\scriptsize\emph{Aug. 8}} &  & {\scriptsize\emph{The First International Conference on Multiple Zeta
+Values and Related Topics, Online, Aug.~08\textendash 09.}}\tabularnewline
+ &  & \textbf{Hankel Determinants of Certain Sequences of Bernoulli and
+Euler Polynomials}\tabularnewline
+{\scriptsize\emph{June 13}} &  & {\scriptsize\emph{Invited Seminar Talk}}{\scriptsize\textsl{, Department
+of Mathematics, Zhejiang Sci-Tech University}}{\scriptsize\emph{,
+Online.}}\tabularnewline
+ &  & \textbf{Introduction on Continued Fractions, II}\tabularnewline
+{\scriptsize\emph{Mar. 25}} &  & {\scriptsize\emph{Discrete Math Seminar, Zu Chongzhi Center, Duke
+Kunshan University, Kunshan, Suzhou, Jiangsu Province, P.~R.~China.}}\tabularnewline
+ &  & \textbf{Introduction on Continued Fractions, I}\tabularnewline
+{\scriptsize\emph{Mar. 11}} &  & {\scriptsize\emph{Discrete Math Seminar, Zu Chongzhi Center, Duke
+Kunshan University, Kunshan, Suzhou, Jiangsu Province, P.~R.~China.}}\tabularnewline
+ &  & \textbf{Bernoulli and Euler Symbols: Umbral Calculus, Random Variables,
+and Multiple Zeta Values}\tabularnewline
+{\scriptsize\emph{Jan. 5}} &  & {\scriptsize\emph{Duke Kunshan University-Shanghai Jiao Tong University
+Joint Workshop for Mathematics and Data Science, Shanghai, P.~R.~China.}}\tabularnewline
+\textbf{2021} &  & \textbf{Random Walk Models for Non-trivial Identities Involving Bernoulli
+and Euler Polynomials of Higher-orders}\tabularnewline
+{\scriptsize\emph{Sept. 25}} &  & {\scriptsize\emph{Suzhou Area Youth Mathematicians 2nd Annual Workshop,
+Soochow University, Kunshan, Suzhou, Jiangsu Province, P.~R.~China,
+Sept.~25\textendash 26.}}\tabularnewline
+ &  & \textbf{Random Walks and Identities Involving Bernoulli and Euler
+Polynomials of Higher-order}\tabularnewline
+{\scriptsize\textit{June 18}} &  & {\scriptsize\textit{Invited Seminar Talk, Institute of Statistics
+and Big Data, Renmin University of China, Beijing, P. R. China.}}\tabularnewline
+ &  & \textbf{Examples on Computer Proofs}\tabularnewline
+{\scriptsize\emph{May 28}} &  & {\scriptsize\textit{I}}{\scriptsize\textsl{nvited Seminar Talk, School
+of Mathematics and Statistics, Wuhan University}}{\scriptsize\emph{,
+Wuhan, Hubei Province, P. R. China.}}\tabularnewline
+ &  & \textbf{Hankel Determinant of Sequences Related to Bernoulli and Euler
+Polynomials}\tabularnewline
+{\scriptsize\emph{May 27}} &  & {\scriptsize\emph{DKU-WHU Math and Stat Academic Conference, }}{\scriptsize\textsl{School
+of Mathematics and Statistics}}{\scriptsize\emph{, Wuhan University,
+Wuhan, Hubei Province, P. R. China}}{\scriptsize .}\tabularnewline
+\textbf{2020} &  & \textbf{Hankel Determinant on Sequences Related to Bernoulli and Euler
+Polynomials}\tabularnewline
+{\scriptsize\emph{Nov. 14}} &  & {\scriptsize\emph{Suzhou Area Youth Mathematicians 1st Annual Workshop,
+Zu Chongzhi Center, Duke Kunshan University, Kunshan, Suzhou, Jiangsu
+Province, P.~R.~China.}}\tabularnewline
+ &  & \textbf{Three Examples on Computer Proofs}\tabularnewline
+{\scriptsize\emph{Nov. 6}} &  & {\scriptsize\emph{Zu Chongzhi Colloquium Series}}{\scriptsize\textsl{\emph{,}}}{\scriptsize\textsl{
+Duke Kunshan University}}{\scriptsize\emph{, Kunshan, Suzhou, P.~R.~China.}}\tabularnewline
+\textbf{2019} &  & \textbf{Introduction to Four Symbolic Integration Methods: Two Examples}\tabularnewline
+{\scriptsize\emph{Sept. 23}} &  & {\scriptsize\emph{Number Theory Seminar, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+ &  & \textbf{On $b$-ary Binomial Coefficients}\tabularnewline
+{\scriptsize\emph{Sept. 16}} &  & {\scriptsize\emph{Number Theory Seminar, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+ &  & \textbf{Orthogonal Polynomials for Higher-order Euler Polynomials}\tabularnewline
+{\scriptsize\emph{July 23}} &  & {\scriptsize\emph{15th International Symposium on Orthogonal Polynomials,
+Special Functions and Applications, Hagenberg im M\"{u}hlkreis, Austria,
+July 22\textendash 26.}}\tabularnewline
+ &  & \textbf{On Harmonic Sums: Integral and Matrix Representations with
+Connections to Partition-theoretic Generalization of the Riemann Zeta-function
+and Random Walks}\tabularnewline
+{\scriptsize\emph{June 9}} &  & {\scriptsize Analytic and Combinatorial Number Theory: The Legacy of
+Ramanujan (A conference in honor of Bruce C.~Berndt's 80th birthday),
+University of Illinois at Urbana-Champaign, Urbana, IL, U.~S.~A.,
+June 6\textendash 9.}\tabularnewline
+ &  & \textbf{Random Walk Approaches to Identities on Higher-order Bernoulli
+and Euler Polynomials}\tabularnewline
+{\scriptsize\emph{Mar. 17}} &  & {\scriptsize\emph{American Mathematical Society Spring Southeastern
+Sectional Meeting, Auburn University, Auburn, AL, U.~S.~A., Mar.~15\textendash 17.}}\tabularnewline
+ &  & \textbf{Random Walk \& Identities}\tabularnewline
+{\footnotesize\emph{Feb. 25}} &  & {\footnotesize\emph{Number Theory Seminar, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+ &  & \textbf{Matrix Representation for Multiplicative Nested Sums}\tabularnewline
+{\scriptsize\emph{Jan. 17}} &  & {\scriptsize\emph{2019 Joint Mathematics Meetings, Baltimore, MD,
+U.~S.~A., Jan.~16\textendash 19.}}\tabularnewline
+ &  & \textbf{Orthogonal Polynomials for Bernoulli and Euler Polynomials}\tabularnewline
+{\footnotesize\emph{Jan. 7}} &  & {\footnotesize\emph{Number Theory Seminar, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+\textbf{2018} &  & \textbf{Three Examples of Computer Proofs of Combinatorial Results}\tabularnewline
+{\scriptsize\emph{Oct. 17}} &  & {\scriptsize\emph{Honours Seminar}}{\scriptsize\textsl{\emph{, }}}{\scriptsize\textsl{Department
+of Mathematics and Statistics, Dalhousie University}}{\scriptsize\emph{,
+Halifax, NS, Canada.}}\tabularnewline
+ &  & \textbf{Matrix Representation for Multiplicative Nested Sums}\tabularnewline
+{\scriptsize\emph{Sept. 21}} &  & {\scriptsize\emph{Number Theory Seminar, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+ &  & \textbf{Bernoulli Symbol and Sum of Powers}\tabularnewline
+{\scriptsize\emph{July 25}} &  & {\scriptsize\emph{6th International Congress on Mathematical Software,
+University of Notre Dame, Notre Dame, IN, U.~S.~A., July 24\textendash 27.}}\tabularnewline
+ &  & \textbf{Random Walks and Identities for High-order Bernoulli and Euler
+Polynomials}\tabularnewline
+{\scriptsize\emph{July 3}} &  & {\scriptsize\emph{18th International Conference on Fibonacci Numbers
+and Their Applications, Dalhousie University, Halifax, NS, Canada,
+July 1\textendash 8.}}\tabularnewline
+ &  & \textbf{Matrix Representations for Bernoulli and Euler Polynomials}\tabularnewline
+{\scriptsize\emph{June 3}} &  & {\scriptsize\emph{2018 Canadian Mathematical Society Summer Meeting,
+University of New Brunswick, Fredericton, NB, Canada, June 1\textendash 4.}}\tabularnewline
+ &  & \textbf{Two Sequences Related to Bernoulli and Euler Numbers}\tabularnewline
+{\scriptsize\emph{May 30}} &  & {\scriptsize\emph{Number Theory Seminar, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+ &  & \textbf{Hidden Walks}\tabularnewline
+{\scriptsize\emph{Feb. 26}} &  & {\scriptsize\emph{Number Theory Seminar, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+ &  & \textbf{Introduction to Zonal Polynomials}\tabularnewline
+{\scriptsize\emph{Jan. 22}} &  & {\scriptsize\emph{Number Theory Seminar, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada}}\tabularnewline
+\textbf{2017} &  & \textbf{The Probabilistic and Combinatorial Interpretations of the
+Bernoulli Symbol}\tabularnewline
+{\scriptsize\emph{Dec. 10}} &  & {\scriptsize\emph{2017 Canadian Mathematical Society Winter Meeting,
+University of Waterloo, Waterloo, ON, Canada, Dec. 8\textendash 11.}}\tabularnewline
+ &  & \textbf{Bernoulli Symbol $\mathcal{B}$: from Umbral Calculus to Random
+Variable and Combinatorics}\tabularnewline
+{\scriptsize\emph{Oct. 13}} &  & {\scriptsize\emph{Number Theory Seminar, Department of Mathematics
+and Statistics, Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+ &  & \textbf{Visualization of Bernoulli Numbers}\tabularnewline
+{\scriptsize\emph{Oct. 12}} &  & {\scriptsize\emph{Colloquium, Department of Mathematics and Statistics,
+Dalhousie University, Halifax, NS, Canada.}}\tabularnewline
+ &  & \textbf{Bernoulli Symbol on Multiple Zeta Values at Negative Integers}\tabularnewline
+{\scriptsize\emph{July 18}} &  & {\scriptsize\emph{23rd Conference on Applications of Computer Algebra
+(Commemorating the heritage of Jonathan Michael Borwein), Jerusalem
+College of Technology, Jerusalem, Israel, July 17\textendash 21.}}\tabularnewline
+ &  & \textbf{On Bernoulli Symbol $\mathcal{B}$}\tabularnewline
+{\scriptsize\emph{May 5}} &  & {\scriptsize\emph{Klagenfurt-Linz-Wien Workshop, Riefnitz, Austria,
+May 3\textendash 6.}}\tabularnewline
+\textbf{2016} &  & \textbf{The Method of Brackets (MoB) and Integrating by Differentiating
+(IbD) Method}\tabularnewline
+{\scriptsize\emph{Dec. 9}} &  & {\scriptsize\emph{Laboratoire des Signaux et System}}{\scriptsize\`{e}}{\scriptsize\emph{s,
+Universit}}{\scriptsize{\'{e}}}{\scriptsize\emph{ Paris Sud XI, Orsay,
+France.}}\tabularnewline
+ &  & \textbf{``Random Walks'' for Harmonic Sums}\tabularnewline
+{\scriptsize\emph{Nov. 29}} &  & {\scriptsize\emph{SFB Statusseminar, Strobl, Austria, Nov.~27\textendash 30.}}\tabularnewline
+ &  & \textbf{A Hot Pot}\tabularnewline
+{\scriptsize\emph{Oct. 5}} &  & {\scriptsize\textsl{Algorithmic Combinatorics Seminar, Research Institute
+for Symbolic Computations, Johannes Kepler University}}{\scriptsize\emph{,
+Hagenberg im M\"{u}hlkreis, Austria.}}\tabularnewline
+ &  & \textbf{On Binomial Identities in Arbitrary Bases}\tabularnewline
+{\scriptsize\emph{July 26}} &  & {\scriptsize\emph{Beijing Key Laboratory on Mathematical Characterization,
+Analysis and Applications of Complex Information, Beijing Institute
+of Technology, Beijing, P.~R.~China.}}\tabularnewline
+ &  & \textbf{Random Walk: A Probabilistic and Geometric Approach to Number
+Theory}\tabularnewline
+{\scriptsize\emph{July 19}} &  & {\scriptsize\emph{International Conference on Mathematical Characterization,
+Analysis and Applications of Complex Information, Beijing Institute
+of Technology, Beijing, P.~R.~China, July 19\textendash 20.}}\tabularnewline
+ &  & \textbf{The Method of Brackets}\tabularnewline
+{\scriptsize\emph{July 13}} &  & {\scriptsize\emph{5th International Congress on Mathematical Software,
+The Zuse Institute Berlin, Berlin, Germany, July 11\textendash 14.}}\tabularnewline
+ &  & \textbf{The Method of Brackets}\tabularnewline
+{\scriptsize\emph{June 22}} &  & {\scriptsize\textsl{Algorithmic Combinatorics Seminar, Research Institute
+for Symbolic Computations, Johannes Kepler University}}{\scriptsize\emph{,
+Hagenberg im M\"{u}hlkreis, Austria.}}\tabularnewline
+ &  & \textbf{Binomial Identities in Arbitrary Bases}\tabularnewline
+{\scriptsize\emph{Mar. 8}} &  & {\scriptsize\textsl{Graduate Students Colloquium, Department of Mathematics,
+Tulane University}}{\scriptsize\emph{, New Orleans, LA, U.~S.~A.}}\tabularnewline
+\textbf{2015} &  & \textbf{On Bernoulli Symbol $\mathcal{B}$ and Its Applications}\tabularnewline
+{\scriptsize\emph{July 8}} &  & {\scriptsize\emph{Invited Seminar Talk, Center for Combinatorics,
+Nankai University, Tianjin, P.~R.~China}}\tabularnewline
+\textbf{2014} &  & \textbf{Recursion Rules for the Hypergeometric Zeta Functions}\tabularnewline
+{\scriptsize\emph{June 3}} &  & {\scriptsize\emph{Midwest Number Theory Conference for Graduate Students
+and Recent PhDs, X, University of Illinois at Urbana-Champaign, Urbana,
+IL, U.~S.~A., June 3\textendash 4.}}\tabularnewline
+ &  & \textbf{Implementation of an Algorithm on Converting Sums into Nested
+Sums}\tabularnewline
+{\scriptsize\emph{Jan. 8}} &  & {\scriptsize\emph{Invited Seminar Talk, Laboratoire des Signaux et
+Systemes, Universit}}{\scriptsize{\'{e}}}{\scriptsize\emph{ Paris
+Sud XI, Orsay, France.}}\tabularnewline
+\end{xltabular}
+
+\section*{{\large\noun{Honors and Awards}}}
+
+\noindent{}%
+\begin{xltabular}[c]{\columnwidth}{ll>{\raggedright\arraybackslash}X>{\raggedleft\arraybackslash}X}
+2016 & ~~ & Tea Doctor (for organizing Tea Time) & Dept. of Math., Tulane Univ.\tabularnewline
+2015 &  & Tea Master (for organizing Tea Time) & Dept. of Math., Tulane Univ.\tabularnewline
+2014 &  & Excellence in Mathematics & Dept. of Math., Tulane Univ.\tabularnewline
+2013 &  & Excellent Graduate Student Teacher & Dept. of Math., Tulane Univ.\tabularnewline
+2008 &  & Outstanding Graduates & Beijing Institute of Technology\tabularnewline
+2007 &  & National Scholarship & Department of Education, P.~R.~China\tabularnewline
+2006 &  & \multicolumn{2}{l}{China Aerospace Science and Technology Corporation Scholarship (CASC),
+2nd Prize\hfill{}CASC, P.~R.~China}\tabularnewline
+\end{xltabular}
+
+\section*{{\large\noun{Teaching Experience}}}
+\begin{description}
+\item [{TEACHING~SUMMARY}] \textbf{29} regular course sections (incl.
+5 scheduled), \textbf{1} mini-term, and \textbf{6} independent study
+courses across \textbf{Duke Kunshan Univ. (DKU), Dalhousie Univ. (Dal)},
+and \textbf{Tulane Univ. (TU)}. 
+\end{description}
+\noindent{}%
+\begin{tabular}{lllll}
+DKU & ~~~~ & MATH101A\textemdash Introductory Calculus I: Functions and Derivatives & ~~~~ & 2026 Fall (scheduled)\tabularnewline
+ &  & MATH101B\textemdash Introductory Calculus II &  & 2027 Spring (scheduled)\tabularnewline
+ &  & MATH105\textemdash Calculus &  & 2020\textendash 2023 (\textbf{5} sections)\tabularnewline
+ &  & MATH201\textemdash Multivariable Calculus &  & 2026 Fall (scheduled), 2020\textendash 2022 (\textbf{3} sections)\tabularnewline
+ &  & MATH202\textemdash Linear Algebra &  & 2026 Fall (scheduled), 2023 Fall\tabularnewline
+ &  & MATH205\textemdash Probability and Statistics &  & 2023 Spring, 2021 Spring\tabularnewline
+ &  & MATH301\textemdash Advanced Introduction to Probability &  & 2021\textendash 2023 (\textbf{4} sections)\tabularnewline
+ &  & MATH306\textemdash Number Theory &  & 2022 Fall, 2021 Fall\tabularnewline
+ &  & MATH307\textemdash Complex Analysis &  & 2027 Spring (scheduled), 2024 Fall\tabularnewline
+Dal &  & MATH1030\textemdash Matrix Theory and Linear Algebra I &  & 2019 Summer\tabularnewline
+ &  & MATH3080\textemdash Complex Variables &  & 2019 Winter\tabularnewline
+TU &  & MATH1160\textemdash Long Calculus II &  & 2014 Summer, 2016 Spring\tabularnewline
+ &  & MATH1210\textemdash Calculus I &  & 2015 Spring\tabularnewline
+ &  & MATH1310\textemdash Consolidated Calculus &  & 2015 Fall\tabularnewline
+ &  &  &  & \tabularnewline
+\multicolumn{5}{l}{\textbf{Mini-term \& Reading/Independent Study Courses}}\tabularnewline
+Dal &  & MATH6200 &  & 2025 Winter\textemdash Integer Partitions and $q$-Series\tabularnewline
+DKU &  & MINITERM102 &  & 2023 Spring\textemdash Experimental Mathematics and\tabularnewline
+ &  &  &  & \hspace{60bp}Symbolic Computation\tabularnewline
+ &  & INDSTU391 &  & 2021\textendash 2022 (\textbf{5} sections)\tabularnewline
+ &  & \multicolumn{3}{l}{2022 Fall\textemdash Introduction to Algebraic Geometry, 2022 Spring\textemdash Variational
+Quantum Algorithms, }\tabularnewline
+ &  & \multicolumn{3}{l}{2021 Fall, 3 sections\textemdash Riemann Zeta-Function, Quantum Algorithm,
+Combinatorics}\tabularnewline
+\end{tabular}
+
+\section*{{\large\textsc{Academic Services and Memberships}}}
+
+\noindent{}%
+\begin{tabularx}{\columnwidth}{ll>{\raggedright\arraybackslash}X}
+2026 & ~~ & Organizer of the mini-symposium \textsl{Special Functions with Applications
+in Number Theory and Combinatorics} at The SIAM Annual Meetings, July
+6\textendash 10, Cleveland, OH, U.S.A.\tabularnewline
+2025\textendash Present &  & Reviewer for Mathematical Reviews @ AMS\tabularnewline
+2025 &  & Organizer of the mini-symposium \textsl{Special Functions with Applications
+in Number Theory and Combinatorics} at The Third Joint SIAM/CAIMS
+Annual Meetings, July 27\textemdash Aug. 1, Montr\'{e}al, QC, Canada\tabularnewline
+2014\textendash Present &  & Reviewer for journals including: Journal of Number Theory, The Ramanujan
+Journal, Journal of Difference Equations and Applications, etc.\tabularnewline
+\end{tabularx}
+
+\section*{{\large\textsc{Departmental and University Service}}}
+
+\noindent{}%
+\begin{tabularx}{\columnwidth}{ll>{\raggedright\arraybackslash}X}
+2021\textendash Present & ~~ & Organizer of the Discrete Math Seminar\hfill{}Duke Kunshan University\tabularnewline
+2024 &  & Member of 2024 Undergraduate Recruitment \& Admissions Evaluation\hfill{}Duke
+Kunshan University\tabularnewline
+2017\textendash 2020 &  & Organizer of the Number Theory Seminar\hfill{}Dalhousie University\tabularnewline
+2012\textendash 2016 &  & Organizer of the Tee Time\hfill{}Tulane University\tabularnewline
+\end{tabularx}
+
+\section*{{\large\textsc{Student Mentoring, Advising, and Research Activities}}}
+
+\subsection*{Undergraduate Academic Advisor @ DKU}
+\begin{itemize}
+\item Served as primary academic advisor for \textbf{25} students (Classes
+of 2022\textendash 2029).
+\item Provide continuous guidance on course selection, career planning,
+and graduate school applications.
+\end{itemize}
+
+\subsection*{Undergraduate Signature Work (SW)\protect\footnote{https://signature-work.dukekunshan.edu.cn/signature-work-overview/}
+($\protect\cong$ Honor Thesis) Mentor @ DKU \& Undergraduate Student
+Research Projects}
+\begin{itemize}
+\item Mentored \textbf{10 SW projects} (Class of 2023\textendash 24) @DKU
+on topics ranging from Random Walks to Quantum Algorithms.
+\item Undergraduate Student Research Highlights \& Outcomes:
+\begin{itemize}
+\item Awarded Summer Research Program\footnote{https://ugstudies.dukekunshan.edu.cn/student-summer-research-program/}
+for the years 2022, 2023, and 2026. 
+\item Peer-Reviewed Publications: Guided 4 students to co-author papers
+in international journals (see items {[}29{]}, {[}35{]}, {[}38{]},
+{[}39{]} in Publications/Papers).
+\item Software Development: Directed the development of 2 Mathematica packages
+for Method of Brackets and Weakly Increasing Trees, leading to SW
+projects. 
+\item International Collaboration: Co-mentored international research on
+Cyclotomic Polynomials with Prof. K. Dilcher (Dalhousie University).
+\end{itemize}
+\end{itemize}
+
+\section*{{\large\textsc{Relevant Skills}}}
+
+\noindent{}%
+\noindent\begin{minipage}[t]{1\columnwidth}%
+\begin{tabular}{llll}
+\textsl{Language: } & \multicolumn{3}{l}{Mandarin (native), English (fluent)}\tabularnewline
+\multirow{1}{*}{\emph{Computer:}} & \multicolumn{3}{l}{Mathematica, SageMath, Python, Maple, \LaTeX, \LyX}\tabularnewline
+\emph{Packages:} & Zonal.sage & ~~ & \url{https://jiulin90.github.io/Packages/Zonal.sage}\tabularnewline
+ & BNE.sage & ~~ & \url{https://jiulin90.github.io/Packages/BNE.sage}\tabularnewline
+\end{tabular}%
+\end{minipage}
+\end{document}
