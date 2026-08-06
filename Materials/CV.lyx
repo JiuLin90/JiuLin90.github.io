@@ -2562,7 +2562,7 @@ Jiu
 \noindent
 \align block
 \begin_inset Tabular
-<lyxtabular version="3" rows="39" columns="3">
+<lyxtabular version="3" rows="40" columns="3">
 <features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -2572,7 +2572,7 @@ Jiu
 \begin_inset Text
 
 \begin_layout Plain Layout
-39.
+40.
 \end_layout
 
 \end_inset
@@ -2588,6 +2588,50 @@ Jiu
 \begin_inset space ~
 \end_inset
 
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+S.
+ Chern,
+ K.
+ Dilcher,
+ and 
+\series bold
+L.
+ Jiu
+\series default
+,
+ New central 
+\begin_inset Formula $q$
+\end_inset
+
+-binomial identities,
+ submitted for publication.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+39.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
