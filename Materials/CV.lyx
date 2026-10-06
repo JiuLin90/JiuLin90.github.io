@@ -11329,7 +11329,7 @@ Tulane Univ.
 \align block
 \begin_inset Tabular
 <lyxtabular version="3" rows="24" columns="5">
-<features tabularvalignment="middle">
+<features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -12565,6 +12565,15 @@ Riemann Zeta-Function,
 \series bold
 \shape smallcaps
 \size large
+Services
+\end_layout
+
+\begin_layout Subsection*
+\noindent
+
+\series bold
+\shape smallcaps
+\size large
 Academic Services and Memberships
 \end_layout
 
@@ -12880,7 +12889,7 @@ Reviewer for journals including:
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 \noindent
 
 \series bold
@@ -13043,7 +13052,7 @@ Tulane University
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsubsection*
 \noindent
 
 \series bold
@@ -13054,7 +13063,7 @@ Student Mentoring,
  and Research Activities
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsubsection*
 \noindent
 \begin_inset Note Note
 status collapsed
@@ -14647,7 +14656,7 @@ Provide continuous guidance on course selection,
  and graduate school applications.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsubsection*
 \noindent
 Undergraduate Signature Work (SW)
 \begin_inset Foot
@@ -14698,10 +14707,12 @@ https://ugstudies.dukekunshan.edu.cn/student-summer-research-program/
 
 \begin_layout Itemize
 Peer-Reviewed Publications:
- Guided 4 students to co-author papers in international journals (see items [29],
+ Guided 5 students to co-author papers in international journals (see items [29],
  [35],
  [38],
- [39] in Publications/Papers).
+ [39] in Publications/Papers),
+ or submitted for publication (see [41]).
+ 
 \end_layout
 
 \begin_layout Itemize
