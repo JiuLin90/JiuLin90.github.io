@@ -11328,7 +11328,7 @@ Tulane Univ.
 \noindent
 \align block
 \begin_inset Tabular
-<lyxtabular version="3" rows="23" columns="5">
+<lyxtabular version="3" rows="24" columns="5">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -11408,7 +11408,7 @@ Introductory Calculus I:
 \begin_inset Text
 
 \begin_layout Plain Layout
-2026 Fall (scheduled)
+2026 Fall
 \end_layout
 
 \end_inset
@@ -11557,7 +11557,7 @@ Multivariable Calculus
 \begin_inset Text
 
 \begin_layout Plain Layout
-2026 Fall (scheduled),
+2026 Fall,
  2020–2022 (
 \series bold
 3
@@ -11610,7 +11610,7 @@ Linear Algebra
 \begin_inset Text
 
 \begin_layout Plain Layout
-2026 Fall (scheduled),
+2026 Fall,
  2023 Fall
 \end_layout
 
@@ -12347,7 +12347,7 @@ INDSTU391
 \begin_layout Plain Layout
 2021–2026 (
 \series bold
-5
+6
 \series default
  sections)
 \end_layout
@@ -12378,7 +12378,7 @@ INDSTU391
 \begin_inset Text
 
 \begin_layout Plain Layout
-2026 Fall (scheduled) —
+2026 Fall—
 -Introduction to Advanced Probability
 \end_layout
 
@@ -12428,8 +12428,6 @@ INDSTU391
 \begin_layout Plain Layout
 2022 Fall—
 Introduction to Algebraic Geometry,
- 2022 Spring—
-Variational Quantum Algorithms,
  
 \end_layout
 
@@ -12445,6 +12443,55 @@ Variational Quantum Algorithms,
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="left" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2022 Spring—
+Variational Quantum Algorithms,
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" color="default" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12524,7 +12571,7 @@ Academic Services and Memberships
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="3">
+<lyxtabular version="3" rows="5" columns="3">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -12543,6 +12590,56 @@ Academic Services and Memberships
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Judge for the Jiangsu Regional Division of the China Undergraduate Mathematical Contest in Modeling (CUMCM),
+ Sept.
+ 26–27,
+ Nanjing Forestry University,
+ Nanjing,
+ Jiangsu,
+ P.R.
+ China.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \begin_inset space ~
 \end_inset
 
@@ -12555,7 +12652,7 @@ Academic Services and Memberships
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" color="default" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12769,6 +12866,7 @@ Reviewer for journals including:
  Journal of Number Theory,
  The Ramanujan Journal,
  Journal of Difference Equations and Applications,
+ Journal of Symbolic Computations,
  etc.
 \end_layout
 
