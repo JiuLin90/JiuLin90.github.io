@@ -11322,21 +11322,74 @@ Tulane Univ.
 \series default
 .
  
+\begin_inset VSpace -15bp
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align block
 \begin_inset Tabular
-<lyxtabular version="3" rows="24" columns="5">
-<features tabularvalignment="middle">
+<lyxtabular version="3" rows="15" columns="5">
+<features islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt" varwidth="true">
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Regular Courses
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" color="default" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11345,7 +11398,7 @@ DKU
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" color="default" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11369,7 +11422,7 @@ DKU
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" color="default" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11380,7 +11433,7 @@ Introductory Calculus I:
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" color="default" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11404,7 +11457,7 @@ Introductory Calculus I:
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="center" valignment="top" color="default" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -11557,8 +11610,7 @@ Multivariable Calculus
 \begin_inset Text
 
 \begin_layout Plain Layout
-2026 Fall,
- 2020–2022 (
+2020–2026 (
 \series bold
 3
 \series default
@@ -12057,53 +12109,28 @@ Consolidated Calculus
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
+</lyxtabular>
 
-\begin_layout Plain Layout
+\end_inset
+
+
+\begin_inset VSpace -20bp
+\end_inset
+
 
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="5">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt" varwidth="true">
 <row>
 <cell multicolumn="1" alignment="left" valignment="top" usebox="none">
 \begin_inset Text
@@ -12167,6 +12194,21 @@ Dal
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
 
 \end_layout
 
@@ -12247,58 +12289,7 @@ MINITERM102
 
 \begin_layout Plain Layout
 2023 Spring—
-Experimental Mathematics and
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset space \hspace{}
-\length 60bp
-\end_inset
-
-Symbolic Computation
+Experimental Mathematics and Symbolic Computation
 \end_layout
 
 \end_inset
@@ -12379,7 +12370,7 @@ INDSTU391
 
 \begin_layout Plain Layout
 2026 Fall—
--Introduction to Advanced Probability
+Introduction to Advanced Probability
 \end_layout
 
 \end_inset
@@ -12428,7 +12419,6 @@ INDSTU391
 \begin_layout Plain Layout
 2022 Fall—
 Introduction to Algebraic Geometry,
- 
 \end_layout
 
 \end_inset
@@ -12477,7 +12467,6 @@ Introduction to Algebraic Geometry,
 \begin_layout Plain Layout
 2022 Spring—
 Variational Quantum Algorithms,
- 
 \end_layout
 
 \end_inset
@@ -12560,6 +12549,15 @@ Riemann Zeta-Function,
 \end_layout
 
 \begin_layout Section*
+\noindent
+
+\series bold
+\shape smallcaps
+\size large
+Services
+\end_layout
+
+\begin_layout Subsection*
 \noindent
 
 \series bold
@@ -12880,7 +12878,7 @@ Reviewer for journals including:
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 \noindent
 
 \series bold
@@ -13043,7 +13041,7 @@ Tulane University
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsubsection*
 \noindent
 
 \series bold
@@ -13054,7 +13052,7 @@ Student Mentoring,
  and Research Activities
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsubsection*
 \noindent
 \begin_inset Note Note
 status collapsed
@@ -14647,7 +14645,7 @@ Provide continuous guidance on course selection,
  and graduate school applications.
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Subsubsection*
 \noindent
 Undergraduate Signature Work (SW)
 \begin_inset Foot
@@ -14698,10 +14696,12 @@ https://ugstudies.dukekunshan.edu.cn/student-summer-research-program/
 
 \begin_layout Itemize
 Peer-Reviewed Publications:
- Guided 4 students to co-author papers in international journals (see items [29],
+ Guided 5 students to co-author papers in international journals (see items [29],
  [35],
  [38],
- [39] in Publications/Papers).
+ [39] in Publications/Papers),
+ or submitted for publication (see [41]).
+ 
 \end_layout
 
 \begin_layout Itemize
