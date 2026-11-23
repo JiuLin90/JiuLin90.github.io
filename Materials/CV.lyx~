@@ -2568,7 +2568,7 @@ Jiu
 \noindent
 \align block
 \begin_inset Tabular
-<lyxtabular version="3" rows="41" columns="3">
+<lyxtabular version="3" rows="42" columns="3">
 <features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -2578,7 +2578,7 @@ Jiu
 \begin_inset Text
 
 \begin_layout Plain Layout
-41.
+42.
 \end_layout
 
 \end_inset
@@ -2600,6 +2600,54 @@ Jiu
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+K.
+ Chen
+\bar default
+,
+ 
+\series bold
+L.
+ Jiu
+\series default
+,
+ and 
+\bar under
+W.
+ Zhao
+\bar default
+,
+ Umbral Symbolic Expressions and Proofs for Hankel Determinants,
+ submitted for publication.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+41.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" color="default" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -12941,6 +12989,10 @@ Departmental and University Service
 
 \begin_layout Plain Layout
 Ad-hoc Committee Member on DKU Faculty Bylaws
+\begin_inset space \hfill{}
+\end_inset
+
+Duke Kunshan University
 \end_layout
 
 \end_inset

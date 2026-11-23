@@ -2568,7 +2568,7 @@ Jiu
 \noindent
 \align block
 \begin_inset Tabular
-<lyxtabular version="3" rows="41" columns="3">
+<lyxtabular version="3" rows="42" columns="3">
 <features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -2578,7 +2578,7 @@ Jiu
 \begin_inset Text
 
 \begin_layout Plain Layout
-41.
+42.
 \end_layout
 
 \end_inset
@@ -2600,6 +2600,54 @@ Jiu
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\bar under
+K.
+ Chen
+\bar default
+,
+ 
+\series bold
+L.
+ Jiu
+\series default
+,
+ and 
+\bar under
+W.
+ Zhao
+\bar default
+,
+ Umbral Symbolic Expressions and Proofs for Hankel Determinants,
+ submitted for publication.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+41.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" color="default" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -6648,7 +6696,7 @@ Academic Talks
 \begin_layout Standard
 \noindent
 \begin_inset Tabular
-<lyxtabular version="3" rows="108" columns="3">
+<lyxtabular version="3" rows="110" columns="3">
 <features booktabs="true" islongtable="true" longtabularalignment="left">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
@@ -6682,6 +6730,91 @@ Academic Talks
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Normally,
+ Shuffle to One
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\emph on
+Nov..
+ 28
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+\emph on
+Suzhou Area Youth Mathematicians 1st Annual Workshop,
+ Taicang Senior High School,
+ Taicang,
+ Jiangsu Province,
+ P.
+\begin_inset space ~
+\end_inset
+
+R.
+\begin_inset space ~
+\end_inset
+
+China,
+ Nov.
+\begin_inset space ~
+\end_inset
+
+28.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" color="default" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
